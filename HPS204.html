@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>HPS204: Social Psychology</title>
+
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BPsychSci</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-list fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="Readings.html">
+    <span class="fa fa-book fa-lg"></span>
+     
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-sticky-note fa-lg"></span>
+     
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="HPS121.html">HPS121</a>
+    </li>
+    <li>
+      <a href="HPS201.html">HPS201</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">HPS204: Social Psychology</h1>
+
+</div>
+
+
+<div
+id="week-1-introduction-to-social-psychology-what-is-social-psychology"
+class="section level2 well">
+<h2 class="well">Week 1: Introduction to Social Psychology: What is
+Social Psychology?</h2>
+<div
+id="how-is-social-psychology-defined-and-how-is-it-similar-different-to-other-research-areas"
+class="section level3">
+<h3>How is social psychology defined and how is it similar / different
+to other research areas?</h3>
+<blockquote>
+<p>The scientific investigation of how the thoughts, feelings and
+behaviours of individuals are influenced by the actual, imagined or
+implied presence of others.</p>
+</blockquote>
+<table>
+<colgroup>
+<col width="36%" />
+<col width="63%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Similarities</th>
+<th>Differences</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Scientific Study</td>
+<td>Attitude formation / change group context with people</td>
+</tr>
+<tr class="even">
+<td>Behavioural Observation</td>
+<td>Social nature of people</td>
+</tr>
+<tr class="odd">
+<td>Reliant on empirical evidence</td>
+<td>Concerns other people</td>
+</tr>
+<tr class="even">
+<td>-</td>
+<td>Influenced by other people</td>
+</tr>
+</tbody>
+</table>
+<div id="how-can-the-content-within-social-psychology-be-applied"
+class="section level4">
+<h4>How can the content within social psychology be applied?</h4>
+<p>The primary applications of social psychology address questions
+involving our social perceptions, influence and relations with others.
+These questions can be used to inform all sorts of relational settings
+such as universities, medicine, law, business, government agencies and
+the military to name a few. All applications examine our attitudes and
+behaviours in a social group or a society at large.</p>
+</div>
+<div
+id="identify-and-note-some-areas-of-research-in-social-psychology-that-share-commonalities-with-disciplines-such-as-sociology-and-note-which-disciplines-are-more-individualistic-in-their-focus-than-in-social-psychology."
+class="section level4">
+<h4>Identify and note some areas of research in social psychology that
+share commonalities with disciplines such as sociology, and note which
+disciplines are more individualistic in their focus than in social
+psychology.</h4>
+<table style="width:100%;">
+<colgroup>
+<col width="13%" />
+<col width="73%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Area of Research</th>
+<th>Commonalities</th>
+<th>Individualistic?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sociology</td>
+<td>Measuring prejudice variances as a function of socio-economic class
+(affect on others)</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>Clinical</td>
+<td>Diagnosing/treating personality disorders and the impact of these on
+society/friendships</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>Personality</td>
+<td>Identify men who are more or less prejudiced against women</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>Cognitive</td>
+<td>Manipulate exposure to a member of some social groups and measure
+thoughts and concepts activated</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Social</td>
+<td>Manipulate exposure of different group members examining for
+prejudice caused.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div
+id="is-social-psychology-just-common-sense-why-are-psychologists-interested-in-studying-what-most-view-as-common-sense"
+class="section level4">
+<h4>Is social psychology just ‘common sense’? Why are psychologists
+interested in studying what most view as ‘common sense’?</h4>
+<p>Differences between social psychology and traditional folk
+wisdom:</p>
+<p>False: Beauty and brains do not mix. False: People think they are
+more unique than they are. False: Sport and Video games are a release
+for aggression. False: Being paid more means that people enjoy their
+work more.</p>
+<p>We are unable to answer the folksy questions alone:</p>
+<ul>
+<li>Opposites attract vs. Birds of a feather flock together.</li>
+<li>Two heads are better than one vs. Too many cooks spoil the
+broth.</li>
+</ul>
+<p>Social Psychology empirically tests these ‘common sense’ theories.
+They are emotionally compelling, but not empirically tested. They can be
+completely false or misleading and often have multiple answers.</p>
+</div>
+</div>
+<div
+id="what-are-levels-of-analysis-or-explaination-and-why-is-it-important-to-social-psychology"
+class="section level3">
+<h3>What are levels of analysis (or explaination) and why is it
+important to social psychology?</h3>
+<p>Levels of aggression (for example) can be examined in multiple
+ways:</p>
+<p><strong>Intrapersonal:</strong> This level of analysis is within the
+person, such as how we make hostile attributions about another person.
+<strong>Interpersonal/Situational:</strong> A level of analysis between
+people within a specific situation, such as how people might react when
+they are insulted by a stranger. <strong>Positional:</strong> A level of
+analysis between people in specific situations, but with their position
+outside the situation considered, such as how a person of low or high
+status might react when they are insulted by a stranger.
+<strong>Ideological:</strong> A level of analysis between people
+including social beliefs and social relationships between groups. For
+example, wider social norms influence how a person reacts when insulted
+by a stranger.</p>
+</div>
+<div
+id="what-is-the-personsituation-interaction-and-why-is-it-important-in-social-psychology"
+class="section level3">
+<h3>What is the person/situation interaction, and why is it important in
+social psychology?</h3>
+<p>Social Psychology intends to understand <em>the dynamic relationship
+between individuals and the people around them.</em></p>
+<p><strong>Insert person/situation diagram</strong></p>
+<blockquote>
+<p><em>Behaviour = f(person <span class="math inline">\(\times\)</span>
+situation)</em></p>
+</blockquote>
+<p>(e.g., Priest, Levite, Good Samaritan)</p>
+</div>
+<div
+id="how-does-social-psychology-differentiate-between-cognition-affect-and-behaviour"
+class="section level3">
+<h3>How does social psychology differentiate between cognition, affect
+and behaviour?</h3>
+<p><strong>Affect:</strong> emotions/feelings
+<strong>Behaviour:</strong> interactions/actions
+<strong>Cognition:</strong> thought</p>
+<p>Social psychologists are more interested in the social interaction or
+situation in their research and its effect on people rather than the
+individual only. The three capacities above help to predict social
+interactions (which are individualistic) to differing degrees, however,
+we do not always know which combinations of these an individual may
+employ to deal with the given situation.</p>
+</div>
+<div
+id="what-is-the-belonging-hypothesis-and-what-role-does-it-play-in-social-psychology"
+class="section level3">
+<h3>What is the belonging hypothesis and what role does it play in
+social psychology?</h3>
+<p>The <strong>Belonging Hypothesis</strong> or our need for affiliation
+is a basic concept in social psychology (as we can all relate to it), or
+a universal experience.</p>
+<p>We have a ‘basic drive to form and maintain at least a minimum
+quantity of lasting, positive and significant interpersonal
+relationships’ regardless of who we are or where we are from. Examples
+of this include wearing a uniform, joining a club, belonging to a nation
+or religion.</p>
+<p>Acceptance and belonging predicts higher levels of happiness (more so
+than gender, income or religion) with rejection, ostracism and exclusion
+are universal predictors of lonliness, depression or poor health.</p>
+</div>
+<div
+id="how-is-ostracism-defined-and-what-are-the-major-findings-regarding-this-concept"
+class="section level3">
+<h3>How is ostracism defined, and what are the major findings regarding
+this concept?</h3>
+<p>Ostracism is defined as a lack of fulfilment of our basic social need
+to belong, or deliberate exclusion from groups.</p>
+<p>The major findings regarding ostracism are:</p>
+<ul>
+<li>Physiological and emotional pain (fMRI scans showing activity brain
+centres related to pain, namely the dorsal anterior cingulate cortex and
+anterior insula).</li>
+<li>Ostracism imposes a threat to our emotional needs:
+<ul>
+<li>belonging</li>
+<li>self-esteem</li>
+<li>control over our environment</li>
+<li>finding meaning in what we are doing</li>
+</ul></li>
+<li>Ostracism has a basis in an adaptive alert system (both prosocial
+and antisocial)</li>
+<li>Those high in social anxiety often find it difficult to recover from
+perceived ostracism or instances of antisocial alerts provided by these
+adaptive alerts from social groups.</li>
+</ul>
+</div>
+<div id="what-are-currently-the-major-perspectives-of-social-psychology"
+class="section level3">
+<h3>What are currently the major perspectives of social psychology?</h3>
+<div
+id="how-has-emotion-and-motivation-been-treated-previously-and-how-have-these-concepts-become-integrated-into-social-psychology-research"
+class="section level4">
+<h4>How has emotion and motivation been treated previously, and how have
+these concepts become integrated into social psychology research?</h4>
+<p>Emotion and motivation had previously been ignored with greater
+emphasis placed on cognition. Today’s research methods integrate
+emotion, motivation AND cognition to investigate the unconscious
+elements of social interaction taking biases into account. Other
+unconscious influences can include stereotypes and other automatic
+impulses.</p>
+</div>
+<div id="how-are-evolutionary-perspectives-used-in-social-psychology"
+class="section level4">
+<h4>How are evolutionary perspectives used in social psychology?</h4>
+<p>Evolutionary perspectives in social psychology investigate how
+emotions like jealousy impact us in today’s world, but also consider the
+functional purpose/s jealousy may have had for our ancestors. These
+perspectives may also look into the different purposes of jealousy based
+on gender, as well as different social situations that could trigger
+jealousy.</p>
+</div>
+<div
+id="what-is-culture-defined-what-is-cross-cultural-and-multicultural-research-and-how-do-they-differ"
+class="section level4">
+<h4>What is culture defined? What is cross-cultural and multicultural
+research, and how do they differ?</h4>
+<p><strong>Culture:</strong> A system of enduring meanings, beliefs,
+values, assumptions, institutions and practices shared by a large group
+of people and passed on to the next generation.</p>
+<p><strong>Coss-cultural research:</strong> Research designed to compare
+and contrast people of a variety of different cultures.</p>
+<p><strong>Multicultural research:</strong> Research designed to examine
+racial and ethnic groups within a society built out of many different
+cultures.</p>
+</div>
+<div
+id="what-is-behavioural-economics-and-how-is-it-related-to-social-psychology"
+class="section level4">
+<h4>What is behavioural economics and how is it related to social
+psychology?</h4>
+<p>Behavioural economics is a field examining how other disciplines like
+social and cognitive psychology influence economic decision making.</p>
+</div>
+<div
+id="what-ia-social-neuroscience-and-what-research-has-been-conducted-in-the-field"
+class="section level4">
+<h4>What ia social neuroscience and what research has been conducted in
+the field?</h4>
+<p>Social Neuroscience looks at how our actions affect our neural
+processes such as playing violent video games, or how different patterns
+of brain activity affect our perceptions of other cultural groups.</p>
+</div>
+<div
+id="why-are-social-psychologists-interested-in-studying-new-technologies-and-the-online-world"
+class="section level4">
+<h4>Why are social psychologists interested in studying new technologies
+and the online world?</h4>
+<p>New technologies allow us to investigate the brain more deeply (and
+less intrusively!) though measuring and recording brain activity in the
+following ways:</p>
+<ul>
+<li>Event related Potential (ERP)</li>
+<li>Transcranial Magnetic Stimulation (TMS)</li>
+<li>Magnetoencephalography (MEG)</li>
+<li>Functional Magnetic Resonance Imaging (fMRI)</li>
+</ul>
+<p>The online world is constantly evolving, as are the ways in which we
+use it to live, work and interact. The impact this world has on us is
+constantly being researched (cognitive benefit of playing video
+games)</p>
+</div>
+</div>
+</div>
+<div
+id="week-2-research-methods-how-do-we-understand-and-research-sociopsychological-phenomena"
+class="section level2 well">
+<h2 class="well">Week 2: Research Methods: How do we understand and
+research sociopsychological phenomena?</h2>
+<p><em>Your reading and the lecture identifies many types of
+non-experimental methods. For each method, ensure you can:</em></p>
+<p><em>- Describe the method,</em> <em>- Provide a research example that
+might use it,</em> <em>- List the pros and cons.</em></p>
+<table>
+<colgroup>
+<col width="4%" />
+<col width="20%" />
+<col width="29%" />
+<col width="17%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Design</th>
+<th>Definition</th>
+<th>Example</th>
+<th>Pro</th>
+<th>Con</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Archival Studies</td>
+<td>examining existing records of past events such as newspaper and
+magazine articles, sports stats, etc.</td>
+<td>examining cultural and historical trends (e.g., crime ratesand how
+they have changed over time, or homicide rates from countries around the
+world</td>
+<td>Observations of second hand behaviour, cannot be influenced by
+researcher’s presence</td>
+<td>- Available records may not always be complete or detailed.</br>-
+Available records may have been collected in a non-systematic way</td>
+</tr>
+<tr class="even">
+<td>Case Studies</td>
+<td>In-depth analysis of a single case (a person, a group or an
+event)</td>
+<td>Natural disaster, rare mental illness</td>
+<td>Good for study of unusual or rare phenomena (can’t be created in a
+lab)</td>
+<td>Not generalisable, Evaluation apprehension</td>
+</tr>
+<tr class="odd">
+<td>Discourse Analysis</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Survey Research</td>
+<td>large (representative) sample of people answer questions</td>
+<td>asking people about their attitudes and behaviours</td>
+<td>Large representative sample size, anonymous</td>
+<td>If not representative, not generalisable</td>
+</tr>
+<tr class="odd">
+<td>Field Studies</td>
+<td>Gathering data from observing people in a natural setting</td>
+<td>Coding gambling behaviour at a pokies</td>
+<td>Good for studying spontaneous behaviour, real world setting</td>
+<td>Researcher presence, lack of objectivity</td>
+</tr>
+<tr class="even">
+<td>Observational Studies</td>
+<td>The observation and recording of someone’s actions</td>
+<td>Which of two items a participant selects, or how long two
+participants talk to each other</td>
+<td>- Avoid faulty recollections</br>- Avoid distorted
+interpretations</td>
+<td>- May be biased if participants know they are being observed</br>-
+Desire to present favourable behaviours in front of others</td>
+</tr>
+<tr class="odd">
+<td>Qualitative Research</td>
+<td>Concerned with meaning and the particiant’s experience of a
+particular phenomena</td>
+<td>Participant’s overall experience regarding a particular
+relationship</td>
+<td>- Less rigid and informal compared to quantitative research</br>
+-</td>
+<td>- Can be quite time consuming to gather the data.</td>
+</tr>
+</tbody>
+</table>
+<div
+id="what-is-random-sampling-and-random-assignment-how-do-they-differ-and-why-are-they-important-to-experiments"
+class="section level4">
+<h4>What is random sampling and random assignment? How do they differ,
+and why are they important to experiments?</h4>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="36%" />
+<col width="53%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Random sampling</th>
+<th>Random Assignment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What does it involve?</td>
+<td>Selecting participants to be in the study so that everyone from a
+population has an equal chance of being a participant in the study</td>
+<td>Assigning participants (who are already in the study) to the various
+conditions of the experiment so that each participant has an equal
+chance of being in any of the conditions</td>
+</tr>
+<tr class="even">
+<td>What is the biggest advantage of using this method?</td>
+<td>It enables researchers to collect data from samples that are
+representative of the broader population; it is important for being able
+to generalise the results to the broader population</td>
+<td>It equalises the conditions of the experiment so that it is very
+unlikely that the conditions differ in terms of pre-existing differences
+among the participants; it is essential to determine that the
+independent variable(s) caused an effect on the dependent
+variable(s)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div
+id="week-3-social-cognition-and-perception-how-do-we-think-about-the-social-world"
+class="section level2 well">
+<h2 class="well">Week 3: Social Cognition and Perception: How do we
+think about the social world?</h2>
+<div
+id="what-are-the-major-theoretical-perspectives-of-social-cognition-and-what-assumptions-do-they-hold"
+class="section level3 well">
+<h3 class="well">What are the major theoretical perspectives of social
+cognition, and what assumptions do they hold?</h3>
+<div
+id="define-the-terms-social-cognition-and-social-perception-and-outline-how-they-differ."
+class="section level4">
+<h4>Define the terms ‘social cognition’ and ‘social perception’, and
+outline how they differ.</h4>
+<p><strong>Social Cognition</strong> refers to the model that we have
+built in our minds about how to interact with others socially, whether
+it be our expectations about their behaviour or our own mode of
+interacting with them. It is the automated “program” that unconsciously
+dictates our behaviours.</p>
+<p><strong>Social Perception</strong> refers to our observations of
+behaviours (both our own and that of others) and attributions of causal
+factors that motivate someone to behave a certain way. <strong>Internal
+Attributions</strong> look at the reasons a person behaves the way they
+do based on their internal dialogue, whereas <strong>External
+Attributions</strong> seek to explain the situation a person is in that
+leads them to behave a certain way.</p>
+<p>The difference between these two is that SC is an unconscious model
+of our world and the people in it, whereas SP looks at the way we store
+a particular event within our cognitive model.</p>
+</div>
+<div
+id="outline-the-major-assumptions-of-the-following-broad-approaches-to-social-cognition-as-found-in-social-psychology-a-cognitive-consistency-b-naive-scientist-c-cognitive-miser-and-d-motivated-tactician."
+class="section level4">
+<h4>Outline the major assumptions of the following broad approaches to
+social cognition, as found in social psychology: (a) cognitive
+consistency; (b) naive scientist; (c) cognitive miser; and (d) motivated
+tactician.</h4>
+<p><strong>Cognitive Consistency:</strong> A theory devised in the 40s
+and 50s that assumes people alter their attitudes and beliefs about the
+world in order to ensure that their mental processes are consistent or
+align neatly with each other.</p>
+<p><strong>Naive Scientist:</strong> This theory is the foundation of
+<strong>attribution</strong>, suggesting that we assign meaning to the
+thoughts and actions of others, by assuming that we are all thoughtful
+and rational.</p>
+<p><strong>Cognitive Miser:</strong> The cognitive miser theories
+suggested that we are not rational when considering the motivations of
+others, and that we jump to conclusions instead as a way of minimising
+the energy we expend on analysis of behaviours.</p>
+<p><strong>Motivated Technician:</strong> This theory looked into the
+multiple strategies that a person may engage in to meet goals, motives
+and needs. On some occasions we choose wisely, and on others we are
+defensive and seek to protect our self esteem.</p>
+</div>
+</div>
+<div
+id="what-is-impression-formation-and-what-key-factors-contribute-to-impression-formation"
+class="section level3 well">
+<h3 class="well">What is impression formation, and what key factors
+contribute to impression formation?</h3>
+<div
+id="what-are-central-and-peripheral-traits-provide-an-example-of-each."
+class="section level4">
+<h4>What are central and peripheral traits? Provide an example of
+each.</h4>
+<p><strong>Central traits</strong> are those which have a profound
+influence on our impressions of a person (such as angry/happy), whereas
+<strong>peripheral traits</strong> are those which have only a brief or
+passing influence on our impression of others (such as
+polite/blunt).</p>
+</div>
+<div id="what-did-asch-do-to-test-his-ideas-and-what-were-his-findings"
+class="section level4">
+<h4>What did Asch do to test his ideas and what were his findings?</h4>
+<p>To test his theory, Asch gave two separate groups a list of slightly
+differing traits belonging to an imaginary person. One list contained
+the word <em>warm</em> and the other list contained the word
+<em>cold</em> (being <strong>central traits</strong>). The participants
+who received the list warmth as a character trait formed a more
+favourable impression of the person than the group who received the list
+containing the word cold. These words were then replaced with
+<em>polite</em> and <em>blunt</em> (<strong>peripheral traits</strong>),
+with the different perceptions from each group being much closer
+together.</p>
+</div>
+<div
+id="what-criticisms-have-been-made-regarding-the-concept-of-central-trait-note-the-role-of-personal-constructs-and-implicit-personality-theories."
+class="section level4">
+<h4>What criticisms have been made regarding the concept of central
+trait? (Note the role of personal constructs and implicit personality
+theories).</h4>
+<p>Critics of this theory have suggested that central traits are
+influenced by context, and can be considered more central where other
+confirmatory traits could be linked. It is further suggested that people
+have their own unique methods for characterising people differing from
+that of others. <strong>personal constructs</strong></p>
+</div>
+<div
+id="what-are-the-primacy-effect-and-recency-effect-provide-an-example-of-each."
+class="section level4">
+<h4>What are the primacy effect and recency effect? Provide an example
+of each.</h4>
+</div>
+<div
+id="how-do-physical-cues-feed-into-our-impression-formations-provide-a-summary-of-a-research-finding-in-this-area."
+class="section level4">
+<h4>How do physical cues feed into our impression formations? Provide a
+summary of a research finding in this area.</h4>
+</div>
+<div
+id="what-are-the-positivity-and-negativity-biases-identify-a-reason-why-it-might-be-more-difficult-to-change-a-negative-impression-once-it-is-formed-than-a-positive-impression."
+class="section level4">
+<h4>What are the positivity and negativity biases? Identify a reason why
+it might be more difficult to change a negative impression, once it is
+formed, than a positive impression.</h4>
+</div>
+</div>
+<div
+id="how-are-schemas-categories-prototypes-exemplars-and-stereotypes-defined-how-do-they-differ-and-what-are-some-examples-of-each"
+class="section level3 well">
+<h3 class="well">How are schemas, categories, prototypes, exemplars, and
+stereotypes defined, how do they differ, and what are some examples of
+each?</h3>
+<div
+id="define-the-term-schema-and-identify-the-type-of-cognitive-processing-that-a-schema-facilitates-once-it-is-invoked.-note-that-the-plural-is-either-schemas-or-schemata."
+class="section level4">
+<h4>Define the term ‘schema’ and identify the type of cognitive
+processing that a schema facilitates once it is invoked. (Note that the
+plural is either ‘schemas’ or ‘schemata’.)</h4>
+</div>
+<div
+id="define-and-identify-examples-of-each-of-the-following-types-of-schemas-a-person-schemas-b-role-schemas-c-event-schemas-scripts-d-content-free-schemas-e-self-schemas."
+class="section level4">
+<h4>Define and identify examples of each of the following types of
+schemas: (a) person schemas; (b) role schemas; (c) event schemas
+(scripts); (d) content-free schemas; (e) self-schemas.</h4>
+</div>
+</div>
+<div
+id="how-are-schemas-acquired-and-used-and-how-do-they-develop-and-change-over-time"
+class="section level3 well">
+<h3 class="well">How are schemas acquired and used, and how do they
+develop and change over time?</h3>
+</div>
+<div
+id="what-is-social-encoding-and-what-are-the-steps-involved-in-this-process"
+class="section level3">
+<h3>What is social encoding, and what are the steps involved in this
+process?</h3>
+</div>
+<div
+id="what-major-biases-and-shortcuts-exist-in-making-social-inferences-especially-when-it-comes-to-heuristics"
+class="section level3">
+<h3>What major biases and shortcuts exist in making social inferences,
+especially when it comes to heuristics?</h3>
+</div>
+<div
+id="what-types-of-attributions-exist-and-what-are-the-core-tenets-of-major-attributional-theories"
+class="section level3">
+<h3>What types of attributions exist, and what are the core tenets of
+major attributional theories?</h3>
+</div>
+<div
+id="how-are-attributional-biases-defined-and-what-are-some-examples-for-each"
+class="section level3">
+<h3>How are attributional biases defined, and what are some examples for
+each?</h3>
+</div>
+<div
+id="what-is-intergroup-attribution-and-how-do-we-define-biases-that-affect-intergroup-attribution"
+class="section level3">
+<h3>What is intergroup attribution, and how do we define biases that
+affect intergroup attribution?</h3>
+</div>
+<div
+id="what-are-the-major-theoretical-perspectives-of-social-cognition-and-what-assumptions-do-they-hold-1"
+class="section level3">
+<h3>What are the major theoretical perspectives of social cognition, and
+what assumptions do they hold?</h3>
+</div>
+<div
+id="what-is-impression-formation-and-what-key-factors-contribute-to-impression-formation-1"
+class="section level3">
+<h3>What is impression formation, and what key factors contribute to
+impression formation?</h3>
+</div>
+<div
+id="how-are-schemas-categories-prototypes-exemplars-and-stereotypes-defined-how-do-they-differ-and-what-are-some-examples-of-each-1"
+class="section level3">
+<h3>How are schemas, categories, prototypes, exemplars, and stereotypes
+defined, how do they differ, and what are some examples of each?</h3>
+</div>
+<div
+id="how-are-schemas-acquired-and-used-and-how-do-they-develop-and-change-over-time-1"
+class="section level3">
+<h3>How are schemas acquired and used, and how do they develop and
+change over time?</h3>
+</div>
+<div
+id="what-is-social-encoding-and-what-are-the-steps-involved-in-this-process-1"
+class="section level3">
+<h3>What is social encoding, and what are the steps involved in this
+process?</h3>
+</div>
+<div
+id="what-major-biases-and-shortcuts-exist-in-making-social-inferences-especially-when-it-comes-to-heuristics-1"
+class="section level3">
+<h3>What major biases and shortcuts exist in making social inferences,
+especially when it comes to heuristics?</h3>
+</div>
+<div
+id="what-types-of-attributions-exist-and-what-are-the-core-tenets-of-major-attributional-theories-1"
+class="section level3">
+<h3>What types of attributions exist, and what are the core tenets of
+major attributional theories?</h3>
+</div>
+<div
+id="how-are-attributional-biases-defined-and-what-are-some-examples-for-each-1"
+class="section level3">
+<h3>How are attributional biases defined, and what are some examples for
+each?</h3>
+</div>
+<div
+id="what-is-intergroup-attribution-and-how-do-we-define-biases-that-affect-intergroup-attribution-1"
+class="section level3">
+<h3>What is intergroup attribution, and how do we define biases that
+affect intergroup attribution?</h3>
+</div>
+</div>
+<div
+id="week-4-emotions-and-affect-how-do-we-feel-about-the-social-world"
+class="section level2 well">
+<h2 class="well">Week 4: Emotions and Affect: How do we feel about the
+social world?</h2>
+<div
+id="what-is-the-underlying-physiology-of-emotions-including-the-role-of-the-sympathetic-nervous-system-sns-the-parasympathetic-nervous-system-pns-and-the-amygdala"
+class="section level3">
+<h3>What is the underlying physiology of emotions, including the role of
+the sympathetic nervous system (SNS), the parasympathetic nervous system
+(PNS), and the amygdala?</h3>
+<p>The SNS is the arousal division of the autonomic nervous system
+responsible for readying our bodies to threats by activating our
+endocrine system. Some responses include heightened heart rate, slowing
+digestion, dilating pupils (widening our field of vision), releasing
+sugar from the liver (for energy) and inhibiting the PNS.</p>
+<p>The PNS is responsible for resting, digesting, relaxing and
+recovering.</p>
+<p>The amygdala is part of the limbic system responsible for mediating
+the function of the SNS and PNS to change between these two states of
+lowered or heightened alertness.</p>
+<div
+id="how-is-arousal-seen-when-the-sns-is-activated-important-to-emotions"
+class="section level4">
+<h4>How is arousal seen (when the SNS is activated) important to
+emotions?</h4>
+<p>The activated state of the SNS and its changes to our bodily
+sensations is an indication of strong emotions.</p>
+</div>
+<div id="what-is-the-amygdala-and-what-role-does-it-play-in-emotions"
+class="section level4">
+<h4>What is the amygdala, and what role does it play in emotions?</h4>
+<p>The amygdala is a part of our limbic system tgat helps us experience
+emotions. It regulates our interpretations of fear and aggression,
+inhibiting our PNS and activating our SNS through the release of
+endocrine.</p>
+</div>
+</div>
+<div
+id="what-is-the-difference-between-basic-and-secondary-emotions-and-what-function-does-each-play"
+class="section level3">
+<h3>What is the difference between basic and secondary emotions, and
+what function does each play?</h3>
+<div id="define-basic-emotions-and-outline-their-major-characteristics."
+class="section level4">
+<h4>Define ‘basic emotions’ and outline their major
+characteristics.</h4>
+<p><strong>Basic Emotions:</strong> anger, contempt, disgust, fear,
+happiness, sadness, surprise, etc.</p>
+<p>These emotions are primarily based on the arousal function of the SNS
+and happen quickly (direct processing), inducing the inhibition of the
+PNS. There is almost no logical processing of these emotions.</p>
+</div>
+<div
+id="what-were-the-findings-of-ekman-et-al.-regarding-emotions-what-are-the-major-conclusions-we-can-take-away-from-these-studies"
+class="section level4">
+<h4>What were the findings of Ekman et al. regarding emotions? What are
+the major conclusions we can take away from these studies?</h4>
+<p>Ekman studied the expression and interpretation of these emotions
+across a large number of different cultures to find them almost constant
+regardless of culture. There were 162 of these emotions tested in his
+study.</p>
+</div>
+<div id="define-secondary-emotions-and-outline-their-characteristics."
+class="section level4">
+<h4>Define secondary emotions and outline their characteristics.</h4>
+<p>These emotions result in lower SNS arousal, and are primarily
+cognitive in nature as there is little threat or immense pleasure
+associated with them. (i.e., guilt, shame, embarrassment).</p>
+</div>
+</div>
+<div id="how-can-emotions-be-induced-what-are-the-consequences-of-this"
+class="section level3">
+<h3>How can emotions be induced? What are the consequences of this?</h3>
+<ul>
+<li>Psychologists and economists have known this for some time.</li>
+<li>Financial decisions hav an emotional element as well at the
+cost/benefit analysis.</li>
+<li>Anger, for example, triggers greater risk taking behaviour.</li>
+<li>Fear triggers more conservative behaviour</li>
+<li>The <strong>endowment effect</strong> refers to how we place a
+higher value on something we own compared to the exact same item owned
+by someone else.</li>
+<li>Disgust and sadness trigger different economic behaviours</li>
+<li>Disgust triggers a need to expel, lowering prices and endowment is
+eliminated.</li>
+<li>Sadness triggers a need to change one’s circumstances (increasing
+buying price, and lowering selling price), endowment is reversed.</li>
+<li>The above are examples of ways in which emotions can be induced, and
+effect our buying / selling decisions.</li>
+</ul>
+</div>
+<div
+id="what-are-the-known-individual-differences-especially-gender-and-culture-in-the-expression-of-emotion"
+class="section level3">
+<h3>What are the known individual differences (especially gender and
+culture) in the expression of emotion?</h3>
+<div
+id="what-has-prior-research-demonstrated-concerning-cross-cultural-differences-in-the-expression-of-emotions-what-is-the-core-difference-between-these-cultures"
+class="section level4">
+<h4>What has prior research demonstrated concerning cross cultural
+differences in the expression of emotions? What is the core difference
+between these cultures?</h4>
+<p>Cultural differences can be divided between east and west based on
+collectivist / individualist paradigms. For example, eastern / Japanese
+cultures:</p>
+<ul>
+<li>hide emotions in public</li>
+<li>openly show concern for others</li>
+<li>pay greater attention to emotional tone of speakers</li>
+<li>Are more likely to show friendliness or shame</li>
+<li>Report a positive experience when in the presence of others</li>
+</ul>
+</div>
+<div
+id="what-has-prior-research-demonstrated-concerning-gender-differences-in-emotional-experiences"
+class="section level4">
+<h4>What has prior research demonstrated concerning gender differences
+in emotional experiences?</h4>
+<p>Women have a tendency to:</p>
+<ul>
+<li>Be more open to feelings</li>
+<li>Are more likely to express emotions in public</li>
+<li>Are more accurate in articulating feelings to others</li>
+<li>React more openly to films about sadness, happiness or fear.</li>
+<li>Be easier to read their emotions</li>
+</ul>
+<p>Some of these differences are biological, some are also
+socialised.</p>
+</div>
+</div>
+<div
+id="what-impact-does-arousal-and-misattributing-arousal-have-on-our-emotions"
+class="section level3">
+<h3>What impact does arousal and misattributing arousal have on our
+emotions?</h3>
+<blockquote>
+<p>arousal + cognition = emotion</p>
+</blockquote>
+<p>A number of experiments have been conducted into the misattribution
+of arousal, where participants are induced into a state of arousal via
+various methods and controls (placebo, misinformation, injections of
+epinephrine, etc).</p>
+<p>These experiments confirm the two factor theory of emotion as per the
+formula above. Misattribution can occur as a result of some type of
+situational factor where the associated emotion is ‘misattributed’. We
+are often not directly able to label our emotional processes correctly,
+highlighting the <strong>power of suggestion</strong> to inform us of
+the source. <strong>Cognitive dissonance</strong> is a potential
+explanation for this, where discomfort is experienced as a result of
+holding two or more opposing beliefs or attitudes. Suggestions of other
+misattributions could be to avoid a cup of coffee prior to a job
+interview to reduce the likelihood of nervousness before an interview,
+or taking a date to a horror movie to cause them to misattribute their
+racing heart as attraction.</p>
+</div>
+<div
+id="what-role-do-emotions-play-in-the-intrapersonal-interpersonal-and-socio-cultural-context-provide-examples."
+class="section level3">
+<h3>What role do emotions play in the intrapersonal, interpersonal and
+socio-cultural context? Provide examples.</h3>
+<p>Emotions can be an important ingredient in relationships, as they
+communicate to others our attraction, disappointment, happiness, etc.
+They can also help us understand others, which in turn can strengthen a
+relationship.</p>
+<p>We sometimes make efforts to regulate or suppress our emotions.
+Regulation may be handled a few different ways:</p>
+<ol style="list-style-type: decimal">
+<li>Change the emotion we feel (bad to good)</li>
+<li>Postpone it to another time (when we’re alone), or</li>
+<li>Change the way the emotion is experienced or expressed.</li>
+</ol>
+<p>Most research focusses on reappraisal or suppression.</p>
+<p>Habitual suppression, however, can negatively impact social
+connections by weakening them, whereas reappraisal can help strengthen
+our social connections.</p>
+<p>Some of the effects of habitual suppression can be:</p>
+<ul>
+<li>Cause negative first impressions,</li>
+<li>lower social support and lower social / relational quality.</li>
+</ul>
+<p>Problems with suppression include:</p>
+<ul>
+<li>The constant regulation needed to suppress can prevent us from
+perceiving an interaction correctly,</li>
+<li>Leads us to feel inauthentic / or be preceived as inauthentic.</li>
+</ul>
+<p>Some suppression can be healthy for relationships (tact) but
+regulation is more effective as it is adaptive and can lead to solving
+problems in a constructive way.</p>
+<div id="outline-what-is-meant-by-the-intrapersonal-function-of-emotion"
+class="section level4">
+<h4>Outline what is meant by the intrapersonal function of emotion</h4>
+<ul>
+<li>Emotions help us act quickly with minimal conscious awareness.</li>
+<li>Prepare out body for immediate action (fight, flight, etc.)</li>
+<li>Emotions influence thoughts (neural links to our memories)</li>
+<li>Emotions motivate future behaviours (seeking out positive
+experiences, avoiding negative experiences)</li>
+</ul>
+</div>
+<div
+id="what-are-the-ways-in-which-emotions-are-implicated-in-intrapersonal-contexts-what-are-some-key-findings-for-each-one"
+class="section level4">
+<h4>What are the ways in which emotions are implicated in intrapersonal
+contexts? What are some key findings for each one?</h4>
+<ul>
+<li>Bad milk (disgust) - scrunching up nose and face to restrict the
+ingestion of toxins</li>
+<li>Difficult to think clearly when we feel intense emotions, easier
+when we are not overwhlmed.</li>
+<li>Form the basis of attitudes, beliefs and values</li>
+<li>Connected to our thoughts and memories.</li>
+</ul>
+</div>
+<div
+id="outline-what-is-meant-by-ther-interpersonal-function-of-emotion."
+class="section level4">
+<h4>Outline what is meant by ther interpersonal function of
+emotion.</h4>
+<ul>
+<li>Interpersonal emotions help us communicate with others as well as
+interpret the emotions of others</li>
+<li>Providing incentives for desired social behaviour</li>
+<li>Help solve problems by evoking responses</li>
+<li>Signal to us the nature of a relationship</li>
+<li>Others can reliably judge our outward expressions, body language,
+voices, etc.</li>
+</ul>
+</div>
+</div>
+</div>
+<div
+id="week-5-self-and-identity-how-do-we-use-the-social-world-to-understand-ourselves"
+class="section level2 well">
+<h2 class="well">Week 5: Self and Identity: How do we use the social
+world to understand ourselves?</h2>
+</div>
+<div
+id="week-6-attitudes-and-persuasion-how-do-we-evaluate-and-respond-to-the-social-world"
+class="section level2 well">
+<h2 class="well">Week 6: Attitudes and Persuasion: How do we evaluate
+and respond to the social world?</h2>
+</div>
+<div
+id="week-7-social-influence-how-can-we-change-other-peoples-behaviour"
+class="section level2 well">
+<h2 class="well">Week 7: Social Influence: How can we change other
+people’s behaviour?</h2>
+</div>
+<div
+id="week-8-group-processes-how-do-we-work-in-groups-and-interact-with-other-groups"
+class="section level2 well">
+<h2 class="well">Week 8: Group Processes: How do we work in groups and
+interact with other groups?</h2>
+</div>
+<div
+id="week-9-intergroup-relations-stereotypes-and-prejudice-how-do-we-view-and-react-towards-other-groups"
+class="section level2 well">
+<h2 class="well">Week 9: Intergroup Relations (Stereotypes and
+Prejudice): How do we view and react towards other groups?</h2>
+</div>
+<div id="week-10-close-relationships-how-do-we-connect-with-others"
+class="section level2 well">
+<h2 class="well">Week 10: Close Relationships: How do we connect with
+others?</h2>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
