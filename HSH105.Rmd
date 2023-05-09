@@ -1,0 +1,253 @@
+---
+title: 'HSH105: Understanding Families and Health'
+output: html_document
+---
+
+## Week 1: What is a family? Introduction to contemporary family structures {.well}
+
+### Learning outcomes
+
+- Describe how Australian families are defined and structured
+- Identify common trends in Australian families and households over time
+- Outline key societal changes that affect family structures
+
+### Describe how Australian families are defined and structured
+
+- The Australian Institute of Family Studies has released a series of snapshots outlining the changes in Australian families over the last four decades.
+- This snapshot focuses on changes in Australian household and family forms.
+- It draws extensively on census data and uses definitions of household and family by the Australian Bureau of Statistics.
+- A household is defined as one or more persons usually resident in the same private dwelling, while a family is defined as two or more persons related by blood, marriage, adoption, step or fostering, and usually resident in the same household.
+- A family household is a household with a family, and some households may not contain family members.
+
+### Identify common trends in Australian families and households over time
+
+- Multi-generation and extended family households are uncommon in Australia
+- One person households have become more common, though the trend has been stable since 2006. There has been an increase in the proportion of older couple households.
+- Most people report positive levels of satisfaction with their family relationships, especially with children, their current partner and parents.
+- Households have become smaller and more diverse over time, with increasing proportions of Indigenous and immigrant households.
+- There has been a decline in families with dependent children, but an increase in couple only families, especially older couples.
+
+#### Households become smaller
+
+- According to the 2016 Census, there were 8,286,000 households in Australia.
+- Family households were the most common, followed by individuals living alone, and then groups of unrelated persons.
+- About one in four households were occupied by one person, and only 4% of households represented groups of unrelated persons.
+- Multiple-family households were uncommon, with less than 2% of households having two or more families.
+
+###Outline key societal changes that affect family structures
+
+Family structures in Australia (and around the world) are influenced by a range of factors, both external to and within the family. For example: 
+
+- Shifts towards more individualistic attitudes mean individuals and couples can choose their own pathways, including delaying marriage and parenting (or choosing cohabitation and remaining childless instead).
+- Introduction of the no-fault divorce means the only ground for divorce is the irretrievable breakdown of the relationship rather than one member of the couple being at fault
+- Changes in attitudes (more accepting) towards repartnering and remarriage
+- Advances in contraception and assisted reproductive technologies (e.g. IVF) mean women can have greater control over their childbearing (including having children when they otherwise may have difficulty) and couples who may not traditionally be able to have children (e.g. same-sex couples) can become parents (e.g. through sperm donation and surrogacy)
+- Legalisation of same-sex marriage
+
+
+
+## Week 2: What is a family? Diversity in families {.well}
+
+### Learning outcomes
+
+#### Identify how families differ across cultural groups
+
+- In many countries, adults hold traditional family attitudes but are grappling with their views on divorce, valuing marriage and childrearing while also accepting the termination of relationships under certain circumstances.
+- Family cultures vary around the world, with North America, Oceania, and Scandinavia taking a more laissez-faire view of family matters, while Africa, Asia, the Middle East, and Latin America embrace a more familial view.
+- These differences are influenced by factors such as religiosity, economic development, political culture, and the balance of individualism and collectivism.
+
+##### Aboriginal and Torres Strait Islander Families
+
+- Aboriginal and Torres Strait Islander peoples have a different perspective on family and kin relationships, valuing social connections, bonds to country, and ancestors.
+- Western definitions of family, focused on physical connection, may not apply to Indigenous families who include genetically and classificatory related members.
+- It is important to acknowledge the protective force of Aboriginal cultural traditions for Aboriginal children and families, including a collective community approach, opportunities for children to develop independence and decision-making capacity, the kinship system, positive modelling of behaviours, the importance of harmonious social relationships and the value of elderly family/community members passing down cultural knowledge.
+- Aboriginal and Torres Strait Islander families also experience challenges, including violence and over-representation in child protection, youth and adult justice systems, which relates to past experiences of violence and abuse, social disadvantage, and the ongoing impact of past dispossession and forced removal policies.
+- There are a range of support services available to assist Aboriginal and Torres Strait Islanders, such as the Victorian Aboriginal Child Care Agency.
+
+#### Outline the challenges facing families when they migrate to Australia
+
+- Migrant families make a significant contribution to Australian society, with nearly half of all Australians being born overseas or having at least one parent who was born overseas.
+- Migrants may face challenges when adapting to Australian society, particularly if coming from more collectivist and patriarchal societies. It is important to recognise concepts such as assimilation, acculturation, and enculturation when considering the experiences of migrants in Australia.
+- Most newly arrived migrants report feeling welcomed and a sense of belonging in Australia, and generally settle well with high levels of life satisfaction.
+
+#### Explain how these challenges may impact the health of migrant families
+
+- Migration can lead to family conflicts and disrupt traditional gender roles, and financial issues can contribute to stress.
+- Migrant families may also lack social support, which can worsen acculturative stress, affecting their psychological, physical, and social well-being.
+- Migrants often reach out to people with similar cultural backgrounds and join community social groups to manage stress and anxiety.
+- They may also continue with traditions and customs from their countries of origin.
+
+#### Identify some of the ways families from diverse backgrounds can be supported when working as a health practitioner
+
+- Health practitioners are expected to possess cultural competence to work with children and their families from non-dominant cultural groups effectively.
+- Cultural competence involves developing enquiry, assessment, and support skills and understanding how cultural contexts may influence parents' abilities to support children's health and wellbeing.
+- To develop greater cultural competence, practitioners should be aware of how their own cultural background shapes their beliefs and values, use knowledge about cultural groups as a starting point for conversations, give families opportunities to share their stories and be supported, and incorporate cultural information into assessment processes.
+
+## Week 3: How do we understand the family? Bronfenbrenner's bioecological model {.well}
+
+### What is a theory?
+
+Theories are explanations of a natural or social behaviour, event or phenomenon.  
+A scientific theory is a system (based on existing **epistemologies**) of constructs (**concepts**) and **propositions** (relationships between the constructs) that collectively presents a logical, systematic and coherent explanation of a phenomenon of interest within some **assumptions** and boundary conditions.
+
+Theories offer a strategy to describe, interpret and/or explain a phenomenon, as well as help explain why people do what they do in certain situations
+
+![Building blocks of Theory](Images/Week3/Theories.png)
+
+**Epistomologies**: The overall frame of reference that a theorist brings to the study of families. These understandings also outline methods, validity, and scope of knowledge as well as the distinction between justified belief and opinion.
+
+  - *Positivist Epistemology*: posits that there is a single objective truth about families that can be found through systematic research.
+  - *Interpretive Epistemology*: posits that there is no single objective truth, but that experiences are relative to a family.
+  - *Critical Epistemology*: what counts as knowledge is determined by those in power.
+
+**Assumptions**: the taken-for-granted ideas that scholars believe to be true about families and lay the groundwork for theory building. Each theory has its own set of assumptions.
+
+**Concepts**: Terms and definitions used to explain the theory's framework based on assumptions. Concepts are integral to explaining theories - they provide the building blocks used to create the theory.
+
+**Propositions**: Statements used to apply a theory and test its ongoing validity.
+
+### Exercises
+
+Characteristics of health promoting families include:
+
+- family stability and positive mother and father relationships,
+- holding shared values
+- having healthy intra-family relationships and communication, and 
+- encouraging healthy behaviours.
+
+In terms of the first theme, most models show ecological or environmental factors to be central components. Secondly, most models recognise cultural and other diversities, in order to be broad enough to accommodate different family types and changes in norms and roles within everyday family life. Lastly, children are often portrayed in models as being more passive recipients of health rather than actively contributing to their own health within the family setting.
+
+
+
+## Week 4: How do we understand the family? Family theories {.well}
+
+### Macro
+
+**Macro Theories** focus on the family as a social institution.
+
+| Theory                   | Main Idea                                                                                     | Application                                                                            | Proposition                                                        |
+|--------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| Family Ecology           | Family life and children’s outcomes are influenced by the contexts in which they are embedded | This theory helps to examine the impacts of the neighbourhood on families              | Families are dependent on their environments for survival          |
+| Structural Functionalism | This theory acknowledges that the family plays a specific role in socialising children        | This theory can be used to critique modern‐day families to see how well they perform   | According to this theory, the family is a key social institution   |
+| Conflict Theory          | This theory places the emphasis on power imbalances                                           | This theory might be used to examine issues around unequal division of domestic labour | This theory recognises that people are motivated by self‐ interest |
+| Feminist Theory          | Male dominance in society and in the family can be oppressive of women                        | This theory can be used to examine the issue of domestic violence                      | This theory recognises the role of power and inequality            |
+
+### Micro
+
+**Micro Theories** focus on the relationships between members within families
+
+| Theory                  | Main Idea                                                                 | Application                                                                       | Proposition                                                                        |
+|-------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| Symbolic interactionism | This theory focuses on how people make sense of the world around them.    | Society teaches us the meaning of objects and events                              | This theory is interested in roles and the meaning family members attach to them   |
+| Social Exchange theory  | Applies an economic perspective to social relationships                   | This theory could be used to explore decision‐making around marriage and divorce  | The rewards and costs are weighed up when making decisions                         |
+| Developmental Theory    | Based on the theme that families experience predictable changes over time | Examples includes the timing of leaving the parental home                         | Focuses on whether transitions undertaken by family members are ‘on’ or ‘off’ time |
+| Family Systems Theory   | The family as a whole unit is more than the sum of its parts              | This theory is often used in family therapy to help family members resolve crises | Families, as examples of systems, seek equilibrium and balance                     |
+
+### Macro-Level Theories
+
+#### Family Ecology Theory {.well}
+
+- Family ecology theory focuses on how families are influenced by and influence the wider environment.
+- Ecological theory was introduced in the late 19th century by plant and human ecologists.
+- German biologist Ernst Haeckel first used the term ecology and placed conceptual emphasis on environmental influences.
+- Ellen Swallow Richards, founder and first president of the American Home Economics Association, believed that scientists needed to focus on home and family for the welfare of the commonwealth.
+- The core concepts in ecological theory are environment and adaptation.
+- These concepts were later extended to humans and their physical, social, cultural, and economic environments.
+- The family ecology perspective asks: How is family life affected by the environments in which families live?
+- The plural environments are used to reflect the multiple environments that comprise social life and that families encounter.
+- The environment consists of four levels: microsystem, mesosystem, exosystem, and macrosystem.
+- The microsystem contains immediate influences with frequent contact, such as family, peers, schools, and neighborhoods, that exert influence over development.
+- The mesosystem consists of interconnections between microsystems that influence each other, such as school and home experiences.
+- The exosystem consists of settings that do not involve active participation but still affect development, such as parents' work experiences and schedules.
+- The macrosystem operates at the broadest level, encompassing laws, customs, attitudes, and belief systems of society that influence individual development and experience.
+- Urie Bronfenbrenner's theory of human development is based on ecology.
+- Development occurs through reciprocal interaction with the immediate external environment.
+- The interactions, called proximal processes, occur regularly over extended periods of time.
+- Through these interactions, individuals learn to make sense of their world and understand their place in it.
+- Sociologist Ted Huston developed an ecological framework to better understand marriage relationships.
+- Marital and intimate unions are embedded in a social context that includes the macroenvironment, ecological niche, and the marriage relationship itself.
+- The wider society, culture, and physical environment comprise the macroenvironment, while the behavior settings in which a couple functions daily make up their ecological niche.
+- The marriage relationship is affected by a larger network of relationships, and the physical, psychological, and social attributes of each spouse influence the relationship.
+- The interconnections among these three elements must be explored to fully understand marriage, according to Huston's ecological approach.
+- Huston's ecological model highlights how marriage relationships are embedded in a social context consisting of macroenvironment, ecological niche, and physical, psychological, and social attributes of each spouse.
+- Helms, Supple, and Proulx advocate using the ecological model to study Mexican-origin married couples and argue that the macroenvironmental context is important to understanding couples' experiences.
+- Ecological theory is a popular perspective among family researchers and has been applied to a wide range of family issues, including low-income families, parental divorce, and changes in the quality of lesbian relationships as couples become parents.
+- Ecological approaches examine how the broader social environments affect family experience and are essential to understanding what happens within families.
+
+##### Critique
+
+- It's not always clear which system best explains behavior or how they influence each other.
+- The theory is broad, inclusive of multiple concepts and abstract terms, which can result in confusion and repetition.
+- It can be difficult to test with traditional methods.
+- The theory has been more effectively applied to individual or familial development and growth, but fails to address degeneration or decline.
+- The theory may not apply as well to a range of diverse, especially non-traditional, families.
+
+#### Structural Functionalism Theory {.well}
+
+- Structural functionalism theory was the dominant perspective for studying society and the family in the mid-20th century.
+- Its acceptance and use greatly diminished in the latter part of the century, but it still surfaces in certain areas of sociology.
+- The theory seeks to explain how society and families work and how families relate to society and their members.
+- Structural functionalists typically look at three aspects when studying families: (1) functions the family serves for society, (2) functional requirements of family members for maintenance and well-being, and (3) needs the family meets for individual members.
+- Structural functionalism treats society as a living organism and uses the analogy of a tree to describe society, with different structures or subsystems necessary for survival.
+- Major social institutions are subsystems of society, including family, religion, government, education, and the economy.
+- Each institution performs functions that help maintain society, with the family providing new members for society and socializing members to fit into society.
+- In functionalist theory, institutions work in harmony for the good of society and each other, with an underlying concern for the survival and stability of the wider society or group.
+
+##### The Family As A System {.well}
+
+- Families can be seen as systems by structural functionalists.
+- Functionalists examine how the family organizes itself for survival and the functions it performs for its members.
+- In the past, men and women had different roles in the family, with men working outside the home and women taking care of the household and children.
+- The family molds personalities to carry out its functions, with men developing instrumental traits and women developing expressive traits.
+- This division of labour and differentiation of temperaments were seen as efficient because it minimized competition and created interdependence between spouses.
+- Some contemporary researchers still assess family phenomena by examining their functional contributions.
+- Medora Barnes looked at the functions of traditional wedding rituals and found that they serve as formal rites of passage, provide reassurance about partner choice, unite families, and foster emotional connections.
+- Traditional weddings continue to serve as ways to acknowledge and strengthen family bonds and provide reassurance about couples' ability to work together.
+
+##### Critique
+
+Structural functionalism is a theoretical approach to the family that has declined in significance in recent decades for several reasons:
+
+- The first reason is the difficulty in determining which family functions are vital, and whether the socialization of children is a functional aspect of families.
+- The second reason is that structural functionalism typically looks at the family abstractly, from a distance, and doesn't consider family interactions, making it of little relevance to real families in the real world.
+- The third reason is that it is not always clear what function a particular structure serves, and structural functionalism contains a conservative bias against change.
+- Structural functionalism has been criticized for disregarding inequality, power, and conflict in families, which are focal concerns of the conflict theory.
+
+### Conflict Theory {.well}
+
+- Conflict theory is different from structural functionalism in that it focuses on discord and competition in society.
+- Conflict theorists view society as divided and unequal, with individuals and groups in conflict with each other.
+- Competition for society's resources results in inequality.
+- Conflict theory examines how wider gender, racial, and economic inequalities in society impact families.
+
+#### Sources of Conflict in Families
+
+- Conflict theorists believe that conflict and power struggles are fundamental in marriages and families.
+- Families are composed of individuals with different personalities, ideas, values, tastes, and goals, which can lead to disagreements.
+- Conflict is a natural part of family life, and families differ in the number, degree, and nature of conflicts.
+- Conflict can take the form of competing goals or differences in role expectations and responsibilities, such as the division of housework between spouses.
+
+#### Sources of Power
+
+- Family members have different resources and amounts of power
+- Four sources of power are legitimacy, money, physical coercion, and love
+- Legitimacy is based on the belief that a person is entitled to prevail by right
+- Money is a powerful resource in marriages and families
+- Physical coercion, threats, or force make up another important source of power
+- Love can be used to emotionally coerce someone into doing what another person asks
+
+#### Critique
+
+- Conflict theory derived from politics and economics, focusing on self-interest, egotism, and competition as dominant elements.
+- People's behavior is also characterized by self-sacrifice and cooperation, especially within families.
+- Love and bonding are important qualities in relationships that may distinguish families from other groups in society.
+- Differences can be accepted, tolerated, or appreciated, and do not necessarily lead to conflict.
+- Conflict in families is not easily measured or evaluated, as families live privately and follow societal rules to regulate conflict.
+
+## Week 5: How is a family established? Relationship formation, divorce and repartnering {.well}
+## Week 6: How is a family established? Parenthood {.well}
+## Week 7: What challenges do families face? Balancing work and family life {.well}
+## Week 8: What challenges do families face? Financial issues {.well}
+## Week 9: What challenges do families face? Drug use, violence and gambling {.well}
+## Week 10: What are the environments impacting family health and wellbeing? {.well}
+## Week 11: What conclusions can we draw about families and health? {.well}

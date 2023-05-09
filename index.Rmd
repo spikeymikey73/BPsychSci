@@ -1,0 +1,17 @@
+---
+title: "BPsychSci: Unit Guides"
+output: html_document
+---
+
+## HBS110
+## HPS104
+## HPS105
+## HPS111
+## HPS121
+## HPS201: 
+## HPS203: Cognitive Psychology
+## HPS204: Social Psychology
+## HSH105: Understanding Families
+## HSH206
+## HSH207
+## SIT191

@@ -1,0 +1,367 @@
+---
+title: 'HPS204: Social Psychology'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(DiagrammeR)
+```
+
+## Week 1: Introduction to Social Psychology: What is Social Psychology? {.well}
+
+### How is social psychology defined and how is it similar / different to other research areas?
+
+> The scientific investigation of how the thoughts, feelings and behaviours of individuals are influenced by the actual, imagined or implied presence of others.
+
+| Similarities                  | Differences                                           |
+|-------------------------------|-------------------------------------------------------|
+| Scientific Study              | Attitude formation / change group context with people |
+| Behavioural Observation       | Social nature of people                               |
+| Reliant on empirical evidence | Concerns other people                                 |
+| -                             | Influenced by other people                            |
+
+#### How can the content within social psychology be applied?
+
+The primary applications of social psychology address questions involving our social perceptions, influence and relations with others. These questions can be used to inform all sorts of relational settings such as universities, medicine, law, business, government agencies and the military to name a few. All applications examine our attitudes and behaviours in a social group or a society at large.
+
+#### Identify and note some areas of research in social psychology that share commonalities with disciplines such as sociology, and note which disciplines are more individualistic in their focus than in social psychology.
+
+| Area of Research | Commonalities                                                                                     | Individualistic? |
+|------------------|---------------------------------------------------------------------------------------------------|------------------|
+| Sociology        | Measuring prejudice variances as a function of socio-economic class (affect on others)            | Yes              |
+| Clinical         | Diagnosing/treating personality disorders and the impact of these on society/friendships          | Yes              |
+| Personality      | Identify men who are more or less prejudiced against women                                        | Yes              |
+| Cognitive        | Manipulate exposure to a member of some social groups and measure thoughts and concepts activated |                  |
+| Social           | Manipulate exposure of different group members examining for prejudice caused.                    |                  |
+
+#### Is social psychology just 'common sense'? Why are psychologists interested in studying what most view as 'common sense'?
+
+Differences between social psychology and traditional folk wisdom:
+
+False: Beauty and brains do not mix.
+False: People think they are more unique than they are.
+False: Sport and Video games are a release for aggression.
+False: Being paid more means that people enjoy their work more.
+
+We are unable to answer the folksy questions alone:
+
+- Opposites attract vs. Birds of a feather flock together.
+- Two heads are better than one vs. Too many cooks spoil the broth.
+
+Social Psychology empirically tests these 'common sense' theories. They are emotionally compelling, but not empirically tested. They can be completely false or misleading and often have multiple answers.
+
+### What are levels of analysis (or explaination) and why is it important to social psychology?
+
+Levels of aggression (for example) can be examined in multiple ways:
+
+**Intrapersonal:** This level of analysis is within the person, such as how we make hostile attributions about another person.
+**Interpersonal/Situational:** A level of analysis between people within a specific situation, such as how people might react when they are insulted by a stranger.
+**Positional:** A level of analysis between people in specific situations, but with their position outside the situation considered, such as how a person of low or high status might react when they are insulted by a stranger.
+**Ideological:** A level of analysis between people including social beliefs and social relationships between groups. For example, wider social norms influence how a person reacts when insulted by a stranger.
+
+### What is the person/situation interaction, and why is it important in social psychology?
+
+Social Psychology intends to understand *the dynamic relationship between individuals and the people around them.*
+
+**Insert person/situation diagram**
+
+>*Behaviour = f(person $\times$ situation)*
+
+(e.g., Priest, Levite, Good Samaritan)
+
+### How does social psychology differentiate between cognition, affect and behaviour?
+
+**Affect:** emotions/feelings
+**Behaviour:** interactions/actions
+**Cognition:** thought
+
+Social psychologists are more interested in the social interaction or situation in their research and its effect on people rather than the individual only. The three capacities above help to predict social interactions (which are individualistic) to differing degrees, however, we do not always know which combinations of these an individual may employ to deal with the given situation.
+
+### What is the belonging hypothesis and what role does it play in social psychology?
+
+The **Belonging Hypothesis** or our need for affiliation is a basic concept in social psychology (as we can all relate to it), or a universal experience.
+
+We have a 'basic drive to form and maintain at least a minimum quantity of lasting, positive and significant interpersonal relationships' regardless of who we are or where we are from. Examples of this include wearing a uniform, joining a club, belonging to a nation or religion.
+
+Acceptance and belonging predicts higher levels of happiness (more so than gender, income or religion) with rejection, ostracism and exclusion are universal predictors of lonliness, depression or poor health.
+
+### How is ostracism defined, and what are the major findings regarding this concept?
+
+Ostracism is defined as a lack of fulfilment of our basic social need to belong, or deliberate exclusion from groups.
+
+The major findings regarding ostracism are:
+
+- Physiological and emotional pain (fMRI scans showing activity brain centres related to pain, namely the dorsal anterior cingulate cortex and anterior insula).
+- Ostracism imposes a threat to our emotional needs:
+  - belonging
+  - self-esteem
+  - control over our environment
+  - finding meaning in what we are doing
+- Ostracism has a basis in an adaptive alert system (both prosocial and antisocial)
+- Those high in social anxiety often find it difficult to recover from perceived ostracism or instances of antisocial alerts provided by these adaptive alerts from social groups.
+
+### What are currently the major perspectives of social psychology?
+
+#### How has emotion and motivation been treated previously, and how have these concepts become integrated into social psychology research?
+
+Emotion and motivation had previously been ignored with greater emphasis placed on cognition. Today's research methods integrate emotion, motivation AND cognition to investigate the unconscious elements of social interaction taking biases into account. Other unconscious influences can include stereotypes and other automatic impulses.
+
+#### How are evolutionary perspectives used in social psychology?
+
+Evolutionary perspectives in social psychology investigate how emotions like jealousy impact us in today's world, but also consider the functional purpose/s jealousy may have had for our ancestors. These perspectives may also look into the different purposes of jealousy based on gender, as well as different social situations that could trigger jealousy.
+
+#### What is culture defined? What is cross-cultural and multicultural research, and how do they differ?
+
+**Culture:** A system of enduring meanings, beliefs, values, assumptions, institutions and practices shared by a large group of people and passed on to the next generation.
+
+**Coss-cultural research:** Research designed to compare and contrast people of a variety of different cultures.
+
+**Multicultural research:** Research designed to examine racial and ethnic groups within a society built out of many different cultures.
+
+#### What is behavioural economics and how is it related to social psychology?
+
+Behavioural economics is a field examining how other disciplines like social and cognitive psychology influence economic decision making.
+
+#### What ia social neuroscience and what research has been conducted in the field?
+
+Social Neuroscience looks at how our actions affect our neural processes such as playing violent video games, or how different patterns of brain activity affect our perceptions of other cultural groups.
+
+#### Why are social psychologists interested in studying new technologies and the online world?
+
+New technologies allow us to investigate the brain more deeply (and less intrusively!) though measuring and recording brain activity in the following ways:
+
+- Event related Potential (ERP)
+- Transcranial Magnetic Stimulation (TMS)
+- Magnetoencephalography (MEG)
+- Functional Magnetic Resonance Imaging (fMRI)
+
+The online world is constantly evolving, as are the ways in which we use it to live, work and interact. The impact this world has on us is constantly being researched (cognitive benefit of playing video games)
+
+## Week 2: Research Methods: How do we understand and research sociopsychological phenomena? {.well}
+
+*Your reading and the lecture identifies many types of non-experimental methods. For each method, ensure you can:*
+
+*- Describe the method,*
+*- Provide a research example that might use it,*
+*- List the pros and cons.*
+
+| Design                | Definition                                                                                            | Example                                                                                                                                           | Pro                                                                                  | Con                                                                                                                                 |
+|-----------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Archival Studies      | examining existing records of past events such as newspaper and magazine articles, sports stats, etc. | examining cultural and historical trends (e.g., crime ratesand how they have changed over time, or homicide rates from countries around the world | Observations of second hand behaviour, cannot be influenced by researcher's presence | - Available records may not always be complete or detailed.</br>- Available records may have been collected in a non-systematic way |
+| Case Studies          | In-depth analysis of a single case (a person, a group or an event)                                    | Natural disaster, rare mental illness                                                                                                             | Good for study of unusual or rare phenomena (can't be created in a lab)              | Not generalisable, Evaluation apprehension                                                                                          |
+| Discourse Analysis    |                                                                                                       |                                                                                                                                                   |                                                                                      |                                                                                                                                     |
+| Survey Research       | large (representative) sample of people answer questions                                              | asking people about their attitudes and behaviours                                                                                                | Large representative sample size, anonymous                                          | If not representative, not generalisable                                                                                            |
+| Field Studies         | Gathering data from observing people in a natural setting                                             | Coding gambling behaviour at a pokies                                                                                                             | Good for studying spontaneous behaviour, real world setting                          | Researcher presence, lack of objectivity                                                                                            |
+| Observational Studies | The observation and recording of someone's actions                                                    | Which of two items a participant selects, or how long two participants talk to each other                                                         | - Avoid faulty recollections</br>- Avoid distorted interpretations                   | - May be biased if participants know they are being observed</br>- Desire to present favourable behaviours in front of others       |
+| Qualitative Research  | Concerned with meaning and the particiant's experience of a particular phenomena                      | Participant's overall experience regarding a particular relationship                                                                              | - Less rigid and informal compared to quantitative research</br> -                   | - Can be quite time consuming to gather the data.                                                                                   |
+
+
+#### What is random sampling and random assignment? How do they differ, and why are they important to experiments?
+
+|                                                     | Random sampling                                                                                                                                                                           | Random Assignment                                                                                                                                                                                                                                                             |
+|-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| What does it involve?                               | Selecting participants to be in the study so that everyone from a population has an equal chance of being a participant in the study                                                      | Assigning participants (who are already in the study) to the various conditions of the experiment so that each participant has an equal chance of being in any of the conditions                                                                                              |
+| What is the biggest advantage of using this method? | It enables researchers to collect data from samples that are representative of the broader population; it is important for being able to generalise the results to the broader population | It equalises the conditions of the experiment so that it is very unlikely that the conditions differ in terms of pre-existing differences among the participants; it is essential to determine that the independent variable(s) caused an effect on the dependent variable(s) |
+
+## Week 3: Social Cognition and Perception: How do we think about the social world? {.well}
+
+### What are the major theoretical perspectives of social cognition, and what assumptions do they hold? {.well}
+
+#### Define the terms 'social cognition' and 'social perception', and outline how they differ.
+
+**Social Cognition** refers to the model that we have built in our minds about how to interact with others socially, whether it be our expectations about their behaviour or our own mode of interacting with them. It is the automated "program" that unconsciously dictates our behaviours.
+
+**Social Perception** refers to our observations of behaviours (both our own and that of others) and attributions of causal factors that motivate someone to behave a certain way. **Internal Attributions** look at the reasons a person behaves the way they do based on their internal dialogue, whereas **External Attributions** seek to explain the situation a person is in that leads them to behave a certain way.
+
+The difference between these two is that SC is an unconscious model of our world and the people in it, whereas SP looks at the way we store a particular event within our cognitive model.
+
+#### Outline the major assumptions of the following broad approaches to social cognition, as found in social psychology: (a) cognitive consistency; (b) naive scientist; (c) cognitive miser; and (d) motivated tactician.
+
+**Cognitive Consistency:** A theory devised in the 40s and 50s that assumes people alter their attitudes and beliefs about the world in order to ensure that their mental processes are consistent or align neatly with each other.
+
+**Naive Scientist:** This theory is the foundation of **attribution**, suggesting that we assign meaning to the thoughts and actions of others, by assuming that we are all thoughtful and rational.
+
+**Cognitive Miser:** The cognitive miser theories suggested that we are not rational when considering the motivations of others, and that we jump to conclusions instead as a way of minimising the energy we expend on analysis of behaviours.
+
+**Motivated Technician:** This theory looked into the multiple strategies that a person may engage in to meet goals, motives and needs. On some occasions we choose wisely, and on others we are defensive and seek to protect our self esteem.
+
+### What is impression formation, and what key factors contribute to impression formation? {.well}
+
+#### What are central and peripheral traits? Provide an example of each.
+
+**Central traits** are those which have a profound influence on our impressions of a person (such as angry/happy), whereas **peripheral traits** are those which have only a brief or passing influence on our impression of others (such as polite/blunt).
+
+#### What did Asch do to test his ideas and what were his findings?
+
+To test his theory, Asch gave two separate groups a list of slightly differing traits belonging to an imaginary person. One list contained the word _warm_ and the other list contained the word _cold_ (being **central traits**). The participants who received the list warmth as a character trait formed a more favourable impression of the person than the group who received the list containing the word cold. These words were then replaced with _polite_ and _blunt_ (**peripheral traits**), with the different perceptions from each group being much closer together.
+
+#### What criticisms have been made regarding the concept of central trait? (Note the role of personal constructs and implicit personality theories).
+
+Critics of this theory have suggested that central traits are influenced by context, and can be considered more central where other confirmatory traits could be linked. It is further suggested that people have their own unique methods for characterising people differing from that of others. 
+**personal constructs**
+
+#### What are the primacy effect and recency effect? Provide an example of each.
+
+
+
+#### How do physical cues feed into our impression formations? Provide a summary of a research finding in this area.
+
+#### What are the positivity and negativity biases? Identify a reason why it might be more difficult to change a negative impression, once it is formed, than a positive impression.
+
+
+### How are schemas, categories, prototypes, exemplars, and stereotypes defined, how do they differ, and what are some examples of each? {.well}
+
+#### Define the term ‘schema’ and identify the type of cognitive processing that a schema facilitates once it is invoked. (Note that the plural is either ‘schemas’ or ‘schemata’.)
+
+#### Define and identify examples of each of the following types of schemas: (a) person schemas; (b) role schemas; (c) event schemas (scripts); (d) content-free schemas; (e) self-schemas.
+
+### How are schemas acquired and used, and how do they develop and change over time? {.well}
+### What is social encoding, and what are the steps involved in this process?
+### What major biases and shortcuts exist in making social inferences, especially when it comes to heuristics?
+### What types of attributions exist, and what are the core tenets of major attributional theories?
+### How are attributional biases defined, and what are some examples for each?
+### What is intergroup attribution, and how do we define biases that affect intergroup attribution?
+### What are the major theoretical perspectives of social cognition, and what assumptions do they hold?
+### What is impression formation, and what key factors contribute to impression formation?
+### How are schemas, categories, prototypes, exemplars, and stereotypes defined, how do they differ, and what are some examples of each? 
+### How are schemas acquired and used, and how do they develop and change over time?
+### What is social encoding, and what are the steps involved in this process?
+### What major biases and shortcuts exist in making social inferences, especially when it comes to heuristics?
+### What types of attributions exist, and what are the core tenets of major attributional theories?
+### How are attributional biases defined, and what are some examples for each?
+### What is intergroup attribution, and how do we define biases that affect intergroup attribution?
+
+## Week 4: Emotions and Affect: How do we feel about the social world? {.well}
+
+### What is the underlying physiology of emotions, including the role of the sympathetic nervous system (SNS), the parasympathetic nervous system (PNS), and the amygdala?
+
+The SNS is the arousal division of the autonomic nervous system responsible for readying our bodies to threats by activating our endocrine system. Some responses include heightened heart rate, slowing digestion, dilating pupils (widening our field of vision), releasing sugar from the liver (for energy) and inhibiting the PNS.
+
+The PNS is responsible for resting, digesting, relaxing and recovering.
+
+The amygdala is part of the limbic system responsible for mediating the function of the SNS and PNS to change between these two states of lowered or heightened alertness.
+
+#### How is arousal seen (when the SNS is activated) important to emotions?
+
+The activated state of the SNS and its changes to our bodily sensations is an indication of strong emotions.
+
+#### What is the amygdala, and what role does it play in emotions?
+
+The amygdala is a part of our limbic system tgat helps us experience emotions. It regulates our interpretations of fear and aggression, inhibiting our PNS and activating our SNS through the release of endocrine.
+
+### What is the difference between basic and secondary emotions, and what function does each play?
+
+#### Define 'basic emotions' and outline their major characteristics.
+
+**Basic Emotions:** anger, contempt, disgust, fear, happiness, sadness, surprise, etc.
+
+These emotions are primarily based on the arousal function of the SNS and happen quickly (direct processing), inducing the inhibition of the PNS. There is almost no logical processing of these emotions.
+
+#### What were the findings of Ekman et al. regarding emotions? What are the major conclusions we can take away from these studies?
+
+Ekman studied the expression and interpretation of these emotions across a large number of different cultures to find them almost constant regardless of culture. There were 162 of these emotions tested in his study.
+
+#### Define secondary emotions and outline their characteristics.
+
+These emotions result in lower SNS arousal, and are primarily cognitive in nature as there is little threat or immense pleasure associated with them. (i.e., guilt, shame, embarrassment).
+
+### How can emotions be induced? What are the consequences of this?
+
+- Psychologists and economists have known this for some time.
+- Financial decisions hav an emotional element as well at the cost/benefit analysis.
+- Anger, for example, triggers greater risk taking behaviour.
+- Fear triggers more conservative behaviour
+- The **endowment effect** refers to how we place a higher value on something we own compared to the exact same item owned by someone else.
+- Disgust and sadness trigger different economic behaviours
+- Disgust triggers a need to expel, lowering prices and endowment is eliminated.
+- Sadness triggers a need to change one's circumstances (increasing buying price, and lowering selling price), endowment is reversed.
+- The above are examples of ways in which emotions can be induced, and effect our buying / selling decisions.
+
+### What are the known individual differences (especially gender and culture) in the expression of emotion?
+
+#### What has prior research demonstrated concerning cross cultural differences in the expression of emotions? What is the core difference between these cultures?
+
+Cultural differences can be divided between east and west based on collectivist / individualist paradigms. For example, eastern / Japanese cultures:
+
+- hide emotions in public
+- openly show concern for others
+- pay greater attention to emotional tone of speakers
+- Are more likely to show friendliness or shame
+- Report a positive experience when in the presence of others
+
+#### What has prior research demonstrated concerning gender differences in emotional experiences?
+
+Women have a tendency to:
+
+- Be more open to feelings
+- Are more likely to express emotions in public
+- Are more accurate in articulating feelings to others
+- React more openly to films about sadness, happiness or fear.
+- Be easier to read their emotions
+
+Some of these differences are biological, some are also socialised.
+
+### What impact does arousal and misattributing arousal have on our emotions?
+
+> arousal + cognition = emotion
+
+A number of experiments have been conducted into the misattribution of arousal, where participants are induced into a state of arousal via various methods and controls (placebo, misinformation, injections of epinephrine, etc).
+
+These experiments confirm the two factor theory of emotion as per the formula above. Misattribution can occur as a result of some type of situational factor where the associated emotion is 'misattributed'. We are often not directly able to label our emotional processes correctly, highlighting the **power of suggestion** to inform us of the source.
+**Cognitive dissonance** is a potential explanation for this, where discomfort is experienced as a result of holding two or more opposing beliefs or attitudes. Suggestions of other misattributions could be to avoid a cup of coffee prior to a job interview to reduce the likelihood of nervousness before an interview, or taking a date to a horror movie to cause them to misattribute their racing heart as attraction.
+
+### What role do emotions play in the intrapersonal, interpersonal and socio-cultural context? Provide examples.
+
+Emotions can be an important ingredient in relationships, as they communicate to others our attraction, disappointment, happiness, etc. They can also help us understand others, which in turn can strengthen a relationship.
+
+We sometimes make efforts to regulate or suppress our emotions. Regulation may be handled a few different ways:
+
+1. Change the emotion we feel (bad to good)
+2. Postpone it to another time (when we're alone), or
+3. Change the way the emotion is experienced or expressed.
+
+Most research focusses on reappraisal or suppression.
+
+Habitual suppression, however, can negatively impact social connections by weakening them, whereas reappraisal can help strengthen our social connections.
+
+Some of the effects of habitual suppression can be:
+
+- Cause negative first impressions,
+- lower social support and lower social / relational quality.
+
+Problems with suppression include:
+
+- The constant regulation needed to suppress can prevent us from perceiving an interaction correctly,
+- Leads us to feel inauthentic / or be preceived as inauthentic.
+
+Some suppression can be healthy for relationships (tact) but regulation is more effective as it is adaptive and can lead to solving problems in a constructive way.
+
+#### Outline what is meant by the intrapersonal function of emotion
+
+- Emotions help us act quickly with minimal conscious awareness.
+- Prepare out body for immediate action (fight, flight, etc.)
+- Emotions influence thoughts (neural links to our memories)
+- Emotions motivate future behaviours (seeking out positive experiences, avoiding negative experiences)
+
+#### What are the ways in which emotions are implicated in intrapersonal contexts? What are some key findings for each one?
+
+- Bad milk (disgust) - scrunching up nose and face to restrict the ingestion of toxins
+- Difficult to think clearly when we feel intense emotions, easier when we are not overwhlmed.
+- Form the basis of attitudes, beliefs and values
+- Connected to our thoughts and memories.
+
+#### Outline what is meant by ther interpersonal function of emotion.
+
+- Interpersonal emotions help us communicate with others as well as interpret the emotions of others
+- Providing incentives for desired social behaviour
+- Help solve problems by evoking responses
+- Signal to us the nature of a relationship
+- Others can reliably judge our outward expressions, body language, voices, etc.
+
+## Week 5: Self and Identity: How do we use the social world to understand ourselves? {.well}
+## Week 6: Attitudes and Persuasion: How do we evaluate and respond to the social world? {.well}
+## Week 7: Social Influence: How can we change other people's behaviour? {.well}
+## Week 8: Group Processes: How do we work in groups and interact with other groups? {.well}
+## Week 9: Intergroup Relations (Stereotypes and Prejudice): How do we view and react towards other groups? {.well}
+## Week 10: Close Relationships: How do we connect with others? {.well}
