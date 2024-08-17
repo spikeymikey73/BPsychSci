@@ -3,7 +3,7 @@
     "path": "~/Documents/BPsychSci/HPS202.Rmd",
     "project_path": "HPS202.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "3884491883",
     "contents": "",
     "dirty": false,
     "created": 1718072765232.0,
@@ -13,7 +13,7 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "5,19",
+        "cursorPosition": "6,3",
         "scrollLine": "0",
         "rmdVisualMode": "false",
         "rmdVisualCollapsedChunks": "",
@@ -27,7 +27,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1723888280995,
+    "last_content_update": 1723889459009,
     "read_only": false,
     "read_only_alternatives": []
 }
