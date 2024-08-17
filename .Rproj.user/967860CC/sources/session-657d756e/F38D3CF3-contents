@@ -2,10 +2,10 @@
 title: "Test"
 output: 
   html_document:
-    includes:
-      in_header: header.html
     toc: true
     toc_float: true
+    includes:
+      in_header: header.html
 ---
 
 ```{r setup, include=FALSE}
