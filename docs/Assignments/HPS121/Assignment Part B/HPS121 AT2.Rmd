@@ -1,0 +1,57 @@
+---
+bibliography: AT2_References.bib
+linestretch: 1.5
+fontsize: 12pt
+csl: apa.csl
+output:
+  pdf_document:
+    includes:
+      before_body: title.tex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+Part_total <- 290
+exclusions <- 52
+mean_age <- 30.98
+age_sd <- 10.39
+min_age <- 17
+max_age <- 56
+female <- 186
+male <- 47
+non_bin <- 3
+unspec <- 2
+```
+
+# Introduction
+
+In recent years, the topic of well being has been of significant interest to multiple industries, including science. While there is still debate surrounding the optimal state of well being, @ryan was able to clarify the recently defined perspectives on well being as either hedonic or eudaionic, with the relationship between the two showing signs of commonality and contradiction.
+
+Significant anecdotal evidence on the impact of an animal-human bond exists within the literature regarding our well being and our relationship with pets, particularly within the current climate of the effects of COVID-19 on the worldwide population. The findings of @young delve into the potential benefits afforded to those who already have pets, suggesting that both humans and animals can mutually benefit from such a relationship. For example, recent restrictions on our ability to elicit touch from one another has been detrimental to our well being, suggesting that a mutually beneficial relationship can be conducted with our pets in the absence of human to human touch. Other factors supported by @young also include impact of isolation can have on exacerbating chronic illness, the superficial connectivity provided by technology, and the growing body of evidence supporting animal visitation to aged care and dementia patients to moderate the impacts of isolation.
+
+The analysis conducted by @applebaum suggests that the recent worldwide growth in pet adoption is potentially a cause for concern for the ongoing welfare of both humans and animals alike. Due to the unforeseen human and animal effects that an unstable world can impose on a household, this analysis points out unintentional consequences of pet adoption on both humans and pets. In this article, we hear of concerns that pet owners have for both their animals, and for themselves that have been brought about by the upheaval to our daily lives that a pandemic can impose. @applebaum explore examples of these concerns relating to pets, such as the difficulty in seeking and obtaining veterinary assistance, whether or not they are able to visit local parks, being able to find or supply food to their pet, as well as missed appointments for obedience training. Other owners cited other concerns related to their own health and well being such as what will happen to their pet if they become ill, interruptions while working from home, increased demands placed on their time and energy by their pets, as well as the demands placed on households while caring for a pet and a family member simultaneously.
+
+In taking these two themes of discussion into consideration, the current gap in research indicates a distinct lack of empirical evidence examining the relationship between well being and non-human relationships. The aim of this study is to investigate the the relationship between both hedonic and eudaimonic indicators of wellbeing in relation to pet attachment. In order to identify the existence of a relationship between these factors, we will hypothesise that a) hedonic wellbeing and pet attachment have a positive correlation, and b) eudaimonic wellbeing and pet attachment have a negative correlation.
+
+# Method
+
+## Participants
+
+The participants in this study were students enrolled in Deakin University's Introduction to Psychology: Individual and Social Development (HPS121) unit of study (N = `r Part_total`) for Trimester 1 of 2022, with the number of students excluded from the study (x = `r exclusions`) identifying themselves as non-pet owners. In terms of gender, the `r Part_total` participating students comprised `r female` female, `r male` male, `r non_bin` non binary, and `r unspec` unspecified. The mean age of the participants was `r mean_age`, with the age range of the participants between `r min_age` to `r max_age`. Selection for participation in the survey was conducted via a convenience method of sampling, through enrolment in the HPS121 unit.
+
+
+## Measures
+
+There were two measures employed in the research of this study. The first of these measures being 15 items of the Positive emotion, Engagement, Relationships, Meaning, and Accomplishment (PERMA). Eudaimonic well-being was measured via the combination of the results from the relationships, meaning, and accomplishment domains of the PERMA, while hedonic well-being was measured using the combination of the remaining PERMA domains of Positive Emotions and Engagement, with an additional question included in the PERMA to measure overall happiness. The participant specific elements of the PERMA are recorded via a likert scale to record the occurrence of a given variable with 11 options "strongly disagree" to "strongly agree". A sample question from this scale measuring the domain of Meaning is, "To what extent do you lead a purposeful and meaningful life?".
+
+The Pet attachment measure of this study has been gathered using the Lexington Attachment to Pets (LAPS) scale. The LAPS scale consists of 23 uni-dimensional items, also with a Likert scale of 4 values from "Never" to "Always". A sample question from this measure is "I often talk to people about my pet." with the participant able to provide a response within a range of 0 to 3.
+
+
+## Procedure
+
+Respondents in the study were asked to complete an online questionnaire containing around 100 items, with completion of the survey intended to take the participant around 15 to 20 minutes to complete. The ethical outline of the study terms and conditions was submitted to Deakin University prior to the commencement of Trimester 1, 2002 and approval was received prior to 1 February, 2022. Participation in the survey process was completely voluntary to the cohort members of students studying HPS121 during the reported time frame, and students were advised of the criteria required for use in the study (pet ownership). Participation in the study required the completion of an online survey consisting of 100 items exploring the elements of the PERMA and LAPS measures for comparison.
+
+\newpage
+
+# References

@@ -1,0 +1,127 @@
+---
+bibliography: AT1_References.bib
+linestretch: 2
+fontsize: 12pt
+csl: apa.csl
+output:
+  pdf_document:
+    includes:
+      before_body: title.tex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(weights)
+
+Part_total <- 290
+exclusions <- 52
+mean_age <- 30.98
+age_sd <- 10.39
+min_age <- 17
+max_age <- 56
+female <- 186
+male <- 47
+non_bin <- 3
+unspec <- 2
+
+LAPSa <- .94
+HEDa <- .69
+EUDa <- .68
+
+LAPSmean <- 3.85
+LAPSsd <- .69
+
+EUDmean <- 6.11
+EUDsd <- 1.10
+
+HEDmean <- 6.13
+HEDsd <- 1.21
+
+EUDLAPSr <- .15
+EUDLAPSp <- .04
+
+HEDLAPSr <- -0.02
+HEDLAPSp <- 0.73
+
+```
+\begin{center}
+
+\textbf{Abstract}
+
+The body of research conducted thus far, into the effects on our well being, (as influenced by pet ownership during the COVID-19 pandemic) has come from both qualitative and quantitative sources. Although the qualitative has been more predominant in this field to date, this study serves to look further at the impact of pet ownership on both the hedonic and eudaimonic facets of well being. The internal validity of the measures employed to this end, however, is of concern. The results of investigations here also highlight the need for additional examination, with the internal validity of the current measures offering a somewhat questionable measure. In some respects, the measures employed in this study may also require the comparison against a test group who are unhindered by the effects of a world wide pandemic. Further, the identification of alternate methods of improving or maintaining well being may be of benefit to those who do not own or care for pets.
+
+\end{center}
+
+\newpage
+
+\begin{center}
+
+\textbf{Exploring the reciprocal effects of human - animal relationships during a global pandemic}
+
+\end{center}
+
+In recent years, the topic of well being has been of significant interest to multiple industries, including science. While there is still debate surrounding the optimal state of well being, @ryan01 was able to clarify the recently defined perspectives on well being as either hedonic or eudaionic, with the relationship between the two showing signs of both commonality and contradiction.
+
+Significant anecdotal evidence on the impact of an animal-human bond exists within the literature regarding our well being and our relationship with pets, particularly within the current climate of the effects of COVID-19 on the worldwide population. The findings of @young delve into the potential benefits afforded to those who already have pets, suggesting that both humans and animals can mutually benefit from such a relationship. For example, recent restrictions on our ability to elicit touch from one another has been detrimental to our well being, suggesting that a mutually beneficial relationship can be conducted with our pets in the absence of human to human touch. Other factors supported by @young also include impact of isolation can have on exacerbating chronic illness, the superficial connectivity provided by technology, and the growing body of evidence supporting animal visitation to aged care and dementia patients to moderate the impacts of isolation.
+
+The analysis conducted by @applebaum suggests that the recent worldwide growth in pet adoption is potentially a cause for concern for the ongoing welfare of both humans and animals alike. Due to the unforeseen human and animal effects that an unstable world can impose on a household, this analysis points out unintentional consequences of pet adoption on both humans and pets. In this article, we hear of concerns that pet owners have for both their animals, and for themselves that have been brought about by the upheaval to our daily lives that a pandemic can impose. @applebaum explore examples of these concerns relating to pets, such as the difficulty in seeking and obtaining veterinary assistance, whether or not they are able to visit local parks, being able to find or supply food to their pet, as well as missed appointments for obedience training. Other owners cited other concerns related to their own health and well being such as what will happen to their pet if they become ill, interruptions while working from home, increased demands placed on their time and energy by their pets, as well as the demands placed on households while caring for a pet and a family member simultaneously.
+
+In taking these two themes of discussion into consideration, the current gap in research indicates a distinct lack of empirical evidence examining the relationship between well being and non-human relationships. The aim of this study is to investigate the the relationship between both hedonic and eudaimonic indicators of wellbeing in relation to pet attachment. In order to identify the existence of a relationship between these factors, we will hypothesise that a) hedonic wellbeing and pet attachment have a positive correlation, and b) eudaimonic wellbeing and pet attachment have a negative correlation.
+
+\begin{center}
+
+\textbf{Method}
+
+\end{center}
+
+\textbf{\textit{Participants}}
+
+The participants in this study were students enrolled in Deakin University's Introduction to Psychology: Individual and Social Development (HPS121) unit of study ($n$ = `r Part_total`) for Trimester 1 of 2022, with the number of students excluded from the study ($x$ = `r exclusions`) identifying themselves as non-pet owners. In terms of gender, the `r Part_total` participating students comprised `r female` female, `r male` male, `r non_bin` non binary, and `r unspec` unspecified. The mean age of the participants was `r mean_age`, with the age range of the participants between `r min_age` to `r max_age`. Selection for participation in the survey was conducted via a convenience method of sampling, through enrolment in the HPS121 unit. 
+
+
+\textbf{\textit{Measures}}
+
+There were two measures employed in the research of this study. The first of these measures being 15 items of the Positive emotion, Engagement, Relationships, Meaning, and Accomplishment (PERMA). Eudaimonic well-being was measured via the combination of the results from the relationships, meaning, and accomplishment domains of the PERMA, while hedonic well-being was measured using the combination of the remaining PERMA domains of Positive Emotions and Engagement, with an additional question included in the PERMA to measure overall happiness. The participant specific elements of the PERMA are recorded via a likert scale to record the occurrence of a given variable with 11 options "strongly disagree" to "strongly agree". A sample question from this scale measuring the domain of Meaning is, "to what extent do you lead a purposeful and meaningful life?".
+
+The Pet attachment measure of this study has been gathered using the Lexington Attachment to Pets (LAPS) scale. The LAPS scale consists of 23 uni-dimensional items, also with a Likert scale of 4 values from "Never" to "Always". A sample question from this measure is "I often talk to people about my pet." with the participant able to provide a response within a range of 0 to 3.
+
+
+\textbf{\textit{Procedure}}
+
+Respondents in the study were asked to complete an online questionnaire containing around 100 items, with completion of the survey intended to take the participant around 15 to 20 minutes to complete. The ethical outline of the study terms and conditions was submitted to Deakin University prior to the commencement of Trimester 1, 2002 and approval was received prior to 1 February, 2022. Participation in the survey process was completely voluntary to the cohort members of students studying HPS121 during the reported time frame, and students were advised of the criteria required for use in the study (pet ownership). Participation in the study required the completion of an online survey consisting of 100 items exploring the elements of the PERMA and LAPS measures for comparison.
+
+\begin{center}
+
+\textbf{Results}
+
+\end{center}
+
+<!--
+RESULTS - COMPLETE!
+-->
+
+The reliability of our LAPS, Hedonic and Eudaimonic Well-Being measures has been determined using Chronbach's alpha, with the test returning values of $\alpha$ = `r rd(LAPSa)`, $\alpha$ = `r rd(HEDa)` and $\alpha$ = `r rd(EUDa)` for each scale respectively. The mean scores for responses given by our test group on these scales has been determined as: LAPS `r rd(LAPSmean)`, Eudaimonic `r rd(EUDmean)` and  Hedonic `r rd(HEDmean)`, with the standard deviations of these responses being `r rd(LAPSsd)`, `r rd(EUDsd)`, and `r rd(HEDsd)` respectively. The value calculated for Pearson's correlation of the relationship between Eudaimonic Well-Being and the LAPS test is `r rd(EUDLAPSr)`, with a corresponding $p$ value of `r rd(EUDLAPSp)`. The Pearson's correlation of the relationship between Hedonic Well-being and the LAPS test is `r rd(EUDLAPSr)`, $p$ = `r rd(EUDLAPSp)`. In comparing the relationships between the LAPS pet attachment measure and the results of the hedonic and eudaimonic measures, the results are: LAPS and Hedonic wellbeing ($r$ = `r rd(HEDLAPSr)`, $p$ = `r rd(HEDLAPSp)`, LAPS and eudaimonic well being ($r$ = `r rd(EUDLAPSr)`, $p$ = `r rd(EUDLAPSp)`).
+
+\begin{center}
+
+\textbf{Discussion}
+
+\end{center}
+
+The aim are a) to confirm that pet ownership has a direct and positive correlation to hedonic wellbeing and that pet ownership has a direct negative impact on pet ownership. Neither of the above aims have been met, as the results overall show that pet ownership reliably exerts a minimal positive impact on hedonic well being, while the effect of pet ownership cannot reliably predict an improvement in eudaimonic well being.
+
+The first hypothesis on test in this paper asserts that hedonic wellbeing and pet attachment are complimentary, and have a strong positive relationship with each other. The results, in fact, find that while the correlation between the LAPS scale and the hedonic well being scale is a weak negative correlation ($r$ of `r rd(HEDLAPSr)`), when assessed in conjunction with the $p$ value of `r rd(HEDLAPSp)`, we can not reliably validate these results. As such, we are unable to assert that the effect of pet ownership has any benefit whatsoever to the domain of individual hedonic well being, which in fact, is contrary to the assertion of Hypothesis A. The implications of this result further suggest that there is either little to no positive affect of pet attachment on the scale of hedonic well being, or (when examined in conjunction with the $\alpha$ result for the hedonic domain) that the measure may not have the necessary levels of internal validity to be of reliable utility. The real world implications of this finding suggest that pet ownership may not be an effective way to shore up an individual's levels of well being during a pandemic event, and that individuals may be best served seeking improvements to their hedonic well being through other means.
+
+The second hypothesis being examined in this paper posits that eudaimonic wellbeing and pet attachment have a negative relationship with one another. The calculated Pearson's correlation of `r rd(EUDLAPSr)` shows a weak positive correlation, and in conjunction with the $p$ value of `r rd(EUDLAPSp)`, we can reliably validate these results. In light of this significant comparison, we can state that pet ownership does not have a negative effect on the development of eudaimonic well being for individuals in isolation as hypothesised. Again, however, the lower $\alpha$ result for this measure using Cronbach's method, suggests that shortcomings of the measure's internal validity may be responsible for the observed results. While our findings are inconsistent with our hypothesis, the implications of our findings in the real world could suggest that the additional responsibility in caring for a pet does have a positive impact on our wellbeing, albeit a minimal one. It may be that by ensuring a pet's health is monitored effectively, we can impart a modest positive effect on our own mood (or at least the maintenance of such) and, in so doing, the acceptance of this responsibility affords us a positive effect on our own well being.
+
+Two significant observed limitations of this current study have been identified, are are considered further. In the first instance, the results in comparing pet ownership with both hedonic and eudaimonic well being returned $\alpha$ results of `r HEDa` and `r EUDa` respectively, suggesting that the selected measures only have a moderate level of internal validity. It could also be suggested that the inherent flaws contained within these measures has introduced a confounding variable to the results reached here. A greater than moderate internal validity of both the Hedonic and Eudaimonic measures ($\alpha$ > .8), would have the potential to yield more significant comparisons in a real world scenario. Secondly, the comparisons of cause and effect in pet ownership and well being have both been obtained during a pandemic, which does not represent normal life, and is indeed, a highly contrived environment. A further study may be required to ensure that measurement of well being is recorded in an atmosphere where participants are not the inhabitants of an environment of forced isolation. Such a study would then provide a base line or control group against which results can be compared to improve reliability of results. Environments of this nature may outweigh any noticeable benefits to well being that may be otherwise garnered from pet ownership in an unencumbered societal construct, and should at least be obtained for control purposes.
+
+Through this examination of the relationships we have with our pets, we are, unfortunately, unable to confirm that an improvement to the well being of a pet owner (either hedonic or eudaimonic) has been achieved while under the global effects of a pandemic. The reasons for this lack of impact in these relationships has been noted previously, although the results represented here do show potential benefits can be observed in the two facets of well being. For example, measures of greater internal validity need to be employed to aid in order to provide more reliable data, along with test subjects from a world outside the influence of COVID-19 (as a control) and it's long term impositions. The assessment of these relationships conducted here has produced results that are unconvincing, and require further investigation into both the methodology and effect surrounding the domain of well being. In so doing, the findings of the effects of well being relating to pet ownership may yield more significant evidence that a dog is "man's" best friend.
+
+\newpage
+
+\begin{center}
+
+\textbf{References}
+
+\end{center}

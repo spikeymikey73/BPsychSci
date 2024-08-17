@@ -1,0 +1,6 @@
+"0","  confidence <- matrix(c(6,10,8,6,5,4,3,8,5,8,12,9,6,7,5,4,9,5,2,2,1,0,2,1,1,1,0),ncol=3,byrow=FALSE)
+  rownames(confidence) <- c(""One"",""Two"",""Three"",""Four"",""Five"",""Six"",""Seven"",""Eight"",""Nine"")
+  colnames(confidence) <- c(""Before"",""After"",""Difference"")
+  knitr::kable(confidence)
+"
+"0",""

@@ -1,0 +1,132 @@
+---
+title: 'HSH105: Understanding Families and Health'
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### Week 1: What is a family? Introduction to contemporary family structures {.well}
+
+<details>
+<summary>LO1: Describe how Australian families are formally defined using key concepts</summary>
+
+</details>
+
+<details>
+<summary>LO2: Identify how different groups define family</summary>
+
+</details>
+
+<details>
+<summary>LO3: Explain why health practitioners need to understand different definitions of family</summary>
+
+</details>
+
+### Week 2: Theories and models for understanding families {.well}
+
+<details>
+<summary>LO1: Define 'theory' and its associated concepts</summary>
+
+- Theories are explanations of a natural or social behaviour, event or phenomenon.  
+- A scientific theory is a system (based on existing **epistemologies**) of constructs (**concepts**) and **propositions** (relationships between the constructs) that collectively presents a logical, systematic and coherent explanation of a phenomenon of interest within some **assumptions** and boundary conditions.
+- Theories offer a strategy to describe, interpret and/or explain a phenomenon, as well as help explain why people do what they do in certain situations
+
+![Building blocks of Theory](Images/Week3/Theories.png)
+
+**Epistomologies**: The overall frame of reference that a theorist brings to the study of families. These understandings also outline methods, validity, and scope of knowledge as well as the distinction between justified belief and opinion.
+
+  - *Positivist Epistemology*: posits that there is a single objective truth about families that can be found through systematic research.
+  - *Interpretive Epistemology*: posits that there is no single objective truth, but that experiences are relative to a family.
+  - *Critical Epistemology*: what counts as knowledge is determined by those in power.
+
+**Assumptions**: the taken-for-granted ideas that scholars believe to be true about families and lay the groundwork for theory building. Each theory has its own set of assumptions.
+
+**Concepts**: Terms and definitions used to explain the theory's framework based on assumptions. Concepts are integral to explaining theories - they provide the building blocks used to create the theory.
+
+**Propositions**: Statements used to apply a theory and test its ongoing validity.
+
+</details>
+<details>
+<summary>LO2: Describe each of the main theories in terms of their concepts and propositions: family development theory, family systems theory, structural functionalism, conflict and feminist theories, exchange theory and symbolic interactionism</summary>
+
+</details>
+<details>
+<summary>LO3: Explore models used to understand the family as a setting for health promotion, including Bronfenbrenner's bioecological model</summary>
+
+</details>
+<details>
+<summary>LO4: Explore using family theories, frameworks and models to help you understand the complexities of modern family situations</summary>
+
+</details>
+
+### Week 3: Diversity in Families {.well}
+
+<details>
+<summary>LO1: Identify how families differ, both within Australia and globally, and over time</summary>
+
+</details>
+<details>
+<summary>LO2: Outline the factors that contribute to diversity in families</summary>
+
+</details>
+<details>
+<summary>LO3: Describe examples of the challenges facing diverse families</summary>
+
+</details>
+
+### Week 4: Promoting the health and social inclusion of families {.well}
+
+<details>
+<summary></summary>
+
+</details>
+
+### Week 5: Responsible practice when working with families {.well}
+
+<details>
+<summary></summary>
+
+</details>
+
+### Week 6: The challenges of family relationships {.well}
+
+<details>
+<summary></summary>
+
+</details>
+
+### Week 7: The challenges of parenthood {.well}
+
+<details>
+<summary></summary>
+
+</details>
+
+### Week 8: The challenge of balancing work and family life {.well}
+
+<details>
+<summary></summary>
+
+</details>
+
+### Week 9: Financial issues {.well}
+
+<details>
+<summary></summary>
+
+</details>
+
+### Week 10: Challenging behaviours (drug use, violence and gambling) {.well}
+
+<details>
+<summary></summary>
+
+</details>
+
+### Week 11: Conclusions about families and health {.well}
+
+<details>
+<summary></summary>
+
+</details>

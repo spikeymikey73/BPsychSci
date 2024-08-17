@@ -1,0 +1,7 @@
+"0","  sample2 <- qt(p=0.02/2, df=14, lower.tail=FALSE)
+  print(round(sample2, 2))
+"
+"1","[1]"
+"1"," 2.62"
+"1","
+"

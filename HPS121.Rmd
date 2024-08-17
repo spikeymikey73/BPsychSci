@@ -1,0 +1,749 @@
+---
+title: "HPS121: Introduction to Psychology (Individual and Social Development)"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Topic 1: Developmental Psychology {.tabset}{.well}
+
+### Psychosocial Theory
+
+- 8 stages of development from birth to adulthood.
+
+- All stages in a specific order, containing a crisis at each stage. needing resolution before the next stage.
+
+- Failure to resolve the crisis at each stage would effect child's development at later stages.
+
+
+| Developmental Stage              | Developmental Crisis           | Description of Crisis |
+| :-------------------------------- | :------------------------------ | :-------------------------------------------------------|
+| Birth - 1 year                   | Trust vs Mistrust              | Development of trust as a consequence of treatment. |
+| 1 - 3 years                      | Autonomy vs Shame              | Learning to negotiate with parents to have needs and wants met. Development of a sense of independence. |
+| 3 - 6 years                      | Initiative vs Guilt            | Learning how to play with others, lead and follow, as opposed to prevention from joining in through guilt or fear. |
+| 6 years to adolescence           | Industry vs Inferiority        | Building of skills around play and obeying rules. Mastery of social skills, and self discipline. A mistrusting child will develop defeat and inferiority. |
+| Adolescence (10 - 20 years)      | Identity vs Identity Diffusion | Children experiment with defiance and rule breaking. Also the time when a child will develop their sense of self and identity. |
+| Young Adulthood (20 - 40 years)  | Intimacy vs Isolation          | A period of building long standing friendships and relationships. |
+| Middle Adulthood (40 - 60 years) | Generativity vs Stagnation    | Becoming productive in society and setting an example for future generations. Developing interest in parenthood. |
+| Old Age (60+ years)              | Integrity vs Despair           | Acknowledgement of prior achievement of the other stages and the recognition of integrity, as opposed to despair should one or more of the crises at previous stages not be resolved. |
+
+
+**Evaluation of Psychosocial Theory**
+
+- While insightful and plausible, no empirical evidence was gathered to develop theory.
+- Erikson worked mainly with children, so his theory was based on this experience.
+- The teen crisis was used to refer to the sensitivity of developmental meds at each stage, rather than a catastrophic event.
+- Emphasises the role of psychological and social influence a development throughout a lifetime.
+
+
+### Behaviourism
+
+Watson (1913) coined the term ‘behaviourism’, which is a theory assuming that behaviour is observable and can be traced back to other observable events. The goal of Behaviourism is to explain relationships between stimuli, responses and consequences.
+
+Identified by many as being relevant regardless of age, and not being isolated to a particular "stage". The focus instead, is on stimulus/response and looking for predictable patterns of behaviour.
+
+
+**Core Concepts:**
+
+1. The Blank Slate: Children enter the world as a blank slate with ability to learn based on their
+	environment.
+
+2. Behavioural Focus: Concentrates on observable behaviours, and discovery of environmental stimuli responsible.
+
+3. Environmental Determinism: A individuals behaviour is shaped by their environment rather than 'free will'.
+
+4. Conditioning: The main process through which we learn.
+
+
+Examples of behaviourism include: Pavlov's dogs (Classical Conditioning), Skinner's Pigeons (Operant Conditioning) and Bandura's Social Modelling or Social learning theory (Bobo Doll). The observation (of consequences), imitation, and modelling as demonstrated via the Bobo doll experiment (modelling and imitation of aggression). The experiment found that observations of aggressive behaviour influenced children towards acceptance of behaviours.
+
+
+**Evaluation of behavioural theories**
+
+- Empirical approach
+- Attempts to demonstrate cause and effect
+- Neglects rational thought processes.
+- Does not address behaviours that are present in the absence of conditioning.
+- Demonstration of hostile more likely to develop a hostile bias in future interactions.
+- Some suggest that the setting is artificial. Demonstrating behaviours that were thought to be expected.
+- Fails to determine if behaviours would be generalised in other scenarios.
+- Primary focus on environmental factors, ignoring genetic disposition, sex based neurological differences.
+
+
+###  Ethological Theory
+
+(Darwin, Tinbergen, Burkhardt, Lorenz, Hinde, Ramey & Ramey)
+
+Stresses that behaviour is strongly influenced by biology and evolution while also being mediated by sensitive periods. Emotions and thinking are heavily influenced by inherited factors. Charles Darwin's theory of evolution underpins this theory, stating that more than just physical attributes (hair and eye colour) influence us.
+
+Also Posits that the selective pressures of an environment govern the development of the individual's traits and behaviour, rather than genetic make up. With a basis in Darwin's theory of natural selection, this theory originates in the observation of animals in their natural habitat rather than a lab. Others (Lorenz) in this field observed a critical period of development characterised by **imprinting** in animals, adapted to be known as a **sensitive period** in humans.
+
+
+###  Bioecological Theory (Bronfenbrenner)
+
+The Bioecological model focusses on individual development within a set of overlapping ecological systems. These systems influence the individual together as he/she develops.
+
+1. Microsystem: Immediate social groups such as family, school, work and peers.
+2. Mesosystem: The connection/interaction of 2 micro systems (parent/teacher interviews, birthday party, etc..)
+3. Exosystem: Systems not requiring direct involvement which still exert an influence on the individual, such as newspapers, media, TV.
+4. Macrosystem: Overarching systems which govern day to day lives, such as local council, state government, economy, culture.
+
+The later addition of the Chronosystem addressed the influence of time to both historical events (war, recession, etc.) and the timing of life events (puberty, having children, getting married)
+
+![Bioecological Theory](Images/Topic1/Bronfenbrenner.webp)
+
+###  Life Course Theory {-}
+
+Four key concepts:
+
+1. _Human lives situated in historical time and place_
+    - _Cohort Effect:_ Posits that the effects of an event can influence the development of members across different birth cohorts in different ways.
+    - _Period Effect:_ An historical event can influence the development of individuals across differing birth cohorts in a similar way.
+
+2. _Developmental Studies must pay attention to the time of our lives_
+    - Social roles and events can define our behaviours based on the period of our lives in which they occur. (e.g. teen mum vs 30 something mum)
+
+3. _Human lives are interdependant and linked_
+    - Connections with care givers and others significantly inform later relationships.
+
+4. _Humans have the ability to make decisions and change our lives_
+    - Our own decision making processes and choice of behaviour can impact the direction and pace of our development.
+
+_Bronfenbrenner's theory focussed on the individual, while Elder's theory focussed on social environments._
+
+Cognitive development theories
+
+- Piaget's CDT
+- Sociocultural Theory Development (Vygotsky)
+- Info processing approach (Siegler)
+
+***
+
+## Topic 2: Personality{.well}
+
+### Introduction
+
+- The psychodynamic perspective on personality, originated from the work of Sigmund Freud, emphasizes unconscious psychological processes (such as wishes and fears) and the impact of childhood experiences on adult personality.
+- This perspective has been both influential and controversial, with some of its concepts being supported by empirical evidence while others are not.
+- The psychodynamic theory continues to play an important role in psychology and many related disciplines, such as developmental psychology, social psychology, sociology, and neuroscience.
+- The theory has evolved over time and now includes innovative approaches such as object relations theory and neuropsychoanalysis.
+- In the context of personality, psychodynamic theory can help one understand why they may do things that don't make sense, by exploring unconscious thoughts and emotions.
+
+### Core Assumptions of the Psychodynamic Perspective {.tabset}
+
+The core assumptions of the psychodynamic framework are unique from the components of other personality ideas.
+
+#### 1. Primacy of the Unconscious
+
+- The perspective on unconscious psychological processes is a central aspect of psychodynamic theory.
+- The idea is that unconscious thoughts, feelings, and impulses influence our behaviour, even though we may not be aware of them.
+- For example, a person may have unconscious fears or desires that drive their behaviour, even if they don't consciously understand what is motivating them.
+- Psychoanalytic therapy aims to bring these unconscious processes to consciousness, where they can be better understood and addressed.
+- The belief in the importance of unconscious psychological processes continues to be a defining feature of the psychodynamic perspective on personality.
+
+***
+
+#### 2. Critical Importance of Early Experiences
+
+- The psychodynamic theory holds that childhood experiences and unconscious psychological processes play a crucial role in shaping adult personality.
+- According to this perspective, early childhood experiences, including even those that occur in the first few weeks or months of life, can have a lasting impact on a person's personality development and dynamics.
+- The emphasis on early childhood events sets the psychodynamic theory apart from other models of personality development, which also consider early experiences but do not place as much emphasis on their impact.
+- The theory also posits that experiences outside the normal range, such as the loss of a parent or sibling at an early age, can have a particularly strong impact on personality development.
+
+***
+
+#### 3. Psychic Causality {-}
+
+- The third core assumption of psychodynamic theory is that nothing in mental life happens by chance—that there is no such thing as a random thought, feeling, motive, or behaviour.
+- This has come to be known as the *principle of psychic causality*, and though few psychologists accept the principle of psychic causality precisely as psychoanalysts conceive it, most theorists and researchers agree that thoughts, motives, emotional responses, and expressed behaviours do not arise randomly, but always stem from some combination of identifiable biological and psychological processes (Elliott, 2002; Robinson & Gordon, 2011).
+
+***
+
+### The Evolution of Psychodynamic Theory {.tabset}
+
+- Freud’s background in neurology is the basis for the first incarnation of psychoanalytic theory being regarded as primarily biological.
+- Freud set out to explain psychological phenomena in terms that could be linked to neurological functioning as it was understood in his day.
+- Because Freud’s work in this area evolved over more than 50 years (he began in 1885, and continued until he died in 1939), there were numerous revisions along the way.
+- Thus, it is most accurate to think of psychodynamic theory as a set of interrelated models that complement and build upon each other.
+- Three are particularly important: the topographic model, the psychosexual stage model, and the structural model.
+
+#### The Topographic Model
+
+- The topographic model describes the unconscious, preconscious, and conscious as different regions of the mind.
+- The unconscious is seen as the largest (and most primitive, and controversial) part of the psyche, contains all the instinctual drives, repressed material, and anxiety-producing material (such as sexual impulses and aggressive urges) that are deliberately repressed, meaning they are kept outside of conscious awareness as a form of self-defence because they make you uncomfortable.
+- The preconscious is a more advanced part of the mind, which contains thoughts and feelings that are not currently in conscious awareness but can be brought to consciousness if needed.
+- The conscious is the smallest part of the mind and contains all the thoughts, feelings, and experiences that are currently in awareness.
+- The idea of the unconscious mind continues to be debated in psychology, with some researchers finding evidence for its existence and others believing that unconscious processing can be explained without it.
+- The terms conscious, preconscious, and unconscious continue to be used today and research has provided some support for Freud’s thoughts regarding conscious and preconscious processing.
+- However, the idea of a Freudian unconscious repository of repressed wishes and impulses remains controversial.
+
+***
+
+#### The Psychosexual Stage Model
+
+- The psychosexual stage model proposed by Freud in 1905 argues that human personality development progresses through a sequence of stages (driven by sexual and aggressive energy (libido)), each with its own unique challenge and mode of sexual gratification from infancy to adulthood.
+- The stages are oral, anal, Oedipal, latency, and genital. Fixation at a particular stage due to frustration or over gratification is thought to result in a dependent (oral), controlling (anal), or aggressive/competitive (Oedipal) personality style.
+- Each stage is marked by the appearance of a new erogenous zone (an area of the body that is particularly sensitive to sexual stimulation) and is associated with a specific conflict that must be resolved.
+- According to the model, if the individual experiences trauma or fixates at any of the stages, this can result in the development of certain personality traits and psychological disorders.
+- The psychosexual stage model and its relationship to personality development remain a significant part of psychoanalytic theory.
+
+***
+
+#### The Structural Model
+
+- The structural model describes the psyche as consisting of three parts: the id, the ego, and the superego.
+- The id is the unconscious part of the psyche that is driven by instinctual drives and impulses.
+- The ego is the conscious part of the psyche that mediates between the impulses of the id and the demands of reality.
+- The superego is the moral component of the psyche, which internalizes the values and norms of society and provides a sense of right and wrong.
+- According to the structural model, the dynamic interplay between the id, ego, and superego results in the development of the individual’s personality and behaviour.
+
+***
+
+#### The Ego and its Defences {-}
+
+Common Ego Defences in Psychodynamic Theory
+
+- **Repression**: The unconscious removal of upsetting thoughts and feelings from conscious awareness. Example: A person blocks out memories of childhood abuse.
+- **Denial**: The conscious ignoring the implications of a painful event. Example: A person with a substance abuse problem says "I'm fine—even though people complain about my drinking, I never miss a day of work."
+- **Projection**: Attributing one's own unacceptable thoughts or feelings to others. Example: A person who has aggressive impulses accuses others of being hostile.
+- **Displacement**: Shifting one's emotional responses from a threatening target to a less threatening substitute. Example: A person who is angry with their boss takes out their frustration on their spouse.
+- **Regression**: Reverting to an earlier stage of development in response to stress. Example: An adult who is feeling overwhelmed may start sucking their thumb.
+- **Rationalization**: Offering self-justifying explanations in place of the real reasons for one's behavior. Example: A person who was fired for poor performance says that the job wasn't a good fit for them anyway.
+- **Sublimation**: Channelling unacceptable impulses into socially acceptable behavior. Example: A person who has aggressive impulses becomes a professional boxer.
+- These are just a few of the many ego defenses that have been identified in psychodynamic theory. The use of these defences is seen as a way for the ego to manage anxiety and protect itself from stress, but at the same time, they can also lead to the distorting of reality and the perpetuation of problematic behavior patterns.
+
+***
+
+### Psychodynamic Theories: Where Are We Now? {.tabset}
+
+Empirical Testing of Psychodynamic Concepts: Research has been conducted to empirically test psychodynamic concepts and theories, such as the concept of transference, the role of unconscious processes in personality, and the effects of childhood experiences on adult behavior. This research has provided some support for psychodynamic concepts, but it has also led to modifications and revisions of these concepts.
+
+Psychoanalysis and Culture: The influence of culture on psychoanalytic theory has been recognized and studied. Cultural values, beliefs and norms can shape the way psychoanalytic concepts are understood and applied.
+
+Neuroscience and Psychodynamics: Advances in neuroimaging and neuropsychology have opened up new opportunities to explore the relationship between brain and behavior, and the role of unconscious mental processes in personality. However, the relationship between psychodynamics and neuroscience is still being explored, and the field continues to face challenges in integrating these two perspectives.
+
+#### Object Relations Theory and the Growth of the Psychodynamic Perspective
+
+- This perspective focuses on the role of early childhood relationships in shaping personality and shaping adult relationships. It emphasizes the importance of the child’s experience of being loved, understood and emotionally connected to important caretakers.
+- According to this theory, a child's relationship with his or her parents is crucial to the formation of self-esteem and the capacity for healthy relationships in adulthood.
+- The child's interactions with his or her parents and other significant figures are seen as the building blocks of the child's inner world, including mental representations of self and others, as well as unconscious fantasies, desires, and anxieties.
+- Also emphasizes the importance of the interpersonal context in shaping personality development. This means that relationships, rather than individual factors, are seen as the key drivers of personality development and change.
+- Overall, object relations theory offers a nuanced and sophisticated perspective on the development of personality, recognizing the importance of both early childhood experiences and ongoing relationships in shaping the self and personality.
+
+***
+
+#### Empirical Research on Psychodynamic Theories
+
+- Research has been conducted to empirically test psychodynamic concepts and theories, such as the concept of transference, the role of unconscious processes in personality, and the effects of childhood experiences on adult behavior.
+- This research has provided some support for psychodynamic concepts, but it has also led to modifications and revisions of these concepts.
+- Psychoanalysis and culture is another growing area of interest in contemporary psychodynamic theory.
+- Psychoanalysis has always been concerned with the role of culture in shaping personality, but it has historically focused on the influence of the cultural forces (such as media, religion, politics, and economics) that shape our unconscious desires and conflicts.
+- Today, psychoanalytic research also considers the ways in which culture shapes the way we understand and treat mental illness.
+- In particular, researchers are exploring how cultural and ethnic differences affect the way people experience and express emotions, relationships, and psychological distress.
+- Advances in neuroscience have created new opportunities and challenges for psychodynamic theory. The increasing ability to measure brain activity has created the possibility of gaining new insights into unconscious mental processes, including the workings of the ego, the id, and the superego. However, neuroscience has also created challenges for psychodynamic theory, because it has revealed that some traditional psychoanalytic concepts, such as the notion that the unconscious is inaccessible to conscious awareness, may be too simplistic (Kihlstrom, 2010). Nonetheless, the integration of psychodynamic theory with neuroscience has the potential to advance our understanding of mental processes, personality development, and the treatment of psychological disorders.
+
+***
+
+#### Psychoanalysis and Culture
+
+The influence of culture on psychoanalytic theory has been recognized and studied. Cultural values, beliefs and norms can shape the way psychoanalytic concepts are understood and applied.
+
+***
+
+#### Neuroscience and Psychodynamics
+
+Advances in neuroimaging and neuropsychology have opened up new opportunities to explore the relationship between brain and behavior, and the role of unconscious mental processes in personality. However, the relationship between psychodynamics and neuroscience is still being explored, and the field continues to face challenges in integrating these two perspectives.
+
+***
+
+#### The Opportunities and Challenges of Neuroscience
+
+- The integration of psychodynamic and neuroscientific perspectives has brought new opportunities for exploring the underlying neural mechanisms of psychological processes, such as emotions, thoughts, and behaviours.
+- It has provided a new understanding of the relationship between brain and mental processes and has advanced the treatment of mental disorders.
+- Despite these advancements, there are still challenges in the integration of psychodynamic and neuroscience perspectives, such as the different theoretical frameworks and languages used in both fields.
+- The integration of psychodynamic principles with findings from neuroscience continues to offer a promising direction for future research in the field of psychology.
+
+***
+
+#### Looking Ahead: Psychodynamic Theory in the 21st Century (and Beyond) {-}
+
+- The psychodynamic perspective has been a major force in psychology for more than a century and has had a lasting impact on the field.
+- Despite criticism and controversy, the psychodynamic perspective has been able to evolve and adapt to new ideas, findings, and social forces.
+- The theory continues to be relevant in addressing a wide range of topics such as normal and pathological functioning, motivation and emotion, childhood and adulthood, individual and culture.
+- The integration of psychodynamic concepts with findings from neuroscience has also led to the development of neuropsychoanalysis, which has further expanded our understanding of human behavior and mental functioning. Overall, the psychodynamic perspective offers a comprehensive and integrative approach to understanding human personality and behavior, making it a valuable contribution to the field of psychology.
+
+***
+
+### Personality Traits {.tabset}
+
+- The trait approach to personality psychology aims to understand individual differences in personality by focusing on personality traits, which are basic dimensions along which people differ.
+- Traits are thought to be consistent, stable, and reflective of individual differences.
+- Gordon Allport and Henry Odbert's lexical hypothesis guided their approach to finding the major traits by searching dictionaries for personality descriptors and using statistical techniques to determine which words went together.
+- The goal was to identify the basic dimensions underlying the many words we use to describe people and reduce the number of traits.
+- The trait approach has been successful in identifying the five-factor model or the "big five" traits:
+  - Extroversion,
+  - Conscientiousness,
+  - Agreeableness,
+  - Neuroticism, and
+  - Openness to Experience.
+
+#### The Five-Factor Model of Personality
+
+- The Big Five or Five-Factor Model of personality is the most widely accepted system for describing personality traits.
+- The five traits are Openness, Conscientiousness, Extroversion, Agreeableness, and Neuroticism (OCEAN).
+- These traits describe stable patterns of behavior that persist over long periods of time and have broad-ranging consequences for various areas of life.
+- For instance, Conscientiousness has been found to predict success in college, job performance, and health.
+- There is growing interest in personality psychology among psychologists who work in applied settings like health psychology and organizational psychology.
+
+***
+
+#### Facets of Traits (Subtraits)
+
+- The Big Five traits are a widely accepted framework for summarizing a person's personality.
+- They are, however, considered broad and do not capture the complexity and specificity of an individual's behavior and thoughts.
+- To address this, lower-level units of personality known as facets have been proposed.
+- Facets provide more specific descriptions of a person's characteristics and are useful in providing a more nuanced understanding of an individual's personality.
+- Different facets within a trait tend to go together and can be used to predict how a person might behave in different situations.
+- The list of facets is not universally accepted, and different researchers may propose different lists. Nevertheless, facets provide valuable information and add to our understanding of a person's personality beyond just their Big Five trait scores.
+
+***
+
+#### Other Traits Beyond the Five-Factor Model
+
+- Not all researchers agree on the number and composition of personality traits, and there have been other models proposed with different traits.
+- For example, Hans Eysenck proposed that Extraversion and Neuroticism are the two most important traits and linked them to differences in people's biology.
+- The HEXACO model adds Honesty-Humility as a sixth dimension of personality.
+- Despite the popularity of the Big Five, there are still debates on the exact number and composition of the traits that are most important in understanding personality.
+- Additionally, there are many other traits that have been studied by researchers in the field of personality psychology that are not included in comprehensive models like the Big Five.
+
+***
+
+#### The Person-Situation Debate and Alternatives to the Trait Perspective {-}
+
+- The person-situation debate in personality psychology arose from the publication of Walter Mischel's book "Personality and Assessment" in 1968.
+- Mischel challenged the traditional trait perspective of personality by suggesting that people's behavior is not consistently consistent across different situations.
+- He believed that psychologists should focus on people's unique reactions to specific situations rather than studying broad, context-free traits.
+- Subsequent research to address this theory showed that on average, the effect of the situation is about as large as that of personality traits.
+- Personality traits still provide an indication of how people will act on average, but they are not always good predictors of specific behavior in a given situation.
+- Most modern personality researchers acknowledge the value of both broad personality traits and narrower units studied by Mischel.
+
+***
+
+### Personality Assessment {.tabset}
+
+- The study of personality is diverse and encompasses a broad range of traits and characteristics.
+- Different theoretical models have led to different approaches for measuring these characteristics.
+- *Humanistic* models focus on individuals' goals and motivations, so asking them directly is a good approach.
+- *Psychodynamic* models suggest that unconscious processes drive behaviour, so researchers adopt indirect approaches to identify these factors.
+
+#### Objective Tests
+
+- Objective tests have several advantages in personality assessment:
+  - Relatively inexpensive and easy to administer, 
+  - Can be administered to large groups of people, and 
+  - Are usually highly reliable (i.e., they provide consistent scores over time).
+- However, objective tests have certain limitations as well:
+  - Limited in their ability to capture the complexity of individual differences,
+  - May not always provide a complete picture of an individual's personality,
+  - Can be affected by social desirability bias (where people tend to respond in a way that they believe is socially desirable or acceptable), rather than providing a true representation of their personality.
+- Despite these limitations, objective tests continue to be widely used in personality assessment due to their ease of use, reliability, and versatility.
+
+#### Basic Types of Objective Tests
+
+##### Self-Report Measures
+
+- Objective personality tests are widely used to assess personality, and can be self-administered or performed by a psychologist.
+- Self-report tests, in which individuals describe themselves, are the most widely used type of objective test.
+- They offer advantages such as:
+  - cost-effectiveness, and
+  - simplicity and access to a wealth of information.
+- Self-reported personality has been shown to have significant validity in relation to various important outcomes, such as academic and job performance, occupational attainment, divorce, and mortality, as well as links to psychopathology.
+- Self-reported personality, however, is limited by:
+  - The possibility of socially desirable responding,
+  - Self-enhancement bias, and
+  - The reference group effect.
+
+##### Informant Ratings
+
+- Informant personality ratings are a method of assessing someone's personality where the information is gathered from a person who knows the person being rated well, such as a parent, teacher, spouse, friend, or boss.
+- These ratings are particularly useful when self-ratings are not possible or not reliable.
+- Informant ratings offer advantages such as:
+  - Being based on the informant's observation of the person's behaviour, and
+  - Being less likely to be distorted by defensiveness.
+- Informant ratings can also be limited by:
+  - The amount of information the informant has about the person, and
+  - Are subject to response biases (the reference group effect, and the tendency for informants to produce overly favourable ratings).
+  
+#### Other Ways of Classifying Objective Tests
+
+- Personality tests differ on two dimensions:
+  - *Comprehensiveness* (measure a single attribute (e.g. Toronto Alexithymia Scale, Rosenberg Self-Esteem Scale), and
+  - *Breadth of the target characteristics* (e.g. California Psychological Inventory, HEXACO Personality Inventory, Multidimensional Personality Questionnaire, NEO Personality Inventory-3, Personality Research Form, 16PF).
+- There are different levels of breadth or generality at which personality characteristics can be classified.
+- Some models emphasize broad, "big" traits, while others focus on more specific characteristics.
+- Some popular personality instruments assess only broad traits, while others assess a large number of more specific characteristics.
+- Some instruments are explicitly designed to provide coverage of both general and specific trait characteristics.
+
+#### Projective and Implicit Tests
+
+- *Projective* tests are based on the belief that unconscious needs, feelings, and experiences can be revealed by having people describe or interpret ambiguous stimuli.
+- Examples of projective tests include the Rorschach Inkblot Test and the Thematic Apperception Test (TAT).
+- Projective tests can be cumbersome to administer and score, but they can provide information about implicit motives that is not easily obtained from objective measures.
+- The TAT has shown significant validity in measuring the need for achievement, while the validity of the Rorschach has been a matter of controversy.
+
+- *Implicit* measures of personality are based on the idea that people form automatic or implicit associations between certain concepts based on their previous experience and behaviour.
+- These measures assess the strength of associations between concepts and can be used to predict behavior, even after controlling for scores on objective measures of personality.
+- While validity evidence for these measures is still limited, the results to date are promising.
+
+#### Behavioral and Performance Measures
+
+- Behavioural measures of personality involve directly observing and measuring people's behaviour in natural settings.
+- This approach offers several advantages, such as avoiding response biases and studying people in their daily lives.
+- However, it is more labour-intensive than other methods and generates a large set of data that must be scored reliably.
+- Also, the small samples of behavior collected may not reflect a person's true characteristics accurately, as they can be influenced by transient factors such as a participant's level of stress, and their quality of sleep the previous night.
+
+## Topic 3: Psychological Disorders {.tabset}{.well}
+
+### LO1: Consider how the three D’s inform our understanding of what is ‘abnormal’, and outline the diagnostic manuals used to classify and categorise psychological disorders.
+
+#### What is abnormal?
+
+Abnormal behaviour is behaviour that is personally distressing, personally dysfunctional, and/or so culturally deviant that other people judge it to be inappropriate or distressing.
+
+#### The 3Ds of Abnormality
+
+Distressing - to the individuals and/or people around them.
+Dysfunctional - to the individual and/or society in some way.
+Deviant - Significantly differs from societal norms and/or is out of situational context.
+
+For example, homosexuality was considered abnormal behaviour and outside of societal norms until 1973, and was subsequently removed from the DSM in 1987.
+
+#### Diagnostic Manuals
+
+Diagnostic and Statistical Manual (DSM)
+
+  -   Main publication manual
+  -   Revised every 2 - 3 years
+  -   Most commonly used within Australia
+  -   Published (and updated) by the American Psychological Association
+
+International Statistical Classification of Diseases and Related Health Problems (ICD10)
+
+  -   Published by World Health Organisation
+
+### LO2: Describe the vulnerability-stress model and how it assists in explaining the development of behavioural disorders.
+
+#### The Vulnerability-Stress Model
+
+-   Also known as the Diathesis-Stress Model
+-   The culmination of vulnerability (predisposing factors) and stress (precipitating factors) that lead to a Mental Health Disorder.
+-   As described in the "Stress Bucket" video
+-   The bucket represents our capacity to cope with stress
+-   The events in our life add or remove water from the bucket
+
+IMAGE!
+
+### LO3: Understand the key characteristics of the anxiety and related disorders, and explain the underlying causal factors.
+
+#### Anxiety and Related Disorders
+
+Are characterised by a subjective experience of fear and worry, physiological arousal, and a behavioural tendency to escape or avoid a feared situation
+
+#### What Makes It Abnormal?
+
+Anxiety - A natural response to a perceived threat.
+
+Anxiety Disorder - The intensity or frequency of an individual's anxiety response that is out of proportion to the situation.
+
+Anxiety itself stems from an evolutionary perspective and the potential threat to our safety from our environment (e.g. animals), however, observable changes to our society have altered the nature and frequency of external threats.
+
+#### Anxiety Disorder Examples
+
+-   Post Traumatic Stress Disorder
+-   Generalised Anxiety Disorder
+-   Panic Disorder
+-   Social Anxiety Disorder
+-   Specific Phobias
+
+#### Generalised Anxiety Disorder
+
+-   Chronic state of diffuse anxiety that is not attached to specific situations or objects.
+-   Lasting at least 6 months.
+
+#### Phobias
+
+-   Strong irrational fears of certain objects or situations
+-   Characterised by the avoidance of a particular stimulus
+-   Impact on an individual's life depends on the stimulus and the frequency of exposure
+
+#### Proposed Causal Factors for Anxiety Disorders
+
+-   Biological: genetics, over active autonomic nervous system.
+-   Psychological: Anxiety as a learned response
+-   Sociocultural: culturally bound anxieties such as taijin kyofusho. Taijin kyofusho is characterised by an intense fear that one's body parts or functions displease, embarrass or are offensive to others.
+
+### LO4: Provide an overview of the somatic symptom and dissociative disorders, and consider how culture influences incidence and prevalence.
+
+Somatic symptom and related disorders involve physical complaints or disabilities that suggest a medical problem, but do not have a known biological cause and are not produced voluntarily by a person, such as:
+
+-   Somatic Symptom Disorder.
+-   Illness Anxiety Disorder.
+-   Conversion Disorder (functioning neurological symptom disorder).
+-   Psychological factors affecting other medical conditions.
+-   Factitious Disorder (A patient intentionally falsifies medical or psychiatric symptoms.
+
+#### Culture and Somatic Symptom Disorders
+
+-   Incidence appears higher in groups where discussing emotions and psychological disorders are stigmatised.
+-   Subgroups such as the military, police and first responders tend to have higher rates in Western cultures.
+-   People from Chinese/Japanese cultures can exhibit higher somatic awareness, but lower interoceptive accuracy compared to Western cultures
+-   Language and cultural practices such as yoga, tai chi and mindfulness are thought to explain these differences.
+
+#### Dissociative Disorders
+
+Are characterised by a disruption of and/or discontinuity in the normal integration of consciousness, memory, identity, emotion, perception, body representation, motor control and behaviour. In other words these disorders are characterised by a breakdown in the normal integration of personality traits and qualities, such examples are:
+
+-   Dissociative Amnesia
+-   Dissociative Identity Disorder (DID)
+-   Depersonalisation/Derealisation Disorder
+  
+#### Culture and Dissociative Disorders
+
+-   Focus on the self (as with DID), which is constructed largely through our culture/s
+-   Generally more common in Western cultures
+-   Research into this area is still in its infancy
+-   Voluntary experiences of depersonalisation/derealisation through meditation practices in some cultures
+-   Some cultures can view this as an experience of possession by a spirit.
+
+### LO5: Describe the symptoms associated with depression and bipolar disorder, and outline the typical course and causal factors.
+
+Major Depressive Disorder is an intense state of dysphoria and/or lack of ability to feel positive emotion (anhedonia), leaving a person unable to function effectively in their life.
+
+#### Course of MDD
+
+-   Can appear at any age, most commonly in 20s
+-   Highly variable course; some people do not experience remission, while others have long periods between episodes
+-   Recovery often starts within three months of symptom onset for every 2 in 5 people and within a year for 4 to 5 people.
+
+#### Proposed Causal Factors for MDD
+
+-   Biological: genetics, low levels of norepinephrine, dopamine and serotonin.
+-   Psychological: negative self beliefs, low self esteem and learned helplessness.
+-   Environmental: adverse childhood events.
+
+Bipolar Disorders involve alternating periods of depressive and manic states.
+
+#### Bipolar Subtypes
+
+| Bipolar I Disorder                                                                                                                | Bipolar II Disorder                                                                                                                   |
+|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Involves experiences of depression that alternate with periods of mania (highly excited state of mood and behaviour) | Involves experiences of depression that alternate with periods of hypomania (similar symptoms to mania, but less severe) |
+
+#### Course of Bipolar Disorders
+
+##### Bipolar I
+
+-   Mean age onset of 18 years
+-   \>90% of people who have a single manic episode experience recurrent mood episodes.
+
+##### Bipolar II
+
+-   Mean age onset in early 20s.
+-   Generally begins with depressive episode(s)
+-   Lower number of depressive episodes across the lifespan than Bipolar I
+-   Time between mood episodes tends to lessen with age.
+-   Depressive moods are more chronic and intense
+
+#### Proposed causal factors for Bipolar Disorders
+
+-   Biological: Approximately 10 times higher risk among relatives of people with BI or BII as a result of overactive BAS (Behavioural Activation System)
+-   Psychological: cognitive styles involving high autonomy, high standards, and strong self criticism predicted hypomanic/manic states.
+
+### LO6: Provide an explanation of the characteristics and sub-types relating to schizophrenia and the associated causes.
+
+Schizophrenia involves a constellation of cognitive, behavioural and emotional dysfunctions associated with impaired occupational and social functioning.
+
+#### Schizophrenia Sub-Types
+
+According to the DSM-IV:
+
+-   Paranoid
+-   Disorganised
+-   Catatonic
+-   Undifferentiated (mixed symptoms of 2 or more sub-types)
+-   Residual
+
+#### Removal of Sub-Types from DSM-V
+
+##### Rationale
+
+-   Presentation of sub-types overlapped
+-   Sub-types did not remain stable over time
+-   Did not predict course of disorder
+-   Cluster analyses showed patients could not be accurately categorised into sub-types based on symptoms
+
+##### Outcome
+In the DSM-IV, the sub-types are now listed as optional specifiers or extensions to the diagnosis that offer more clarity to the clinician (more than one can be applied).
+
+#### Proposed Causal Factors for Schizophrenia
+
+-   Environmental: Stressors
+-   Biological: genetic combination of <abbr title="The basic components of a gene">alleles</abbr>, structural abnormalities in the brain, over production of dopamine
+-   Social: socioeconomic status.
+
+More research is required on this disorder, and all causal factors are not yet identified.
+
+### LO7: Explain the characteristics and causes of personality disorders, and consider the dimensional approach to diagnosis.
+
+A personality disorder is an enduring pattern of inner experience and behaviour that deviates markedly from the expectations of the individual's culture, is pervasive and inflexible, has an onset in adolescence or early adulthood, is stable over time, and leads to distress or impairment.
+
+#### Proposed Causal Factors for Personality Disorders
+
+##### Antisocial Personality Disorder (APD)
+
+-   Biological: genetic predisposition, differences in brain structure
+-   Psychological: maladaptive learning
+
+##### Borderline Personality Disorder
+-   Biological: genetic predisposition
+-   Environmental: early trauma, rejection, abandonment
+
+#### Dimensional Approach to Diagnosis
+
+-   As opposed to a categorical approach (either present or not present), the dimensional approach is based on the premise that behaviours, emotions and cognitions are rated on a continuum of severity.
+-   In the context of personality disorders, these are the main facets considered:
+    +   Disturbances in the self
+    +   Disturbances in interpersonal functioning
+    +   Five broad personality domains
+-   Personality disorders are then considered as the extent to which an individual demonstrates the two main facets and trait domains.
+
+### LO8: Describe the childhood neurodevelopmental disorders and underlying causal factors associated with each.
+
+Neurodevelopmental Disorders are characterised by neurodevelopmental deficits that are known to always manifest at an early age, usually before or just after the child enters school, and interfere with the child's personal, social, or academic functioning.
+
+##### Examples of Neurodevelopmental Disorders
+
+-   Intellectual Development Disorder
+-   Communication Disorders
+-   Neurodevelopmental Motor Disorders
+-   Specific Learning Disorders
+-   Autism Spectrum Disorder (ASD)
+-   Attention-Deficit Hyperactivity Disorder (ADHD)
+
+#### Autism Spectrum Disorder (ASD)
+
+Involves two main domains:
+
+-   Difficulties in social interactions
+-   A pattern of repetitive behaviours, interests and activities
+
+##### Proposed Causal Factors for ASD
+
+-   Biological: genetics, anomalies in brain structure and functioning
+-   Psychological: <abbr title="The understanding that others have unique beliefs and desires that are different from our own, helping us attribute these characteristics to others.">Theory of Mind</abbr>
+-   There is no link between vaccinations and autism.
+
+#### Attention-Deficit Hyperactivity Disorder (ADHD)
+
+-   Defined by impairing of skills such as inattention, disorganisation, and/or hyperactivity and impulsivity.
+-   Causal factors are largely unknown, but are thought to be affected by genetic and environmental factors.
+
+### LO9: Critically evaluate the consequences of diagnostic labelling for the people that receive them, and consider the potential personal, social and legal consequences.
+
+#### Diagnostic Labels
+
+-   An assumption that all people with a particular disorder are largely the same in the underlying character of a disorder.
+-   Diagnostic labels serve multiple purposes:
+    -   Allowing clinicians to process a lot of information
+    -   Making it easier to communicate about patients (describing symptoms and prognosis, as well as <abbr title="the cause, set of causes or manner of causation of a disease or condition">etiology</abbr> and treatment)
+
+#### Social and Personal Consequences
+
+-   Can be difficult to separate the person and their behaviour
+-   May stick even after the person is no longer affected by the disorder
+-   Self-fulfilling prophecy (adopting behaviours attributed to a disorder that may not already be exhibited).
+-   Stigma, shame or guilt that may prevent a patient from seeking treatment or resolution.
+
+#### Legal Consequences
+
+-   Involuntary hospitalisation
+-   If accused of a crime, the defendant may be deemed "not competent to stand trial" and hospitalised until deemed competent.
+-   Deemed as "defensive mental impairment" (Australian version of "not guilty by reason of insanity")
+
+## Topic 4: Psychological Treatment {.tabset}{.well}
+
+## Topic 5: Social Psychology {.tabset}{.well}
+
+### Introduction
+
+- This chapter provides an overview of social psychology, which examines how other people influence our lives, thoughts, and behaviours.
+- It covers topics such as group processes, social cognition, conformity, obedience, prejudice, discrimination, and altruism.
+- The section on social cognition explores how people influence our thinking and how we simplify our social thinking using various heuristics.
+- The chapter also highlights some of the most famous research studies in conformity and obedience and reviews the controversy surrounding them.
+- Finally, the chapter discusses altruism and how it affects our behaviours towards others.
+
+### An Introduction to the Science of Social Psychology
+
+- Social psychology is the branch of psychological science that focuses on how the presence of others affects our thoughts, feelings, and behaviours.
+- It studies group interactions, cultural influences, and the costs and benefits of social status, among other psychological processes involving two or more people.
+- Social psychology is relevant to our everyday lives because we are social animals who care deeply about our relationships.
+- Research has shown that having high-quality relationships is a key factor in happiness, while feeling lonely or isolated can lead to depression and physical health problems.
+
+### Social Psychology is a Science
+
+- The need to belong is the desire for social connections with others and is rooted in developmental psychology.
+- It is also relevant to clinical psychology as a lack of belonging can contribute to loneliness and depression.
+- In daily life, the distinctions between areas of psychology such as social, developmental, personality-based, and clinical tend to blend together, and each has unique approaches to research.
+
+### What is Included in Social Psychology?
+
+#### Attraction
+
+- Researchers found that when rating the faces of strangers, people from different ethnicities and cultures agreed on which faces were better looking and the specific facial features associated with attractiveness.
+- When it came to rating the attractiveness of friends, facial features like skin smoothness and eye size appeared to be less important. Instead, likeable personality characteristics were a better predictor of who was considered good looking.
+- This suggests that while certain physical features are important in assessing attractiveness, personality traits become more important once we know a person.
+
+#### Attitudes
+
+- Social psychology is a field of psychology that studies how people interact with and influence each other.
+- Social psychologists are interested in:
+  - *attitudes*,
+  - *stereotyping*,
+  - *prejudice*, and
+  - *discrimination.*
+- They study:
+  - how people form attitudes,
+  - where these attitudes come from, and
+  - how they change over time.
+- Social psychologists are also interested in ways to make the world a better place, and they conduct research on attitude change and empathy towards members of different groups.
+
+### Peace & Conflict
+
+- One example is the study by Dov Cohen and his colleagues on people from a "culture of honour" and their reactions to aggression, which found that those from honour cultures were more likely to become angry in response to perceived offence, but did not necessarily act out more aggressively.
+
+### Social Influence
+
+- Persuasion involves delivering a message to influence behavior in a desired way, and it is used in various contexts, including advertising and healthcare.
+- Research has shown that small acts of kindness, like offering a small gift, can increase the likelihood of receiving a larger tip.
+- The principle of *reciprocity*, which involves the feeling of needing to give something back when something is received, plays a role in persuasion.
+- Policies such as "opt-out" organ donation have been successful in persuading more people to donate their organs, thereby saving more lives.
+
+### Social Cognition
+
+- Social cognition is the way we think about the social world and perceive others.
+- Social attribution is when we make educated guesses about the efforts or motives of others.
+- The *fundamental attribution error* is the consistent way we attribute people's actions to personality traits while overlooking situational influences.
+- This can also occur with groups we belong to versus opposing groups, where we may attribute negative behavior to the character of the opposing group while excusing similar behavior by our own group.
+
+### Conclusion
+
+- Social psychologists study the ways in which people relate to each other and the impact these relationships have on individuals and society as a whole.
+- With the increase in connectivity and diversity in our modern world, there have been significant shifts in political engagement, ethnic relations, and family structure.
+- Social psychology research can lead to practical solutions for social problems, and can be used by various groups, including lawmakers, educators, therapists, and policy makers.
+
+## Topic 6: Indigenous and Cross-Cultural Psychology{.well}

@@ -1,0 +1,3981 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>SIT191: Introduction to Statistics and Data Analysis</title>
+
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BPsychSci</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-list fa-lg"></span>
+     
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-book fa-lg"></span>
+     
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="HBS110.html">HBS110</a>
+    </li>
+    <li>
+      <a href="HPS104.html">HPS104</a>
+    </li>
+    <li>
+      <a href="HPS105.html">HPS105</a>
+    </li>
+    <li>
+      <a href="HPS111.html">HPS111</a>
+    </li>
+    <li>
+      <a href="HPS121.html">HPS121</a>
+    </li>
+    <li>
+      <a href="HPS201.html">HPS201</a>
+    </li>
+    <li>
+      <a href="HPS202.html">HPS202</a>
+    </li>
+    <li>
+      <a href="HPS203.html">HPS203</a>
+    </li>
+    <li>
+      <a href="HPS204.html">HPS204</a>
+    </li>
+    <li>
+      <a href="HSH105.html">HSH105</a>
+    </li>
+    <li>
+      <a href="HSH206.html">HSH206</a>
+    </li>
+    <li>
+      <a href="SIT191.html">SIT191</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">SIT191: Introduction to Statistics and Data
+Analysis</h1>
+
+</div>
+
+
+<div id="week-2-quiz" class="section level2 well">
+<h2 class="well">Week 2 Quiz</h2>
+<p><strong>Question 1</strong> Runners returning to activity after lower
+leg fractures are to be allocated to two different training programs.
+Half of each group will follow a high calcium diet, and the other half
+will follow a high protein diet.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />Bone density measurements
+were taken for all subjects.</label></li>
+<li><label><input type="checkbox" />Which of the following designs would
+be likely to give the most reliable results?</label></li>
+<li><label><input type="checkbox" />Runners are randomly allocated to
+either of the training programs and then also randomly allocated to
+either diet.</label></li>
+<li><label><input type="checkbox" />Runners are randomly allocated to
+either of the training programs and then the females follow the high
+calcium diet and the males the high protein diet.</label></li>
+<li><label><input type="checkbox" />Runners get to decide themselves
+whether they would like to be part of the high protein or high calcium
+diet group. They also choose the training program that best suits
+them.</label></li>
+</ul>
+<p><strong>Question 2</strong> For the following report about a
+statistical study, select the best option for each part. Just enter the
+letter.</p>
+<p>Following a week of heavy rain, ocean water samples were collected by
+environmental researchers from a selection of beaches in the bay around
+Melbourne and then tested for contaminants.</p>
+<p>The Population of interest:</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />People living in Melbourne and the
+bay area</label></li>
+<li><label><input type="checkbox" checked="" />Beaches in the bay around
+Melbourne</label></li>
+<li><label><input type="checkbox" />Australia’s beaches</label></li>
+<li><label><input type="checkbox" />Environmental
+researchers</label></li>
+</ul>
+<p>Population parameter of interest:</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Whether or not it is dangerous to
+swim</label></li>
+<li><label><input type="checkbox" checked="" />Average level of
+contamination of the bay water around Melbourne</label></li>
+<li><label><input type="checkbox" />Average number of people exposed to
+pollution</label></li>
+<li><label><input type="checkbox" />average rainfall</label></li>
+</ul>
+<p>Sample:</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />The water samples that
+were collected from the selected beaches</label></li>
+<li><label><input type="checkbox" />Every beach around the
+bay</label></li>
+<li><label><input type="checkbox" />Each of the water samples collected
+from beaches where rain fell</label></li>
+<li><label><input type="checkbox" />Not stated</label></li>
+</ul>
+<p>The sample statistic:</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Average number of people exposed to
+pollution</label></li>
+<li><label><input type="checkbox" />The contamination level of one
+sample</label></li>
+<li><label><input type="checkbox" />Whether one of the beaches is safe
+to swim at</label></li>
+<li><label><input type="checkbox" checked="" />Average level of
+contamination of the water samples</label></li>
+</ul>
+<p>A case:</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Average number of people exposed to
+pollution</label></li>
+<li><label><input type="checkbox" />Whether one of the beaches is safe
+to swim at</label></li>
+<li><label><input type="checkbox" checked="" />A water sample from a
+selected beach</label></li>
+<li><label><input type="checkbox" />Average level of contamination of
+the water samples</label></li>
+</ul>
+<p>Variable:</p>
+<ul class="task-list">
+<li><label><input type="checkbox"
+checked="" />Contamination</label></li>
+<li><label><input type="checkbox" />Whether one of the beaches is safe
+to swim at</label></li>
+<li><label><input type="checkbox" />The average contamination level of
+the whole bay</label></li>
+<li><label><input type="checkbox" />Average level of contamination of
+the water samples</label></li>
+</ul>
+<p><strong>Question 3</strong> Consider the brief report of the
+statistical research below.</p>
+<p>Runners returning to activity after lower leg fractures were randomly
+allocated to two different training programs. Half of each group also
+followed a high calcium diet. Bone density measurements were taken for
+all subjects.</p>
+<p>Which of the following best describes the type of study
+conducted?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />An observational study
+(prospective)</label></li>
+<li><label><input type="checkbox" checked="" />An
+experiment</label></li>
+<li><label><input type="checkbox" />An observational study
+(retrospective)</label></li>
+</ul>
+<p><strong>Question 4</strong> Consider the brief report of the
+statistical research below:</p>
+<p>The medical records of retired basketball athletes who experienced
+either hand or knee injuries were collected, as well as the length of
+their sporting career. The average career lengths of those who
+experienced either a knee injury, hand injury, or both, were calculated
+and compared.</p>
+<p>Which of the following best describes the type of study
+conducted?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />An observational study
+(prospective)</label></li>
+<li><label><input type="checkbox" checked="" />An observational study
+(retrospective)</label></li>
+<li><label><input type="checkbox" />An experimental study</label></li>
+</ul>
+<p><strong>Question 5</strong> A survey of students found that they are
+more likely to get colds when they are stressed. The study also noted
+that students exercise less and eat more junk food when they are
+stressed.</p>
+<p>Choose all answers that apply to this study.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />Stress is the explanatory
+variable and colds the response variable.</label></li>
+<li><label><input type="checkbox" />Exercise is the response variable
+and colds the explanatory variable.</label></li>
+<li><label><input type="checkbox" />Stress is used here as a blocking
+variable.</label></li>
+<li><label><input type="checkbox" checked="" />Junk food consumption and
+exercise are possible lurking/confounding variables that could explain
+the observed association between colds and stress.</label></li>
+<li><label><input type="checkbox" />This is an observational study so it
+is not possible to establish a causal relationship between stress and
+colds.</label></li>
+<li><label><input type="checkbox" checked="" />It is possible to
+establish a causal relationship between stress and colds for this
+experiment.</label></li>
+</ul>
+<p><strong>Question 6</strong> A doctor wants to select a sample of his
+adult patients. He randomly selects patients from each of the age
+brackets 18-30, 31-50, 51-70, 71-100. Which option best describes the
+sampling method?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Simple Random</label></li>
+<li><label><input type="checkbox" />Multistage</label></li>
+<li><label><input type="checkbox" checked="" />Stratified</label></li>
+<li><label><input type="checkbox" />Convenience</label></li>
+<li><label><input type="checkbox" />Cluster</label></li>
+</ul>
+<p><strong>Question 7</strong> A lecturer want to select a sample of
+students studying her subject. From a list of all the prac groups, a
+particular prac is selected at random and all the students in that prac
+class are selected. Which option best describes the sampling method?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Simple Random</label></li>
+<li><label><input type="checkbox" checked="" />Multistage</label></li>
+<li><label><input type="checkbox" />Cluster</label></li>
+<li><label><input type="checkbox" />Stratified</label></li>
+<li><label><input type="checkbox" />Volunteer</label></li>
+</ul>
+<p><strong>Question 8</strong> For the following research study:</p>
+<p>A company studied the effects of storage time and storage temperature
+on the deterioration of a particular product. Three different
+temperatures were used, and 5 different storage times.</p>
+<p>Which of the following are factors in the experiment?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Product’s deterioration</label></li>
+<li><label><input type="checkbox" checked="" />Storage
+temperature</label></li>
+<li><label><input type="checkbox" />Company’s products</label></li>
+<li><label><input type="checkbox" checked="" />Storage time</label></li>
+</ul>
+<p><strong>Question 9</strong> Cats suffering with kidney disease were
+randomly assigned to diets differing in protein and moisture to see if
+any diet was more effective in slowing the progression of the disease
+and allowing the cat to live longer. Measurements of serum creatinine,
+blood urea nitrogen, potassium and calcium were made before and after
+the cats followed the diet for three months. The cats were assigned to a
+protein level diet (13% or 18%) with one third of each protein group
+given canned food, one third given dry food and the remaining third a
+mixture of canned and dry food.</p>
+<p>Identify the factors in this study, and the levels of each.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />protein and moisture (1 level
+each)</label></li>
+<li><label><input type="checkbox" checked="" />protein (2 levels) and
+moisture (3 levels)</label></li>
+<li><label><input type="checkbox" />serum creatinine, blood urea
+nitrogen, potassium and calcium (1 level each)</label></li>
+<li><label><input type="checkbox" />protein (2 levels) and moisture (1
+level)</label></li>
+<li><label><input type="checkbox" />protein (3 levels) and moisture (2
+levels)</label></li>
+</ul>
+<p><strong>Question 10</strong> Cats suffering with kidney disease were
+randomly assigned to diets differing in protein and moisture to see if
+any diet was more effective in slowing the progression of the disease
+and allowing the cat to live longer. Measurements of serum creatinine,
+blood urea nitrogen, potassium and calcium were made before and after
+the cats followed the diet for three months. The cats were assigned to a
+protein level diet (13% or 18%) with one half of each protein group
+given canned food and the other half dry food.</p>
+<p>How many different treatment groups are there?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />4</label></li>
+<li><label><input type="checkbox" />3</label></li>
+<li><label><input type="checkbox" />5</label></li>
+<li><label><input type="checkbox" />2</label></li>
+<li><label><input type="checkbox" />6</label></li>
+</ul>
+<p><strong>Question 11</strong> Consider the following research
+study:</p>
+<p>People suffering from migraines were given either a pain relief
+tablet or a placebo tablet. Half of each group was also given a glass of
+iced water. Migraine symptoms for each participant were observed after 1
+hour.</p>
+<p>Which of the following statements concerning blinding are true?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />It would be possible to
+conduct the experiment so that the researchers were blind to the
+treatments given when analysing the results.</label></li>
+<li><label><input type="checkbox" />This study can definitely be set up
+as double-blind.</label></li>
+<li><label><input type="checkbox" />It would be possible to conduct the
+experiment so that participants are blind to any treatment they are
+given.</label></li>
+</ul>
+</div>
+<div id="week-3-quiz" class="section level2 well">
+<h2 class="well">Week 3 Quiz</h2>
+<p><strong>Question 1</strong> Which of the following statements is
+true?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />If the data is skewed left, the mean
+is likely to be higher than the median.</label></li>
+<li><label><input type="checkbox" />All of the statements are
+true.</label></li>
+<li><label><input type="checkbox" />If the data is symmetric and
+unimodal, the value of the mode is likely to be much greater than the
+median.</label></li>
+<li><label><input type="checkbox" />If the data is strongly skewed, the
+mean and median are close in value.</label></li>
+<li><label><input type="checkbox" checked="" />Outliers affect the mean
+and standard deviation.</label></li>
+</ul>
+<p><strong>Question 2</strong> Acid rain: Two researchers measured the
+pH (a scale on which a value of 7 is neutral and values below 7 acidic)
+of water collected from rain and snow over a 6-month period in Allegheny
+County, Pennsylvania.<br />
+Consider the following data:</p>
+<p>4.84 5.53 5.33 4.49 5.07 4.80 5.26 5.72 5.25 Calculate the
+<strong>mean</strong> (give your answer correct to 2 decimal
+places).</p>
+<p><strong>Answer:</strong> <em>5.14</em></p>
+<pre class="r"><code>Q2 &lt;- c(4.84,5.53,5.33,4.49,5.07,4.80,5.26,5.72,5.25)
+Q2ans &lt;- round(mean(Q2), 2)
+Q2ans</code></pre>
+<pre><code>## [1] 5.14</code></pre>
+<p><strong>Question 3</strong> Acid rain: Researchers measured the pH of
+water collected from rain and snow over a 6-month period in Allegheny
+County, Pennsylvania.<br />
+Consider the following observations:</p>
+<p>4.65 4.24 4.72 5.00 4.13 5.23 Calculate the <strong>sample standard
+deviation</strong> (give your answer correct to 2 decimal places).</p>
+<p>Use technology, or if you are going to do this by hand (not
+recommended), don’t round the mean or your squared differences - only
+round at the end.</p>
+<pre class="r"><code>Q3 &lt;- c(4.65,4.24,4.72,5.00,4.13,5.23)
+Q3ans &lt;- round(sd(Q3), 2)
+Q3ans</code></pre>
+<pre><code>## [1] 0.42</code></pre>
+<p><strong>Question 4</strong> Acid rain: Researchers measured the pH of
+water collected from rain and snow over a 6-month period in Allegheny
+County, Pennsylvania.<br />
+Consider the following data:</p>
+<p>4.80 4.12 5.05 4.10 5.49 5.78 5.57 5.45 4.89 5.07</p>
+<p>Find the <strong>median</strong> (give your answer correct to 2
+decimal places).</p>
+<pre class="r"><code>Q4 &lt;- c(4.80,4.12,5.05,4.10,5.49,5.78,5.57,5.45,4.89,5.07)
+Q4ans &lt;- round(median(Q4), 2)
+Q4ans</code></pre>
+<pre><code>## [1] 5.06</code></pre>
+<p><strong>Question 5</strong> Which of the following statements is
+true?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />50% of data falls between Q1 and the
+median</label></li>
+<li><label><input type="checkbox" checked="" />50% of data falls above
+the median</label></li>
+<li><label><input type="checkbox" />only 25% of data falls above
+Q1</label></li>
+<li><label><input type="checkbox" />no more than 25% of data falls below
+Q3</label></li>
+<li><label><input type="checkbox" />none of the statements are
+true</label></li>
+</ul>
+<p><strong>Question 6</strong> From the SPSS output below, which
+response shows the mean and median?</p>
+<div class="float">
+<img src="images/SIT191/Wk3Images/Q6Img.png" alt="Q6Img" />
+<div class="figcaption">Q6Img</div>
+</div>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span class="math inline">\(\bar{x}
+=28.783\)</span>, <span
+class="math inline">\(median=0.4021\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(\bar{x}=28.800\)</span>, <span
+class="math inline">\(median=28.783\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(\bar{x}=28.887\)</span>, <span
+class="math inline">\(median=28.800\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(\bar{x}=28.361\)</span>, <span
+class="math inline">\(median=29.205\)</span></label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(\bar{x}=28.783\)</span>, <span
+class="math inline">\(median=28.800\)</span></label></li>
+</ul>
+<p><strong>Question 7</strong> What is the five number summary from the
+output below?</p>
+<table class="MsoNormalTable" style="border-collapse: collapse; border: none; border-style: solid;" border="1" width="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="width: 338.85pt; border: none; background: white; padding: 0cm 0cm 0cm 0cm;" colspan="5" width="452">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: center; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center">
+<strong><span
+style="font-family: Arial, sans-serif; color: #010205;">Descriptives</span></strong>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 233.6pt; border: none; border-bottom: solid #152935 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" colspan="3" valign="bottom" width="312">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+<td style="width: 51.45pt; border-top: none; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="bottom" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: center; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Statistic</span>
+</p>
+</td>
+<td style="width: 53.8pt; border: none; border-bottom: solid #152935 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="bottom" width="72">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: center; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Std.
+Error</span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 39.95pt; border: none; border-bottom: solid #152935 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" rowspan="13" valign="top" width="53">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">skulls</span>
+</p>
+</td>
+<td style="width: 193.65pt; border: none; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" colspan="2" valign="top" width="258">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Mean</span>
+</p>
+</td>
+<td style="width: 51.45pt; border: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">132.80</span>
+</p>
+</td>
+<td style="width: 53.8pt; border: none; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="72">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">.744</span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 122.95pt; border: none; border-top: solid #AEAEAE 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" rowspan="2" valign="top" width="164">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">95%
+Confidence Interval for Mean</span>
+</p>
+</td>
+<td style="width: 70.7pt; border: none; border-bottom: solid #AEAEAE 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" valign="top" width="94">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Lower
+Bound</span>
+</p>
+</td>
+<td style="width: 51.45pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #AEAEAE 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">131.26</span>
+</p>
+</td>
+<td style="width: 53.8pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #AEAEAE 1.0pt; border-right: none; background: white; padding: 0cm 0cm 0cm 0cm;" width="72">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 70.7pt; border: none; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" valign="top" width="94">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Upper
+Bound</span>
+</p>
+</td>
+<td style="width: 51.45pt; border: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">134.34</span>
+</p>
+</td>
+<td style="width: 53.8pt; border: none; background: white; padding: 0cm 0cm 0cm 0cm;" width="72">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 193.65pt; border: none; border-top: solid #AEAEAE 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" colspan="2" valign="top" width="258">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">5%
+Trimmed Mean</span>
+</p>
+</td>
+<td style="width: 51.45pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">132.86</span>
+</p>
+</td>
+<td style="width: 53.8pt; border: none; border-top: solid #AEAEAE 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" width="72">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 193.65pt; border: none; border-top: solid #AEAEAE 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" colspan="2" valign="top" width="258">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Median</span>
+</p>
+</td>
+<td style="width: 51.45pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">134.00</span>
+</p>
+</td>
+<td style="width: 53.8pt; border: none; border-top: solid #AEAEAE 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" width="72">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 193.65pt; border: none; border-top: solid #AEAEAE 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" colspan="2" valign="top" width="258">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Variance</span>
+</p>
+</td>
+<td style="width: 51.45pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">13.833</span>
+</p>
+</td>
+<td style="width: 53.8pt; border: none; border-top: solid #AEAEAE 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" width="72">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 193.65pt; border: none; border-top: solid #AEAEAE 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" colspan="2" valign="top" width="258">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Std.
+Deviation</span>
+</p>
+</td>
+<td style="width: 51.45pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">3.719</span>
+</p>
+</td>
+<td style="width: 53.8pt; border: none; border-top: solid #AEAEAE 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" width="72">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 193.65pt; border: none; border-top: solid #AEAEAE 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" colspan="2" valign="top" width="258">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Minimum</span>
+</p>
+</td>
+<td style="width: 51.45pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">125</span>
+</p>
+</td>
+<td style="width: 53.8pt; border: none; border-top: solid #AEAEAE 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" width="72">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 193.65pt; border: none; border-top: solid #AEAEAE 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" colspan="2" valign="top" width="258">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Maximum</span>
+</p>
+</td>
+<td style="width: 51.45pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">139</span>
+</p>
+</td>
+<td style="width: 53.8pt; border: none; border-top: solid #AEAEAE 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" width="72">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 193.65pt; border: none; border-top: solid #AEAEAE 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" colspan="2" valign="top" width="258">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Range</span>
+</p>
+</td>
+<td style="width: 51.45pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">14</span>
+</p>
+</td>
+<td style="width: 53.8pt; border: none; border-top: solid #AEAEAE 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" width="72">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 193.65pt; border: none; border-top: solid #AEAEAE 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" colspan="2" valign="top" width="258">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Interquartile
+Range</span>
+</p>
+</td>
+<td style="width: 51.45pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">6</span>
+</p>
+</td>
+<td style="width: 53.8pt; border: none; border-top: solid #AEAEAE 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" width="72">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 193.65pt; border: none; border-top: solid #AEAEAE 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" colspan="2" valign="top" width="258">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Skewness</span>
+</p>
+</td>
+<td style="width: 51.45pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">-.040</span>
+</p>
+</td>
+<td style="width: 53.8pt; border: none; border-top: solid #AEAEAE 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="72">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">.464</span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 193.65pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #152935 1.0pt; border-right: none; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" colspan="2" valign="top" width="258">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Kurtosis</span>
+</p>
+</td>
+<td style="width: 51.45pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="69">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">-.589</span>
+</p>
+</td>
+<td style="width: 53.8pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #152935 1.0pt; border-right: none; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="72">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">.902</span>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="MsoNormalTable" style="border-collapse: collapse; border: none; border-style: solid;" border="1" width="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="width: 539.2pt; border: none; background: white; padding: 0cm 0cm 0cm 0cm;" colspan="9" width="719">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: center; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center">
+<strong><span
+style="font-family: Arial, sans-serif; color: #010205;"><br>Percentiles</span></strong>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 167.85pt; border: none; background: white; padding: 0cm 0cm 0cm 0cm;" colspan="2" rowspan="2" valign="bottom" width="224">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+<td style="width: 371.35pt; border: none; background: white; padding: 0cm 0cm 0cm 0cm;" colspan="7" valign="bottom" width="495">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: center; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Percentiles</span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 53.05pt; border-top: none; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="bottom" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: center; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">5</span>
+</p>
+</td>
+<td style="width: 53.05pt; border-top: none; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="bottom" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: center; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">10</span>
+</p>
+</td>
+<td style="width: 53.05pt; border-top: none; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="bottom" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: center; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">25</span>
+</p>
+</td>
+<td style="width: 53.05pt; border-top: none; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="bottom" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: center; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">50</span>
+</p>
+</td>
+<td style="width: 53.05pt; border-top: none; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="bottom" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: center; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">75</span>
+</p>
+</td>
+<td style="width: 53.05pt; border-top: none; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="bottom" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: center; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">90</span>
+</p>
+</td>
+<td style="width: 53.05pt; border: none; border-bottom: solid #152935 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="bottom" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: center; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="center">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">95</span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 126.7pt; border: none; border-top: solid #152935 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" valign="top" width="169">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Weighted
+Average(Definition 1)</span>
+</p>
+</td>
+<td style="width: 41.15pt; border: none; border-top: solid #152935 1.0pt; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" valign="top" width="55">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">skulls</span>
+</p>
+</td>
+<td style="width: 53.05pt; border: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">125.90</span>
+</p>
+</td>
+<td style="width: 53.05pt; border: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">128.00</span>
+</p>
+</td>
+<td style="width: 53.05pt; border: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">130.00</span>
+</p>
+</td>
+<td style="width: 53.05pt; border: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">134.00</span>
+</p>
+</td>
+<td style="width: 53.05pt; border: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">135.50</span>
+</p>
+</td>
+<td style="width: 53.05pt; border: none; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">138.40</span>
+</p>
+</td>
+<td style="width: 53.05pt; border: none; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">139.00</span>
+</p>
+</td>
+</tr>
+<tr>
+<td style="width: 126.7pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #152935 1.0pt; border-right: none; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" valign="top" width="169">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">Tukey’s
+Hinges</span>
+</p>
+</td>
+<td style="width: 41.15pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #152935 1.0pt; border-right: none; background: #E0E0E0; padding: 0cm 0cm 0cm 0cm;" valign="top" width="55">
+<p style="margin: 0cm 3pt 0.0001pt; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #264a60;">skulls</span>
+</p>
+</td>
+<td style="width: 53.05pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" width="71">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+<td style="width: 53.05pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" width="71">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+<td style="width: 53.05pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">131.00</span>
+</p>
+</td>
+<td style="width: 53.05pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">134.00</span>
+</p>
+</td>
+<td style="width: 53.05pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" valign="top" width="71">
+<p style="margin: 0cm 3pt 0.0001pt; text-align: right; line-height: 16pt; font-size: 11pt; font-family: Calibri, sans-serif;" align="right">
+<span
+style="font-size: 9.0pt; font-family: Arial, sans-serif; color: #010205;">135.00</span>
+</p>
+</td>
+<td style="width: 53.05pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #152935 1.0pt; border-right: solid #E0E0E0 1.0pt; background: white; padding: 0cm 0cm 0cm 0cm;" width="71">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+<td style="width: 53.05pt; border-top: solid #AEAEAE 1.0pt; border-left: none; border-bottom: solid #152935 1.0pt; border-right: none; background: white; padding: 0cm 0cm 0cm 0cm;" width="71">
+<p style="margin: 0cm 0cm 0.0001pt; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;">
+<span
+style="font-size: 12.0pt; font-family: &#39;Times New Roman&#39;, serif;"> </span>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+<ul class="task-list">
+<li><label><input type="checkbox" />min=119, Q1=131, median=132, Q3=136,
+max=141</label></li>
+<li><label><input type="checkbox" checked="" />min=125, Q1=131,
+median=134, Q3=135, max=139</label></li>
+<li><label><input type="checkbox" />min=125, Q1=131, mean=132.8, Q3=136,
+max=139</label></li>
+<li><label><input type="checkbox" />min=129, Q1=131, median=134, Q3=136,
+max=139</label></li>
+<li><label><input type="checkbox" />mean=132.8, std dev=3.719,
+median=134, IQR=6, range=14</label></li>
+</ul>
+<p><strong>Question 8</strong> The following histogram shows the
+distribution of height (in metres) for 60 randomly selected adults.
+histogram i) Which option best describes the distribution’s peak(s)?
+Enter the letter only.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />uniform</label></li>
+<li><label><input type="checkbox" checked="" />unimodal</label></li>
+<li><label><input type="checkbox" />multi-modal</label></li>
+<li><label><input type="checkbox" />bimodal</label></li>
+<li><label><input type="checkbox" />none of the options</label></li>
+</ul>
+<ol start="2" style="list-style-type: lower-roman">
+<li>Which option best describes the distribution’s shape? Enter the
+letter only.</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" />parabolic</label></li>
+<li><label><input type="checkbox" />strongly left skewed</label></li>
+<li><label><input type="checkbox" />uniform</label></li>
+<li><label><input type="checkbox" checked="" />reasonably
+symmetric</label></li>
+<li><label><input type="checkbox" />strongly right skewed</label></li>
+</ul>
+<ol start="3" style="list-style-type: lower-roman">
+<li>The range of the height data is best given as:</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" />0 to 17</label></li>
+<li><label><input type="checkbox" />0 to 1.90</label></li>
+<li><label><input type="checkbox" />1.60 to 1.65</label></li>
+<li><label><input type="checkbox" checked="" />1.40 to 1.85</label></li>
+<li><label><input type="checkbox" />1.30 to 1.80</label></li>
+</ul>
+<ol start="4" style="list-style-type: lower-roman">
+<li>Pick the most correct statement regarding the centre of the
+distribution.</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />the median, mode and mean
+are all approximately equal</label></li>
+<li><label><input type="checkbox" />the mode is definitely higher than
+the mean</label></li>
+<li><label><input type="checkbox" />the median is much lower than the
+mean</label></li>
+<li><label><input type="checkbox" />the median is much higher than the
+mean</label></li>
+<li><label><input type="checkbox" />none of the statements are
+correct</label></li>
+</ul>
+<ol start="22" style="list-style-type: lower-alpha">
+<li>Which summary statistics are best used to describe the centre and
+spread of this data?</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" />the mean and IQR</label></li>
+<li><label><input type="checkbox" />the mode and range</label></li>
+<li><label><input type="checkbox" />the median and standard
+deviation</label></li>
+<li><label><input type="checkbox" />the mean and median</label></li>
+<li><label><input type="checkbox" checked="" />the mean and standard
+deviation</label></li>
+</ul>
+<ol start="6" style="list-style-type: lower-roman">
+<li>Use the 5 number summary to calculate the lower fence for
+identifying low outliers. Enter the letter only.</li>
+</ol>
+<p>Min: 1.41 Q1: 1.57 Med: 1.64 Q3: 1.71 Max: 1.82</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />1.41</label></li>
+<li><label><input type="checkbox" checked="" />1.36</label></li>
+<li><label><input type="checkbox" />0.21</label></li>
+<li><label><input type="checkbox" />1.92</label></li>
+<li><label><input type="checkbox" />1.43</label></li>
+</ul>
+<p><strong>Question 9</strong> Copy the data below into SPSS and use it
+to produce a histogram. Select the option corresponding to your graph.
+131, 136, 132, 135, 141, 131, 125, 131, 119, 136, 138, 139, 125, 131,
+134, 129, 134, 126, 132, 141, 131, 135, 132, 139, 132</p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/Q9_1.png" alt="Q9_1" /></label></li>
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/Q9_2.png" alt="Q9_1" /></label></li>
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/Q9_3.png" alt="Q9_1" /></label></li>
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/Q9_4.png" alt="Q9_1" /></label></li>
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/Q9_5.png" alt="Q9_1" /></label></li>
+</ul>
+<pre class="r"><code>Q9 &lt;- c(131, 136, 132, 135, 141, 131, 125, 131, 119, 136, 138, 139, 125, 131, 134, 129, 134, 126, 132, 141, 131, 135, 132, 139, 132)
+hist(Q9, breaks=16)</code></pre>
+<p><img src="SIT191_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p><strong>R Output:</strong></p>
+<div class="float">
+<img src="images/SIT191/Wk3Images/Q9Hist.jpg" alt="Q9Hist" />
+<div class="figcaption">Q9Hist</div>
+</div>
+<p><strong>Question 10</strong> Copy the data below into SPSS and use it
+to produce a boxplot. Select the option corresponding to your graph.
+126, 135, 134, 128, 130, 138, 128, 127, 131, 124, 141, 141, 135, 133,
+131, 140, 139, 140, 138, 132, 134, 135, 133, 136, 134</p>
+<pre class="r"><code>Q10 &lt;- c(126, 135, 134, 128, 130, 138, 128, 127, 131, 124, 141, 141, 135, 133, 131, 140, 139, 140, 138, 132, 134, 135, 133, 136, 134)
+boxplot(Q10)</code></pre>
+<p><img src="SIT191_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<div class="float">
+<img src="images/SIT191/Wk3Images/Q10_boxplot.jpg" alt="Q10 Boxplot" />
+<div class="figcaption">Q10 Boxplot</div>
+</div>
+<p><strong>Question 11</strong> Histograms and boxplots displaying the
+height distribution for three groups are shown below. Match the
+histogram for each group to the correct boxplot.</p>
+<div class="float">
+<img src="images/SIT191/Wk3Images/Q11_1.png" alt="Q11_1" />
+<div class="figcaption">Q11_1</div>
+</div>
+<div class="float">
+<img src="images/SIT191/Wk3Images/Q11_2.png" alt="Q11_2" />
+<div class="figcaption">Q11_2</div>
+</div>
+<div class="float">
+<img src="images/SIT191/Wk3Images/Q11_3.png" alt="Q11_3" />
+<div class="figcaption">Q11_3</div>
+</div>
+<div class="float">
+<img src="images/SIT191/Wk3Images/Q11_4.png" alt="Q11_3" />
+<div class="figcaption">Q11_3</div>
+</div>
+<table>
+<thead>
+<tr class="header">
+<th>Histogram</th>
+<th>Boxplot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Group 3 Histogram</td>
+<td>Boxplot A</td>
+</tr>
+<tr class="even">
+<td>Group 2 Histogram</td>
+<td>Boxplot B</td>
+</tr>
+<tr class="odd">
+<td>Group 1 Histogram</td>
+<td>Boxplot C</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Question 12</strong> Copy the data below into SPSS and use it
+to produce numerical summaries. Select the correct mean and sample
+standard deviation. 125, 131, 119, 136, 138, 139, 125, 131, 134, 129,
+134, 126, 132, 141, 131, 135, 132, 139, 132</p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span class="math inline">\(\bar{x}
+= 129.36\)</span>, <span
+class="math inline">\(s=5.59\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(\bar{x}
+= 132.05\)</span>, <span
+class="math inline">\(s=1.28\)</span></label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(\bar{x}=132.05\)</span>, <span
+class="math inline">\(s=5.59\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(\bar{x}=132.471\)</span>, <span
+class="math inline">\(s=3.986\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(\bar{x}=132\)</span>, <span
+class="math inline">\(s=7\)</span></label></li>
+</ul>
+<pre class="r"><code>Q12 &lt;- c(125, 131, 119, 136, 138, 139, 125, 131, 134, 129, 134, 126, 132, 141, 131, 135, 132, 139, 132)
+summary(Q12)</code></pre>
+<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   119.0   130.0   132.0   132.1   135.5   141.0</code></pre>
+<p><strong>Question 13</strong> Copy the data below into SPSS and use it
+to produce numerical summaries. Select the correct quartiles. Note:
+there are several different methods for determining quartiles. Pick the
+closest answer if you have used different technology and have slightly
+different values. 27.1 38.5 35.2 21.0 24.5 36.3 25.7 32.3 29.7 37.8</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Q1=21.0, Q3=38.5</label></li>
+<li><label><input type="checkbox" checked="" />Q1=25.7,
+Q3=36.3</label></li>
+<li><label><input type="checkbox" />Q1=26.4, Q3=35.2</label></li>
+<li><label><input type="checkbox" />Q1=25.7, Q3=31.0</label></li>
+<li><label><input type="checkbox" />Q1=31.0, Q3=36.3</label></li>
+</ul>
+<pre class="r"><code>Q13 &lt;- c(27.1, 38.5, 35.2, 21.0, 24.5, 36.3, 25.7, 32.3, 29.7, 37.8)
+summary(Q13)</code></pre>
+<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   21.00   26.05   31.00   30.81   36.02   38.50</code></pre>
+<p><strong>Question 14</strong> Pick the bar chart that displays the
+same movie classification information as the pie chart.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/Q14_1.png" alt="Q14_1" /></label></li>
+<li><label><input type="checkbox" checked="" /><img
+src="images/SIT191/Wk3Images/Q14_2.png" alt="Q14_2" /></label></li>
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/Q14_3.png" alt="Q14_3" /></label></li>
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/Q14_4.png" alt="Q14_4" /></label></li>
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/Q14_5.png" alt="Q14_5" /></label></li>
+</ul>
+<p><strong>Question 15</strong> The following table shows the
+classification of 348 movies into their genre and by rating.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>PG</th>
+<th>PG-13</th>
+<th>R</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Action/Adventure</td>
+<td>3</td>
+<td>18</td>
+<td>18</td>
+<td>14</td>
+<td>53</td>
+</tr>
+<tr class="even">
+<td>Comedy</td>
+<td>2</td>
+<td>18</td>
+<td>29</td>
+<td>41</td>
+<td>90</td>
+</tr>
+<tr class="odd">
+<td>Documentary</td>
+<td>4</td>
+<td>8</td>
+<td>8</td>
+<td>9</td>
+<td>29</td>
+</tr>
+<tr class="even">
+<td>Drama</td>
+<td>0</td>
+<td>16</td>
+<td>36</td>
+<td>65</td>
+<td>117</td>
+</tr>
+<tr class="odd">
+<td>Musical</td>
+<td>0</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>Suspense/Thriller/Horror</td>
+<td>0</td>
+<td>1</td>
+<td>13</td>
+<td>41</td>
+<td>55</td>
+</tr>
+<tr class="odd">
+<td>Total</td>
+<td>9</td>
+<td>63</td>
+<td>106</td>
+<td>170</td>
+<td>348</td>
+</tr>
+</tbody>
+</table>
+<p>Considering Comedies only, which of the following graphs would be
+suitable to display the rating distribution?</p>
+<p>[Select all that apply]</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Stacked bar chart</label></li>
+<li><label><input type="checkbox" checked="" />Pie chart</label></li>
+<li><label><input type="checkbox" />Histogram</label></li>
+<li><label><input type="checkbox" />Stem and leaf plot</label></li>
+<li><label><input type="checkbox" />Time-series graph</label></li>
+<li><label><input type="checkbox" checked="" />Bar chart</label></li>
+</ul>
+<p><strong>Question 16</strong> The following table shows the
+classification of 348 movies into their genre and by rating.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>PG</th>
+<th>PG-13</th>
+<th>R</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Action/Adventure</td>
+<td>3</td>
+<td>18</td>
+<td>18</td>
+<td>14</td>
+<td>53</td>
+</tr>
+<tr class="even">
+<td>Comedy</td>
+<td>2</td>
+<td>18</td>
+<td>29</td>
+<td>41</td>
+<td>90</td>
+</tr>
+<tr class="odd">
+<td>Documentary</td>
+<td>4</td>
+<td>8</td>
+<td>8</td>
+<td>9</td>
+<td>29</td>
+</tr>
+<tr class="even">
+<td>Drama</td>
+<td>0</td>
+<td>16</td>
+<td>36</td>
+<td>65</td>
+<td>117</td>
+</tr>
+<tr class="odd">
+<td>Musical</td>
+<td>0</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>Suspense/Thriller/Horror</td>
+<td>0</td>
+<td>1</td>
+<td>13</td>
+<td>41</td>
+<td>55</td>
+</tr>
+<tr class="odd">
+<td>Total</td>
+<td>9</td>
+<td>63</td>
+<td>106</td>
+<td>170</td>
+<td>348</td>
+</tr>
+</tbody>
+</table>
+<p>Considering Comedies only, which of the following would be suitable
+graph(s) that displays the rating distribution of the comedies.</p>
+<p>[Select all that apply]</p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/16_1.png" alt="Q14_1" /></label></li>
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/16_1.png" alt="Q16_1" /></label></li>
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/16_2.png" alt="Q16_2" /></label></li>
+<li><label><input type="checkbox" checked="" /><img
+src="images/SIT191/Wk3Images/16_3.png" alt="Q16_3" /></label></li>
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/16_4.png" alt="Q16_4" /></label></li>
+<li><label><input type="checkbox" /><img
+src="images/SIT191/Wk3Images/16_5.png" alt="Q16_5" /></label></li>
+</ul>
+</div>
+<div id="week-4-quiz" class="section level2 well">
+<h2 class="well">Week 4 Quiz</h2>
+<p><strong>Question 1:</strong></p>
+<p>Suppose for a given country:</p>
+<p>23% of the population have type A blood</p>
+<p>34% of the population have type B blood</p>
+<p>3% of the population have type AB blood</p>
+<p>and the rest have type O.</p>
+<p><strong>What is the probability that a person volunteering to donate
+blood does not have type A blood?</strong></p>
+<p><strong>Answer:</strong> 0.77</p>
+<div class="float">
+<img src="images/SIT191/Wk4Images/Q1Venn.jpg" alt="Q1Venn" />
+<div class="figcaption">Q1Venn</div>
+</div>
+<pre class="r"><code>a &lt;- 0.23
+not_a &lt;- 1 - a
+not_a</code></pre>
+<pre><code>## [1] 0.77</code></pre>
+<p><strong>Question 2:</strong></p>
+<p>Suppose for a given country:</p>
+<p>27% of the population have type A blood</p>
+<p>33% of the population have type B blood</p>
+<p>9% of the population have type AB blood</p>
+<p>and the rest have type O.</p>
+<p><strong>Among 4 potential donors, what is the probability that none
+of them are type O?</strong> <em>Write as a decimal between 0 and 1 to
+<strong>three decimal places</strong>, e.g. 45.7812% would be
+0.458</em></p>
+<p><strong>Answer</strong>: 0.31</p>
+<div class="float">
+<img src="images/SIT191/Wk4Images/Q2Venn.jpg" alt="Q2Venn" />
+<div class="figcaption">Q2Venn</div>
+</div>
+<pre class="r"><code>a &lt;- 0.27
+b &lt;- 0.33
+ab &lt;- 0.09
+o &lt;- 1 - (a + b + ab)
+round(o^4, 3)</code></pre>
+<pre><code>## [1] 0.009</code></pre>
+<p><strong>Question 3:</strong></p>
+<p>Assume that 41% of households have at least one dog, 27% of
+households have at least one cat and 15% of households have both
+animals.</p>
+<p><strong>What is the probability that a randomly selected household
+has a dog but not a cat?</strong></p>
+<p>[Enter as a decimal between 0 and 1 to <strong>two decimal
+places</strong>, e.g. for 45% write 0.45]</p>
+<p><strong>Answer:</strong> <em>0.26</em></p>
+<div class="float">
+<img src="images/SIT191/Wk4Images/Q3Venn.jpg" alt="Q3Venn" />
+<div class="figcaption">Q3Venn</div>
+</div>
+<pre class="r"><code>d &lt;- 0.41
+c &lt;- 0.27
+cd &lt;- 0.15
+dog_only &lt;- d - cd
+dog_only</code></pre>
+<pre><code>## [1] 0.26</code></pre>
+<p><strong>Question 4:</strong></p>
+<p>Assume that 29% of households have at least one dog, 18% of
+households have at least one cat and 12% of households have both
+animals.</p>
+<p><strong>If a household has a dog, what is the probability that they
+also have a cat?</strong></p>
+<p><em>Enter as a decimal between 0 and 1 to <strong>*three* decimal
+places</strong>, e.g. for 45.123% write 0.451</em></p>
+<p><strong>Answer:</strong> 0.12</p>
+<div class="float">
+<img src="images/SIT191/Wk4Images/Q4venn.jpg" alt="Q4Venn" />
+<div class="figcaption">Q4Venn</div>
+</div>
+<blockquote>
+<p>It helps to use a Venn diagram to model these. This is an example of
+conditional probability. We want to know the probability of a cat,
+<strong>given</strong> that they have a dog.</p>
+<p>The conditional probability formula is: <span class="math display">\[
+Pr(A∣B) = \frac{Pr(A\ and\ B)}{Pr(B)}
+\]</span></p>
+</blockquote>
+<pre class="r"><code>grid.newpage()
+draw.pairwise.venn(area1=0.29, area2=0.18, cross.area=0.12, fill = 2:3)</code></pre>
+<p><img src="SIT191_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<pre><code>## (polygon[GRID.polygon.35], polygon[GRID.polygon.36], polygon[GRID.polygon.37], polygon[GRID.polygon.38], text[GRID.text.39], text[GRID.text.40], text[GRID.text.41], text[GRID.text.42], text[GRID.text.43])</code></pre>
+<p><strong>Question 5:</strong></p>
+<p>Given the Venn Diagram, which of the following can be assumed about
+events A and B?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />if event A occurs, then B
+must occur</label></li>
+<li><label><input type="checkbox" checked="" />events A and B are not
+mutually exclusive</label></li>
+<li><label><input type="checkbox" />events A and B are mutually
+exclusive</label></li>
+<li><label><input type="checkbox" />if event B occurs, then A must
+occur</label></li>
+<li><label><input type="checkbox" />if event A occurs, then B can’t
+occur</label></li>
+<li><label><input type="checkbox" checked="" />it is possible for both A
+and B to occur</label></li>
+</ul>
+<p><strong>Question 6:</strong></p>
+<p>Malaria is a mosquito-borne infectious blood disease of humans and
+other animals caused by a bite from a female mosquito infected with
+<em>Plasmodium</em>. A number of different species of
+<em>Plasmodium</em> which cause malaria can be found across different
+geographic regions. The following table shows the number of deaths (in
+hundreds of thousands) from three different <em>Plasmodium</em> species
+for three continents:</p>
+<table style="width:100%;">
+<colgroup>
+<col width="26%" />
+<col width="20%" />
+<col width="10%" />
+<col width="11%" />
+<col width="20%" />
+<col width="10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th></th>
+<th>Continent</th>
+<th>Total</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>Asia</strong></td>
+<td><strong>Africa</strong></td>
+<td><strong>South America</strong></td>
+<td><strong>Total</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Plasmodium species</strong></td>
+<td><strong>P. ovale</strong></td>
+<td>30</td>
+<td>14</td>
+<td>32</td>
+<td><strong>76</strong></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><strong>P. vivax</strong></td>
+<td>5</td>
+<td>6</td>
+<td>53</td>
+<td><strong>64</strong></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><strong>P. falciparum</strong></td>
+<td>52</td>
+<td>44</td>
+<td>6</td>
+<td><strong>102</strong></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><strong>Total</strong></td>
+<td><strong>87</strong></td>
+<td><strong>64</strong></td>
+<td>91</td>
+<td><strong>242</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Event A is that a malaria death was caused by the <em>P. vivax</em>
+species and event B is the malaria death was in Africa.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Find the following probabilities:</p></li>
+<li><p>P(A) (1 mark)</p></li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />a. 0.264</label></li>
+<li><label><input type="checkbox" />b. 0.078</label></li>
+<li><label><input type="checkbox" />c. 0.360</label></li>
+<li><label><input type="checkbox" />d. 0.421</label></li>
+<li><label><input type="checkbox" />e. 0.627</label></li>
+</ul>
+<ol start="2" style="list-style-type: lower-roman">
+<li>P(B) (1 mark)</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" />A.0.360</label></li>
+<li><label><input type="checkbox" />B. 0.395</label></li>
+<li><label><input type="checkbox" />C. 0.025</label></li>
+<li><label><input type="checkbox" checked="" />D. 0.264</label></li>
+<li><label><input type="checkbox" />E. 0.376</label></li>
+</ul>
+<ol start="3" style="list-style-type: lower-roman">
+<li>P(A and B) (1 mark)</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" />A. 0.248</label></li>
+<li><label><input type="checkbox" />B. 0.219</label></li>
+<li><label><input type="checkbox" checked="" />C. 0.025</label></li>
+<li><label><input type="checkbox" />D. 0.124</label></li>
+<li><label><input type="checkbox" />E. 0.070</label></li>
+</ul>
+<ol start="4" style="list-style-type: lower-roman">
+<li>P(A or B) (2 marks)</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" />A. 0.421</label></li>
+<li><label><input type="checkbox" />B. 0.529</label></li>
+<li><label><input type="checkbox" />C. 0.550</label></li>
+<li><label><input type="checkbox" />D. 0.070</label></li>
+<li><label><input type="checkbox" checked="" />E. 0.504</label></li>
+</ul>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>P(A|B) (2 marks)</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" />A. 1</label></li>
+<li><label><input type="checkbox" />B. 0.025</label></li>
+<li><label><input type="checkbox" checked="" />C. 0.094</label></li>
+<li><label><input type="checkbox" />D. 0.828</label></li>
+<li><label><input type="checkbox" />E. 0.264</label></li>
+</ul>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>Are events A and B mutually exclusive? (1 mark)</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" />A. No, because a death can occur
+from the <em>P. vivax</em> species on only one continent</label></li>
+<li><label><input type="checkbox" checked="" />B. No, because a death
+can be caused by the <em>P. vivax</em> species and be in
+Africa</label></li>
+<li><label><input type="checkbox" />C. No, because deaths caused by the
+<em>P. vivax</em> species are more likely to occur in
+Africa</label></li>
+<li><label><input type="checkbox" />D. Yes, because a death can be
+caused by the <em>P. vivax</em> species and be in Africa</label></li>
+<li><label><input type="checkbox" />E. Yes, because a malaria death is
+caused by only one of the species</label></li>
+</ul>
+<p><strong>Question 7:</strong></p>
+<p>Suppose the following probability for the number of units enrolled
+in, X, for Deakin students.</p>
+<table>
+<thead>
+<tr class="header">
+<th>X</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(Pr(X=x)\)</span></td>
+<td>0.07</td>
+<td>0.18</td>
+<td>0.37</td>
+<td>0.33</td>
+<td>0.05</td>
+</tr>
+</tbody>
+</table>
+<p>Calculate the mean number of units a student will be enrolled in.
+<em>Express correct to <strong>2 decimal places</strong></em></p>
+<p>Answer: 3.11</p>
+<blockquote>
+<p><em>The mean of the distribution is calculated as:</em> <span
+class="math display">\[
+\mu = 0.07(1) + 0.18(2) + 0.37(3) + 0.33(4) + 0.05(5)
+      = 3.11
+\]</span></p>
+</blockquote>
+<p><strong>Question 8:</strong></p>
+<p>Suppose the following probability for the number of units enrolled
+in, X, for Deakin students.</p>
+<table>
+<thead>
+<tr class="header">
+<th>X</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(Pr(X=x)\)</span></td>
+<td>0.07</td>
+<td>0.18</td>
+<td>0.37</td>
+<td>0.33</td>
+<td>0.05</td>
+</tr>
+</tbody>
+</table>
+<p>Calculate the standard deviation for the number of units a student
+will be enrolled in. <em>Express correct to <strong>2 decimal
+places</strong></em></p>
+<p>Answer: 0.99</p>
+<blockquote>
+<p>Standard deviation from a probability distribution is calculated as:
+<span class="math display">\[
+\sigma = \sqrt{\Sigma^n_{i=1}P(x_i)\times(x_i − \mu)^2}\\
+\]</span> which in this case is: <span class="math display">\[
+\sigma =
+\sqrt{0.07(1−\mu)^2+0.18(2−\mu)^2+0.37(3−\mu)^2+0.33(4−\mu)^2+0.05(5−\mu)^2}
+\]</span></p>
+<p>where <span class="math inline">\(\mu\)</span> is the mean of the
+distributions: <span class="math display">\[
+\mu =0.07(1) + 0.18(2) + 0.37(3) + 0.33(4) + 0.05(5) = 3.11
+\]</span></p>
+</blockquote>
+</div>
+<div id="week-5-quiz" class="section level2 well">
+<h2 class="well">Week 5 Quiz</h2>
+<p><strong>Question 1</strong></p>
+<p>Assume in females the length of the fibula bone is normally
+distributed, with a mean of 35 cm and a standard deviation of 2 cm.</p>
+<p>In what interval would you expect the central 99.7% of fibula lengths
+to be found? Use the 68-95-99.7% rule only, not z tables or
+calculations.</p>
+<p>[Enter integers/whole numbers only]</p>
+<p><em>29cm to 41cm</em></p>
+<div class="float">
+<img src="images/SIT191/Wk5Images/Q1_NormDist.png" alt="Q1_NormDist" />
+<div class="figcaption">Q1_NormDist</div>
+</div>
+<p><strong>Question 2</strong></p>
+<p>A standardised test with normally distributed scores has a mean of
+100 and a standard deviation of 15.</p>
+<p>About what percentage of participants should have scores above
+115?</p>
+<p>Use the 68-95-99.7% rule only, not z tables or calculations.</p>
+<p>[Enter as a percentage to 1 decimal place, e.g. 45.1, without the %
+sign]</p>
+<p><strong>Answer:</strong> <em>16%</em></p>
+<div class="float">
+<img src="images/SIT191/Wk5Images/Q2_Above.png" alt="Q2_Above" />
+<div class="figcaption">Q2_Above</div>
+</div>
+<p><strong>Question 3</strong></p>
+<p>Assume in males the length of the femur bone is normally distributed,
+with a mean of 46 cm and a standard deviation of 3 cm.</p>
+<p>What percentage of males should have a femur shorter than 41.7
+cm?</p>
+<p>[Enter as a percentage to 1 decimal place, e.g. 24.8, without the %
+sign]</p>
+<p><strong>Answer:</strong> <em>7.6</em>%</p>
+<div class="float">
+<img src="images/SIT191/Wk5Images/Q3_Below.png" alt="Q3_Below" />
+<div class="figcaption">Q3_Below</div>
+</div>
+<pre class="r"><code>round(pnorm(41.7, 46, 3) * 100, 1)</code></pre>
+<pre><code>## [1] 7.6</code></pre>
+<p><strong>Question 4</strong></p>
+<p>Based on the Normal model <em>N</em>(35, 2) describing female fibula
+length (in cm), what percent of females would you expect to have fibula
+between 31.3 and 34.7 cm?</p>
+<p>[Enter as a percentage to 1 decimal place, e.g. 45.2, without the %
+sign]</p>
+<p><strong>Answer:</strong> <em>40.8</em>%</p>
+<div class="float">
+<img src="images/SIT191/Wk5Images/Q4_between.png" alt="Q4_between" />
+<div class="figcaption">Q4_between</div>
+</div>
+<pre class="r"><code>upper &lt;- pnorm(34.7, 35, 2)
+upper</code></pre>
+<pre><code>## [1] 0.4403823</code></pre>
+<pre class="r"><code>lower &lt;- pnorm(31.3, 35, 2)
+lower</code></pre>
+<pre><code>## [1] 0.03215677</code></pre>
+<pre class="r"><code>interval &lt;- upper - lower
+round(interval * 100, 1)</code></pre>
+<pre><code>## [1] 40.8</code></pre>
+<p><strong>Question 5</strong></p>
+<p>Based on the Normal model <em>N</em>(100, 15) describing IQ scores,
+what is the cut off IQ score for the lowest 10% of the IQs?</p>
+<p>(enter correct to the nearest <strong>whole number</strong>,
+e.g. 26)</p>
+<p><strong>Answer:</strong> <em>81</em></p>
+<pre class="r"><code>round(qnorm(0.10, 100, 15))</code></pre>
+<pre><code>## [1] 81</code></pre>
+<p><strong>Question 6</strong></p>
+<p>In a particular rural area of Victoria, 52% of learner drivers pass
+their driving test on the first attempt.</p>
+<p><strong>If 6 learner drivers are selected, what is the probability of
+a successful driving test outcome for all 6 drivers (on their first
+attempts)?</strong></p>
+<p>[Enter your answer correct to 3 decimal places]</p>
+<p><strong>Answer:</strong> 0.020 <span class="math display">\[
+  p^n = {n \choose n}p^n(1-p)^0\\
+      = {6 \choose 6}0.52^6(1 - 0.52)^0\\
+      = 1 \times 0.019770609 \times 1\\
+\]</span></p>
+<pre class="r"><code>round(dbinom(6, size=6, prob=0.52), 3)</code></pre>
+<pre><code>## [1] 0.02</code></pre>
+<p><strong>Question 7</strong></p>
+<p>Suppose 70% of the population have brown eyes, 15% have blue eyes, 6%
+have hazel eyes, 7% have green eyes and the rest ‘other’ (including
+grey).</p>
+<p>Among 7 randomly selected people, what is the probability that
+exactly 4 people have blue eyes?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />0.001</label></li>
+<li><label><input type="checkbox" />0.6</label></li>
+<li><label><input type="checkbox" checked="" />0.011</label></li>
+<li><label><input type="checkbox" />3.11</label></li>
+<li><label><input type="checkbox" />0.227</label></li>
+</ul>
+<pre class="r"><code>round(dbinom(4, size=7, prob=0.15), 3)</code></pre>
+<pre><code>## [1] 0.011</code></pre>
+<p><strong>Question 8</strong></p>
+<p>Suppose 72% of adults have travelled overseas.</p>
+<p><strong>If 6 adults are randomly selected, what is the probability
+that 3 or 4 of them have travelled overseas?</strong></p>
+<p>[Enter your answer correct to 3 decimal places]</p>
+<p><strong>Answer:</strong> <em>0.480</em></p>
+<pre class="r"><code>round(dbinom(4, size=6, prob=0.72) + dbinom(3, size=6, prob=0.72), 3)</code></pre>
+<pre><code>## [1] 0.48</code></pre>
+<p><strong>Question 9</strong></p>
+<p>In a particular rural area of Victoria, 80% of learner drivers pass
+their driving test on the first attempt.</p>
+<p><strong>If 6 learner drivers are selected, what is the probability of
+a successful driving test outcome for at least 2 drivers?</strong></p>
+<p>[Enter your answer correct to 3 decimal places]</p>
+<p><strong>Answer:</strong> <em>0.998</em></p>
+<p>Here it’s easier to calculate the probability of none passing, of 1
+passing, and then take the complement of this (which includes all
+outcomes that have 2 or more passing).</p>
+<p>The probability of none passing is</p>
+<p><span class="math inline">\((1−p)^6\)</span></p>
+<p>The probability of exactly 1 passing is</p>
+<p><span class="math inline">\({6 \choose 1}p^1(1−p)^5 =
+6p(1−p)^5\)</span></p>
+<p>and then subtracting both of these from 1 gives the final answer.</p>
+<pre class="r"><code>1 - (dbinom(0, size=6, prob=0.8) + dbinom(1, size=6, prob=0.8))</code></pre>
+<pre><code>## [1] 0.9984</code></pre>
+<p><strong>Question 10</strong></p>
+<p>For a particular rural area, 81% of learner drivers pass their
+driving test on the first attempt. Suppose 130 drivers are randomly
+sampled from the population.</p>
+<p><strong>How many of the drivers would you expect to pass the test on
+their first attempt?</strong></p>
+<p>[give your answer to the nearest integer]</p>
+<p><strong>Answer:</strong> <em>105</em></p>
+<p>We can assume that each of the drivers selected is close enough to
+independent and that the number of drivers sampled is less than 10% of
+the population. Also we have <span class="math inline">\(np &gt;
+10\)</span> and <span class="math inline">\(nq &gt; 10\)</span>.</p>
+<p>Therefore to calculate the mean, we can use <span
+class="math inline">\(np\)</span>.</p>
+<pre class="r"><code>np &lt;- 130 * 0.81
+round(np, 0)</code></pre>
+<pre><code>## [1] 105</code></pre>
+<p><strong>Question 11</strong></p>
+<p>A particular airline arrives on schedule 73% of the time. Suppose an
+audit which looks at a random 110 flights is conducted.</p>
+<p><strong>Calculate the standard deviation for the number of on-time
+flights from samples of 110 audited flights?</strong></p>
+<p>[give your answer to 2 decimal places]</p>
+<p><strong>Answer:</strong> <em>4.66</em></p>
+<p><span class="math display">\[
+  = \sqrt{npq}\\
+  = \sqrt{110 \times 0.73 \times 0.27}\\
+  = 4.66
+\]</span></p>
+<pre class="r"><code>n &lt;- 110
+p &lt;- 0.73
+q &lt;- 1 - p
+round(sqrt(n*p*q), 2)</code></pre>
+<pre><code>## [1] 4.66</code></pre>
+<p><strong>Question 12</strong></p>
+<p>A particular airline arrives on schedule 89% of the time. Suppose an
+audit which looks at a random 160 flights is conducted.</p>
+<p><strong>What is the probability that more than 150 of the flights
+audited would be on time? Use a <em>normal approximation</em> to the
+binomial model.</strong></p>
+<p>[give your answer as a decimal to 3 decimal places, e.g. 0.045]</p>
+<p><strong>Answer:</strong> <em>0.027</em></p>
+<p>We can assume that each of the flights is close enough to independent
+and that the number of audited flights is less than 10% of the
+population.</p>
+<p>Also we have np &gt; 10 and nq &gt; 10.Therefore to calculate the
+mean, we can use <span class="math inline">\(np\)</span>.</p>
+<p><span class="math inline">\(160 \times 0.89 = 142.4\)</span></p>
+<p>Then to calculate the standard deviation, we have <span
+class="math inline">\(\sqrt{npq}\)</span>$ \ 160 \ \ <span
+class="math display">\[
+Then using a normal model, $N(142.4, 3.96)$ we can work out the
+probability of having a value greater than 150
+\]</span> z = \ ≈1.92 $$</p>
+<p>From a z-table, <span class="math inline">\(P(z&lt;1.92) =
+0.9726\)</span> and therefore, since we’re looking for the probability
+of <strong>more</strong> than 150 being on time, we calculate <span
+class="math inline">\(1 - 0.9726 = 0.027\)</span></p>
+<pre class="r"><code>n &lt;- 160
+p &lt;- 0.89
+q &lt;- 1 - p
+sd = sqrt(n*p*q)
+testVal &lt;- 150
+mean &lt;- n * p
+round(1 - pnorm(testVal, mean, sd), 3)</code></pre>
+<pre><code>## [1] 0.027</code></pre>
+</div>
+<div id="week-6-quiz" class="section level2 well">
+<h2 class="well">Week 6 Quiz</h2>
+<p><strong>Question 1</strong></p>
+<p>People suffering from sacroiliac joint dysfunction can be given a
+steroid injection to relieve pain.<br />
+After receiving an injection, 15 out of 34 patients reported a reduction
+in pain.</p>
+<p>Calculate the standard error:</p>
+<p>[Give your answer to 3 decimal places]</p>
+<p><strong>Answer</strong>: 0.085 <span class="math display">\[
+\hat{p} = \frac{15}{34} = 0.44117647\\
+\hat{q} = 1 - \hat{p} = 0.55882353\\
+SE(\hat{p}) = \sqrt{\frac{\hat{p}\hat{q}}{n}}\\
+= \sqrt{\frac{0.441 \times 0.559}{34}}\\
+= 0.085
+\]</span></p>
+<p><strong>Question 2</strong></p>
+<p>For a 95% confidence interval, choose the most accurate value of
+z*.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />0.025</label></li>
+<li><label><input type="checkbox" />2</label></li>
+<li><label><input type="checkbox" />1.65</label></li>
+<li><label><input type="checkbox" checked="" />1.96</label></li>
+<li><label><input type="checkbox" />2.33</label></li>
+</ul>
+<pre class="r"><code>round(abs(qnorm(0.05/2)), 2)</code></pre>
+<pre><code>## [1] 1.96</code></pre>
+<p><strong>Question 3</strong></p>
+<p>People suffering from sacroiliac joint dysfunction can be given a
+steroid injection to relieve pain.<br />
+After receiving an injection, 11 out of 38 patients reported a reduction
+in pain.</p>
+<p>If you were to create a 90% confidence interval for the true
+proportion of sufferers of the condition whose symptoms should be
+improved by the injection, what is the <strong>margin of
+error?</strong></p>
+<p>[Giver your answer to 3 decimal places]</p>
+<p><strong>Answer:</strong> 0.118</p>
+<p>…answer</p>
+<p><strong>Question 4</strong></p>
+<p>In a random sample of 75 Labrador Retriever adult dogs, 60 were found
+to be overweight. The calculated 90% confidence interval from this
+sample result for the true proportion of adult Labrador Retrievers that
+are overweight is 0.724 to 0.876. Are significantly more than 70% of
+adult Labrador Retrievers overweight?</p>
+<p>Select the following statements that are <strong>true.</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox" />We can be 95% sure that the
+percentage of all the sampled adult Labradors that are overweight is
+between 72.4% and 87.6%.</label></li>
+<li><label><input type="checkbox" checked="" />A different random sample
+of adult Labradors will probably result in a different 90% confidence
+interval.</label></li>
+<li><label><input type="checkbox" checked="" />Based on this sample, we
+can be 90% sure that the percentage of all adult Labradors that are
+overweight is between 72.4% and 87.6%.</label></li>
+<li><label><input type="checkbox" />Since 0.7 (70%) is below the lower
+bound of the confidence interval, there is evidence that significantly
+more than 70% of adult Labradors are overweight.</label></li>
+<li><label><input type="checkbox" />Since the sample proportion is 80%,
+significantly more than 70% of all Labradors must be
+overweight.</label></li>
+</ul>
+<p><strong>Question 5</strong></p>
+<p>A random sample of 75 children from a region of rural Victoria found
+that 50 children consume at least one sugary soft drink per day.
+Construct a 90% confidence interval from this sample result for the true
+proportion of children consuming at least one sugary soft drink per
+day.</p>
+<p>Choose the correct answer.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />0.593 to 0.807</label></li>
+<li><label><input type="checkbox" />0.560 to 0.774</label></li>
+<li><label><input type="checkbox" checked="" />0.578 to
+0.757</label></li>
+<li><label><input type="checkbox" />0.667 to 0.900</label></li>
+<li><label><input type="checkbox" />0.489 to 0.711</label></li>
+</ul>
+<p><strong>Question 6</strong></p>
+<p>From a random sample of 80 adult Labrador Retrievers, 55 were found
+to be overweight.</p>
+<p>Is there significant evidence that more than 65% of adult Labrador
+Retrievers are overweight?</p>
+<p>Select the appropriate hypotheses, where p is the proportion of adult
+Labrador Retrievers that are overweight.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(H_0: p = 0.65\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(H_0: p ≠
+0.65\)</span></label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(H_a: p &gt; 0.65\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(H_a: p =
+0.65\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(H_0: p =
+0.6875\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(H_a: p
+\ne 0.65\)</span></label></li>
+</ul>
+<p><strong>Question 7</strong></p>
+<p>In a random sample of 80 Labrador Retriever adult dogs, 66 were found
+to be overweight. Are more than 70% of adult Labradors overweight?</p>
+<p>Calculate the z test statistic required for the hypothesis test.</p>
+<p>Choose the closest answer.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />-1.96</label></li>
+<li><label><input type="checkbox" />1.95</label></li>
+<li><label><input type="checkbox" />-2.44</label></li>
+<li><label><input type="checkbox" checked="" />0.93</label></li>
+<li><label><input type="checkbox" />2.94</label></li>
+</ul>
+<pre class="r"><code>p &lt;- 66/80
+round(qnorm(p, lower.tail=TRUE), 2)</code></pre>
+<pre><code>## [1] 0.93</code></pre>
+<p><strong>Question 8</strong></p>
+<p>For a two sided hypothesis test with a calculated z test statistic of
+2.31, what is the P-value?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />0.05</label></li>
+<li><label><input type="checkbox" />0.0104</label></li>
+<li><label><input type="checkbox" checked="" />0.0208</label></li>
+<li><label><input type="checkbox" />0.9896</label></li>
+<li><label><input type="checkbox" />0.0107</label></li>
+</ul>
+<pre class="r"><code>round(2*pnorm(2.31, lower.tail=FALSE), 4)</code></pre>
+<pre><code>## [1] 0.0209</code></pre>
+<p><strong>Question 9</strong></p>
+<p>In a random sample of children, 65% consumed at least one sugary soft
+drink per day. Is there evidence that the proportion of children
+consuming at least one sugary soft drink per day is significantly
+different to 80%? Using a calculated test statistic value of z = -2.23
+and P-value = 0.0258, choose the most correct conclusion (use α =
+0.05).</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Reject Ha since the P-value &gt;
+0.05 – there is no evidence that the proportion of children who consume
+at least one sugary soft drink per day is different to 80%.</label></li>
+<li><label><input type="checkbox" />Fail to reject H0 since the P-value
+&gt; 0.01 – there is evidence that the proportion of children who
+consume at least one sugary soft drink per day is different to
+80%.</label></li>
+<li><label><input type="checkbox" checked="" />Reject H0 since the
+P-value &lt; 0.05 – there is evidence that the proportion of children
+who consume at least one sugary soft drink per day is significantly
+different to 80%.</label></li>
+<li><label><input type="checkbox" />Reject H0 since the P-value &gt;
+0.05 – there is evidence that the proportion of children who consume at
+least one sugary soft drink per day is significantly different to
+80%.</label></li>
+<li><label><input type="checkbox" />Fail to reject H0 since the P-value
+&lt; 0.05 – there is no evidence that the proportion of children who
+consume at least one sugary soft drink per day is significantly
+different to 80%.</label></li>
+</ul>
+</div>
+<div id="week-7-quiz" class="section level2 well">
+<h2 class="well">Week 7 Quiz</h2>
+<p><strong>Question 1</strong></p>
+<p>Consider the different scenarios below and match with the appropriate
+statistical test/calculation.</p>
+<p><strong>A one proportion z-test</strong> From a random sample of 195
+people from one suburb, it was found that 35 go to the movies at least
+once a month. We want to know whether the proportion of movie-goers from
+this suburb differs significantly from the proportion for the whole
+city, which is stated to be 15%.</p>
+<p><strong>A two proportion z confidence interval</strong> A recent
+study on the diet of athletes reported that 12% of females and 21% of
+males take protein supplements. We want to know by how much the
+proportions of athletes taking protein supplements differs between
+females and males.</p>
+<p><strong>A two proportion z-test</strong> A recent study reported that
+9% of women and 6% of men are vegetarians. We want to know if the
+difference in the proportions of vegetarians between the genders is
+statistically significant.</p>
+<p><strong>A one proportion z confidence interval</strong> In a random
+sample of 315 children, 251 said they use an iPad every day. We want to
+estimate the proportion of all children who use an iPad every day.</p>
+<p><strong>Question 2</strong></p>
+<p>Carpal tunnel syndrome is a painful wrist condition that can be
+treated with surgery or less invasively with wrist splints. In a study
+of 180 patients with the condition, half had surgery and half used wrist
+splints. In the surgery group, 70 patients showed improvement after
+three months while 42 of those who used wrist splints improved. Is
+surgery more effective than the use of wrist splints for improving
+symptoms of the condition?</p>
+<p>Calculate a 95% confidence interval for the difference (surgery -
+wrist splints) in improvement rates.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />-0.177 to 0.445</label></li>
+<li><label><input type="checkbox" />-0.445 to 0.177</label></li>
+<li><label><input type="checkbox" />0.233 to 0.542</label></li>
+<li><label><input type="checkbox" />0.467 to 0.778</label></li>
+<li><label><input type="checkbox" checked="" />0.177 to
+0.445</label></li>
+</ul>
+<pre class="r"><code>prop.test(x=c(70,42), n=c(90, 90), alternative=&quot;two.sided&quot;, correct=FALSE)</code></pre>
+<pre><code>## 
+##  2-sample test for equality of proportions without continuity correction
+## 
+## data:  c(70, 42) out of c(90, 90)
+## X-squared = 18.529, df = 1, p-value = 0.00001673
+## alternative hypothesis: two.sided
+## 95 percent confidence interval:
+##  0.1769449 0.4452774
+## sample estimates:
+##    prop 1    prop 2 
+## 0.7777778 0.4666667</code></pre>
+<p><strong>Question 3</strong></p>
+<p>A new drug is believed to help in the recovery of stroke patients. A
+clinical experiment was conducted to test the effects of the new drug
+against an existing drug. Researchers observed 3154 patients given the
+new drug and found some improvement of their symptoms in 865 of them. Of
+the 2016 patients given the existing drug, 509 reported improvement.</p>
+<p>A 95% confidence interval was calculated for the difference in the
+improvement rates</p>
+<p>(new drug - existing drug), and is given by [-0.003, 0.046].</p>
+<p>Which of the following interpretations is most applicable?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Between 0.3% and 4.6% of all the
+patients reported an improvement in their symptoms.</label></li>
+<li><label><input type="checkbox" />The improvement rate for patients
+given the new drug was significantly higher than the rate for patients
+given the existing drug.</label></li>
+<li><label><input type="checkbox" />We are 95% sure that between 0.3%
+and 4.6% more patients using the new drug showed improvement compared
+with those on the existing drug.</label></li>
+<li><label><input type="checkbox" checked="" />The difference in
+improvement rates between the two drugs was not statistically
+significant.</label></li>
+</ul>
+<pre class="r"><code>prop.test(x=c(865,509), n=c(3154, 2016), alternative=&quot;two.sided&quot;, correct=FALSE)</code></pre>
+<pre><code>## 
+##  2-sample test for equality of proportions without continuity correction
+## 
+## data:  c(865, 509) out of c(3154, 2016)
+## X-squared = 2.9884, df = 1, p-value = 0.08386
+## alternative hypothesis: two.sided
+## 95 percent confidence interval:
+##  -0.002761999  0.046311510
+## sample estimates:
+##    prop 1    prop 2 
+## 0.2742549 0.2524802</code></pre>
+<p><strong>Question 4</strong></p>
+<p>Carpal tunnel syndrome is a painful wrist condition that can be
+treated with surgery or less invasively with wrist splints. In a study
+of 180 patients with the condition, half had surgery and half used wrist
+splints. In the surgery group, 70 patients showed improvement after
+three months while 42 of those who used wrist splints improved. Is
+surgery more effective than the use of wrist splints for improving
+symptoms of the condition?</p>
+<p>Let ps denote the proportion of patients that would show improvement
+with surgery and pw denote the proportion of patients that would show
+improvement using wrist splints.</p>
+<p>Select the appropriate hypotheses.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span class="math inline">\(H_a: ps
+= pw\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(H_0: ps
+\ne pw\)</span></label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(H_0: ps = pw\)</span></label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(H_a: ps &gt; pw\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(H_a: ps
+\ne pw\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(H_0: ps
+&gt; pw\)</span></label></li>
+</ul>
+<p><strong>Question 5</strong></p>
+<p>Carpal tunnel syndrome is a painful wrist condition that can be
+treated with surgery or less invasively with wrist splints. In a study
+of patients with the condition, 88 had surgery and 76 used wrist
+splints. In the surgery group, 62 patients showed improvement after
+three months while 39 of those who used wrist splints improved. Is
+surgery more effective than the use of wrist splints for improving
+symptoms of the condition?</p>
+<p>Determine the z test statistic value to be used in the hypothesis
+test.</p>
+<p>Answers will vary slightly due to rounding. Select the closest
+answer, ignoring any negative sign.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />0.05</label></li>
+<li><label><input type="checkbox" checked="" />2.51</label></li>
+<li><label><input type="checkbox" />4.89</label></li>
+<li><label><input type="checkbox" />3.35</label></li>
+<li><label><input type="checkbox" />2.16</label></li>
+</ul>
+<pre class="r"><code>prop.test(x=c(62,39), n=c(88,76), alternative=&quot;two.sided&quot;, correct=FALSE)</code></pre>
+<pre><code>## 
+##  2-sample test for equality of proportions without continuity correction
+## 
+## data:  c(62, 39) out of c(88, 76)
+## X-squared = 6.314, df = 1, p-value = 0.01198
+## alternative hypothesis: two.sided
+## 95 percent confidence interval:
+##  0.04402924 0.33874588
+## sample estimates:
+##    prop 1    prop 2 
+## 0.7045455 0.5131579</code></pre>
+<p><strong>Question 6</strong></p>
+<p>Survey results show that 72.3% of men and 58.7% of women have gym
+memberships. Is the difference in proportions significant? Using a
+calculated test statistic value of <span class="math inline">\(z =
+2.55\)</span> and <span class="math inline">\(P-value = 0.01\)</span>,
+choose the most correct conclusion (use <span
+class="math inline">\(\alpha = 0.05\)</span>).</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Reject Ha since P-value &gt; 0.05 –
+there appears to be no significant difference in the proportions of men
+and women who have gym memberships</label></li>
+<li><label><input type="checkbox" checked="" />Reject <span
+class="math inline">\(H_0\)</span> since P-value &lt; 0.05 – there
+appears to be a significant difference in the proportions of men and
+women who have gym memberships</label></li>
+<li><label><input type="checkbox" />Reject <span
+class="math inline">\(H_0\)</span> since the P-value &lt; 0.05 – a
+significantly greater proportion of women than men have gym
+memberships</label></li>
+<li><label><input type="checkbox" />Fail to reject <span
+class="math inline">\(H_0\)</span> since P-value &gt; 0.05 – there
+appears to be no significant difference in the proportions of men and
+women who have gym memberships</label></li>
+<li><label><input type="checkbox" />Fail to reject <span
+class="math inline">\(H_0\)</span> since P-value &lt; 0.05 – there
+appears to be a significant difference in the proportions of men and
+women who have gym memberships</label></li>
+</ul>
+<p><strong>Question 7</strong></p>
+<p>Smarties (sugar coated chocolate confectionary) come in 8 colours –
+green, yellow, red, orange, pink, purple, blue and brown. You buy a bag
+containing 120 smarties to investigate the distribution of colours, and
+count 12 green, 14 yellow, 17 red, 15 orange, 16 pink, 17 purple, 11
+blue and 18 brown smarties.</p>
+<p>To see if your results are consistent with the colours being equally
+represented or not, which is the most appropriate test?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Chi-square test of
+independence</label></li>
+<li><label><input type="checkbox" checked="" />Chi-square
+goodness-of-fit test</label></li>
+<li><label><input type="checkbox" />One proportion z-test</label></li>
+<li><label><input type="checkbox" />Two proportion z-test</label></li>
+</ul>
+<p><strong>Question 8</strong></p>
+<p>To determine if there is an association between gender and accident
+circumstance, 120 people who had been injured in an accident were
+randomly selected from medical records and categorised by gender and the
+circumstance. The results are shown below.</p>
+<table style="width:100%;">
+<colgroup>
+<col width="18%" />
+<col width="19%" />
+<col width="19%" />
+<col width="10%" />
+<col width="18%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>At work </strong></th>
+<th><strong>At home </strong></th>
+<th><strong>Car</strong></th>
+<th><strong>other </strong></th>
+<th><strong>TOTAL</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Female </strong></td>
+<td>11</td>
+<td>16</td>
+<td>11</td>
+<td>19</td>
+<td>57</td>
+</tr>
+<tr class="even">
+<td><strong>Male</strong></td>
+<td>17</td>
+<td>8</td>
+<td>4</td>
+<td>34</td>
+<td>63</td>
+</tr>
+<tr class="odd">
+<td><strong>TOTAL</strong></td>
+<td>28</td>
+<td>24</td>
+<td>15</td>
+<td>53</td>
+<td>120</td>
+</tr>
+</tbody>
+</table>
+<p>If gender and accident circumstance are independent, how many males
+would be expected to be injured at work?</p>
+<p><strong>Choose the correct value.</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />14.7</label></li>
+<li><label><input type="checkbox" />17</label></li>
+<li><label><input type="checkbox" />9.3</label></li>
+<li><label><input type="checkbox" />15.75</label></li>
+<li><label><input type="checkbox" />4.0</label></li>
+</ul>
+<p><strong>Question 9</strong></p>
+<p>The following table shows data on randomly selected crime
+victims.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Homicide</th>
+<th>Robbery</th>
+<th>Assault</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Criminal was a stranger</td>
+<td>12</td>
+<td>379</td>
+<td>727</td>
+</tr>
+<tr class="even">
+<td>Criminal was known to the victim</td>
+<td>39</td>
+<td>106</td>
+<td>642</td>
+</tr>
+</tbody>
+</table>
+<p><strong>For a test regarding a possible association between the type
+of crime and the relationship of the criminal with the victim, what
+would be the appropriate hypotheses?</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span
+class="math inline">\(H_a\)</span>: There are unequal numbers of each
+type of crime</label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(H_a\)</span>: Robberies are more likely to be
+committed by strangers than assaults.</label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(H_0\)</span>: Type of crime and relationship to
+victim are related.</label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(H_a\)</span>: Type of crime and relationship to
+the victim are not independent.</label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(H_0\)</span>: Type of crime and relationship to
+the victim are independent.</label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(H_0\)</span>: There are equal numbers of each type
+of crime.</label></li>
+</ul>
+<p><strong>Question 10</strong></p>
+<p>Smarties (sugar coated chocolate confectionary) come in 8 colours –
+green, yellow, red, orange, pink, purple, blue and brown. You buy a bag
+to investigate the distribution of colours, and count 12 green, 16
+yellow, 12 red, 13 orange, 12 pink, 12 purple, 15 blue and 18 brown
+smarties.</p>
+<p><strong>What is the value of the degrees of freedom for a
+goodness-of-fit test? Give the integer (whole number)
+answer.</strong></p>
+<p><strong>Answer:</strong> <span class="math inline">\(df = n - 1 =
+7\)</span></p>
+<p><strong>Question 11</strong></p>
+<p>Smarties (sugar coated chocolate confectionary) come in 8 colours –
+green, yellow, red, orange, pink, purple, blue and brown. You buy a bag
+of 120 smarties to investigate the distribution of colours, and count 16
+green, 10 yellow, 16 orange, 16 pink, 16 purple, 16 blue, 12 brown
+smarties and the remainder red. Are the colours represented equally?</p>
+<p><strong>Calculate the value of the <span
+class="math inline">\(\chi^2\)</span> test statistic.</strong></p>
+<p>[Give your answer to 1 decimal place]</p>
+<p><strong>Answer</strong>: 3.2</p>
+<pre class="r"><code>smarties &lt;- c(16, 10, 16, 16, 16, 16, 12, 18)
+chisq.test(smarties)</code></pre>
+<pre><code>## 
+##  Chi-squared test for given probabilities
+## 
+## data:  smarties
+## X-squared = 3.2, df = 7, p-value = 0.8659</code></pre>
+<p><strong>Question 12</strong></p>
+<p>Suppose we were interested in whether the current year’s enrolments
+in the Science faculty differed to previous years in terms of the
+distribution of students across different areas. We usually expect a
+ratio of 3:2:1:1:2:1 across the areas of Ecology, Biology, Chemistry,
+Engineering, Architecture, IT.</p>
+<p>In conducting a goodness-of-fit test, we obtained a <span
+class="math inline">\(\chi^2\)</span> value of 9.7.</p>
+<p><strong>Choose the correct P-value range. </strong>Note, if you have
+found an exact value with technology, choose the range that contains
+your value.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />0.005 &lt; P-value &lt;
+0.01</label></li>
+<li><label><input type="checkbox" />P-value &gt; 0.3</label></li>
+<li><label><input type="checkbox" />0.1 &lt; P-value &lt;
+0.2</label></li>
+<li><label><input type="checkbox" />P-value &lt; 0.05</label></li>
+<li><label><input type="checkbox" checked="" />0.05 &lt; P-value &lt;
+0.1</label></li>
+</ul>
+<p><strong>Question 13</strong></p>
+<p>When someone is charged with a crime, a jury may be required to
+decide the result in court. One study in a large city compared the ages
+of jury members with the general population to see if the jury were
+representative. In the city 35% of residents are less than 30 years old,
+32% are aged between 31 to 50 years, 22% are aged 51 to 60 years and 11%
+are older than 60 years.</p>
+<p>A sample of 100 jury members was taken in the city. Below are the
+observed counts:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Age (years)</th>
+<th>Observed Count</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Less than 30</td>
+<td>37</td>
+</tr>
+<tr class="even">
+<td>31 - 50</td>
+<td>28</td>
+</tr>
+<tr class="odd">
+<td>51 - 60</td>
+<td>24</td>
+</tr>
+<tr class="even">
+<td>Over 60</td>
+<td>11</td>
+</tr>
+</tbody>
+</table>
+<p>Is the age distribution for the jury members consistent with the age
+distribution for the general population?</p>
+<p>A Chi-square Goodness of fit test was conducted with the test
+statistic calculated as 0.79 and P-value&gt;0.3.</p>
+<p><strong>Using a significance level of 5%, what would you conclude?
+(select all that apply)</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />Fail to reject <span
+class="math inline">\(H_0\)</span> since P-value &gt;0.05 The ages of
+the sampled jury members seem representative of the
+population.</label></li>
+<li><label><input type="checkbox" />The over 60s are less represented
+amongst the jury than the population.</label></li>
+<li><label><input type="checkbox" checked="" />For each age group, the
+percentages of the jury members are similar to those for the
+population.</label></li>
+<li><label><input type="checkbox" />Reject <span
+class="math inline">\(H_0\)</span> since P-value &lt;0.05 The ages of
+the sampled jury members do not appear to be representative of the
+population.</label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(H_a\)</span> is proved.The ages of the sampled
+jury members are not representative of the population.</label></li>
+<li><label><input type="checkbox" />Fail to reject <span
+class="math inline">\(H_0\)</span> since P-value &gt;0.05. The jury is
+independent.</label></li>
+</ul>
+<pre class="r"><code>age &lt;- c(37,28,24,11)
+chisq.test(age, p=c(.35,.32,.22,.11))</code></pre>
+<pre><code>## 
+##  Chi-squared test for given probabilities
+## 
+## data:  age
+## X-squared = 0.7961, df = 3, p-value = 0.8504</code></pre>
+</div>
+<div id="week-8-quiz" class="section level2 well">
+<h2 class="well">Week 8 Quiz</h2>
+<div id="inference-for-one-mean" class="section level3">
+<h3>Inference for one mean</h3>
+<p><strong>Finding t using R</strong></p>
+<p>Finding t* using the qt() function:</p>
+<ol style="list-style-type: lower-alpha">
+<li>A confidence level of 90%, and df = 10</li>
+</ol>
+<pre class="r"><code>  sample1 &lt;- qt(p=0.10/2, df=10, lower.tail=FALSE)
+  print(round(sample1, 2))</code></pre>
+<pre><code>## [1] 1.81</code></pre>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>A confidence level of 98% and n = 15</li>
+</ol>
+<pre class="r"><code>  sample2 &lt;- qt(p=0.02/2, df=14, lower.tail=FALSE)
+  print(round(sample2, 2))</code></pre>
+<pre><code>## [1] 2.62</code></pre>
+<hr />
+<blockquote>
+<p><strong>Confidence interval example</strong></p>
+<p>Consumer Reports tested 14 brands of vanilla yoghurt and found the
+following calories per 200g serving:</p>
+<p>160 200 220 230 120 180 140 130 170 190 80 120 100 170</p>
+<ol style="list-style-type: decimal">
+<li><p>Create a 95% confidence interval for the average calorie content
+in 200g of vanilla yoghurt. <span class="math display">\[
+\begin{aligned}
+\bar{x} &amp;= 157.86\\
+s &amp;= 44.75\\
+\\
+\bar{x} \pm t^{*}_{df} \times \frac{s}{\sqrt{n}} &amp;= 157.86 \pm 2.16
+\times \frac{44.18}{\sqrt{14}}\\
+&amp;= 157.9 \pm 25.86\\
+&amp;= 132.0, 183.8\\
+\end{aligned}
+\]</span> <em>i.e., we are 95% confident that the average calorie
+content (<span class="math inline">\(\mu\)</span>) of all vanilla
+yoghurt is between 132.0 and 183.8 calories.</em></p></li>
+<li><p>A diet guide claims that there are 120 calories in a 200g serving
+of vanilla yoghurt. What does this evidence indicate?</p>
+<p><em>Since 120 calories is not contained in the interval (120 is below
+the lower bound of 132), the evidence indicates that the diet guide is
+incorrect and a 200g serve of the &gt; yoghurt has significantly more
+than 120 calories.</em></p></li>
+</ol>
+</blockquote>
+<p><strong>GUIDED PRACTICE 7.12</strong></p>
+<p>Using the information and results of Guided Practice 7.10 and Example
+7.11, compute a 90% confidence interval for the average mercury content
+of croaker white fish (Pacific).</p>
+<p><span class="math display">\[
+  \begin{aligned}
+    \bar{x} &amp;= 0.287\\
+    s &amp;= 0.069\\
+    df &amp;= 15 - 1 = 14\\
+    \\
+    \bar{x} \pm t^{*}_{df} \times \frac{s}{\sqrt{n}} &amp;= 0.287 \pm
+1.76 \times \frac{0.069}{\sqrt{15}}\\
+    &amp;=  0.287 \pm 0.0314\\
+    &amp;= 0.256,\ 0.318\\
+  \end{aligned}
+\]</span> <em>We are 90% confident that the average mercury content of
+croaker white fish (Pacific) is between 0.256 and 0.318 ppm.</em></p>
+<p><strong>GUIDED PRACTICE 7.13</strong></p>
+<p>The 90% confidence interval from Guided Practice 7.12 is 0.256 ppm to
+0.318 ppm. Can we say that 90% of croaker white fish (Pacific) have
+mercury levels between 0.256 and 0.318 ppm?</p>
+<p><em>No, a confidence interval only provides a range of plausible
+values for a population parameter, in this case the population mean. It
+does not describe what we might observe for individual
+observations.</em></p>
+<p><strong>Sample Question 2</strong></p>
+<p>A random sample of 25 people followed a particular diet for 6 weeks.
+Their average weight loss was 5.6kg with standard deviation 0.8kg.
+Construct a 95% confidence interval for the average weight loss for this
+diet. <span class="math display">\[
+  \begin{aligned}
+    \bar{x} &amp;= 5.6\\
+    s &amp;= 0.8\\
+    \\
+    \bar{x} \pm t^{*}_{df} \times \frac{s}{\sqrt{n}} &amp;= 5.6 \pm 2.06
+\times \frac{0.8}{\sqrt{25}}\\
+    &amp;=  5.6 \pm 0.3\\
+    &amp;= 5.3,\ 5.9\\
+  \end{aligned}
+\]</span> <em>i.e., we are 95% confident that the average weight loss
+(<span class="math inline">\(\mu\)</span>) for people following this
+diet is between 5.3 and 5.9 kg.</em></p>
+<details>
+<summary>
+<strong>Inference for paired means</strong>
+</summary>
+<p><span class="math inline">\(\bar{x}_d\)</span> denotes the mean
+difference. <span class="math inline">\(s_d\)</span> denotes the
+standard deviation differences.</p>
+<p><strong>Hypotheses</strong> <span class="math display">\[
+    \begin{aligned}
+      H_0: \mu_d &amp;= 0\\
+      H_a: \mu_d &amp;&lt; 0\ OR\\
+      \mu_d &amp;&lt; 0\ OR\\
+      \mu_d &amp;\neq 0\
+    \end{aligned}
+  \]</span></p>
+<p><strong>Paired data</strong></p>
+<p>Which of the following situations would result in paired data:</p>
+<p><del>Comparing test results for one campus compared with
+another.</del></p>
+<p><span class="math inline">\(\checkmark\)</span> Comparing individual
+students’ Assignment 1 and 2 results.</p>
+<p><span class="math inline">\(\checkmark\)</span> Investigating blood
+pressure change from a new drug.</p>
+<p><strong>Assumptions &amp; Conditions</strong></p>
+<p>Differences must be independant of each other.</p>
+<p>Population differences (<span class="math inline">\(N\)</span>) need
+to be a normal (distribution) model.</p>
+<p>A large sample size (<span class="math inline">\(n\)</span>) will
+help to ensure normality.</p>
+<p>Random samples will ensure independence.</p>
+<p><strong>Confidence intervals for the mean difference (<span
+class="math inline">\(\bar{x}_d\)</span>)</strong> <span
+class="math display">\[
+  \begin{aligned}
+    point\ estimate\ \pm t^{*}_{df} \times \frac{s_d}{\sqrt{n}}
+  \end{aligned}
+\]</span></p>
+<ul>
+<li><span class="math inline">\(t^{*}_{df}\)</span> will depend on the
+specified confidence level (i.e. 90%) and on the degrees of freedom
+(<span class="math inline">\(n - 1\)</span>), and can be obtained from:
+<ul>
+<li>t table</li>
+<li>qt() function in R</li>
+</ul></li>
+</ul>
+</details>
+<p><strong>t test statistic</strong></p>
+<p><span class="math display">\[
+  \begin{aligned}
+    t = \frac{\bar{x}-\mu_0}{\frac{s_d}{\sqrt{n}}}
+  \end{aligned}
+\]</span></p>
+<blockquote>
+<p><strong>Hypotheses</strong></p>
+<p>A new drug designed to lower blood pressure is being trialed. A
+random sample of patients with high blood pressure took the drug for 6
+weeks and their blood pressure was &gt;recorded before taking the drug
+and at the end of the trial. Did their blood pressure decrease?</p>
+<p>Formulate the null and alternative hypotheses. <span
+class="math display">\[
+\begin{aligned}
+H_0: \mu_d &amp;= 0\\
+H_a: \mu_d &amp;&lt; 0\ (if\ d = after - before)\ OR\\
+H_a: \mu_d &amp;&gt; 0\ (if\ d = before - after)\\
+\end{aligned}
+\]</span></p>
+</blockquote>
+<p><strong>Example</strong></p>
+<p>A group of 9 randomly selected adults were given self defence
+lessons. Prior to the course, they were tested to determine their
+self-confidence. After the course they were given the same test. A high
+score on the test indicates a high degree of self-confidence. The scores
+and their differences (after – before) are given in the table below.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+Before
+</th>
+<th style="text-align:right;">
+After
+</th>
+<th style="text-align:right;">
+Difference
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+One
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Two
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Three
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Four
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Five
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Six
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Seven
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Eight
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nine
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+</tbody>
+</table>
+<p>Note: <span class="math inline">\(x_d=1.11\)</span> and <span
+class="math inline">\(s_d=0.78\)</span></p>
+<ol style="list-style-type: lower-alpha">
+<li>Do the results indicate that the course significantly increases the
+self-confidence of adults? Use <span
+class="math inline">\(\alpha=0.01\)</span>.</li>
+</ol>
+<p><span class="math display">\[
+  \begin{aligned}
+    H_0: \mu_d &amp;= 0\\
+    H_a: \mu_d &amp;&gt; 0\\
+    \\
+    t &amp;= \frac{\bar{x}_d - \mu_0}{\frac{s}{\sqrt{n}}} = \frac{1.11 -
+0}{\frac{0.78}{\sqrt{9}}}\\
+    &amp;= 4.27
+  \end{aligned}
+\]</span> P-value &lt; 0.005</p>
+<p>Since P-value <span class="math inline">\(&lt; \alpha\)</span>,
+reject <span class="math inline">\(H_0\)</span>.</p>
+<p>There is evidence that the self defence lessons significantly
+increase self-confidence in adults.</p>
+<p>b.i. Calculate a 98% confidence for the true mean difference between
+the scores.</p>
+<p><span class="math display">\[
+  \begin{aligned}
+    \bar{x} &amp;= 1.11\\
+    s &amp;= 0.78\\
+    \\
+    \bar{x} \pm t^{*}_{df} \times \frac{s}{\sqrt{n}} &amp;= 1.11 \pm 2.9
+\times \frac{0.78}{\sqrt{9}}\\
+    &amp;=  1.11 \pm 0.754\\
+    &amp;= 0.36,\ 1.86\\
+  \end{aligned}
+\]</span></p>
+<p><em>We are 98% sure than the true mean increase in self-confidence is
+between 0.36 and 1.86.</em></p>
+<p>b.ii. Comment on your result in relation to your conclusion from a).
+<em>The confidence interval supports the hypothesis test result since 0
+(no difference) is not contained in the interval and we rejected the
+null hypothesis that there was no difference in self-confidence due to
+the self defence lessons.</em></p>
+<blockquote>
+<p><strong>Paired data activity</strong></p>
+<p>Complete the following questions with software or by hand.</p>
+<p>Twelve males aged between 13 and 16 were asked to self-report their
+height (in cm). Their heights were then measured. Is there sufficient
+evidence to support the claim that &gt;there is a difference between
+self-reported and measured heights for males in this age group?</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:right;">
+Reported
+</th>
+<th style="text-align:right;">
+Mesured
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+173
+</td>
+<td style="text-align:right;">
+172.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+180
+</td>
+<td style="text-align:right;">
+177.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+160
+</td>
+<td style="text-align:right;">
+164.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+178
+</td>
+<td style="text-align:right;">
+173.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+180
+</td>
+<td style="text-align:right;">
+178.6
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+152
+</td>
+<td style="text-align:right;">
+153.9
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+165
+</td>
+<td style="text-align:right;">
+163.8
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+162
+</td>
+<td style="text-align:right;">
+170.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+137
+</td>
+<td style="text-align:right;">
+141.2
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+160
+</td>
+<td style="text-align:right;">
+188.5
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+168
+</td>
+<td style="text-align:right;">
+165.1
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+183
+</td>
+<td style="text-align:right;">
+179.8
+</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Note: <span class="math inline">\(x_d=−2.617\)</span> and <span
+class="math inline">\(s_d=8.997\)</span> (with d = reported −
+measured)</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Carry out a hypothesis test and use a 5% level of
+significance.</p></li>
+<li><p>Report a 95% confidence interval to estimate the mean difference
+between reported heights and measured heights.</p></li>
+<li><p>How does your interval support your decision from the hypothesis
+test?</p></li>
+</ol>
+</blockquote>
+</div>
+</div>
+<div id="week-9-quiz" class="section level2 well">
+<h2 class="well">Week 9 Quiz</h2>
+<p><strong>Question 1</strong></p>
+<p>Jimmy wants to test the performance of two different pairs of shoes
+on his running times. Each time he runs, he flips a coin to determine
+which pair of shoes he’s going to wear and then measures the time (in
+minutes) it takes him to run 10km. He ran wearing Pair 1 on 11 occasions
+(mean of 42:03, standard deviation of 3:16) and Pair 2 on 13 occasions
+(mean of 40:29, standard deviation of 4:23).</p>
+<p>What is the value for the <strong>degrees of freedom</strong> (using
+<span class="math inline">\(n_1 + n_2 - 2\)</span>)?</p>
+<pre class="r"><code>  Pair1 &lt;- 11
+  Pair2 &lt;- 13
+  df &lt;- Pair1 + Pair2 - 2
+  print(df)</code></pre>
+<pre><code>## [1] 22</code></pre>
+<p><strong>Question 2</strong></p>
+<p>Hand span is defined as the maximum distance between the tips of the
+thumb and little finger. Hand span (cm) was compared for a random sample
+of 87 boys and 103 girls of the same age. From the results, a 95%
+confidence interval for the average difference (boys - girls) in hand
+span between the genders was calculated as 2.06 to 2.98cm.</p>
+<p>Choose the most correct interpretation of the interval.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />We can be 95% confident
+that average hand span for boys is between 2.06 and 2.98cm larger than
+the average hand span for girls.</label></li>
+<li><label><input type="checkbox" />We can be 95% confident that average
+hand span for girls is between 2.06 and 2.98cm larger than the average
+hand span for boys.</label></li>
+<li><label><input type="checkbox" />The average hand span for all boys
+is between 2.06 smaller and 2.98cm larger than the average hand span for
+all girls.</label></li>
+<li><label><input type="checkbox" />We can be 95% confident that average
+hand span for boys is between 2.06 and 2.98cm.</label></li>
+<li><label><input type="checkbox" />We can be 95% confident that average
+hand span for girls is between 2.06 and 2.98cm.</label></li>
+</ul>
+<p><strong>Question 3</strong></p>
+<p>A researcher wanted to compare whether language makes a difference in
+recalling sequences of numbers. Each test involved briefly displaying a
+random sequence of digits and then asking the participant to recall as
+much of the sequence as they could. The data collected for a sample of
+English speakers and a sample of Chinese speakers were as follows. The
+means given are the average number of digits that could be remembered
+from the sequence.</p>
+<p>…answer</p>
+<p>Calculate a 95% confidence interval for the difference (English score
+- Chinese score) in average recall for English and Chinese speakers and
+choose the correct answer. Use <span class="math inline">\(df = n_1 +
+n_2 - 2\)</span>.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span
+class="math inline">\(-1.85\)</span> to <span
+class="math inline">\(2.38\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(-1.96\)</span> to <span
+class="math inline">\(-0.16\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(7.12\)</span> to <span
+class="math inline">\(8.18\)</span></label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(-2.14\)</span> to <span
+class="math inline">\(0.02\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(1.339\)</span> to <span
+class="math inline">\(2.507\)</span></label></li>
+</ul>
+<blockquote>
+<p>The confidence interval formula is:</p>
+<p><span class="math inline">\((\bar{x}_1 − \bar{x}_2) \pm t^*_{df}
+\times \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}\)</span></p>
+<p><span class="math inline">\(df = 36 + 26 - 2 = 60\)</span>.</p>
+<p>The critical <span class="math inline">\(t-value\)</span> is <span
+class="math inline">\(2.00\)</span> (reading from the t-table based on a
+95% confidence interval).</p>
+</blockquote>
+<p><strong>Question 4</strong></p>
+<p>Random samples of students from two different prac groups were
+selected, and their scores for an assessment task (out of 80) recorded.
+The summary statistics and SPSS t-test output to test whether the
+average scores were different between the prac groups is shown.</p>
+<div class="float">
+<img src="images/SIT191/Wk9Images/Q4%20Img.png"
+alt="Group Statistics" />
+<div class="figcaption">Group Statistics</div>
+</div>
+<p>Assuming variances are not equal, which of the following is a 95%
+confidence interval for the true mean difference between the groups’
+scores?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />-17.08 to -3.56</label></li>
+<li><label><input type="checkbox" />58.61 to 65.38</label></li>
+<li><label><input type="checkbox" checked="" />-17.08 to
+3.56</label></li>
+<li><label><input type="checkbox" />-6.761 to -1.450</label></li>
+<li><label><input type="checkbox" />-14.55 to -4.63</label></li>
+</ul>
+<p><strong>Question 5</strong></p>
+<p>Random samples of male and female dogs of the same large breed were
+selected, and their weights (in kg) measured.</p>
+<p>Use SPSS to calculate a 90% confidence interval for the true mean
+difference in weights between the genders then select the correct option
+(correct to one decimal place).</p>
+<p>…answer</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />2.2 to 11.8</label></li>
+<li><label><input type="checkbox" />3.4 to 10.4</label></li>
+<li><label><input type="checkbox" checked="" />3.1 to 10.9</label></li>
+<li><label><input type="checkbox" />60.4 to 67.4</label></li>
+<li><label><input type="checkbox" />-3.2 to 10.8</label></li>
+</ul>
+<p><strong>Question 6</strong></p>
+<p>The length of two different worm species is being compared.</p>
+<p>What are the null and alternative hypotheses for a hypothesis test to
+determine whether the two species are significantly different regarding
+their average length?</p>
+<table>
+<tbody>
+<tr class="odd">
+<td>☐</td>
+<td><span class="math inline">\(H_0: \hat{p}_1 =
+\hat{p}_2\)</span><br><span class="math inline">\(H_a: \hat{p}_1 &gt;
+\hat{p}_2\)</span></td>
+</tr>
+<tr class="even">
+<td>☐</td>
+<td><span class="math inline">\(H_0: \bar{y}_1 =
+\bar{y}_2\)</span><br><span class="math inline">\(H_a: \bar{y}_1 \ne
+\bar{y}_2\)</span></td>
+</tr>
+<tr class="odd">
+<td>☐</td>
+<td><span class="math inline">\(H_0: \mu_1 = \mu_2\)</span><br><span
+class="math inline">\(H_a: \mu_1 &gt; \mu_2\)</span></td>
+</tr>
+<tr class="even">
+<td>☐</td>
+<td><span class="math inline">\(H_0: \hat{p}_1 =
+\hat{p}_2\)</span><br><span class="math inline">\(H_a: \hat{p}_1 \ne
+\hat{p}_2\)</span></td>
+</tr>
+<tr class="odd">
+<td>☑</td>
+<td><span class="math inline">\(H_0: \mu_1 = \mu_2\)</span><br><span
+class="math inline">\(H_a: \mu_1 \ne \mu_2\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Question 7</strong></p>
+<p>Random samples of students from two different prac groups were
+selected, and their scores for an assessment task (out of 80) recorded.
+The summary statistics and SPSS t-test output to test whether the
+average score was higher for group 1 is shown.</p>
+<div class="float">
+<img src="images/SIT191/Wk9Images/Q7%20Img.png"
+alt="Group Statistics" />
+<div class="figcaption">Group Statistics</div>
+</div>
+<p>Which option shows the test statistic value and the P-value for this
+test?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />t = 4.412 and P-value =
+0.05</label></li>
+<li><label><input type="checkbox" />t = 4.494 and P-value =
+0.0005</label></li>
+<li><label><input type="checkbox" />t = 4.494 and P-value =
+0.002</label></li>
+<li><label><input type="checkbox" checked="" />t = 4.494 and P-value =
+0.001</label></li>
+<li><label><input type="checkbox" />t = 4.412 and P-value =
+0.001</label></li>
+</ul>
+<p><strong>Question 8</strong></p>
+<p>Random samples of students from two different prac groups were
+selected, and their scores for an assessment task (out of 80) recorded.
+Is the average score lower for group 2? Use SPSS to perform the
+hypothesis test then select the option that best corresponds to the test
+statistic value and P-value.</p>
+<p>…answer</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />t = 4.893 and P-value &lt;
+0.001</label></li>
+<li><label><input type="checkbox" />t = 4.893 and P-value =
+0.05</label></li>
+<li><label><input type="checkbox" />t = 4.893 and P-value =
+11.832</label></li>
+<li><label><input type="checkbox" />t = 11.832 and P-value &lt;
+0.001</label></li>
+<li><label><input type="checkbox" checked="" />t = 4.893 and P-value
+&lt; 0.0005</label></li>
+</ul>
+<p><strong>Question 9</strong></p>
+<p>An experiment was conducted to test the ability of rats to navigate a
+maze, as measured by the time it takes rats to find food at the end of
+the maze. The maze completion times (in minutes) for 25 male and 28
+female rats were observed, with the results given below.</p>
+<p>…answer</p>
+<p>If conducting a hypothesis test to see whether the average completion
+time is significantly different for male and female rats, what is the
+magnitude of t, the test statistic?</p>
+<p>[If you have a negative value then just choose the correct magnitude
+- i.e. the value as a positive number]</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />1.93</label></li>
+<li><label><input type="checkbox" />0.59</label></li>
+<li><label><input type="checkbox" />2.57</label></li>
+<li><label><input type="checkbox" />0.10</label></li>
+<li><label><input type="checkbox" />1.82</label></li>
+</ul>
+<p><strong>Question 10</strong></p>
+<p>A hypothesis test to test if one mean is greater than the other
+(1-tailed probability) was conducted, with <span
+class="math inline">\(n_1 = 24\)</span> and <span
+class="math inline">\(n_2 = 26\)</span> and</p>
+<p><span class="math inline">\(t = \frac{\bar{x}_1 − \bar{x}_2 −
+0}{SE(\bar{x}_1 − \bar{x}_2)} = 1.27\)</span></p>
+<p>Select the correct P-value range, using <span
+class="math inline">\(df = n_1 + n_2 -2\)</span>.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span class="math inline">\(P-value
+&gt; 0.01\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(P-value
+&gt; 0.2\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(0.05
+&lt; P-value&lt;0.1\)</span></label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(P-value &gt; 0.1\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(P-value
+&lt; 0.05\)</span></label></li>
+</ul>
+<p><strong>Question 11</strong></p>
+<p>An experiment was conducted to test the ability of rats to navigate a
+maze, as measured by the time it takes rats to find food at the end of
+the maze. The average maze completion time (in minutes) for 25 male rats
+was 64.2 minutes and for 28 female rats the average completion time was
+59.4 minutes Is the difference in mean completion times significant?
+Using a calculated test statistic value of <span class="math inline">\(t
+= 4.72\)</span> and <span class="math inline">\(P-value &lt;
+0.010\)</span>, choose the most correct conclusion (use <span
+class="math inline">\(\alpha = 0.05\)</span>).</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />Fail to reject <span
+class="math inline">\(H_0\)</span> since <span
+class="math inline">\(P-value &lt; 0.05\)</span> – there is evidence
+that the mean completion time for male rats is longer than that for
+females</label></li>
+<li><label><input type="checkbox" />Reject <span
+class="math inline">\(H_a\)</span> since <span
+class="math inline">\(P-value &lt; 0.05\)</span> – there is insufficient
+evidence that the mean completion time for male and female rats is
+different</label></li>
+<li><label><input type="checkbox" checked="" />Reject <span
+class="math inline">\(H_0\)</span> since the <span
+class="math inline">\(P-value &lt; 0.05\)</span> – there appears to be a
+significant difference in the mean completion time for male and female
+rats</label></li>
+<li><label><input type="checkbox" />Reject <span
+class="math inline">\(H_0\)</span> since <span
+class="math inline">\(P-value &gt; 0.05\)</span> – there appears to be
+no significant difference in the mean completion time for male and
+female rats</label></li>
+<li><label><input type="checkbox" />Fail to reject <span
+class="math inline">\(H_0 since P-value &gt; 0.05\)</span> – there
+appears to be no significant difference in the mean completion time for
+male and female rats</label></li>
+</ul>
+<p><strong>Question 12</strong></p>
+<p>The average hours of pain relief provided by five different pain
+relief drugs are to be compared. Patients with post-surgery pain were
+randomly assigned to one of the drugs and the number of hours of pain
+relief recorded. Ten patients were assigned to take each drug. Choose
+the appropriate null and alternative hypotheses.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span class="math inline">\(H_a:
+\mu1 \ne \mu2 \ne \mu3 \ne \mu4 \ne \mu5\)</span> (all five of the
+groups’ averages differ)</label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(H_a\)</span>: At least 2 of the drugs provide
+significantly different average pain relief</label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(H_0: \mu1 = \mu2 = \mu3 = \mu4 = \mu5\)</span>
+(all drugs have the same average pain relief)</label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(H_0\)</span>: The average pain relief for drug 1
+is significantly lower than all other drugs.</label></li>
+</ul>
+<p><strong>Question 13</strong></p>
+<p>Random samples of adults from three different suburbs were selected,
+and their weights recorded. The summary statistics and SPSS ANOVA output
+to test whether the average weights were different between any of the
+suburbs is shown.</p>
+<div class="float">
+<img src="images/Wk9Images/Q13%20Data.png" alt="ANOVA Data" />
+<div class="figcaption">ANOVA Data</div>
+</div>
+<p>Which option shows the test statistic value and the P-value for this
+test?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />F = 4.329 and P-value =
+0.058</label></li>
+<li><label><input type="checkbox" />F = 4.329 and P-value =
+0.0145</label></li>
+<li><label><input type="checkbox" />t = 3.558 and P-value =
+0.327</label></li>
+<li><label><input type="checkbox" checked="" />F = 4.329 and P-value =
+0.029</label></li>
+<li><label><input type="checkbox" />F = 0.629 and P-value =
+0.545</label></li>
+</ul>
+<p><strong>Question 14</strong></p>
+<p>Random samples of 5 students from four different prac groups were
+selected, and their scores for an assessment task (out of 80) recorded.
+Do any of the groups’ means differ significantly? Use SPSS to perform
+the ANOVA test then select the option that shows the test statistic
+value and P-value.</p>
+<p>…Answer</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />F = 14.100 and P-value =
+0.002</label></li>
+<li><label><input type="checkbox" checked="" />F = 7.833 and P-value =
+0.002</label></li>
+<li><label><input type="checkbox" />t = 9.358 and P-value =
+0.000</label></li>
+<li><label><input type="checkbox" />F = 10.470 and P-value =
+0.000</label></li>
+<li><label><input type="checkbox" />F = 7.833 and P-value =
+0.001</label></li>
+</ul>
+<p><strong>Question 15</strong></p>
+<p>An experiment involved hand washing with four different soaps to see
+what effect the soaps might have on bacteria colonies. The ANOVA table
+is shown below.</p>
+<div class="float">
+<img src="images/Wk9Images/Q15_img.png" alt="ANOVA Data" />
+<div class="figcaption">ANOVA Data</div>
+</div>
+<p>What are the conclusions you can reach based on the test (use <span
+class="math inline">\(\alpha = 0.05\)</span>)?</p>
+<p>[Select all that apply]</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />There are no
+statistically significant differences between mean bacteria colonies for
+any of the soaps.</label></li>
+<li><label><input type="checkbox" checked="" />Since <span
+class="math inline">\(p-value &gt; \alpha\)</span>, we fail to reject
+<span class="math inline">\(H_0\)</span>.</label></li>
+<li><label><input type="checkbox" />The average bacteria colonies
+between at least two of the soaps are significantly
+different.</label></li>
+<li><label><input type="checkbox" />Since <span
+class="math inline">\(p-value &lt; \alpha\)</span>, we reject <span
+class="math inline">\(H_0\)</span>.</label></li>
+<li><label><input type="checkbox" checked="" />It would be appropriate
+to perform Bonferroni multiple comparisons to determine which soaps
+result in significantly different mean bacteria colonies.</label></li>
+</ul>
+<p><strong>Question 16</strong></p>
+<p>Random samples of students from three different prac groups were
+selected, and their scores for an assessment task (out of 80) recorded.
+The summary statistics and SPSS ANOVA output to test whether the average
+scores were different between any of the prac groups is shown.</p>
+<div class="float">
+<img src="images/Wk9Images/Q16Img.png" alt="ANOVA Data" />
+<div class="figcaption">ANOVA Data</div>
+</div>
+<p>Which option gives the most accurate summary of the Bonferroni
+Multiple Comparisons, using <span class="math inline">\(\alpha =
+0.05\)</span>?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />The mean for group 3 is
+significantly higher than the mean for group 1, which is significantly
+higher than the mean for group 2.</label></li>
+<li><label><input type="checkbox" />The mean for group 1 is
+significantly higher than the mean for group 2.</label></li>
+<li><label><input type="checkbox" />All of the groups’ means are
+significantly different to each other.</label></li>
+<li><label><input type="checkbox" checked="" />The mean for group 3 is
+significantly higher than the means for groups 1 and 2.</label></li>
+<li><label><input type="checkbox" />None of the groups’ means are
+significantly different to each other.</label></li>
+</ul>
+</div>
+<div id="week-10-quiz" class="section level2 well">
+<h2 class="well">Week 10 Quiz</h2>
+<p><strong>Question 1</strong></p>
+<p>Shown are four scatter plots. The calculated correlations are <span
+class="math inline">\(0.008,\ -0.986,\ 0.671,\ -0.589\)</span>. Match
+the correlations to the correct plot.</p>
+<div class="float">
+<img src="images/SIT191/Wk10Images/scatter2a.png" alt="0.671" />
+<div class="figcaption"><span class="math inline">\(0.671\)</span></div>
+</div>
+<div class="float">
+<img src="images/SIT191/Wk10Images/scatter2b.png" alt="0.986" />
+<div class="figcaption"><span class="math inline">\(0.986\)</span></div>
+</div>
+<div class="float">
+<img src="images/SIT191/Wk10Images/scatter2c.png" alt="0.008" />
+<div class="figcaption"><span class="math inline">\(0.008\)</span></div>
+</div>
+<div class="float">
+<img src="images/SIT191/Wk10Images/scatter2d.png" alt="-0.589" />
+<div class="figcaption"><span
+class="math inline">\(-0.589\)</span></div>
+</div>
+<p><strong>Question 2</strong></p>
+<p>From the SPSS output below, what is the correlation value?</p>
+<div class="float">
+<img src="images/SIT191/Wk10Images/corr%201.png" alt="corr1" />
+<div class="figcaption">corr1</div>
+</div>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span
+class="math inline">\(4.22199\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(87.4%\)</span></label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(0.935\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(0.874\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(0.868\)</span></label></li>
+</ul>
+<p><strong>Question 3</strong></p>
+<p>For the following data, use SPSS or other technology to calculate the
+correlation between the variables.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span
+class="math inline">\(-0.887\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(-887\)</span></label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(-0.867\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(-0.786\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(0.87\)</span></label></li>
+</ul>
+<p><strong>Question 4</strong></p>
+<p>For a random sample of 15 adults, tibia length and height were
+recorded with the SPSS linear regression analysis shown below.
+Researchers are investigating whether tibia length can be used to
+predict height.</p>
+<div class="float">
+<img src="images/SIT191/Wk10Images/tibia%20height.png"
+alt="Tibia Height" />
+<div class="figcaption">Tibia Height</div>
+</div>
+<p>Which of the following gives the correct linear regression
+equation?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(\hat{height} = −39.619 + 4.983 \times
+tibia\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(\hat{height} = 39.619−4.983 \times
+tibia\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(\hat{tibia} = 4.983 \times height −
+39.619\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(\hat{height} = −39.619 + 20.203 \times
+tibia\)</span></label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(\hat{tibia} = 4.983 + 0.457 \times
+height\)</span></label></li>
+</ul>
+<p><strong>Question 5</strong></p>
+<p>Wild bears were caught and anaesthetised so that various measurements
+could be made. In particular, the usefulness of a bear’s chest
+circumference to predict its weight was of interest. A random sample of
+10 bears was used, with the chest and weight measurements shown below,
+as well as the linear regression analysis.</p>
+<p>…Answer</p>
+<p>What can be said about the y-intercept (<span
+class="math inline">\(-251.948\)</span>) in the context of this study?
+(Select all that apply)</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />The y-intercept would
+indicate the chest size of a bear with zero weight.</label></li>
+<li><label><input type="checkbox" />The y-intercept is close to a number
+of the observed data values and therefore seems reliable.</label></li>
+<li><label><input type="checkbox" />The y-intercept is meaningful in
+that it would represent the weight of bears when they are
+born.</label></li>
+<li><label><input type="checkbox" />The y-intercept would indicate the
+weight of a bear with zero chest circumference.<br />
+</label></li>
+<li><label><input type="checkbox" checked="" />The y-intercept is based
+on extrapolation and therefore is not reliable.</label></li>
+<li><label><input type="checkbox" checked="" />The y-intercept is not
+meaningful for this data as it would not make sense to have a bear with
+zero chest size or negative weight.</label></li>
+</ul>
+<p><strong>Question 6</strong></p>
+<p>For a random sample of 15 adults, tibia (shinbone) length and height
+were recorded (in cm) with the SPSS linear regression analysis shown
+below. Researchers are investigating whether tibia length can be used to
+predict height.</p>
+<div class="float">
+<img src="images/SIT191/Wk10Images/tibia%20height.png"
+alt="tibia height" />
+<div class="figcaption">tibia height</div>
+</div>
+<p>Which option is the correct interpretation of the slope of the
+regression equation?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />An increase in tibia length of 1cm
+corresponds with an increase in height of 4.983cm.</label></li>
+<li><label><input type="checkbox" checked="" />An increase in height of
+1cm corresponds with an increase in tibia length of
+4.983cm.</label></li>
+<li><label><input type="checkbox" />An increase in tibia length of 1cm
+corresponds with an increase in height of 39.619cm.</label></li>
+<li><label><input type="checkbox" />A decrease in tibia length of
+39.619cm corresponds with an increase in height of 4.983cm.</label></li>
+<li><label><input type="checkbox" />An increase in tibia length of 1cm
+corresponds with a decrease in height of 4.983cm.</label></li>
+</ul>
+<p><strong>Question 7</strong></p>
+<p>For the following data, use SPSS to calculate the regression equation
+to predict y from x, then select the correct answer.</p>
+<p>…answer</p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span class="math inline">\(\hat{y}
+= −6.283 + 0.533x\)</span></label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(\hat{y} = −4.861 + 1.605x\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(\hat{y}
+= 1.605 − 4.861x\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(\hat{y}
+= 12.794 − 1.715x\)</span></label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(\hat{y}
+= 4 + 0.577x\)</span></label></li>
+</ul>
+<p><strong>Question 8</strong></p>
+<p>Information on a number of flights from a particular airport was
+gathered, including the distance of the flight and how much it cost.
+Using this data, a scatterplot was generated along with a regression
+model.</p>
+<p>…answer</p>
+<p>Based on this, indicate your answers to the following questions.</p>
+<ol style="list-style-type: lower-alpha">
+<li>The explanatory variable is</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />Distance</label></li>
+<li><label><input type="checkbox" />Cost</label></li>
+</ul>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>The response variable is</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" />Distance</label></li>
+<li><label><input type="checkbox" checked="" />Cost</label></li>
+</ul>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>Based on the scatterplot, is the relationship:</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />positive</label></li>
+<li><label><input type="checkbox" />negative</label></li>
+</ul>
+<ol start="4" style="list-style-type: lower-alpha">
+<li>Give the correlation of distance with cost. (give your answer to 3
+decimal places, e.g. <span class="math inline">\(0.453\ or\
+-0.453\)</span> if the relationship is negative)</li>
+</ol>
+<p>…answer</p>
+<ol start="5" style="list-style-type: lower-alpha">
+<li>What is the <span class="math inline">\(R^2\)</span> value? (give
+your answer as a percentage to 1 decimal place, e.g. 23.1, without the %
+sign)</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />54.6</label></li>
+</ul>
+<ol start="6" style="list-style-type: lower-alpha">
+<li>The linear equation you would use to estimate the cost from distance
+is <span class="math inline">\(\hat{y} = a + bx\)</span> where:</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span
+class="math inline">\(a\)</span> is 0.739 and <span
+class="math inline">\(b\)</span> is 0.564</label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(a\)</span> is 185.874 and <span
+class="math inline">\(b\)</span> is 16.811</label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(a\)</span> is 185.874 and <span
+class="math inline">\(b\)</span> is 0.075</label></li>
+<li><label><input type="checkbox" /><span
+class="math inline">\(a\)</span> is 35.16288 and <span
+class="math inline">\(b\)</span> is 185.874</label></li>
+</ul>
+<ol start="7" style="list-style-type: lower-alpha">
+<li>Use the equation to predict the cost of a flight that is 800km.
+(give your answer to 2 decimal places without the $ sign)</li>
+</ol>
+<p><span class="math display">\[
+  \begin{aligned}
+    \hat{y} &amp;= a + bx\\
+    &amp;= 185.874 + 0.075 \times 800\\
+    &amp;= 245.87
+  \end{aligned}
+\]</span></p>
+<ol start="8" style="list-style-type: lower-alpha">
+<li>Is this answer:</li>
+</ol>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />reliable because it is
+not based on extrapolation or</label></li>
+<li><label><input type="checkbox" />unreliable because it is based on
+extrapolation?</label></li>
+</ul>
+<p><strong>Question 9</strong></p>
+<p>For a random sample of 15 adults, tibia (shinbone) length and height
+were recorded with the SPSS linear regression analysis given below.
+Researchers are investigating whether tibia length can be used to
+predict height.</p>
+<div class="float">
+<img src="images/SIT191/Wk10Images/tibia%20height.png"
+alt="Tibia Height" />
+<div class="figcaption">Tibia Height</div>
+</div>
+<p>Is the relationship between tibia length and height significant using
+<span class="math inline">\(\alpha = 0.01\)</span>? Select the correct
+option.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span class="math inline">\(t =
+11.198\ and\ P = 0.000\)</span> so the relationship is
+significant</label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(t = 11.198\ and\ P = 0.000\)</span> so the
+relationship is not significant</label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(t =
+11.198\ and\ P = 0.024\)</span> so the relationship is not
+significant</label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(t =
+-2.461\ and\ P = 0.024\)</span> so the relationship is not
+significant</label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(t =
+-2.461\ and\ P = 0.012\)</span> so the relationship is
+significant</label></li>
+</ul>
+<p><strong>Question 10</strong></p>
+<p>For the following data, use SPSS to obtain the regression output to
+predict y from x.</p>
+<p>…answer</p>
+<p>Is there a significant relationship between the variables at <span
+class="math inline">\(\alpha = 0.05\)</span>? From your output, select
+the test statistic value and P for this hypothesis test.</p>
+<ul class="task-list">
+<li><label><input type="checkbox" /><span class="math inline">\(t =
+3.246\ and\ P = 0.012\)</span> (significant relationship)</label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(t =
+-1.861\ and\ P = 0.100\)</span> (no significant
+relationship)</label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(t =
+10.066\ and\ P = 0.100\)</span> (no significant
+relationship)</label></li>
+<li><label><input type="checkbox" /><span class="math inline">\(t =
+10.066\ and\ P = 0.05\)</span> (no significant
+relationship)</label></li>
+<li><label><input type="checkbox" checked="" /><span
+class="math inline">\(t = 10.066\ and\ P &lt; 0.001\)</span>
+(significant relationship) ## Formulae {.well}</label></li>
+</ul>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Confidence Interval</th>
+<th>Test statistic</th>
+<th>Hypothesis Testing</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1 Prop</strong></td>
+<td><span class="math display">\[\hat{p} \pm z^* \times
+\sqrt{\frac{\hat{p}\hat{q}}{n}}\]</span><br><br><code>prop.test(x=12, n=79, p=0.14, alternative=“greater”, correct=FALSE)</code></td>
+<td><span class="math display">\[z =
+\frac{\hat{p}-p_0}{\sqrt{\frac{p_0q_0}{n}}}\\\\H_0: p = p_0\\H_a: p \ne
+p_0\ or\ p &gt; p_0\ or\ p &lt; p_0\]</span></td>
+</tr>
+<tr class="even">
+<td><strong>1 Mean</strong></td>
+<td><span class="math display">\[\bar{x} \pm t^*_{n-1} \times
+\frac{s}{\sqrt{n}}\]</span><br><br><code>t.test(vlt$prize, mu=13.13, alternative="less”, conf.level=0.90)</code></td>
+<td><span class="math display">\[t =
+\frac{\bar{x}-\mu_0}{\frac{s}{\sqrt{n}}}\\\\H_0: \mu=\mu_0\\H_a: \mu \ne
+\mu_0\ or\ \mu &gt; \mu_0\ or\ \mu &lt; \mu_0\]</span></td>
+</tr>
+<tr class="odd">
+<td><strong>2 Prop</strong></td>
+<td><span class="math display">\[(p_1 - p_2) \pm z^* \times
+\sqrt{\frac{\hat{p}_1\hat{q}_1}{n_1} +
+\frac{\hat{p}_2\hat{q}_2}{n_2}}\]</span><br><br><code>prop.test(x=c(467, 407), n=c(667, 558), alternative="two.sided", correct=FALSE)</code></td>
+<td><span class="math display">\[z = \frac{p_1 -
+p_2}{\sqrt{\frac{\hat{p}_{pooled}\hat{q}_{pooled}}{n_1}}+\frac{\hat{p}_{pooled}\hat{q}_{pooled}}{n_2}}\\\\H_0:
+p_1 =p_2\ or\ p_1 - p_2=0\\H_a: p_1\ne p_2\ or\ p_1&gt;p_2\ or\
+p_1\]</span></td>
+</tr>
+<tr class="even">
+<td><strong>2 Means</strong></td>
+<td><span class="math display">\[(\bar{x}_1-\bar{x}_2) \pm
+t^*_{n_1+n_2-2} \times
+\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}\]</span><br><br><code>t.test(Moore$conformity[Moore$partner.status=="high"], Moore$conformity[Moore$partner.status=="low"], alternative="greater", var.equal=TRUE)</code></td>
+<td><span class="math display">\[t =
+\frac{\bar{x}_1-\bar{x}_2}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}\\\\H_0:
+\mu_1 = \mu_2\ or\ \mu_1 - \mu_2 =0\\H_a: \mu_1 \ne \mu_2\ or\
+\mu_1&gt;\mu_2\ or\ \mu_1 &lt; \mu_2\]</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Paired Means</strong></td>
+<td><span class="math display">\[\bar{d} \pm t^*_{n-1} \times
+\frac{s_d}{\sqrt{n}}\]</span><br><br><code>t.test(x=sleep$extra[sleep$group==1], y=sleep$extra[sleep$group==2], alternative="two.sided", paired=TRUE)</code></td>
+<td><span class="math display">\[t =
+\frac{\bar{d}}{\frac{s_d}{\sqrt{n}}}\\\\H_0: \mu_d=0\\H_a:\mu_d \ne0\
+or\ \mu_d &gt;0\ or\ \mu_d &lt;0\]</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+name: BPsychSci
+title: BPsychSci
+output:   html_document
+output_dir: docs
+navbar:
+  title: "BPsychSci"
+  left:
+    - icon: fa fa-list fa-lg
+      href: index.html
+    - icon: fa fa-book fa-lg
+      href: about.html
+      menu:
+        - text: "HBS110"
+          href: HBS110.html
+        - text: "HPS104"
+          href: HPS104.html
+        - text: "HPS105"
+          href: HPS105.html
+        - text: "HPS111"
+          href: HPS111.html
+        - text: "HPS121"
+          href: HPS121.html
+        - text: "HPS201"
+          href: HPS201.html
+        - text: "HPS202"
+          href: HPS202.html
+        - text: "HPS203"
+          href: HPS203.html
+        - text: "HPS204"
+          href: HPS204.html
+        - text: "HSH105"
+          href: HSH105.html
+        - text: "HSH206"
+          href: HSH206.html
+        - text: "SIT191"
+          href: SIT191.html
+

@@ -1,0 +1,17 @@
+---
+title: "BPsychSci: Unit Guides"
+output: html_document
+---
+
+#### HBS110: Health Psychology (Behaviour Change)
+#### HPS104: Foundations of Psychological Science
+#### HPS105: Understanding Families and Health
+#### HPS111: Psychology A: Fundamentals of Human Behaviour
+#### HPS121: Introduction to Psychology (Individual and Social Development)
+#### HPS201: Psychology Research Methods (Introductory)
+#### HPS202: Developmental Psychology (Child and Adolescent)
+#### HPS203: Cognitive Psychology
+#### HPS204: Social Psychology
+#### HSH105: Understanding Families
+#### HSH206: Human Deveopment and Healthy Families
+#### SIT191: Introduction to Statistics and Data Analysis

@@ -1,0 +1,3621 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>HPS204: Social Psychology</title>
+
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BPsychSci</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-list fa-lg"></span>
+     
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-book fa-lg"></span>
+     
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="HBS110.html">HBS110</a>
+    </li>
+    <li>
+      <a href="HPS104.html">HPS104</a>
+    </li>
+    <li>
+      <a href="HPS105.html">HPS105</a>
+    </li>
+    <li>
+      <a href="HPS111.html">HPS111</a>
+    </li>
+    <li>
+      <a href="HPS121.html">HPS121</a>
+    </li>
+    <li>
+      <a href="HPS201.html">HPS201</a>
+    </li>
+    <li>
+      <a href="HPS202.html">HPS202</a>
+    </li>
+    <li>
+      <a href="HPS203.html">HPS203</a>
+    </li>
+    <li>
+      <a href="HPS204.html">HPS204</a>
+    </li>
+    <li>
+      <a href="HSH105.html">HSH105</a>
+    </li>
+    <li>
+      <a href="HSH206.html">HSH206</a>
+    </li>
+    <li>
+      <a href="SIT191.html">SIT191</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">HPS204: Social Psychology</h1>
+
+</div>
+
+
+<div id="week-1-what-is-social-psychology" class="section level3 well">
+<h3 class="well">Week 1: What is Social Psychology?</h3>
+<details>
+<summary>
+LO1: How is social psychology defined, and how is it similar/different
+to other research areas?
+</summary>
+<p></br> <strong>1. Definition of ‘social psychology’, and its three key
+components.</strong></p>
+<ul>
+<li>Social Psychology is: “…the scientific investigation of how the
+thoughts, feelings and behaviours of individuals are influenced by the
+actual, imagined and implied presence of others.” Allport (1954)</li>
+<li><strong>Components:</strong>
+<ul>
+<li><strong>Scientific Study:</strong> Application of the scientific
+method (systematic observation, description and measurement) to the
+study of the human condition.</li>
+<li><strong>How individuals think, feel and behave:</strong>
+<ul>
+<li>Generally, social psychologists seek to establish general principles
+of attitude formation and change that apply in various social
+situations.
+<ul>
+<li>Private/non-conscious beliefs and attitudes.</li>
+<li>Heroic, cowardly or mundane public behaviours</li>
+<li>A wide variety/scope of behaviours in comparison to economists or
+political scientists.</li>
+</ul></li>
+</ul></li>
+<li><strong>Social Contexts:</strong>
+<ul>
+<li>Contexts can be observed ideally where feelings or behaviours:
+<ol style="list-style-type: decimal">
+<li>Concern other people (aggression due to hot weather)</li>
+<li>Influence over other people (Nike product endorsements)</li>
+</ol></li>
+<li>Contexts can also be real or imagined:
+<ul>
+<li>Imagining a positive or negative reaction from others can have a
+significant effect on self esteem.</li>
+<li>Imagining having contact with someone from another country, visiting
+and meeting the people of that country can be more positive.</li>
+<li>Living a day in the life of a university professor can improve a
+student’s performance on an analytic test.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>2. How can the content within social psychology be
+applied?</strong></p>
+<ul>
+<li>Climate scientists and governments apply social psychology findings
+to facilitate assessments, attitude change, and to shape behaviour
+(i.e. recycling, EVs, etc.)</li>
+<li>Community groups and local governments use social psychology
+findings to guide the implementation of group processes and prosocial
+behaviours.</li>
+<li>Judges and lawyers use social psychology findings to render
+decisions and refute/support evidence respectively.</li>
+<li>Businesses use social psychology to operate in a global market, as
+well as provide optimal working conditions for their employees.</li>
+<li>Healthcare providers use social psychology to examine social factors
+in the treatment and prevention of disease.</li>
+</ul>
+<p><strong>3. Note the similarities and differences between social
+psychology and other related disciplines in the below
+table.</strong></p>
+<table>
+<colgroup>
+<col width="11%" />
+<col width="88%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Field of Study</th>
+<th align="left">Example of how a researcher in the field might study
+prejudice</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Sociology</td>
+<td align="left">Measure how prejudice varies as a function of social or
+economic class.</td>
+</tr>
+<tr class="even">
+<td align="center">Clinical Psychology</td>
+<td align="left">Test various therapies for people with antisocial
+personalities who exhibit great degrees of prejudice.</td>
+</tr>
+<tr class="odd">
+<td align="center">Personality Psychology</td>
+<td align="left">Develop a questionnaire to identify men who are very
+high or low in degree of prejudice towards women.</td>
+</tr>
+<tr class="even">
+<td align="center">Cognitive Psychology</td>
+<td align="left">Manipulate exposure to a member of some category of
+people and measure the thoughts and concepts that are automatically
+activated. (intersection between cognitive and social psychology</td>
+</tr>
+<tr class="odd">
+<td align="center">Social Psychology</td>
+<td align="left">Manipulate various kinds of contact between individuals
+of different groups and examine the effect of these manipulations on the
+degree of prejudice exhibited.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>3a. Identify and note some areas of research in social
+psychology that share commonalities with disciplines such as sociology,
+and note which disciplines that are more individualistic in their focus
+when compared to social psychology.</strong></p>
+<p><img src="images/HPS204/Week1/CollvsInd.svg" /></p>
+<p><strong>4. Is social psychology just ‘common sense’? Why are social
+psychologists interested in studying what most view as ‘common
+sense’?</strong></p>
+<ul>
+<li>For many “common sense” notions, there is an equally sensible
+sounding contradiction: <em>“Birds of a feather flock together”
+vs. “Opposites Attract”</em></li>
+<li>Common sense and intuition are not reliable ways to answer such
+questions.</li>
+<li>Social Psychology uses the scientific method to explore such
+questions.</li>
+<li>Even if not completely wrong, “common sense” or folk wisdom can be
+misleading in its simplicity.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO2: What are levels of analysis (or explanation) and why is it
+important to social psychology?
+</summary>
+<p><em>Reductionism</em> is a key conceptual part of these levels of
+analysis, suggesting that a social dynamic can be better explained by
+breaking the phenomenon into smaller, simpler components as in the
+different elements of a car.</p>
+<p>The trouble with reductionism, however, is that by breaking down a
+phenomenon in this way, the original question remains unanswered.</p>
+<ul>
+<li><em>Intrapersonal:</em> Analysis of how people construct and
+organise their social experiences (within person).</li>
+<li><em>Interpersonal/Situational:</em> Study of the dynamics of
+relations between individuals in a particular situation at a particular
+moment.</li>
+<li><em>Positional:</em> Examines interactions in a specific situation,
+with the role of status taken into account.</li>
+<li><em>Ideological:</em> A between people analysis including social
+beliefs and social relationships between groups.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO3: What is the person-situation interaction, and why is it important
+to social psychology?
+</summary>
+<p><span class="math display">\[Behaviour = f(person \times
+situation)\]</span></p>
+<ul>
+<li>The person/situation interaction is an element of social psychology
+which looks at the relationship between the two, understanding that they
+can influence each other.</li>
+<li>The variable characteristics of both the person and situation
+interact to determine the resulting behaviour.</li>
+<li>An understanding of personality is vital to understanding social
+behaviour.</li>
+<li>Social Psychologists also identify social context as a key concept
+in understanding social behaviour.</li>
+<li>The good Samaritan experiment showed that situational barriers can
+be far more influential than personality in some instances.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO4: How does social psychology differentiate between cognition, affect,
+and behaviour?
+</summary>
+<ul>
+<li>Three human capacities are required to successfully interact with
+others</li>
+<li>These capacities are interrelated, but are often discussed
+individually when conducting research.</li>
+<li>The focus of social psychology is on the interactions we have with
+each other in social situations, while acknowledging the role our ABCs
+have (both on ourselves and others) within a given situation.</li>
+</ul>
+<p><embed src="images/HPS204/Week1/ABC.html" /></p>
+</details>
+<details>
+<summary>
+LO5: What is the belonging hypothesis, and what role does it play in
+social psychology?
+</summary>
+<ul>
+<li>The belonging hypothesis describes our basic need as humans to
+establish and maintain lasting, positive and significant
+relationships.</li>
+<li>The hypothesis is significant for all humans, and is not dependant
+on race, culture, religion or country of origin (i.e. it is a universal
+requirement).</li>
+<li>Diener &amp; Seilgman (2002) found in their study that the primary
+difference in an individual’s overall affect was the strength and
+quality of their social connections or attachments to others.</li>
+<li>People who are rejected, stigmatised or ostracised are more
+vulnerable to depression and health issues, and are more likely to
+experience distress.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO6: How is ostracism defined, and what are the major findings regarding
+this concept?
+</summary>
+<ul>
+<li>Ostracism can be described as the permanent or temporary, but
+deliberate exclusion of an individual from a social group.</li>
+<li>Heightened activation (as shown by fMRI) of the dorsal anterior
+cingulate cortex and the anterior insula has been observed in response
+to an ostracism event. These centres of the brain are also activated in
+the brain in response to physical pain.</li>
+<li>Ostracism can be viewed as a signal to members that their behaviour
+has been deemed as inappropriate or unacceptable by the group. The group
+may then exclude the individual completely, or allow sufficient time to
+pass for reassimilation into the group (overt or covert).</li>
+<li>Ostracism can be viewed as a protective measure for the group as a
+whole against destructive or damaging behaviour.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO7: What are currently the major perspectives of social psychology?
+</summary>
+<p><strong>i. How has emotion and motivation been treated previously,
+and how have these concepts become integrated into social psychology
+research?</strong></p>
+<ul>
+<li>Emotion and motivation (‘hot’) were previously seen as distinct, and
+unimportant factors of being with emphasis placed on actions (conscious
+and unconscious) and cognition (‘cold’).</li>
+<li>Both ‘hot’ and ‘cold’ elements are now considered to influence each
+other.</li>
+</ul>
+<p><strong>ii. How are evolutionary perspectives used in social
+psychology?</strong></p>
+<ul>
+<li>Evolutionary perspectives are investigated in social psychology to
+try and determine how an emotion such as jealousy has evolved from its
+ancestral origins.</li>
+<li>Social Psychology investigates gender differences in an emotion such
+as jealousy and situational differences that may elicit jealousy.</li>
+</ul>
+<p><strong>iii. How is culture defined? What is cross cultural and
+multicultural research and how do they differ?</strong></p>
+<ul>
+<li><strong>Culture</strong> can be defined as a system of perpetual
+meanings, beliefs, values, assumptions, institutions and practices
+shared by a large group of people, which is passed from one generation
+to the next.</li>
+<li>Our view of the world, and our interactions with it, are influenced
+heavily by our culture.</li>
+<li><strong>Cross-Cultural</strong> research examines similarities and
+differences across different cultures.</li>
+<li><strong>Multi-Cultural</strong> research examines differing racial
+and ethnic groups within cultures.
+<ul>
+<li>Collectivist vs. Individualistic cultures</li>
+<li>‘Hot’ and ‘cold’ and how groups navigate these conflicting (at
+times) influences.</li>
+</ul></li>
+</ul>
+<p><strong>iv. What is behavioural economics and how is it related to
+social psychology?</strong></p>
+<ul>
+<li>Behavioural economics is a sub-discipline of social psychology,
+focusing on how cognitive and social psychology influence economic
+decision making.</li>
+<li>Jiang et al. (2015) found that a group of high school students who
+had experienced rejection became more materialistic.</li>
+<li>Traditional economic models alone do not allow for psychological
+factors that can influence our behaviour.</li>
+</ul>
+<p><strong>v. What is social neuroscience, and what research has been
+conducted in the field?</strong></p>
+<ul>
+<li><strong>Social Neuroscience</strong> investigates the brain activity
+activated via differing social activities, or the relationship between
+neural and social processes.
+<ul>
+<li>How playing violent video games can affect brain activity and
+further acts of aggression.</li>
+<li>How neural activity can influence our perception of different
+members of a racial group.</li>
+</ul></li>
+<li>Our sensory input can also influence our perceptions of our world
+<ul>
+<li>Study found that participants judged a social interaction based on
+the type of surface they were touching at the time (rough surface -
+harsh interaction, smooth surface - pleasant interaction).</li>
+<li>Higher self esteem and lower fear was reported when seated upright,
+compared to study participants seated in a slumped position.</li>
+</ul></li>
+<li>Evolution of the human brain can be linked to our social nature:
+<ul>
+<li>Stronger social bonds with friends and family are known to stave off
+disease such as heart disease, diabetes, and cancer, while promoting a
+longer life span.</li>
+<li>Minority groups (indigenous Australians) are likely to have a
+stronger attachment to traditional culture and better life
+outcomes.</li>
+<li>Positive social interactions stimulate the parts of the brain
+associated with pleasure and reward and vice versa.</li>
+<li>A “broken heart” can be linked with the incidence of heart attack
+for those who have lost a partner.</li>
+</ul></li>
+</ul>
+<p><strong>vi. Why are social psychologists interested in studying new
+technologies and the online world?</strong></p>
+<ul>
+<li>New technologies allow us to unobtrusively explore the brain:
+<ul>
+<li>Event-related potential (ERP)</li>
+<li>Transcranial Magnetic Stimulation (TMS)</li>
+<li>Magnetoencephalography (MEG)</li>
+<li>Functional Magnetic Resonance Imaging (fMRI)</li>
+</ul></li>
+<li>Other applications of technology in social psychology include:
+<ul>
+<li>More efficient methods of recording hormone levels.</li>
+<li>Presenting visual stimuli to a study participant to measure
+attention and reaction times.</li>
+<li>Using Virtual reality to create social situations that would be
+unethical in real life, such as conformity, group dynamics,
+aggression/altruism, social support and eye witness testimony.</li>
+<li>Greater/easier collaboration online between social psychologists all
+over the world (i18n).</li>
+<li>Social media prompting research in attraction, prejudice and group
+dynamics, cyber bullying, isolation, depression, loneliness, and
+attentional problems.</li>
+</ul></li>
+</ul>
+</details>
+</div>
+<div id="week-2-doing-social-psychology" class="section level3 well">
+<h3 class="well">Week 2: Doing Social Psychology</h3>
+<details>
+<summary>
+LO1: What is the scientific method and why is it used in social
+psychology?
+</summary>
+<ul>
+<li>The scientific method is used within social psychology to test and
+validate observations in order to avoid the misleading and contradictory
+nature of folk wisdom, and the “musings” of the naive scientist.</li>
+<li>Our observations of the social world are ambiguous, relative and
+contradictory.</li>
+<li>The scientific method aims to negate these characteristics through
+the systematic analysis and collection of observable (empirical)
+data.</li>
+</ul>
+<p><img src="images/HPS204/Week2/sciMethod.svg" /></p>
+</details>
+<details>
+<summary>
+LO2: What are a hypothesis and a theory? What does each attempt to do?
+</summary>
+<p><strong>i. What are hypotheses?</strong></p>
+<ul>
+<li>A hypothesis is an explicit, testable prediction surrounding the
+relationship between two or more elements derived from a theory.</li>
+<li>These predictions are then subjected to rigorous testing and,
+depending on the outcome, are either supported, refuted or
+rejected.</li>
+</ul>
+<p><strong>ii. How is a theory different to a hypothesis? What does it
+add beyond a hypothesis?</strong></p>
+<ul>
+<li>A theory is an attempt to coherently explain all of the elements of
+a phenomena and outline its components, while a hypothesis is a test
+between two or more elements (variables) of a theory.</li>
+<li>A theory outlines the potential factors which can occur, or have
+been observed, within a phenomenon.</li>
+</ul>
+<p><strong>iii. What action does a researcher take when predictions are
+either confirmed or disconfirmed? Do you prove hypotheses or
+not?</strong></p>
+<p><em>Confirmed:</em></p>
+<ul>
+<li>The confirmation of a hypothesis increases our confidence in the
+existence of the relationship between the tested variables.</li>
+<li>New hypotheses (extending the theory), further research and better
+understanding of the phenomenon are attainable through the confirmation
+of a hypothesis.</li>
+<li>While a hypothesis cannot be proved in the strictest sense, it can
+be supported.</li>
+<li>This support means that others should be able to replicate the
+research results.</li>
+<li>Replication of a result (in a subsequent study) confirms that the
+relationship between tested variables was not accidental or
+fraudulent.</li>
+</ul>
+<p><em>Disconfirmed:</em></p>
+<ul>
+<li>Reduces the confidence in a theory.</li>
+<li>Promotes modification of a theory and further research into the
+revised observations and outcomes of particular behaviour/s.</li>
+<li>Disconfirmation of a hypothesis can lead to rejection of a theory as
+a whole.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO3: What is an operational definition, and how is it related to the
+ways we can measure variables?
+</summary>
+<p><strong>i. What is an operational definition? If you wanted to
+operationalise a variable you wanted to study, what is the key thing you
+would need to do?</strong></p>
+<ul>
+<li>An operational definition of a variable is the way in which the
+variable is measured or manipulated.</li>
+<li>In a study of aggression and it’s variability through intoxication,
+an operational definition may look at ways of measuring (and
+manipulating) intoxication and may incorporate:
+<ul>
+<li>a BAC of 0.10 or more,</li>
+<li>Self-reporting (Y or N)</li>
+<li>A field sobriety test</li>
+<li>Adjusting for gender</li>
+</ul></li>
+<li>The operational definition looks at how we take a human state from
+the conceptual or abstract to specific and operational.</li>
+<li>Variables such as aggression pose practical and ethical problems (we
+cannot let participants attack each other).</li>
+<li>Triplett’s “social facilitation” study evidences greater effort when
+competing against another, rather than acting alone.</li>
+<li>The key thing required of an operational definition is to
+operationalise the independent variable/s so that it can be measured and
+manipulated.
+<ol style="list-style-type: decimal">
+<li>Consider an interesting question (theory)</li>
+<li>Generate a specific, testable prediction (hypothesis)</li>
+<li>Figure out a way to define and measure abstract concepts</li>
+</ol></li>
+<li>In Triplett’s experiment, the variables could be:
+<ul>
+<li><em>IV:</em> “in the presence of others” (one vs. two players)</li>
+<li><em>DV:</em> “perform better” (measure with a stopwatch)</li>
+</ul></li>
+</ul>
+<p><strong>ii. What is construct validity? Why are social psychologists
+concerned about this construct when it comes to condicting research on
+social phenomena?</strong></p>
+<ul>
+<li>Construct validity refers to:
+<ul>
+<li>The extent to which the measures used in a study measure the
+variables they were intended to measure.</li>
+<li>The extend to which the manipulations in an experiment manipulate
+the variables they were designed to manipulate.</li>
+</ul></li>
+<li>Social psychology is primarily the study of individual common
+experience our social world</li>
+<li>Construct validity is important to social psychologists as it
+ensures that the study itself is fit for purpose. That is that the cause
+and effect between variables are reliable:
+<ul>
+<li>Construct validity does its best to ensure that the conditions and
+results of an experiment can be replicated.</li>
+<li>CV impacts the findings and our confidence in them.</li>
+<li>Ensures the right data is collected for the study. i.e. avoiding
+mistakes.</li>
+</ul></li>
+</ul>
+<p><strong>iii. What are the ways in which we can measure variables in
+social psychology and what are their pros/cons?</strong></p>
+<p><strong>Self-Reports:</strong></p>
+<ul>
+<li>Participants disclose their thoughts, feelings, desires and actions
+(through surveys / sets of questions)</li>
+</ul>
+<table>
+<colgroup>
+<col width="26%" />
+<col width="73%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>- The use of existing scales and measures can simplify
+processes</td>
+<td>- The desire to look good to ourselves and others can skew
+results.<br>- Question order or wording can influence responses.<br>-
+Participant’s memory of past events or feelings can be poor</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Observations:</strong></p>
+<ul>
+<li>Researchers watch and note participant behaviours, such as which of
+two items a participant selects, or how long people spend talking to
+each other.</li>
+<li>More elaborate observations require <em>interrelater
+reliability</em>, where researchers agree on the meaning behind
+particular, complex behaviours.</li>
+</ul>
+<table>
+<colgroup>
+<col width="24%" />
+<col width="75%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>- Avoid faulty recollections<br> - Avoid distorted
+interpretations.</td>
+<td>- May be biased if participants know why they are being watched.<br>
+- Subtle observations may be required to overcome bias (i.e. seating<br>
+distance from others noted in studies about minorities and stigma.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Technology:</strong></p>
+<ul>
+<li>Measuring responses electronically, such as heart rate, hormonal
+levels, degrees of sexual arousal, as well as various types of
+technology used for imaging.</li>
+<li>The benefits of technology largely revolve around the distinct
+patterns of brain activity revealed unobtrusively.</li>
+</ul>
+<p><strong>iv. Define the terms “Independent Variable” and “Dependent
+Variable”</strong></p>
+<p><strong>IV:</strong> A factor that researchers manipulate to
+determine the influence it has (i.e. intoxication on aggression).
+<strong>DV:</strong> A factor researchers use to determine whether a
+change in the IV has an effect.</p>
+</details>
+<details>
+<summary>
+LO4: What are the major types of research methods used in social
+psychology, and what are their advantages and disadvantages?
+</summary>
+<p></br></p>
+<p><strong>What are the non-experimental methods of descriptive research
+and correlational research?</strong></p>
+<table>
+<colgroup>
+<col width="43%" />
+<col width="56%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Descriptive</th>
+<th>Correlational</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>- Used to describe how frequently or commonly people think, feel, or
+behave in a particular way.<br> - i.e. Do most people support capital
+punishment? What do men and women report is most likely<br>to make them
+jealous in a relationship</td>
+<td>- Research used to identify the strength and direction of a
+relationship between variables, or how well one can predict the
+other.<br> - Cannot Demonstrate cause and effect.<br> - 3 possible
+relationships (A → B, A ← B, A → C → B).<br> - 3 possible relationships
+(positive, negative, none).<br>- 3 possible strengths (strong, moderate,
+weak)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Why do researchers use non-experimental methods like
+descriptive and correlational research? What can descriptive research
+tell us specifically (and can’t tell us)? What about correlational
+research?</strong></p>
+<table>
+<colgroup>
+<col width="52%" />
+<col width="47%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Descriptive</th>
+<th>Correlational</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>- Used to discover trends and tendencies within populations<br>
+about topics like climate change, jealousy, or capital punishment.<br> -
+Whom and where rather than how and why.<br> - Cannot tell us about cause
+and effect. - Demonstrates relationships and describes the world as it
+is.</td>
+<td>- Research used to demonstrate the strength and direction of a
+relationship,<br> or even that there is no relationship at all.<br> -
+Cannot tell us about the cause and effect of a relationship.<br> - Only
+considers the relationship between two variables.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Your reading and the lecture identifies many types of
+non-experimental methods, such as:</strong></p>
+<ol style="list-style-type: lower-alpha">
+<li><strong>Archival research;</strong></li>
+<li><strong>Case studies;</strong></li>
+<li><strong>Discourse analysis;</strong></li>
+<li><strong>Survey research;</strong></li>
+<li><strong>Field studies;</strong></li>
+<li><strong>Observational studies; and</strong></li>
+<li><strong>Qualitative research.</strong></li>
+</ol>
+<p><strong>For each method, ensure that you can:</strong></p>
+<ol style="list-style-type: lower-roman">
+<li><strong>Describe the method;</strong></li>
+<li><strong>Provide a research example that might use it;</strong></li>
+<li><strong>List the advantages of using the method;</strong></li>
+<li><strong>List the disadvantages of using the method.</strong></li>
+</ol>
+<table>
+<colgroup>
+<col width="3%" />
+<col width="18%" />
+<col width="14%" />
+<col width="28%" />
+<col width="34%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Non-Experimental<br>Method</th>
+<th>Description</th>
+<th>Research<br>Example</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Archival Studies</td>
+<td>Examining existing records of past events and behaviours.</td>
+<td>- Changes to the rate of violent crime over time.<br> - Differences
+in homicide rates around the world.</td>
+<td>- Influence is avoided as information is obtained after the
+fact.</td>
+<td>- Records are not always complete, or detailed - May have been
+collected in a non-systematic manner.</td>
+</tr>
+<tr class="even">
+<td>Case Study</td>
+<td>In-depth analysis of a single case (person, group or event)<br> of
+unusual or rare phenomena that cannot be replicated in a lab.</td>
+<td>- Mass murderers, bizarre cults or terrible disasters</td>
+<td>- Can employ a wide variety of information sources.<br>- Useful as a
+source of hypotheses.<br></td>
+<td>- Findings can be compromised by researcher bias.<br> - Prone to
+participant bias and evaluation apprehension.<br> - Findings may not
+easily be generalised to the population.</td>
+</tr>
+<tr class="odd">
+<td>Discourse Analysis</td>
+<td>A variant of the case study focusing on what people actually<br> in
+conversation with a focus on the underlying themes.</td>
+<td>- Exposing racist attitudes in Western societies.</td>
+<td>- When well executed, can help uncover themes and attitudes<br>that
+people are careful to hide.</td>
+<td>- Interpretation of discourse relies heavily on the expertise of the
+facilitator.<br> - Is prone to subjectivity or bias.</td>
+</tr>
+<tr class="even">
+<td>Survey Research</td>
+<td>Involves asking people questions about their attitudes,<br> beliefs
+and behaviours.</td>
+<td>- Best remedy for hiccups.<br> - Political
+attitudes/preferences.</td>
+<td>- Flexible in their delivery (over the phone, via email, via
+website, in person.<br> - Helpful where observations are unethical
+(sexual behaviour, optimism about the future).</td>
+<td>- Require careful design, construction and interpretation so as not
+to lead participants.<br> - Results can generally be associated with the
+larger population if a sample size is large enough.<br> -</td>
+</tr>
+<tr class="odd">
+<td>Field Studies</td>
+<td>‘Invisible’ researcher observes, codes and records naturally<br>
+behaviour. (Similar to a Field Experiment)</td>
+<td>- Gathering of observational data in a field setting,<br> such as
+people’s preferences when shopping.</td>
+<td>- Non-intrusive.<br></td>
+<td>- Observing spontaneous behaviours in a natural setting.<br> - Prone
+to bias and unintended impact of researcher’s actions.<br> - Lacking
+objectivity and making poor generalsiations.<br></td>
+</tr>
+<tr class="even">
+<td>Observational Studies</td>
+<td>Similar to field studies where behaviour is recorded from a<br>
+distance, or via the use of technology.</td>
+<td>- Patterns of behaviour in the schoolyard around bullying.</td>
+<td>- Natural behaviours are witnessed. - Can be useful ins situations
+(like bullying) where the participants are likely to be<br>
+uncooperative.</td>
+<td>- Results are prone to bias and misinterpretation (researchers and
+participants).<br> - Possibility of low objectivity (unseen behaviours
+or events).<br> - May require “deception” through hidden cameras to
+negate unintended researcher influence.</td>
+</tr>
+<tr class="odd">
+<td>Qualitative Studies</td>
+<td>A type of study intended to discover the meaning of a behaviour<br>
+to that individual.</td>
+<td></td>
+<td>- Specific to the individual.<br> - Looks at the quality and texture
+of an individual’s experience/s.<br> - Can involve a number of data
+sources: diaries, open-ended questions, case studies, focus groups.</td>
+<td>- Time consuming data collection process.<br> - High level of
+expertise required by researcher.<br></td>
+</tr>
+</tbody>
+</table>
+<p><strong>What is a correlation coefficient? What does it show
+researchers? Be sure that you understand the distinction between
+correlation and causation, and how correlations demonstrate the nature
+of relationships between variables.</strong></p>
+<p><span class="math display">\[\rho(X,Y) =
+\frac{cov(X,Y)}{\sigma_{X}\sigma_{Y}}\]</span></p>
+<ul>
+<li>Returns a result from -1.0 to +1.0</li>
+<li>Shows the strength and direction of a relationship between two
+variables.</li>
+<li>Shows the strength (strong, weak, moderate) and direction (positive,
+negative, none) of this relationship.</li>
+</ul>
+<p><strong>What is an experiment, and why do researchers use the
+experimental method? What can experimental research tell us specifically
+(and what can’t it tell us)?</strong></p>
+<ul>
+<li>Seeks to determine the cause and effect between an IV and DV.</li>
+<li>Experimenter can determine this because:
+<ul>
+<li>Experimenter has control over events, and</li>
+<li>Participants are randomly assigned to conditions.</li>
+</ul></li>
+<li>An experiment eliminates the influence of factors outside the
+manipulation (conducted in a lab), increasing the confidence of
+results.</li>
+</ul>
+<p><strong>What is random sampling and random assignment, how do they
+differ, and why are they important to experiments?You may be interested
+to know that many social psychologists use the web resource: Research
+Randomiser. It is an interactive tool for random sampling and random
+assignment. Click the link and have a go at randomising some
+experiments!</strong></p>
+<ul>
+<li><em>Random Sampling</em> involves the selection of participants from
+a representative section of the population to gather data (i.e. Uni
+students, mothers, males, cyclists).</li>
+<li><em>Random Assignment</em> involves allocation of participants
+(already selected to participate) of a study to a particular condition,
+preventing results from being impacted by a participant’s pre-existing
+differences.</li>
+</ul>
+<p><strong>Imagine you wish to conduct two experimental
+studies:</strong></p>
+<ol style="list-style-type: lower-alpha">
+<li><strong>the laboratory experiment; and</strong></li>
+<li><strong>the field experiment.</strong></li>
+</ol>
+<p><strong>For each method, ensure that you can:</strong></p>
+<ol style="list-style-type: lower-roman">
+<li><strong>describe the method;</strong></li>
+<li><strong>provide a research example that might use it;</strong></li>
+<li><strong>list the advantages of using the method;</strong></li>
+<li><strong>list the disadvantages of using the method.</strong></li>
+</ol>
+<table>
+<colgroup>
+<col width="3%" />
+<col width="11%" />
+<col width="15%" />
+<col width="16%" />
+<col width="53%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Experimental<br>Method</th>
+<th>Description</th>
+<th>Research<br>Example</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lab Experiment</td>
+<td>Conducted in a lab to determine the cause and effect the IV has on
+the DV</td>
+<td>- Effect of intoxication on aggression.<br>- Effect of pairing on
+performance of a physical task.</td>
+<td>- Controlled environment to predictable results.<br> - High internal
+validity and experimental realism.</td>
+<td>- May be prone to demand characteristics (evaluation apprehension or
+social desirability).<br> - May be prone to experimenter effects
+(Accidental clues given to participants regarding purpose of study or
+desired results).<br> - Results may not be generalised to the population
+outside the lab.<br> - Low external validity and mundane realism.</td>
+</tr>
+<tr class="even">
+<td>Field Experiment</td>
+<td>Conducted outside a lab to observe natural behaviours.</td>
+<td>- How pedestrians react to traffic light changes</td>
+<td>- People are more likely to behave naturally.<br> - High external
+validity and mundane realism.</td>
+<td>- Less control of the exposure to events.<br> - Low internal
+validity and experimental realism.<br> - Random assignment can be
+difficult.<br> - Subjective behaviours cannot be measured (only
+overt).</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Make sure that you understand that laboratory experiments are
+intentionally low on external validity (mundane realism) but high on
+internal validity (experimental realism). Be able to define these
+terms.</strong></p>
+<ul>
+<li>Lab experiments are intentionally low on mundane realism and
+external validity as they are conducted to examine the specific
+cause/effect relationship between a defined set of variables.</li>
+<li>Lab experiments are high on experimental realism (participant
+engagement) to try and ensure that the responses received are natural
+and spontaneous, or free from bias (self-reports).</li>
+<li><strong>External validity</strong> refers to the extent to which we
+can be confident that the results of a study can be replicated by other
+groups of people (i.e. in other situations).</li>
+<li><strong>Internal validity</strong> refers to the extent to which we
+can be confident that the IV in an experiment caused the effect obtained
+on the DV.</li>
+</ul>
+<p><strong>Why does social psychology often use deception in their
+studies? What can this look like?</strong></p>
+<ul>
+<li>Deception can increase experimental realism</li>
+<li>Allows the experimenter to create situations difficult to generate
+in real life.</li>
+<li>Research shows that participants often enjoy experiments where some
+manipulation is involved.</li>
+<li>Examples of deception include the use of confederates (researchers
+posing as participants) to introduce misinformation to the group.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO5: What are the ethical issues that social psychologists need to
+consider in their research and why?
+</summary>
+<p></br></p>
+<p><strong>What ethical principles have received the most attention, and
+give examples of how each principle can be violated in social
+psychological research?</strong></p>
+<ul>
+<li><strong>Physical Welfare of Participants</strong></li>
+<li>Physical harm through such actions as electric shocks (operand
+conditioning) is an example of physical harm, particularly in the case
+of burn marks.</li>
+<li>Other forms of harm may include advising a participant that they
+have performed badly on a test.</li>
+<li><strong>Respect for Privacy:</strong> Participants are often asked
+to personal questions, can be observed without their knowledge, or have
+their moods, perceptions and behaviour manipulated.</li>
+<li>Data gathered from participants should be advised that details
+offered will be handled confidentially, and/or anonymously.</li>
+<li><strong>Use of deception:</strong> While experimenters often use
+deception to ensure responses are spontaneous, the risk involved with
+manipulating the cognition, feelings and behaviour of participants is
+ever present.</li>
+<li><strong>Informed Consent:</strong> Researchers cannot lie or
+withhold information to participants about the nature of a study in
+order to convince people to participate.</li>
+<li>There should be no pressure to participate, or resistance in the
+event that a participant no longer wishes to take part.<br />
+</li>
+</ul>
+<p><strong>Note when and why deception might be used in social
+psychological research. Think about whether or when you would be
+prepared to use deception in research.</strong></p>
+<ul>
+<li>The primary reason for the use of deception in social psychology
+research involves the promotion of spontaneous and genuine responses
+from participants.</li>
+<li>While around 50-75% of studies use some form of manipulation, most
+are considered minor, and serve to obscure the real reason behind the
+study to ensure that genuine responses are received.</li>
+</ul>
+<p><strong>What is debriefing?</strong></p>
+<ul>
+<li><strong>Debriefing</strong> involves the participants being advised
+of the conditions of the experiment on completion.</li>
+<li>They are commonly advised of processes used, results, the outcome
+and why (if any) deception was used.</li>
+<li>May be necessary to resolve any negative feelings that may
+occur.</li>
+</ul>
+</details>
+</div>
+<div id="week-3-social-cognition-perception"
+class="section level3 well">
+<h3 class="well">Week 3: Social Cognition &amp; Perception</h3>
+<details>
+<summary>
+LO1: What are the major theoretical perspectives of social cognition,
+and what assumptions do they hold?
+</summary>
+<p><strong>Define the terms ‘social cognition’ and ‘social perception’,
+and outline how they differ.</strong></p>
+<p><strong>Outline the major assumptions of the following broad
+approaches to social cognition, as found in social
+psychology:</strong></p>
+<ol style="list-style-type: lower-alpha">
+<li><strong>cognitive consistency;</strong></li>
+<li><strong>naive scientist;</strong></li>
+<li><strong>cognitive miser; and</strong></li>
+<li><strong>motivated tactician.</strong></li>
+</ol>
+</details>
+<details>
+<summary>
+LO2: What is impression formation, and what key factors contribute to
+impression formation?
+</summary>
+<p><strong>What are central and peripheral traits? Provide an example of
+each.</strong></p>
+<p><strong>What did Asch do to test his ideas and what were his
+findings?</strong></p>
+<p><strong>What criticisms have been made regarding the concept of
+central trait? (Note the role of personal constructs and implicit
+personality theories).</strong></p>
+<p><strong>What are the primacy effect and recency effect? Provide an
+example of each.</strong></p>
+<p><strong>How do physical cues feed into our impression formations?
+Provide a summary of a research finding in this area.</strong></p>
+<p><strong>What are the positivity and negativity biases? Identify a
+reason why it might be more difficult to change a negative impression,
+once it is formed, than a positive impression.</strong></p>
+</details>
+<details>
+<summary>
+LO3: How are schemas, categories, prototypes, exemplars, and stereotypes
+defined, how do they differ, and what are some examples of each?
+</summary>
+<p><strong>Define the term ‘schema’ and identify the type of cognitive
+processing that a schema facilitates once it is invoked. (Note that the
+plural is either ‘schemas’ or ‘schemata’.)</strong></p>
+<p><strong>Define and identify examples of each of the following types
+of schemas:</strong></p>
+<ol style="list-style-type: lower-alpha">
+<li><strong>person schemas;</strong></li>
+<li><strong>role schemas;</strong></li>
+<li><strong>event schemas (scripts);</strong></li>
+<li><strong>content-free schemas;</strong></li>
+<li><strong>self-schemas.</strong></li>
+</ol>
+<p><strong>What is meant by the term ‘family resemblance’?</strong></p>
+<p><strong>What are ‘prototypes’? (Note that they are used to assess
+family resemblance.)</strong></p>
+<p><strong>What sort of relationship between ‘categories’ is thought to
+exist?</strong></p>
+<p><strong>Distinguish between prototypes and exemplars and ensure you
+understand the difference between prototypes and schemas (go back to
+earlier definition if necessary).</strong></p>
+<p><strong>Note the definition of stereotypes. Briefly overview five
+things research has told us about stereotypes.</strong></p>
+<p><strong>What is Tajfel’s accentuation principle and how does it
+relate to stereotyping?</strong></p>
+</details>
+<details>
+<summary>
+LO4: How are schemas acquired and used, and how do they develop and
+change over time?
+</summary>
+<p><strong>What sorts of schemas are especially likely to be used or
+invoked?</strong></p>
+<p><strong>What happens when people need to use more accurate schemas?
+What happens if the costs of indecision are high?</strong></p>
+<p><strong>Explain the role of experience when it comes to schema
+acquisition.</strong></p>
+<p><strong>Briefly describe the processes of schema change as suggested
+by Rothbart (1981).</strong></p>
+</details>
+<details>
+<summary>
+LO5: What is social encoding, and what are the steps involved in this
+process?
+</summary>
+<p><strong>What is ‘social encoding’? (Note the various stages of this
+process.)</strong></p>
+<p><strong>Social encoding is affected by factors such as stimuli
+salience. What is ‘salience’? What are the antecedents and consequences
+of salience?</strong></p>
+<p><strong>Encoding can also be affected by the accessibility of
+categories or schemas. What does ‘accessibility’ mean?</strong></p>
+<p><strong>‘Priming’ is a term that refers to the activation of a
+cognitive representation to increase its accessibility to make it more
+likely to be used. What happens once a category is primed?</strong></p>
+</details>
+<details>
+<summary>
+LO6: What major biases and shortcuts exist in making social inferences,
+especially when it comes to heuristics?
+</summary>
+<p><strong>What is a social inference? Distinguish between the
+approaches that have been used to describe the processes of social
+inference.</strong></p>
+<p><strong>Define ‘illusory correlation’. Your text discusses two bases
+for illusory correlation:</strong></p>
+<ol style="list-style-type: lower-alpha">
+<li><strong>associative meaning; and</strong></li>
+<li><strong>paired distinctiveness.</strong></li>
+</ol>
+<p><strong>Define each of these terms and explain how they may help to
+explain stereotyping.</strong></p>
+<p><strong>Define ‘heuristics’. Your text identifies three main types of
+heuristics:</strong></p>
+<ol style="list-style-type: lower-alpha">
+<li><strong>the representativeness heuristic;</strong></li>
+<li><strong>the availability heuristic; and</strong></li>
+<li><strong>the anchoring and adjustment.</strong></li>
+</ol>
+<p><strong>Write down examples of each of these types of
+heuristics.</strong></p>
+</details>
+<details>
+<summary>
+LO7: What types of attributions exist, and what are the core tenets of
+major attributional theories?
+</summary>
+<p><strong>The distinction between dispositional (internal) and
+situational (external) attribution is important. Define and provide an
+example of each of these terms.</strong></p>
+<p><strong>What is Kelley’s (1967, 1973) covariation model? Define and
+provide examples of consensus information, consistency information, and
+distinctiveness information and make sure you understand what it means
+when information is high or low in terms of these
+dimensions.</strong></p>
+<p><strong>Identify the dimensions that, according to Weiner, affect our
+explanations for task performance.</strong></p>
+<p><strong>Note the eight different types of explanations that people
+can draw. - (Consult Figure 2.4 on page 47). Identify which particular
+combinations of dimensions Weiner suggested would result in these
+different types of explanations of task performance.</strong></p>
+<p><strong>What is Bem’s self-perception theory?</strong></p>
+<p><strong>What are attributional styles? Provide examples.</strong></p>
+</details>
+<details>
+<summary>
+LO8: How are attributional biases defined, and what are some examples
+for each?
+</summary>
+<p><strong>What is meant by the term ‘correspondence bias’? What is
+another term for it?</strong></p>
+<p><strong>What is meant by the term ‘actor-observer effect’? Think of
+some personal examples of the actor-observer effect.</strong></p>
+<p><strong>What are the main explanations for the ‘actor-observer
+effect’?</strong></p>
+<p><strong>What is the ‘false consensus effect’? Describe the classic
+Ross, Greene and House (1977) experiment (“Eat at Joe’s”
+experiment).</strong></p>
+<p><strong>What are self-serving biases? Note the distinction between
+self-enhancing biases and self-protecting biases.</strong></p>
+<p><strong>What explanations exist for self-serving biases?</strong></p>
+</details>
+<details>
+<summary>
+LO9: What is inter-group attribution, and how do we define biases that
+affect inter-group attribution?
+</summary>
+<p><strong>What are inter-group attributions? Describe their
+characteristics and provide one example.</strong></p>
+<p><strong>What is the ‘ultimate attribution error’? How is it similar
+to self-serving biases?</strong></p>
+<p><strong>How might inter-group attributions serve to maintain
+prejudice?</strong></p>
+</details>
+</div>
+<div id="week-4-emotions-and-affect" class="section level3 well">
+<h3 class="well">Week 4: Emotions and Affect</h3>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+</div>
+<div id="week-5-self-and-identity" class="section level3 well">
+<h3 class="well">Week 5: Self and Identity</h3>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+</div>
+<div id="week-6-attitudes-and-persuasion" class="section level3 well">
+<h3 class="well">Week 6: Attitudes and Persuasion</h3>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+</div>
+<div id="week-7-social-influence" class="section level3 well">
+<h3 class="well">Week 7: Social Influence</h3>
+<details>
+<summary>
+LO1: How are the terms ‘conformity’, ‘compliance’ and ‘obedience’
+described, and how do these concepts differ?
+</summary>
+<ul>
+<li><em>Conformity:</em>
+<ul>
+<li>People change their attitude or behaviour to follow a social
+norm.</li>
+<li>We tend to change with positive reference groups, or groups that are
+significant to us.</li>
+</ul></li>
+<li><em>Compliance:</em>
+<ul>
+<li>People change their attitude or behaviour due to:
+<ul>
+<li>A request from others</li>
+<li>Coercion, or</li>
+<li>Group pressure.</li>
+</ul></li>
+<li>Tends to be:
+<ul>
+<li>Superficial,</li>
+<li>Public (only)</li>
+<li>Transitory change in behaviour and repressed attitudes.</li>
+</ul></li>
+</ul></li>
+<li><em>Obedience (to authority):</em>
+<ul>
+<li>People change their attitude or behaviour because of a direct order
+from an authority figure.</li>
+</ul></li>
+</ul>
+</details>
+<details>
+<summary>
+LO2: What are norms, and how does Sherif’s classic study explain how
+norms form?
+</summary>
+<p><strong>i. Define ‘norms’ and identify how norms are relevant to the
+topic of social influence.</strong></p>
+<ul>
+<li>Norms are attitudinal and behavioural standards that are closely
+held between members of a social group, and which differentiate us from
+social groups we are not members of.</li>
+<li>‘Is’ and ‘ought’ statements about what is acceptable within a
+group.</li>
+<li>Norms (in-group) and stereotypes (out-group) share common
+characteristics.</li>
+</ul>
+<p><strong>ii. What is the difference between explicit and implicit
+norms?</strong></p>
+<ul>
+<li>Explicit norms are enforced by legislation (private property,
+pollution, aggression).</li>
+<li>Implicit norms are unobserved or taken-for-granted rules around
+everyday life (also labelled as native, instinctive or innate).</li>
+<li>Garfinkel (1967) tested the existence of these norms through
+ethnomethodology: the deliberate violation of such norms.</li>
+<li>Family members behaving as they were boarders within their own
+family home, prompting their families to react with astonishment, anger,
+shock and embarrassment.</li>
+<li>Newcomb (1965) discovered the change in student’s political views
+were quite distinct between first year (conservative) and third year
+(liberal or socialist).</li>
+<li>Norms are resistant to change sa hey provide a framework for our
+social lives, however, can become redundant as circumstances
+change.</li>
+<li>Norms can also be narrow/restrictive (military dress code) or less
+restrictive (student/lecturer dress code).</li>
+</ul>
+<p><strong>iii. What did Sherif (1936) argue? Describe Sherif’s classic
+experiment and explain it’s implications. Also ensure you can define
+‘frames of reference’.</strong></p>
+<ul>
+<li>Sherif argued that the formation of norms comes about through group
+influence above individual perceptions.</li>
+<li>In order to be certain of our thoughts, feelings and actions we use
+the behaviours of others as an informative guide.</li>
+<li>This ‘frame of reference’ guides our social comparisons in a
+specific situation, with norms developing over various encounters with
+others of our in-group.</li>
+<li>This was further demonstrated by inserting confederates within an
+experiment group, with an extreme norm formulated.</li>
+<li>The graduates were gradually replaced with new members, until the
+group contained no original members.</li>
+<li>The introduced norm persisted through all iterations of the
+group.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO3: What are the major findings of Asch’s studies of conformity, and
+how do the theoretical approaches to explaining conformity differ?
+</summary>
+<p><strong>i. What did Asch (1952) argue? and how did this differ from
+Sherif? Describe his classic experiment and experimental results. Ensure
+that you can define ‘conformity’.</strong></p>
+<ul>
+<li>Asch’s primary argument was that Sherif’s norm was ambiguous, and
+the group constructed the norm from this as the study progressed.</li>
+<li>He argued that the norm should be established so that participant’s
+responses could be measured between/against each other.</li>
+<li>With an established norm, the variations of behaviour from
+participants would have more of a real world impact and a finite
+set.</li>
+<li>He also hypothesised that with a defined object of judgement (line
+lengths), individual responses would not be impacted by the group (line
+A, B, C vs. Standard)3</li>
+<li>Conformity refers to an individual’s attitude or behaviour
+adjustment in line with the social norm.</li>
+<li>We tend to change our attitudes in order to sync with social groups
+that are important to us.</li>
+</ul>
+<p><strong>ii. What individual and group characteristics have been found
+to affect conformity? What ‘situational factors’ have been found to
+affect conformity?</strong></p>
+<ul>
+<li><em>Individual:</em>
+<ul>
+<li>Low self-esteem.</li>
+<li>Low intelligence.</li>
+<li>High need for social support/approval.</li>
+<li>Need for self-control.</li>
+<li>Feelings of self-blame and insecurity within a group.</li>
+<li>The same individual does not confirm in all situations.</li>
+<li>Feelings of low group status.</li>
+<li>Authoritarian personality.</li>
+<li>High anxiety.</li>
+</ul></li>
+<li><em>Gender:</em>
+<ul>
+<li>Women are more likely to conform than men, particularly in tasks
+where familiarity is lower than that of men.</li>
+<li>Men are generally more conformist in matters that women are more
+experienced/knowledgeable at.</li>
+<li>Both groups are more equal on gender neutral items.</li>
+</ul></li>
+<li><em>Culture:</em>
+<ul>
+<li>On average people from collectivist cultures are higher in
+conformity than those from western cultures.</li>
+<li>Conformity in eastern cultures is viewed more favourably than in
+western cultures.</li>
+<li>Western conformity is still quite high, regardless of the negative
+implications/overtones.</li>
+</ul></li>
+<li><em>Context:</em>
+<ul>
+<li>Rates of conformity can level off as the group grows beyond 3 or 4
+people.</li>
+<li>Unanimity is a greater predictor of conformity.</li>
+<li>Supporters, deviants and dissenters reduce conformity (as the group
+size grows) and unanimity is reduced.</li>
+</ul></li>
+</ul>
+<p><strong>iii. Define and differentiate between ‘informational
+inference’, ‘normative inference’, and ‘referent informational
+influence’.</strong></p>
+<ul>
+<li><em>Informational Influence</em>
+<ul>
+<li>Brings about change as we need to be sure of our decisions in the
+presence of social disagreement or ambiguous stimuli.</li>
+<li>Informational influence brings about true cognitive change as we
+formulate our attitudes based on information provided by another, or
+through examination of reality.</li>
+<li>Informational influence rules in times of certainty, not doubt.</li>
+</ul></li>
+<li><em>Normative Influence:</em>
+<ul>
+<li>Cognitive change comes about through our need for social approval,
+and avoidance of social disapproval.</li>
+<li>We believe the group has the ability to reward or punish us in these
+types of scenarios.</li>
+<li>Creates surface compliance rather than cognitive change.</li>
+<li>Principle method of conformity in the Asch design.</li>
+</ul></li>
+<li><em>Referent Informational Influence:</em>
+<ul>
+<li>Refers to the type of conformity adhered to as a means of
+identifying or signalling belonging to a social group.</li>
+<li>This type of influence is modelled by the other members of our
+in-group and this information is adopted.</li>
+<li>This type of influence differs from the above so people are
+identified as members of a group, rather than belonging through
+avoidance of social disapproval or validating reality.</li>
+</ul></li>
+<li>We confirm to a norm rather than to other people.</li>
+<li>We also conform to a norm in the absence of rather than the direct
+influence of others.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO4: What key tactics are utilised for enhancing compliance, including
+multiple request tactics?
+</summary>
+<p><strong>i. How is compliance defined? How does compliance differ from
+authority?</strong></p>
+<ul>
+<li>Compliance can be defined as a direct request from another with a
+behavioural response, whereas conformity refers to a change in behaviour
+or beliefs as a response to group pressure.</li>
+</ul>
+<p><strong>ii. What are the different types of strategies that people
+cab adopt to maximise the chances of compliance with a direct request?
+Make sure you can define the terms ‘ingratiation’ and reciprocity
+principle’.</strong></p>
+<ul>
+<li>Ingratiation is a tactic employed by salespeople to convince others,
+where agreeing with others or getting them to like us assists in their
+acceptance of our requests.</li>
+<li>Other examples of this include: appearing to make them feel good,
+making yourself look attractive, paying compliments, dropping names, and
+physical touch in a socially acceptable way.</li>
+<li>This method can backfire if insincerity is detected.</li>
+<li>The <strong>Reciprocity Principle</strong> relies on the convention
+of treating others as they should treat us.</li>
+<li>Guilt arousal is a key feature of this principle:
+<ul>
+<li>Agreeing to donate blood,</li>
+<li>Donating to a cause to save trees, or</li>
+<li>Participating in a university study.</li>
+</ul></li>
+</ul>
+<p><strong>iii. What are multiple request tactics?</strong></p>
+<ul>
+<li>Multiple request tactics use a two step process, where a leading
+question or request opens the door for a second real request.</li>
+</ul>
+<p><strong>iv. Describe the 3 classic techniques for inducing compliance
+and note the research finding for each.</strong></p>
+<ul>
+<li><em>Foot in the door tactic:</em>
+<ul>
+<li>If someone agrees to a small initial request, they are more likely
+to agree to a larger second (real) request.</li>
+<li>Freedman and Fraser (1966). Participants approached with a 6 item
+questionnaire were more likely to agree to a later request of a full
+house inventory of soap brands. The group that were approached directly
+with the second, larger request (22% agreement) were less compliant then
+the group who agreed to the smaller initial request (53%
+agreement).</li>
+<li>If the initial request is too small, or the second is too large,
+this relationship breaks down (Foss and Dempsey, 1979)</li>
+<li>Saks (1978) found that finely tuned requests can prompt people to
+agree to such things as organ donation.</li>
+<li>‘Two feet in the door’: Multiple requests that increase in
+complexity can be more effective than the foot in the door technique
+(Goldman, Creason and McCall, 1981).</li>
+<li>Dating is a good example of a graded request.</li>
+<li>Dolinski (2000) confirmed the FITD paradigm with participants giving
+directions to a non-existent street, and then minding a big bag so that
+a confederate could visit a friend.</li>
+<li>Bem’s (1967) Self Perception theory provides the most relevant
+explanation. Agreeing to the smaller initial request prompts people to
+view themselves as altruistic, with later requests seen as consistent
+(allowing them to avoid cognitive dissonance).</li>
+<li>Cialdini and Trost (1998) suggest that self-consistency or managing
+our self view is the likely explanation of repeated altruistic
+acts.</li>
+<li>Gorassini and Olson (1995) suggest the FITD tactic alters people’s
+interpretation of an event, instead activating compliant attitudes.</li>
+</ul></li>
+<li><em>Door in the face tactic:</em>
+<ul>
+<li>When the FITD tactic fails, we can opt for this tactic, to lead with
+a larger request, and follow up with the smaller request as a route
+‘in’.</li>
+<li>Politicians prompting the public with a ‘30% tax increase’ then
+confirming later it will be ‘only’ a 10% increase.</li>
+<li>Cialdini et al. (1970) lead a study requesting volunteers counsel
+youth offenders for two years with almost no takers. They then reduced
+the request to a 2 hour chaperone at the zoo (50% agreement).</li>
+<li>When the zoo visit was requested first, only 17% complied.</li>
+<li>This tactic is more effective when both requests are posed by the
+same person.</li>
+<li>The second request seems more reasonable than the first, larger one,
+prompting compliance.</li>
+</ul></li>
+<li><em>The low ball tactic:</em>
+<ul>
+<li>This technique relies on initial agreement, after which hidden costs
+are revealed.</li>
+<li>Once people are committed to an action, they are more likely to
+remain committed regardless of the sunk costs (Fox and Hoffmann, 2002).
+A common example of this is the leading questions “Can you do me a
+favour?” before you know what the favour is.</li>
+</ul></li>
+<li><em>Video: The 7 Principles of Persuasion:</em>
+<ul>
+<li>Reciprocity</li>
+<li>Scarcity</li>
+<li>Authority</li>
+<li>Consistency</li>
+<li>Liking</li>
+<li>Social Proof</li>
+<li>Unity</li>
+</ul></li>
+</ul>
+</details>
+<details>
+<summary>
+LO5: What are the major findings of Milgram’s studies of obedience,
+including what factors influence obedience?
+</summary>
+<p><strong>i. Describe Milgram’s famous obedience
+experiment.</strong></p>
+<ul>
+<li>Teacher (participant)</li>
+<li>Student (confederate)</li>
+<li>Researcher</li>
+<li>Apparent electric shocks are delivered at increments of 15v for each
+wrong answer of paired associates.</li>
+<li>Long episode of preparation (attaching electrodes, “I have a heart
+condition”, etc.)</li>
+<li>Teacher taken to a separate room and introduced to the generator
+with ominous looking label (15v = slight, 450v = XXX)</li>
+<li>Confederates increasingly complain of pain.</li>
+<li>Researcher assuaged teacher’s protests with increasingly
+authoritative statements through higher voltages.</li>
+<li>Panel of 110 experts (including psychologists) incorrectly predicted
+the influence of authority.</li>
+<li>100% of the teachers obeyed until the voltage reached about 200 -
+300v.</li>
+</ul>
+<p><strong>ii. What factors did Milgram identify as contributors to the
+influence of obedience?</strong></p>
+<ul>
+<li><em>Immediacy:</em>
+<ul>
+<li>The proximity of the ‘victim’ impacted the duration of the
+experiment.</li>
+<li>If victims were unheard and unseen by the teacher, 100% of the
+teachers went to the end of the machine’s scale.</li>
+<li>The closer the victim and teacher, the shorter the experiment.</li>
+<li>Obedience was still as high as 30% where teachers had to hold the
+victim’s hand on the electrode.</li>
+</ul></li>
+<li><em>Immediacy of authority figure:</em>
+<ul>
+<li>Obedience dropped to around 20.5% where the AF was relaying commands
+by telephone.</li>
+<li>Where no orders were given, the teacher’s choice reduced obedience
+to 2.5% to the end of the machine’s scale.</li>
+<li>Disobedient confederate teachers reduced obedience to 10%.</li>
+<li>Obedient confederates increased group obedience to 95%.</li>
+</ul></li>
+<li><em>Legitimacy of Authority Figure:</em>
+<ul>
+<li>Parking meter study with confederate in various states of appearance
+(uniform, neat, shabby, etc.) with over 70% of passers by giving money
+on orders from the uniformed confederate.</li>
+</ul></li>
+<li><em>Setting/Environment:</em>
+<ul>
+<li>Obedience dropped (48%) when the experiment was conducted in a
+run-down building compared to an official looking lab.</li>
+</ul></li>
+</ul>
+<p><strong>iii. What are the ethical issues raised by Milgram’s
+study?</strong></p>
+<ul>
+<li>The ethical issues of the study included:
+<ul>
+<li>Informed Consent, lack of debrief afterwards, advice on withdrawal
+at any stage without penalty, improper use of deception</li>
+<li>Objective importance of the study.</li>
+</ul></li>
+</ul>
+<p><strong>iv. How might we carry out research connected to Milgram’s
+study while still conforming to ethical guidelines?</strong></p>
+<ul>
+<li>Adapting the study to include consent, advising their right to
+withdraw at any time, giving a full debriefing at the end of the
+study.</li>
+<li>The study could also be adapted to another type of test including
+electric shock…for example, the suggestion of electric shock with a
+debriefing.</li>
+</ul>
+<p><strong>v. Would Milgram’s results yield the same results if they
+were repeated today? Why or why not?</strong></p>
+<ul>
+<li>Milgram’s experiment was a very visceral scenario for the
+teacher/participant, so being able to replicate this and it’s results
+may not be possible under modern guidelines.</li>
+<li>The deception and cover story would need to be convincing to modern
+participants while upholding scientific rigour.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO6: What different processes are involved in majority and minority
+influence, and what key factors impact how influential a minority can
+be?
+</summary>
+<p><strong>i. What is minority influence? List two examples. What does
+minority influence help to explain?</strong></p>
+<ul>
+<li>Minority influence refers to the ability an outnumbered social group
+can have in changing attitudes.</li>
+<li>In Asch’s studies a lone deviant was laughed at, while a numerical
+minority (9 vs 11) was listened to, although individual opinion did not
+change.</li>
+<li>Examples of minority influence include:
+<ul>
+<li>Suffragettes and the women’s vote,</li>
+<li>Anti-war rallies of the 60s and the withdrawal from Vietnam,</li>
+<li>Nuclear disarmament,</li>
+<li>Greenpeace (high profile and wide publicity)</li>
+</ul></li>
+<li>Minority influence helps to explain social/attitude changes.</li>
+</ul>
+<p><strong>ii. What alternative explanation for Asch’s results was
+provided by Moscovici and Faucheux?</strong></p>
+<ul>
+<li>It was suggested that, in part at least, majority views are just
+accepted by in group members, and that the doubt posed by minority is a
+chance to re-examine attitudes and beliefs for a better answer or
+norm.</li>
+<li>The context also plays a part. Moscovici determined that the lone
+deviate represents:
+<ul>
+<li>A rather large majority outside the experiment, who would judge the
+line lengths correctly.</li>
+<li>The deviate is also then confronted by a minority, being the
+confederates.</li>
+<li>The deviate may then be influenced by the minority.</li>
+</ul></li>
+</ul>
+<p><strong>iii. What are the 3 ways that people respond to social
+conflict according to Moscovici?</strong></p>
+<ul>
+<li>Conflict of this nature within groups leads to:</li>
+<li><em>Conformity:</em> The minority is persuaded by the majority.</li>
+<li><em>Normalising:</em> compromise leading to convergence.</li>
+<li><em>Innovating:</em> the minority challenges the majority view to
+persuade change.</li>
+</ul>
+<p><strong>iv. According to Moscovici et al, what is the most important
+behavioural style that can be used by a minority group to influence a
+majority? Why?</strong></p>
+<ul>
+<li>The most important behavioural style a minority can adopt is
+consistency, because:
+<ul>
+<li>It helps foster uncertainty and doubt within the majority,</li>
+<li>The minority draws attention to itself,</li>
+<li>The minority conveys an alternative, coherent point of view,</li>
+<li>The minority also demonstrates certainty and commitment,</li>
+<li>The only solution to the social conflict is adoption of the minority
+point of view.</li>
+</ul></li>
+<li>Effective minorities overall are:
+<ul>
+<li>Consistent,</li>
+<li>Hold consensus within the group,</li>
+<li>Flexible in style,</li>
+<li>Unmotivated by self interest or external pressures.</li>
+</ul></li>
+</ul>
+<p><strong>v. Describe and note the major findings of the classic
+blue-green studies.</strong></p>
+<ul>
+<li>The consistent minority had greater influence than the inconsistent
+minority</li>
+<li>Conformity rate is much lower against a consistent minority.</li>
+<li>Moscovici and Lage (1976) compared consistent/inconsistent
+majorities/minorities.</li>
+<li>The only minority to produce conformity was the consistent one.</li>
+<li>The ONLY participants to change their response from blue to green
+were those in the consistent minority group.</li>
+</ul>
+<p><strong>vi. According to Moscovici, what are the different sorts of
+change brought about by majority and minority influence? What is a
+‘conversion effect’? </strong></p>
+<ul>
+<li><em>Majority Influence</em> brings about direct public compliance
+through normative and informational dependence, and passive
+acceptance.</li>
+<li><em>Minority Influence</em> brings about indirect or latent private
+attitude change in line with cognitive dissonance and it’s
+resolution.</li>
+<li>Conversion effect is a sudden and dramatic change in attitude
+brought about through active consideration of the minority point of
+view.</li>
+</ul>
+<p><strong>vii. What is the main argument of ‘social impact theory’ and
+to what extent can this explain minority influence?</strong></p>
+<ul>
+<li>The main argument of social impact theory is that as a source of
+influence grows in size (number of members) it has more influence.</li>
+<li>As the size of the source grows, however, the cumulative impact of
+the group diminishes.</li>
+<li>For example, turning on lights at home until the change of each
+additional light is barely noticable.</li>
+</ul>
+</div>
+<div id="week-8-group-processes" class="section level3 well">
+<h3 class="well">Week 8: Group Processes</h3>
+<details>
+<summary>
+LO1: What is a group, and what types exist?
+</summary>
+<blockquote>
+<p>A group has been identified as two or more people experiencing some
+common fate, or as a collection of individuals who coexist within some
+social structure or interact face to face.</p>
+</blockquote>
+<p><img src="images/HPS204/Week8/groups.svg" /></p>
+</details>
+<details>
+<summary>
+LO2: What is the social facilitation effect and what are some of the
+major explanations for this effect?
+</summary>
+<p><strong>i. What do social psychologists mean when they discuss ‘fuzzy
+sets’ and ‘entativity’?</strong></p>
+<ul>
+<li><em>Fuzzy Sets:</em>
+<ul>
+<li>These are overlapping and related characteristics shared between
+people that do not independently identify a group’s members.</li>
+<li>For example, we cannot identify all French speakers as being French
+due to the numerous regions around the world where French is a commonly
+spoken language.</li>
+</ul></li>
+<li><em>Entativity:</em>
+<ul>
+<li>Refers to the members of a group being more clearly defined and
+having a greater commonality than that of others.</li>
+<li>Generally has a clear structure, is relatively homogeneous, and
+quite distinct from other groups.</li>
+<li>Might look like a Venn diagram with clearer boundaries (depending on
+their entativity) than other groups, having blurry outlines, or perhaps
+a gradient or bleed into grey/white.</li>
+</ul></li>
+</ul>
+<p><strong>ii. Describe Triplett’s (1898) classic study. What is meant
+by the term ‘social facilitation’?</strong></p>
+<ul>
+<li>Triplett’s study measured the performance (over time) of children on
+completion of a simple physical task when performing both alone and in
+competition (in front of an audience).</li>
+<li>‘Social facilitation’ describes the positive effect that the
+presence of others has in fuelling improvements in performance.</li>
+</ul>
+<p><strong>iii. What is Zajone’s (1965) drive theory of social
+facilitation?</strong></p>
+<ul>
+<li>Drive theory describes the possible effect that the presence of
+others can have on us.</li>
+<li>Performance improvement has been noted with species of animals.
+There is an advantage to the species through the increase of arousal
+(alertness and readiness for action).</li>
+<li>Such arousal can ‘drive’ our performance of well learned or
+practised skills (dominant response).</li>
+<li>If our dominant response is not suited to the task at hand (for
+skills not well practised), the effect on performance can be impairment
+(also known as social inhibition).</li>
+<li>Impairment can also result through the action of difficult (because
+they may not be practised) tasks.</li>
+</ul>
+<p><strong>iv. What is Cottrell’s (1972) evaluation apprehension model?
+How does this differ from Zajone and Triplett?</strong></p>
+<ul>
+<li>Cottrell’s model suggested that social judgements of
+reward/punishment were the catalyst for apprehension, and subsequent
+impaired performance of a given task.</li>
+<li>This theory differs from that of Zajone and Triplett as it is a
+demotivating/impedance theory, whereas Zajone and Triplett’s theories
+are based around the fuelling of motivation/drive.</li>
+<li>Schmitt et al. (1986) determined that there was a mild decrease in
+the time taken to complete a simple task alone in mere presence and
+evaluation apprehension states.</li>
+<li>Difficult tasks were completed relatively slower across the alone,
+evaluative apprehension and mere presence states respectively.</li>
+</ul>
+<p><strong>v. What did Steiner (1972; 1976) propose? Be sure to use the
+term ‘co-ordination loss’ in your answer.</strong></p>
+<ul>
+<li>Steiner proposed that interactive groups suffer from a
+<em>co-ordination loss</em> or deterioration in group performance due to
+a lack of coherence (members not pulling their weight) within the
+group.</li>
+<li>The co-ordination can be negatively impacted where individual
+members become distracted/lose interest in the group goals, and their
+contributions are drowned out by the more influential members of the
+group.</li>
+<li>Lopsided team performance leading to a lack of co-ordination between
+team members.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO3: What processes underpin social loafing, and what factors influence
+how much we engage in social loafing?
+</summary>
+<p><strong>i. What is social loafing, and what reasons have been given
+to explain this phenomenon?</strong></p>
+<ul>
+<li>Social loafing refers to the loss of motivation of team members
+within a group settings, and can be attributed to:
+<ul>
+<li>We exert lower effort as we may believe that others are also working
+on that task.</li>
+<li>The impact of each additional team member as the group grows in size
+lessens (i.e. 1 + 1 has a larger impact than 19 + 1).</li>
+<li><em>Output equity:</em> We believe that others loaf, so we do
+too.</li>
+<li><em>Evaluation apprehension:</em> We worry about negative social
+evaluations, but when anonymous (such as in a larger group) we hang back
+especially when the task is not interesting.</li>
+<li><em>Matching to Standard:</em> When we do not have a clear
+understanding of the group’s standards or norms, we tend to hang
+back.</li>
+</ul></li>
+</ul>
+<p><strong>ii. Sometimes people do work harder in a group. What factors
+have been found to affect this?</strong></p>
+<ul>
+<li><em>Social compensation:</em> Increased effort from group members to
+compensate for the actual, perceived or anticipated lack of effort or
+ability of others.</li>
+<li>A greater rate of effort usually offered by those from collectivist
+cultures.</li>
+<li>Members believe that the group’s goals are achievable.</li>
+<li>People are in a closely knit or highly cohesive group.</li>
+</ul>
+<p><strong>iii. Briefly describe Steiner’s task taxonomy
+dimensions.</strong></p>
+<ul>
+<li><em>Divisible vs. unitary</em>
+<ul>
+<li>Can the task be broken down into subcomponents, or can it only be
+completed alone?</li>
+</ul></li>
+<li><em>Maximising vs. Optimising</em>
+<ul>
+<li>Is the goal of the task to do as much as possible, or is the goal to
+reach, and not exceed a particular standard?</li>
+</ul></li>
+<li><em>Individual inputs vs. Group Product</em>
+<ul>
+<li><em>Additive Task:</em> An individual’s input adds to the overall
+group output (i.e. planting trees).</li>
+<li><em>Compensatory task:</em> Individual input contributes to an
+averaged output across team members (i.e. estimating the number of bars
+across Amsterdam).</li>
+</ul></li>
+<li>A <em>disjunctive task</em> The group selects a task/goal offered
+from one member (i.e. selecting an advertising campaign through a
+brainstorming session).</li>
+<li>A <em>conjunctive task:</em> The group’s progress or success is
+measured by the slowest member of the group. (i.e. assembly production
+line).</li>
+<li>A <em>discretionary task:</em> A task where individual inputs an
+group output are not impacted by individual efforts or the end result
+(i.e. a group deciding to shovel snow together).</li>
+</ul>
+</details>
+<details>
+<summary>
+LO4: How do we define the key features of groups, what contributes to
+them, and how do they impact group functioning? This includes group
+entativity, group cohesion, group socialisation and group structure
+(roles and states).
+</summary>
+<p><strong>i. What is group cohesiveness? What distinction was made by
+Hogg (1992) and why?</strong></p>
+<ul>
+<li>Group cohesiveness refers to the bond between group members, which
+is characterised by their uniformity of conduct, solidarity, esprit de
+corps and morale.</li>
+<li>Entativity is a property of a group as observed from outside
+(out-group), whereas cohesiveness is observed/felt from within.</li>
+<li>Attributes such as similarity, co-operation, interpersonal
+acceptance, and shared threat increase mutual liking within the group,
+and in turn, generally raise cohesiveness.</li>
+<li>Hogg (1992) posits that there is more to group cohesiveness than
+just group liking, suggesting that cohesiveness has multiple dimensions
+when examining group morale.</li>
+<li>Hogg suggests that the dimensions of personal attraction and social
+attraction are more important when examining the cohesiveness of larger
+groups, as mutual liking within a larger group may be difficult to
+measure or observe.</li>
+<li><em>Personal Attraction:</em> long term partner, best friend,
+regular at the local pub.</li>
+<li><em>Social Attraction:</em> members of the wider group such as a
+fellow football team supporter, neighbours, or a personal trainer.</li>
+</ul>
+<p><strong>ii. What is group socialisation? Briefly describe the five
+phases of group socialisation proposed by Moreland and Levine
+(1982).</strong></p>
+<ul>
+<li>Group socialisation refers to the transitional membership of the
+individual within it, and is characterised by three stages of
+transition:
+<ul>
+<li><em>Evaluation:</em> Comparison by the individual of the current
+group and the rewards of membership to other groups. The group also
+evaluates the individual’s contributions to the life or longevity of the
+group, leading to approval if deemed beneficial.</li>
+<li><em>Commitment:</em> Both the individual and the group are required
+to set and agree to goals, values, feel positive ties, be willing to
+exert effort and hold a desire to maintain membership.</li>
+<li><em>Role Transition:</em> Members move through three central
+transitions of group life:
+<ol style="list-style-type: decimal">
+<li><em>Non-Member:</em> Prospective and ex-members of the group.</li>
+<li><em>Quasi-Member:</em> New members yet to achieve full member
+status, and marginal members who have lost that status.</li>
+<li><em>Full-Member:</em> Those who have gained full membership of the
+group and are granted access to all the benefits of such
+membership.</li>
+</ol></li>
+</ul></li>
+<li>Initiation rites are a formalised and public process of the function
+of role transition that serve three main functions:
+<ol style="list-style-type: decimal">
+<li><em>Symbolic:</em> Public promulgation of the role change within the
+group, and signals acceptance in the change in identity.</li>
+<li><em>Apprenticeship:</em> Assisting in the acclimatisation to a new
+role and it’s differing normative standards.</li>
+<li><em>Loyalty Elicitation:</em> Pleasant invitations elicit gratitude,
+hopefully enhancing commitment to the group.</li>
+</ol></li>
+<li>Moreland and Levine (1982) proposed the below model of group
+socialisation:</li>
+</ul>
+<p><img src="images/HPS204/Week8/GrpSoc.svg" /></p>
+<p><strong>iii. Explain how cognitive dissonance is used here to explain
+initiation rites in groups.</strong></p>
+<ul>
+<li>In the case where an initiation rite is negative or aversive, we can
+use cognitive dissonance to play down the impact of initiation by
+focusing on the more positive aspects of group membership as group life
+is usually a mixture of positive and negative aspects.</li>
+<li>The more extreme the initiation, the more favourably we tend to look
+at the group through greater dissonance.</li>
+<li>Rites have this effect only when viewed as an initiation.</li>
+</ul>
+<p><strong>iv. What are roles and how do they help determine group
+structure?</strong></p>
+<ul>
+<li>Roles are similar to a job description, outlining the function of
+each person within the group.</li>
+<li>Roles can be informal and implicit (as in a group of friends), or
+formal and explicit (cabin crew performing safety checks on a
+plane).</li>
+<li>Roles evolve within a group to outline a division of labour, giving
+members clear boundaries between each other, offering each member a
+place in the group.</li>
+<li>Rigidity of roles can be detrimental to group function (as in the
+case of cabin crew safety) if a particular task is forgotten or the team
+changes.</li>
+<li>Correspondence Bias refers to the attribution of our roles to our
+personality, with long term implications to our sense of self
+concept.</li>
+<li>A low status role within a group can be enduring for this
+reason.</li>
+</ul>
+<p><strong>v. Why did Zimbardo conduct his study? What were the major
+findings and what explanation was offered?</strong></p>
+<ul>
+<li>Zimbardo wanted to explain both how people take on a role (and its
+associated behaviours) as well as whether it is the features of the role
+itself, or the personality of the participant that governs role
+performance from an individual.</li>
+<li>It was found that while the participants were psychologically sound
+prior to the experiment, after five days it was evident that the
+behaviour of the guards towards the prisoners became increasingly brutal
+and sadistic.</li>
+<li>Prisoners became passive and docile in response to the methodical
+harassment, showing severe psychological disturbance.</li>
+<li>The explanation of this was that participants complied fully with
+the behaviours that were thought to be expected of them.</li>
+<li>Reicher and Haslam (2006) suggest that participants were grappling
+with uncertainties about themselves and adopted appropriate behaviours
+to counter this.</li>
+<li>Identification of and conformity to group norms helped to resolve
+uncertainty around the participants’ self concept.</li>
+</ul>
+<p><strong>vi. Define ‘status’. What properties tend to be associated
+with higher status roles?</strong></p>
+<ul>
+<li>Status refers to a consensual group evaluation of the prestige
+associated with role/s, enabling the occupants to be more creative and
+influential.</li>
+<li>Higher status roles (typically a leader) tend to be more creative
+and influential.</li>
+</ul>
+<p><strong>vii. What is the expectation states theory?</strong></p>
+<ul>
+<li>EST suggests that there are two sets of characteristics that we
+attribute to a group member’s status:
+<ol style="list-style-type: decimal">
+<li><em>Specific Status Characteristics:</em> directly relate to the
+person’s ability related to the group task.</li>
+<li><em>Diffuse Status Characteristics:</em> not directly related to the
+person’s ability in group related tasks.</li>
+</ol></li>
+<li>For example, casting for a musical may be guided by a singer’s known
+singing ability (specific), while others may be cast based on their
+appearance (diffuse).</li>
+<li>The role of a jury foreman almost always goes to those in higher
+occupational status (Strootbeck, et al. 1957).</li>
+</ul>
+<p><strong>viii. What is a communication network? What sort of structure
+is best for relatively simple tasks? What about more complex
+tasks?</strong></p>
+<ul>
+<li>A communication network is a set of rules governing how information
+is shared between roles in a group.</li>
+<li>For simpler tasks, as centralised control point is best, as it
+allows for members to focus exclusively on their roles.</li>
+<li>For more complex tasks, it is more expedient to use a peripheral
+method of communication.</li>
+</ul>
+<p><strong>ix. What effect can centralised networks have on group
+communication?</strong></p>
+<ul>
+<li>While a centralised network can have great benefit to groups
+performing simpler tasks, those performing more complex tasks can
+overwhelm a centralised network, causing:
+<ul>
+<li>Delays in communication,</li>
+<li>Poorer Co-ordination</li>
+<li>Negative overall group performance</li>
+<li>Poorer integration and assimilation of messages</li>
+<li>Lower perceived autonomy for peripheral members, and</li>
+<li>Increased group conflict, lower harmony/solidarity.</li>
+</ul></li>
+</ul>
+</details>
+<details>
+<summary>
+LO5: What are the reasons for joining and staying in groups?
+</summary>
+<p><strong>i. Describe Uncertainty-Identity theory and Terror Management
+theory.</strong></p>
+<ul>
+<li><em>Describe Uncertainty-Identity theory:</em>
+<ul>
+<li>Suggests that we join groups as a means of reducing uncertainty
+about who we are.</li>
+<li>Groups allow us to define who we are, evaluate who we are and
+determine how we should behave, interact with and be treated by
+others.</li>
+<li>Internalise the group’s prototypical attributes which define us and
+our behaviour.</li>
+</ul></li>
+<li><em>Terror Management theory:</em>
+<ul>
+<li>Joining groups is a way of distracting ourselves from our own
+mortality.</li>
+<li>Staving off the fear of inevitable death. Raise self esteem,
+maintain positivity and excitement about life.</li>
+</ul></li>
+</ul>
+<p><strong>ii. Compare these two theories: Which one is more social and
+which one is more socio-biological? Which do you agree with and
+why?</strong></p>
+<ul>
+<li>Uncertainty-Identity Theory = social</li>
+<li>Terror Management Theory = socio-biological</li>
+<li>Uncertainty theory holds more relevance for me as the discomfort of
+not knowing who we are or having guidance is worse than being afraid of
+death…fear of death can crop up whether we have friends or not!</li>
+</ul>
+</details>
+<details>
+<summary>
+LO6: How is leadership defined, and what are the major approaches to
+leadership? What should be considered when comparing them?
+</summary>
+<p><strong>i. What is the difference between good/effective leadership
+for you?</strong></p>
+<blockquote>
+<p>Leadership is a process of social influence, through which an
+individual motivates and elinsts the aid of others in the attainment of
+a collective goal.</p>
+</blockquote>
+<ul>
+<li>Effective leadership can be attributed to someone who is able to set
+new goals and influence others to achieve them.</li>
+<li>Good leadership can be described as a subjective view of our own
+objectives and goals, and whether a leader belongs to our own or
+another’s group.</li>
+<li>Good leaders are those we share/value the attributes of, use means
+we approve of, and set/achieve goals we value.</li>
+</ul>
+<p><strong>ii. According to the research, what big 5 personality types
+are the most predictive of effective leadership?</strong></p>
+<ul>
+<li>According to correlation (of 73 samples) of +0.58, the best
+predictors of effective leadership are:
+<ul>
+<li>extroversion</li>
+<li>openness to new experience, and</li>
+<li>conscientiousness.</li>
+</ul></li>
+<li>Stable personality traits may not be the best predictors.</li>
+</ul>
+<p><strong>iii. Describe Fiedler’s contingency theory and prediction.
+Note the differences between ‘task-oriented’ and ‘relationship-oriented’
+leaders.</strong></p>
+<ul>
+<li>Contingency theories refer to the relevance of a leader’s skills to
+a particular task.</li>
+<li>’Task-oriented leaders are focussed on completion of the task rather
+than being liked by the group (authoritarian).</li>
+<li>’Relationship-oriented leaders are relaxed, friendly, sociable and
+focused on harmonious team relations.</li>
+</ul>
+<p><strong>iv. According to Fiedler, how does situational control
+interact with leadership type?</strong></p>
+<ul>
+<li>Situational control refers to a scale between:
+<ul>
+<li><em>High Control:</em>
+<ul>
+<li>Good leader-member relations</li>
+<li>A clearly defined task</li>
+<li>High degree of authority vested in leader role</li>
+</ul></li>
+<li><em>Low Control:</em>
+<ul>
+<li>Poor leader-member relations</li>
+<li>Poorly defined task</li>
+<li>low authority attached to leadership role</li>
+</ul></li>
+</ul></li>
+<li>Fiedler asked participants in their study to rate their leaders in
+comparison to their least preferred co-worker (LPC)</li>
+<li>Comparisons were made across multiple dimensions
+(friendly/unfriendly, pleasant/unpleasant, etc.)</li>
+<li>Task-oriented leaders are most effective when:
+<ul>
+<li>The team needs decisive focus on getting things done (low
+situational control), and</li>
+<li>When the team is working fine (high situational control)</li>
+</ul></li>
+<li>Relationship-oriented leaders are most effective when team morale
+and situational control lies between the extremes.</li>
+</ul>
+<p><strong>v. How does path-goal theory describe leadership
+function?</strong></p>
+<ul>
+<li>PGT views a leader’s main function as a motivator through clarifying
+a member’s path towards goal achievement.</li>
+<li>Two classes of leader behaviour:
+<ul>
+<li>Structuring: where leader directs new, unclear, difficult tasks,
+and</li>
+<li>Consideration: Leader considers member’s emotional or personal
+needs.</li>
+</ul></li>
+<li>Structuring can appear to be micro-managing if overdone.</li>
+<li>Consideration can be distracting where members are already engaged
+and motivated.</li>
+</ul>
+<p><strong>vi. Compare and contrast transactional leadership with
+transformational leadership.</strong></p>
+<p><img src="images/HPS204/Week8/leadership.svg" /></p>
+<p><strong>vii. What is the social identity theory of
+leadership?</strong></p>
+<ul>
+<li>Charisma may be a consequence rather than a cause of effective
+leadership.</li>
+<li>Members attend closely to the leader because:
+<ul>
+<li>Some members identify strongly with a group</li>
+<li>The leader exemplifies defining attributes of the group.</li>
+<li>Correspondence bias means we attribute a demeanour of charismatic
+personality to the leader.</li>
+</ul></li>
+</ul>
+<p><strong>viii. What role does prototypicality play in determining
+effective leadership?</strong></p>
+<ul>
+<li>Prototypicality refers to the extent to which the leader of a group
+accurately represents the values and characteristics of the group they
+represent.</li>
+<li>Prototypicality of a leader leads to greater ‘buy in’ from members,
+maintaining or improving the trust bestowed upon them by the group.</li>
+</ul>
+<p><strong>ix. How does leader categorisation theory and social identity
+theory differ from the earlier theories?</strong></p>
+<ul>
+<li><em>Leader Categorisation Theory</em> refers to our perceptions of
+leaders, and our selection and endorsement of them</li>
+<li>This selection and endorsement, therefore, gives them the
+opportunity and ability to lead.</li>
+<li>Leadership exists in different classes (military, PM. CEOs) that we
+represent through schemas and prototypes.</li>
+<li>Each leader is judged based on the applicable prototype, and is
+either followed, or rejected based on their adherence to the
+schema.</li>
+<li><em>Social Identity Theory</em> refers to the innate characteristics
+of a member, as they already are, or could be a leader.</li>
+<li>Rather than being given permission to lead, they are seen by the
+group to be the best fit.</li>
+<li>The primary influence of SIT is salience…is this group one that I
+strongly identify with, or have we just been lumped together?</li>
+</ul>
+</details>
+<details>
+<summary>
+LO7: How do groups make decisions?
+</summary>
+<p><strong>i. What is Davis’ social decisions schemes model? Make sure
+that you can define and distinguish between the these decision-making
+rules in Table 6.1.</strong></p>
+<ul>
+<li>Apply to both institutional groups (parliament) and informal groups
+(friends deciding on a holiday destination).</li>
+<li>Adaptable to the task at hand such as solving a maths problem, or
+which colour to paint a room.</li>
+<li>Applied rule differs based on the amount of agreement required:
+strictness vs. power distribution (respectively).</li>
+</ul>
+<table>
+<colgroup>
+<col width="80%" />
+<col width="7%" />
+<col width="11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Decision</th>
+<th align="center">Strictness</th>
+<th align="center">Power Concentration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="."
+title="Discussion is aimed at pressurising deviants to conform.">Unanimity</a></td>
+<td align="center"><span class="math inline">\(\uparrow\)</span></td>
+<td align="center"><span class="math inline">\(\downarrow\)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="."
+title="discussion confirms the majority position, which is then adopted as the group position.">Majority
+Wins</a></td>
+<td align="center"><span class="math inline">\(\downarrow\)</span></td>
+<td align="center"><span class="math inline">\(\uparrow\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="."
+title="discussion reveals the position that can be demonstrated to be correct.">Truth
+Wins</a></td>
+<td align="center"><span class="math inline">\(\uparrow\)</span></td>
+<td align="center"><span class="math inline">\(\downarrow\)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="."
+title="unless there is a two-thirds majority, the group is unable to reach a decision."><span
+class="math inline">\(\frac{2}{3}\)</span> Majority</a></td>
+<td align="center"><span class="math inline">\(\uparrow\)</span></td>
+<td align="center"><span class="math inline">\(\downarrow\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="."
+title="the group ultimately adopts a decision in line with the direction of the first shift in opinion shown by any member of the group.">1st
+Shift</a></td>
+<td align="center"><span class="math inline">\(\downarrow\)</span></td>
+<td align="center"><span class="math inline">\(\uparrow\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>ii. How might rule strictness and power distribution effect
+group functioning and satisfaction?</strong></p>
+<ul>
+<li>Stricter rules may make final agreement more difficult to attain,
+but can enhance mutual liking and satisfaction with the quality of the
+decision.</li>
+<li>However, a higher power concentration, and more relaxed rules (what
+colour to paint a room) may cause less conflict within the group, but
+coud lead to lower group satisfaction with the final decision.</li>
+</ul>
+<p><strong>iii. What is ‘transactive memory’? Based on the evidence, do
+groups remember more than individuals?</strong></p>
+<ul>
+<li>Transactive memory refers to a group’s ability to recall events,
+based on which members recall which events, or event details.</li>
+<li>The members in the group recall particular details salient to them,
+but also who in the group they can approach individually for
+information.</li>
+<li>Memory is significantly enhanced through this form of knowledge
+networking.</li>
+<li>Can be disruptive if a group member leaves as they take their
+knowledge with them.</li>
+<li>Can have a more lasting effect on individuals (death of a
+partner/divorce, etc.) forming part of bereavement.</li>
+<li>Groups remember significant parts of their culture (such as norms,
+allies, enemies, cliques, working conditions, motivation, performance
+and appraisal, who fits in and who is good at what).</li>
+</ul>
+</details>
+<details>
+<summary>
+LO8: What are brainstorming and groupthink, and how do they impact group
+functioning?
+</summary>
+<p><strong>i. In your experience, do you think ‘brainstorming’ is
+effective in improving creativity? Now, after reviewing the evidence,
+list some of the reasons why there is an illusion of productivity when
+it comes to brainstorming.</strong></p>
+<ul>
+<li>No! Stroebe and Diehl (1994) found that nominal groups are twice as
+effective as brainstorming groups.</li>
+<li>Nominal groups come up with ideas individually, without the
+interaction.</li>
+<li><em>Production blocking</em> refers to the difficulties of
+brainstorming:
+<ul>
+<li>Difficult to get ideas out while everyone is talking over the top of
+each other.</li>
+<li>Distracting and rowdy.</li>
+</ul></li>
+<li>To minimise production blocking:
+<ul>
+<li>Brainstorming electronically is more productive than in a nominal
+group.</li>
+<li>Ensure the group is as diverse as possible on their knowledge about
+the topic being brainstormed.</li>
+</ul></li>
+<li>The <em>Illusion of group effectivity</em> is a concept that makes
+us think we are being more creative through:
+<ul>
+<li>Exposure to new ideas, but difficult to remember who came up with
+what</li>
+<li>Brainstorming is a fun activity, with people enjoying the social
+element rather than alone</li>
+<li>People recognise production blocking, but only see it applying to
+themselves</li>
+</ul></li>
+</ul>
+<p><strong>ii. What is ‘groupthink’? Study Figure 6.10 on page 208 and
+explain the antecedents, symptoms, and consequences of
+groupthink.</strong></p>
+<ul>
+<li>Groupthink is a mode of thinking within highly cohesive groups where
+the desire to reach a unanimous decision overrides the motivation to
+adopt rational decision making procedures</li>
+<li>It is most commonly fuelled by high stress in conjunction with task
+complexity.</li>
+<li><em>Examples of groupthink:</em>
+<ul>
+<li>Bay of Pigs / Cuban Missile Crisis (1961)</li>
+<li>Defence of Pearl Harbour (1941)</li>
+<li>Challenger launch (1986)</li>
+</ul></li>
+<li><em>Antecedents:</em>
+<ul>
+<li>Excessive group cohesiveness</li>
+<li>Insulation of the group from external influence</li>
+<li>Lack of impartial leadership, and of norms encouraging proper
+procedures</li>
+<li>High stress from external threat and task complexity</li>
+</ul></li>
+<li><em>Symptoms:</em>
+<ul>
+<li>Feelings of unanimity and invulnerability</li>
+<li>Unquestioning belief that the group must be right</li>
+<li>Ignorance or discrediting of contrary opinions (from outside the
+group)</li>
+<li>Pressuring dissidents to bring them in line</li>
+<li>Stereotyping of out-group member/s</li>
+</ul></li>
+<li><em>Consequences:</em>
+<ul>
+<li>Poor decision making processes</li>
+</ul></li>
+</ul>
+</details>
+<details>
+<summary>
+LO9: How is group polarisation defined, what are its consequences, and
+how do the three main theoretical explanations of group polarisation
+differ?
+</summary>
+<p><strong>i. What is ‘group polarisation’? List the major explanations
+that have been offered for group polarisation.</strong></p>
+<ul>
+<li>Group polarisation refers to the tendency of a group to make a
+decision based on a more extreme view of the group’s average.</li>
+<li><em>Pervasive Arguments Theory:</em>
+<ul>
+<li>When we hear a unique take on our currently held view, we may hold
+those beliefs more closely, or they take a more extreme form.</li>
+</ul></li>
+<li><em>Social Comparison/Cultural Values:</em>
+<ul>
+<li>This theory is based on social approval and avoidance of social
+censure</li>
+<li>Decisions are made via an understanding of group values and the
+‘average’</li>
+<li>The <em>bandwagon effect</em> refers to the lean of the group
+towards a particular outcome, with advocates increasingly defending
+their position to improve/maintain status.</li>
+<li><em>Pluralistic Ignorance</em> refers to the public acceptance of a
+value, while privately rejecting it</li>
+<li>It is often abandoned through conversation, as the group comes to
+understand that the value/norm is not accepted by the group</li>
+<li>Polarisation is an expression of true attitudes here</li>
+</ul></li>
+<li><em>Social Identity Theory:</em>
+<ul>
+<li>Identify, construct and conform to a norm</li>
+<li>Relate to similarities in-group and accentuate differences
+out-group</li>
+<li>Elements are assembled to represent the group norm</li>
+<li>These elements are the positions held by in-group members as
+compared to the positions held (or otherwise) by out-groups</li>
+<li>These norms characterise in-group members</li>
+<li>Generally polarised away from implicit or explicit out-group norms,
+which further categorises in vs. out.</li>
+<li>In groups either polarise away from a group norm as a whole, or
+converge towards the in-group mean.</li>
+</ul></li>
+</ul>
+<p><strong>ii. Note what psychologists have uncovered about the
+behaviours of juries and understand how psychological research can be
+applied it inform legal policy.</strong></p>
+<ul>
+<li>A jury is a group of lay people assembled to reach a criminal
+decision</li>
+<li>They are prey to group dynamics of decision making, like any other
+group:
+<ul>
+<li>Decision Schemes</li>
+<li>Electing a leader,</li>
+<li>Delivery of leadership</li>
+<li>Groupthink, and</li>
+<li>polarisation</li>
+</ul></li>
+<li>Physically attractive defendants are more likely to receive a
+lighter sentence, while blacks are more likely to receive a harder
+sentence, including the death penalty for the murder of a white.</li>
+<li>Brutal crimes can stir up commentary about a harsher punishment, but
+juries can be reluctant to do so.</li>
+<li>Recency effect can impact jury decisions, particularly where a long
+case or large amounts of evidence have been examined.</li>
+<li>Foreman is likely to have diffuse status, higher SES, previous jury
+experience, or even be in the right seat at the ‘wrong’ time.</li>
+<li><span class="math inline">\(\frac{2}{3}\)</span> Majority is most
+likely to influence the final decision</li>
+<li>A larger jury of 12 members is likely to contain minorities
+(minority influence), deliberate longer, hang more often and recall
+trial events better.</li>
+</ul>
+</details>
+</div>
+<div id="week-9-intergroup-relations" class="section level3 well">
+<h3 class="well">Week 9: Intergroup Relations</h3>
+<details>
+<summary>
+LO1: How are the terms prejudice and discrimination defined, and what is
+the relationship between prejudice and discrimination?
+</summary>
+<p><strong>i. Describe the term ‘dehumanisation’ and explain how is
+associated with prejudice.</strong></p>
+<ul>
+<li>Dehumanisation is a component of prejudice that involves an outgroup
+being seen as less than human through the lens of prejudice.</li>
+</ul>
+<p><strong>ii. Remind yourself of the tripartite model of
+attitude.</strong></p>
+<ol style="list-style-type: decimal">
+<li>Affective: positive or negative feelings about the object</li>
+<li>Behaviour: a state of readiness to take action</li>
+<li>Cognitive: beliefs about the object of an attitude</li>
+</ol>
+<ul>
+<li>Attitudes are also:
+<ul>
+<li>Relatively permanent across time and situations</li>
+<li>Limited to socially significant events or objects</li>
+<li>Generalisable and at least somewhat abstract</li>
+<li>Attitudes consist of:
+<ul>
+<li>Thoughts and ideas</li>
+<li>A cluster of feelings</li>
+<li>Likes and dislikes</li>
+<li>Behavioural intentions</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>iii. What is the difference between prejudice and
+discrimination?</strong></p>
+<ul>
+<li>Prejudice is a cognitive attitude based on cognitive biases and
+stereotypes</li>
+<li>Discrimination refers to the unjust treatment of certain groups of
+people through behaviours</li>
+</ul>
+</details>
+<details>
+<summary>
+LO2: What are some of the effects of being a victim of prejudice and
+discrimination?
+</summary>
+<p><strong>How can ‘reluctance to help’ be a form of
+discrimination?</strong></p>
+<ul>
+<li>Reluctance to help is a form of discrimination as it is a subtle way
+of withholding assistance to a minority group in improving their
+position
+<ul>
+<li>Landlords not renting to a minority</li>
+<li>Employers not providing flexible conditions to mothers</li>
+<li>White bystanders not assisting black victims in an emergency (where
+it is perceived that their failure to help would not be attributed to
+race)</li>
+</ul></li>
+</ul>
+<p><strong>Define the terms ‘tokenism’ and ‘reverse discrimination’.
+Provide examples of each of these forms of discrimination and think
+about the possible benefits and drawbacks for the target
+group.</strong></p>
+<ul>
+<li><strong>Tokenism:</strong> making small concessions to a minority in
+order to appear unprejudiced, while avoiding more meaningful acts
+(“Don’t bother me, I’ve done enough already”)</li>
+<li>For example, women hired to management roles as a token employee can
+suffer self esteem issues, and are often less commited to the role.</li>
+<li><strong>Reverse discrimination:</strong> Going to greater lengths
+than tokenistic gestures towards a group we may hold greater prejudice
+for than other groups</li>
+<li>For example, reverse discrimination can be seen as a set up for
+failure in some situations</li>
+<li>There is no evidence to date that reverse discrimination reduces or
+abolishes closely held prejudices.</li>
+</ul>
+<p><strong>After reading about the ‘Two-isms’, think back to the context
+from Week 2: Attributions. How might such prejudices affect your
+impression formations and what social cognitive concepts might explain
+them?</strong></p>
+<ul>
+<li><strong>Social Cognitive concepts:</strong>
+<ul>
+<li>Prejudices affect impression formation through heuristics (top-down
+social inference), priming of categories, the methods of schema
+construction, and basic schemas</li>
+<li>All of which are types of shortcuts we use to make sense of our
+world, and save time/energy in reconstructing existing or constructing
+new schemas.</li>
+</ul></li>
+<li><strong>Affect on impression formation:</strong>
+<ul>
+<li>Our impression formation may indirectly be changed through
+generational change, where children tend to solidify their attitudes and
+beliefs through interaction with their peers, and partly through the
+rejection of their parents more troublesome influences and
+attitudes.</li>
+<li>While some prejudices are learned, the affect of in-group/out-group
+judgements may evolve to concepts such as ‘new racism’, as we learn of
+the attitudes previously held by older generations.</li>
+</ul></li>
+</ul>
+<p><strong>Provide an example to explain what is meant by stereotype
+threat.</strong></p>
+<ul>
+<li>Stereotype threat is the feeling that we will be treated in terms of
+negative stereotypes of our group, and that we will also inadvertently
+confirm the stereotype.</li>
+<li>For example, a female manager performing her job badly, being seen
+as a bitch, or being too soft and ‘motherly’ in managing her team.</li>
+<li>The four common stereotypes for women are: housewife, sexy woman,
+career woman, feminist/athlete/lesbian.</li>
+</ul>
+<p><strong>Describe how victims of prejudice may develop a sense of
+failure.</strong></p>
+<ul>
+<li>Tokenism can contribute to a sense of failure through diminished
+sense of worthiness, lower commitment, not being hired on merit, lack of
+faith in ability</li>
+<li>Reverse discrimination can impact a sense of achievement through a
+hard realisation of reality, not seeking future help or an artificially
+inflated sense of competence, and chronic apathy or lowered
+motivation.</li>
+</ul>
+<p><strong>What is the effect of attributional ambiguity on stigmatised
+individuals?</strong></p>
+<ul>
+<li>Stigmatised individuals play down their success where the cause is
+unclear.</li>
+<li>Assume it was due to tokenism, affirmative action, or reverse
+discrimination</li>
+<li>Under attribute negative reactions from others to prejudice</li>
+<li>Ruggiero and Taylor (1995) found that women attributed negative
+evaluations to their own work unless they were almost 100% certain that
+their male evaluator was prejudiced.</li>
+</ul>
+<p><strong>Define the self-fulfilling prophecy. How does the
+self-fulfilling prophecy contribute to the promotion and continuation of
+prejudice against a particular group? Note whether you think stereotype
+threat contribute to a self-fulfilling prophecy.</strong></p>
+<ul>
+<li>A self-fulfilling prophecy is where the expectations and beliefs
+about a person lead that person to change their behaviour to match our
+expectations.</li>
+</ul>
+<p><img src="images/HPS204/Week8/selfful.svg" /></p>
+<ul>
+<li>On an individual level of analysis, people tend to judge each other
+on a personality basis rather than through social stereotypes.</li>
+<li>In a group setting, however, both stereotypes and stereotype threat
+impact the self-fulfilling prophecy.</li>
+<li>An in-group member may anticipate similar stereotypical behaviours
+on encounters with multiple members of an out-group</li>
+<li>Stereotype threat has been found to contribute to self fulfilling
+prophecy within cultures, cumulatively producing higher dropout rates
+from school with some marginalised groups.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO3: What are individual theories of prejudice, and what issues arise
+from using these theories?
+</summary>
+<p><strong>What is meant by an authoritarian personality? Do you agree
+with the authoritarian personality theory of prejudice?</strong></p>
+<ul>
+<li>Authoritarian personality is said to be a personality syndrome
+originating in childhood (through autocratic and punitive child
+rearing), and thought to be the cause of a predisposition to
+prejudice.</li>
+<li>Altemeyer (1998) proposes that authoritarianism varies from person
+to person, with origins of power within a social hierarchy coming from
+following social conventions</li>
+<li>Authoritarianism legitimises and maintains the status quo through
+maintained adherence to (and enforcement of) social conventions.</li>
+</ul>
+<p><strong>Define ethnocentrism.</strong></p>
+<ul>
+<li>Ethnocentrism refers to an evaluative preference for all aspects of
+our in-group relative to other groups.</li>
+</ul>
+<p><strong>What are the differences between social dominance theory and
+system justification theory?</strong></p>
+<ul>
+<li><strong>Social Dominance Theory:</strong>
+<ul>
+<li>SDT refers to a societal system in which dominant groups have higher
+social status, wealth, political authority and power.</li>
+<li>Legitimising myths perpetuate the notion that inequality is
+fair</li>
+<li>Prejudice is enhanced through hierarchical relations</li>
+<li>The rich are disproportionately advantaged, and the poor are
+disproportionately disadvantaged</li>
+<li>All actions are intended to maintain the power and status of the
+advantaged, who are ethnocentric, nationalistic, racist, sexist and
+authoritarian</li>
+</ul></li>
+<li><strong>System Justification Theory:</strong>
+<ul>
+<li>System of political ideology: Liberal –&gt; Conservative
+<ul>
+<li><strong>Liberals:</strong>
+<ul>
+<li>want social change, but reject inequality</li>
+<li>are progressive, rebellious, chaotic, flexible, feminist,
+equality</li>
+</ul></li>
+<li><strong>Conservatives:</strong>
+<ul>
+<li>resist social change, endorse social inequality</li>
+<li>want conformity, order, stability, traditional values,
+hierarchy</li>
+<li>“Better to live in reduced circumstances and be certain of one’s
+place than challenge the status quo and face uncertainty”</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</details>
+<details>
+<summary>
+LO4: What are relative deprivation theory and realistic conflict theory?
+How are Sheriff’s studies examples of both?
+</summary>
+<p><strong>Define intergroup behaviour. How does this level of analysis
+differ from the earlier theories?</strong></p>
+<ul>
+<li>Intergroup behaviour refers to the way individuals behave towards
+each other knowing which group they are members of.</li>
+<li>This level of analysis differs to others previously viewed as it
+suggests that there is more to consider in an encounter than just the
+individual’s personality or temperament.</li>
+<li>The suggestion is that these interactions are judged or shaped by
+our affiliations.</li>
+<li>This level of analysis can also be applied to more than just the
+general public in everyday actions as there are implications in
+politics, revolutions, inter-ethnic relations, corporations and
+competitive team sports</li>
+</ul>
+<p><strong>What is ‘relative deprivation’ and why has it been suggested
+that it is a crucial precondition for intergroup aggression? Read ‘Real
+World 7.4’ on page 241 which provides an example consistent with
+relative deprivation theories.</strong></p>
+<ul>
+<li>Relative deprivation refers to the perceived gap between a minority
+group’s expectations and achievements</li>
+<li>It is a critical precondition for aggression as its impact is abrupt
+as in the case pf the violent beating of Rodney King at the hands of 4
+police officers after acquittal from an all white jury.</li>
+<li>The expectation in this case was a guilty verdict as footage of the
+incident was seen by all on TV</li>
+</ul>
+<p><strong>What is Davies’ (1969) J-curve hypothesis? (Also see Figure
+7.8.)</strong></p>
+<ul>
+<li>The J-curve hypothesis is an illustration of the relative
+deprivation theory in that it demonstrates:
+<ul>
+<li>A model on how people construct future expectations from past and
+current attainments.</li>
+<li>The significant drop represents when expectations suddenly fall
+short</li>
+<li>Collective unrest is anticipated in conjunction with the acute
+drop</li>
+</ul></li>
+</ul>
+<p><strong>Define ‘fraternalistic relative deprivation’.</strong></p>
+<ul>
+<li>FRD refers to a similar drop in expected futures, however, the group
+comparing CHOOSES the out-group with which the comparison is made.</li>
+<li>For example, After WWII East Germany compared their expectations
+with the West Germans rather than other Eastern European nations that
+they were outperforming</li>
+</ul>
+<p><strong>Note the general procedure involved in Sherif’s famous
+studies and be able to define the term ‘superordinate
+goal’.</strong></p>
+<ol style="list-style-type: decimal">
+<li>Children arrived at camp and engaged in camp-wide activities,
+forming friendships</li>
+<li>Camp was divided into two groups, splitting friendships. Living
+separately, the groups developed their own norms and markers of status.
+Basic signs of ethnocentrism were evident</li>
+<li>Intergroup competitions began, with fierce competition permeating
+all aspects of their time, with amplified ethnocentrism and food fights
+at meal times. 2 of the 3 experiments were concluded at this point.</li>
+<li>In the third experiment, the groups were given <strong>superordinate
+goals</strong>, that could only be completed through intergroup
+co-operation.</li>
+</ol>
+<ul>
+<li>all hands on deck to rescue truck delivering a movie that both
+groups wanted to watch.</li>
+</ul>
+<p><strong>According to Sherif, what happens when groups compete for
+scarce resources?</strong></p>
+<ul>
+<li>Groups competing for scarce resources are headed for conflict. and
+ethnocentrism</li>
+<li>Shared goals lead to greater interdependence and encouraged
+harmony.</li>
+</ul>
+<p><strong>Describe the findings of Sherif’s experiments.</strong></p>
+<ul>
+<li>The nature of the goal relations determines the nature of group
+relations.</li>
+<li>Individuals with mutually exclusive goals compete, which prevents a
+group from forming, or causes and existing group to collapse</li>
+<li>Mutually exclusive group goals lead to conflict</li>
+<li>Shared goals (group) lead to interdependence between groups, and
+encourage harmony (superordinate goals)</li>
+</ul>
+<p><strong>Now define ‘realistic conflict theory’ and explain the basic
+premise of this theory.</strong></p>
+<ul>
+<li>RCT serves to explain group relations through the nature of goal
+relations between groups</li>
+<li>The basic premise is that conflict comes through mutually exclusive
+goals for scarce resources and intergroup dependence through shared
+goals</li>
+</ul>
+<p><strong>How has social identity theory developed from Sheriff’s
+studies.</strong></p>
+<ul>
+<li>How can we be certain that goal relations determine group
+relations?</li>
+<li>Other researchers have found that intergroup conflict arises even
+when shared goals are visible</li>
+<li>What are the specific conditions required to promote intergroup
+competition and give rise to ethnocentrism?</li>
+</ul>
+</details>
+<details>
+<summary>
+LO5: How can Tajfel’s minimal group paradigm and associated research
+findings be described?
+</summary>
+<ul>
+<li>Research in social psychology using “minimal groups” has shown that
+individuals tend to discriminate in favour of their in-group over
+out-groups, even when group membership is arbitrary and lacks historical
+conflict or competition.</li>
+<li>The <em>minimal group paradigm</em> (Tajfel et al, 1971) is a widely
+used method in social psychology to study the basic elements of
+intergroup relations, demonstrating in-group favouritism through minimal
+group induction across three experiments.</li>
+<li>Intergroup behaviour studies have historically examined variables
+like conflict, competition, and cooperation within social environments
+that divide people into “us” (in-groups) and “them” (out-groups),
+suggesting that such divisions are essential for intergroup
+behaviour.</li>
+<li>However, Tajfel and other psychologists’ research addressed the
+issue of whether the sole act of social categorization isolated from
+other variables like competition or anticipation of future interaction
+can lead to discrimination from the in-group toward the out-group.</li>
+<li>Participants favoured their own groups in the distribution of real
+rewards and penalties in a situation where a fairly irrelevant
+classification distinguished the in-group and out-group. The results
+support the theory that social categorization, regardless of the
+organizing principle, is capable of creating intentional discriminatory
+behaviour.</li>
+<li>People often make decisions that favor their in-group over
+maximizing collective utility, leading to the development of Social
+Identity Theory and Social Categorization Theory, which explain how
+individuals can activate different social identities based on context;
+minimal group inductions, shown to sometimes override racial
+categorizations, have been widely used in social psychology for their
+simplicity, robust impact, and relevance, influencing fields from
+political science to social neuroscience.</li>
+</ul>
+</details>
+<details>
+<summary>
+LO6: How can the major features of social identity theory and
+self-categorisation theory be defined and described, and what are their
+implications for intergroup behaviour?
+</summary>
+<p><strong>What is the minimal group paradigm? What were the main
+findings?</strong></p>
+<ul>
+<li>The MGP is an experimental methodology used to demonstrate
+intergroup discrimination where only one identifier (artist preference
+groups) was known but trivial</li>
+<li>The main findings of Tajfel et al (1971) was that discrimination was
+evident even when self interest was removed as well as participant
+identity</li>
+<li>There was no history or future with other group members</li>
+</ul>
+<p><strong>What is social categorisation? What role does it play in the
+development of the social identity theory?</strong></p>
+<ul>
+<li>Social categorisation is a means of classifying members of an
+outgroup</li>
+<li>The role of social categorisation theory is simply to remove
+uncertainty about the groups to which we belong</li>
+<li>By identifying with certain groups, we can remove uncertainty about
+our belonging and simplify the choices we can make and our available
+options.</li>
+</ul>
+<p><strong>What is the basic premise of social identity theory? Be able
+to define and explain the role and importance of ‘social
+identity’</strong></p>
+<ul>
+<li>Social Categorisation Theory is the cornerstone of social identity
+theory and group relations.</li>
+</ul>
+<p><strong>Differentiate between personal and social
+identity.</strong></p>
+<ul>
+<li>Personal identity is concerned with interpersonal processes, while
+social identity is concerned with group processes</li>
+</ul>
+<p><strong>Understand how self-categorisation theory and social identity
+theory are used to explain intergroup processes.</strong></p>
+<ul>
+<li>Self-categorisation is a means of identifying ourselves as a member
+of a group, which inherently prompts us to exhibit and receive group and
+intergroup behaviours.</li>
+</ul>
+<p><strong>Review the ’meta-contrast principle. Can you think of an
+example from your own life where you have experienced this in
+action?</strong></p>
+<ul>
+<li>Prototypes are a fuzzy set of attributes (perceptions, beliefs,
+attitudes, feelings, behaviours) that describes a group as distinct to
+another.</li>
+<li>The meta-contrast principle suggests that our prototypes can be
+different, but still exist within a category (i.e. chairs can appear to
+be different, but they look more alike than tables)</li>
+<li>“The differences between categories exceed the differences within
+them”</li>
+</ul>
+<p><strong>In social identity terms, what is meant by
+‘depersonalisation’?</strong></p>
+<ul>
+<li>When we categorise people we view them as an instance of a prototype
+rather than as an individual who may not completely resemble that
+prototype</li>
+<li>We draw on our stereotypes and ethnocentrism</li>
+<li>Categorising ourselves is also a way we depersonalise our selves in
+an effort to adhere to in-group norms.</li>
+</ul>
+<p><strong>What functions does an individual’s social identity
+hold?</strong></p>
+<ol style="list-style-type: decimal">
+<li><strong>Self-enhancement:</strong> Groups strive to be different to
+each other and achieve positive distinctness. Our membership of a given
+group provides a positive social identity</li>
+<li><strong>Subjective Uncertainty Reduction:</strong> We want to know
+who we are, how to relate to, and what to expect from others. We want to
+make life predictable and plan effective action</li>
+</ol>
+<p><strong>What is the difference between the social mobility belief
+system and the social change belief system?</strong></p>
+<ul>
+<li>Social mobility refers to our ability to move from a lower status
+social group to a higher status social group, and therefore improve our
+position (permeable boundaries)</li>
+<li>Social change refers to challenging the legitimacy of a higher
+status social group in order to elevate the status of our own group as a
+whole</li>
+</ul>
+<p><strong>Study Figure 7.10. Match up the specific tactics identified
+with either social creativity or social competition
+processes.</strong></p>
+<p><img src="images/HPS204/Week9/ImprovingIdentity.svg" /></p>
+</details>
+<details>
+<summary>
+LO7: What are collective behaviour, deindividuation, and emergent norm
+theory?
+</summary>
+<p><strong>What is collective behaviour?</strong></p>
+<ul>
+<li>Collective behaviour refers to:
+<ul>
+<li>Large numbers of people in the same place at the same time</li>
+<li>Uniform behaviour</li>
+<li>are volatile and emotional, and</li>
+<li>in violation of societal norms</li>
+</ul></li>
+<li>May also include the study of:
+<ul>
+<li>Rumours</li>
+<li>Fads and fashions</li>
+<li>Social movements and cults</li>
+<li>Contagions of expression</li>
+<li>Enthusiasm, anxiety, fear and hostility</li>
+</ul></li>
+</ul>
+<p><strong>What is LeBon’s theory of collective behaviour? Do you think
+LeBon’s theory still important nowadays?</strong></p>
+<ul>
+<li>LeBon’s theory is:
+<ul>
+<li>Members are anonymous and lose personal responsibility for their
+actions as a result</li>
+<li>Ideas and sentiments spread rapidly through a crowd through
+contagion</li>
+<li>Unconscious antisocial motives (‘ancestral savagery’) are released
+through suggestion (similar to hypnosis)</li>
+<li>LeBon’s initial theory still has some merit to it, although we now
+know that the actions of a crowd are more methodical and organised than
+LeBon first thought.</li>
+</ul></li>
+</ul>
+<p><strong>What is ‘deindividuation’? Understand how it might be
+involved in collective behaviour.</strong></p>
+<ul>
+<li>Deindividuation refers to our maintenance in upholding strong moral
+norms against antisocial conduct</li>
+<li>Letting go of our individuality and adherence to these norms in
+crowds is a relaxation of our adherence to these norms</li>
+<li>Deindividuation is the mediating force between the two</li>
+<li>The opposite of Jung’s theory of individuation</li>
+</ul>
+<p><strong>What explanation of collective behaviour is provided by
+emergent norm theory? (have a look at Figure 7.15.)</strong></p>
+<ul>
+<li>Emergent norm theory posits that we assemble in groups with no
+previous connections, and norms are developed or observed from the
+behaviours of distinctive individuals</li>
+<li>Pressures then impact or restrict behaviours outside these norms
+(non-conformity)</li>
+<li>Inaction from the majority against these emerging norms is seen as
+confirmation of the norm, with pressures against non-conformity
+increasing</li>
+</ul>
+<p><strong>What important feature of crowd behaviour is often
+ignored?</strong></p>
+<ul>
+<li>Crowd behaviour is an intergroup phenomenon</li>
+<li>A symbolic or actual confrontation takes place</li>
+<li>People assume their identity from the crowd rather than losing
+it</li>
+<li>Norms are inherent within the group based on the wider purpose of
+the group as demonstrated by the group/protest leaders</li>
+</ul>
+<p><strong>How does the social identity model of deindividuation
+phenomena seek to address this?</strong></p>
+<ul>
+<li>The Social identity model of deindividuation suggests:
+<ul>
+<li>Violence, burning and looting are constrained to a given area in
+dispute, and at relevant symbols/targets of protest</li>
+<li>The crowd remains within the bounds of its community or area under
+dispute</li>
+<li>Both during and after an event, participants are imbued with a
+strong sense of positive social change</li>
+</ul></li>
+</ul>
+</details>
+<details>
+<summary>
+LO8: What strategies have been developed to improve intergroup
+relations, and how effective are they?
+</summary>
+<p><strong>Note the different solutions to prejudice and intergroup
+conflict that follow: a) relative deprivation theory; b) realistic
+conflict theory; and c) social identity theory.</strong></p>
+<ul>
+<li><strong>Relative Deprivation theory:</strong>
+<ul>
+<li>One group compares their lot with an out-group
+<ul>
+<li>lowering expectations</li>
+<li>distractions from realising frustrations</li>
+<li>Harmless, non-social activities to vent frustrations</li>
+<li>Minimising aggressive associations among the frustrated.</li>
+</ul></li>
+</ul></li>
+<li><strong>Realistic Conflict Theory:</strong>
+<ul>
+<li>Find superordinate goals achieved through co-operation</li>
+<li>Avoid mutually exclusive goals</li>
+</ul></li>
+<li><strong>Social Identity Theory:</strong>
+<ul>
+<li>Reducing polarising and derogatory stereotypes</li>
+<li>Forms of intergroup competition bypass violence</li>
+</ul></li>
+</ul>
+<p><strong>Consider your interactions at university versus those you
+experienced during school. Can you reflect on how your education at
+school prepared (or perhaps failed to) you for the diversity of
+interactions experienced in today’s society?</strong></p>
+<ul>
+<li>They didn’t know any better</li>
+<li>Most concepts considered common knowledge today were being
+researched at the time</li>
+<li>Psychology in general was considered voodoo</li>
+<li>School counsellors were unqualified, and were wives or partners of
+other staff members</li>
+</ul>
+<p><strong>What is Allport’s (1954) contact hypothesis? What conditions
+did Allport specify for contact to be effective?</strong></p>
+<ul>
+<li>Allport’s contact hypothesis suggests that contact between groups in
+the right circumstances can reduce the anxiety around negative
+consequences for oneself</li>
+<li>These conditions were:
+<ul>
+<li>Contact should be prolonged and co-operative</li>
+<li>Contact should occur within a framework outlining official and
+institutional support for integration</li>
+<li>Contact should bring together groups from a similar SES so as to
+reduce the likelihood of confirming or entrenching stereotypes.</li>
+</ul></li>
+</ul>
+<p><strong>Why might there be problems with the idea that contact causes
+people to recognise their similarity to others?</strong></p>
+<ul>
+<li>Contact between cultures may highlight profound differences, rather
+than reduce them</li>
+<li>Conflict of interest or mutually exclusive goals (competition for
+jobs)</li>
+<li>Difference in status or power differential (SES mismatch)</li>
+</ul>
+<p><strong>What is Gaertner’s common in-group identity
+model?</strong></p>
+<ul>
+<li>Gaertner’s CII model posits that where members of opposing groups
+can categorise themselves as members of the same group, intergroup
+attitudes will either improve or disappear</li>
+</ul>
+<p><strong>Is the provision of superordinate goals an effective way of
+improving intergroup relations? Note the qualifications provided in your
+text. Also, note which type of superordinate goal is particularly
+effective.</strong></p>
+<ul>
+<li>Superordinate goals are an effective method of improving intergroup
+relations, where the goal before opposing groups can be achieved</li>
+<li>If the groups fail, both look to blame each other for the
+failure</li>
+<li>Simply referring to groups with a superordinate context can help
+(France + Greece vs. Europe and U.S.)</li>
+</ul>
+<p><strong>Note the definitions and effectiveness of different types of
+negotiation strategies.</strong></p>
+<ul>
+<li><strong>Bargaining:</strong>
+<ul>
+<li>We bargain more fiercely for our groups than ourselves</li>
+<li>Impasse is common</li>
+<li>Groups can be fearful of a sell-out, in which it may be seen that a
+representative was too quick to reach an agreement or not representing
+the group effectively</li>
+<li>While one argument may be resolved, many others remain
+unchanged</li>
+</ul></li>
+<li><strong>Mediation:</strong>
+<ul>
+<li>A third party can break a deadlock</li>
+<li>Mediator must be impartial and trustworthy</li>
+<li>A mediator can also:
+<ul>
+<li>Reduce tensions in a deadlock</li>
+<li>Encourage understanding and trust</li>
+<li>Propose compromise for win-win</li>
+<li>Assist with graceful retreat</li>
+<li>Clarify how to reach consensus</li>
+</ul></li>
+</ul></li>
+<li><strong>Arbitration:</strong>
+<ul>
+<li>A last resort intended to provide a neutral third party the power to
+impose a mutually binding agreement.</li>
+</ul></li>
+</ul>
+</details>
+</div>
+<div id="week-10-close-relationships" class="section level3 well">
+<h3 class="well">Week 10: Close Relationships</h3>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+<details>
+<summary>
+</summary>
+</details>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

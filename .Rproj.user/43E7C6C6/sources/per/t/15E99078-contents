@@ -1,0 +1,986 @@
+---
+title: 'HPS203: Cognitive Pychology'
+output: html_document
+dependencies:
+      - src: "https://app.diagrams.net/js/viewer-static.min.js"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(DiagrammeR)
+```
+
+## Week 1: Introduction to Cognitive Psychology {.well}
+
+### The Scope of Cognitive Psychology {.well}
+
+-   Cognitive psychology is concerned with the study of mental processes such as perception, attention, memory, language, thinking, and problem-solving.
+-   It aims to understand how people acquire, retain, and use knowledge to make decisions and solve problems. It also explores the factors that impact these processes, including distraction and the influence of others.
+-   The field also examines the remarkable intellectual achievements of humans, such as creative problem-solving and brilliant deductions.
+-   Overall, cognitive psychology seeks to answer questions about the nature of human thought and behaviour, with the goal of helping people make better decisions and improve their cognitive abilities.
+
+### The Broad Role of Memory {.well}
+
+-   Memory is crucial for our understanding and interpretation of the world around us.
+-   It allows us to bring our background knowledge to a situation and to supplement our experiences with relevant information.
+-   This allows us to make sense of narratives, conversations, and other encounters with the world without having to spell out all the connections and assumptions.
+-   Without memory, we would need to rely on others to provide all the necessary information, making stories and conversations much longer and slower.
+-   Memory plays a key role in our cognitive functioning and is crucial for many aspects of our lives.
+
+### Amnesia and Memory Loss {.well}
+
+-   The case of H.M. provides insight into the role of memory in human life.
+-   His memory loss due to brain surgery led to a lack of self-awareness, emotional adjustment, and understanding of experiences.
+-   Cognitive psychology studies the acquisition, retention, and use of knowledge, which is relevant to all aspects of life including physical movements, social lives, emotions, etc.
+-   The study of cognitive psychology can help us understand various capacities that support our daily activities and experiences, which would collapse without the support of our cognitive functioning.
+
+### The Cognitive Revolution {.well}
+
+-   Cognitive psychology emerged as a field roughly 60 years ago and marked a "cognitive revolution" in psychology.
+-   The new style of research in this field aimed at questions about memory, decision making, and other mental processes.
+-   The "revolution" was a response to limitations in earlier psychological traditions and dramatically changed the intellectual map of the field, having significant impact on other domains of psychology as well.
+-   The broader history of cognitive psychology can be found in works such as Benjamin (2008), Broadbent (1958), Malone (2009), and Mandler (2011).
+
+### The Limits of Introspection {.well}
+
+-   Introspection, which is the study of conscious mental events through self-observation, was initially influential in the field of psychology in the late 19th century.
+-   However, it was later found to be limited as a research tool, as it cannot examine unconscious thought, which plays a large part in mental life, and it is difficult to test its claims.
+-   Introspection relies on the subjective description of the individual and there is no way to determine whether the filter of this description is colouring the evidence.
+-   Scientists seek to achieve objectivity by ensuring the raw data is out in plain view, but this cannot be done with introspection.
+-   For these reasons, introspection is not relied on as a means of evaluating hypotheses in psychology.
+
+### The Years of Behaviourism {.well}
+
+-   The behaviourist movement in psychology was a response to the problem of introspection as a research tool.
+-   Behaviourists believed that a scientific psychology should focus on observable, objective data, and that meant data that can be observed and recorded by anyone in the right position.
+-   This led to a focus on behavior and stimuli as the main data for study.
+-   However, by the late 1950s, psychologists realized that behaviour is also guided by mental entities such as beliefs, memories, and perceptions that are not directly observable and could not be studied scientifically.
+-   As a result, psychologists started to consider mental entities as important in understanding behaviour.
+-   This is demonstrated through examples such as the "Betsy and Jacob" story and the act of passing salt, where the behaviour is influenced by the person's understanding and interpretation of the situation, rather than just the physical stimuli.
+
+### The Intellectual Foundations of the Cognitive Revolution {.well}
+
+-   The problem of studying the mental world was addressed by philosopher Immanuel Kant who suggested using the transcendental method.
+-   This method involves starting with observable facts and working backward to find the underlying causes.
+-   This method is used in most modern sciences, such as physics where electrons cannot be directly observed, but their presence leads to observable results that can be used to form hypotheses about what they must be like.
+-   Psychologists use the same method to study mental processes, which are invisible, by examining their visible consequences such as measurable delays in responses or accuracy of performance, and developing and testing hypotheses about the mental processes based on these effects.
+-   By relying on the visible consequences of mental processes, psychologists can indirectly study the mental world, similar to the way scientists in other fields study the invisible through the visible.
+
+### The Path from Behaviorism to the Cognitive Revolution {.well}
+
+-   The cognitive revolution in psychology was a major shift in the field that took place in the 1950s and 1960s.
+-   It was triggered by multiple forces, including the internal criticisms of the behaviourist movement and a critique of behaviourism by Noam Chomsky.
+-   Edward Tolman was a behaviourist who argued that learning involved more than just a change in behaviour, but rather the acquisition of new knowledge.
+-   Tolman's studies on rats showed that even for rats, mental processes, such as the formation of a "cognitive map", needed to be taken into account to explain behaviour.
+-   Chomsky's criticism of B. F. Skinner's proposal that language use could be understood in terms of behaviour and rewards, argued that language creativity was rooted in abstract principles and required a different approach to explain language learning and use.
+-   These developments led to a focus on mental processes in psychology, leading to the cognitive revolution and shaping the field into its modern form.
+
+### European Roots of the Cognitive Revolution {.well}
+
+-   The cognitive revolution in psychology was influenced by multiple factors, including concerns about the limitations of classical behaviourism, critique of behaviourism by Noam Chomsky, and European psychologists who were working on other perspectives.
+-   Edward Tolman's study on rats in a maze showed that learning involved more abstract processes and not just a change in behaviour.
+-   B.F. Skinner's proposal on language learning was rebutted by Chomsky, who argued that language use was rooted in abstract principles and needed a different approach.
+-   Gestalt psychology (originating from Berlin) emphasized the role of the perceiver in organizing experiences, while British psychologist Frederic Bartlett emphasized the role of schemas in shaping and organizing experiences and memory.
+-   These developments fuelled the cognitive revolution and shaped the modern cognitive psychology.
+
+### Computers and the Cognitive Revolution {.well}
+
+-   The common theme among Tolman, Chomsky, the Gestaltists, and Bartlett is that they believed that the human behaviour cannot be explained without understanding what is happening within the mind.
+-   They emphasized the role of mental processes, such as cognitive maps, schemas, and other forms of knowledge in shaping human behaviour.
+-   With the rapid progress made by computer scientists in the 1950s in developing new hardware and software, psychologists became interested in exploring the possibility that the human mind followed similar procedures to those used in computers.
+-   As a result, psychological data was explained in terms of terms borrowed from computer technology, such as buffers, gates, and central processors.
+-   This led to the development of the field of AI and information-processing psychology, which explains human cognition in terms of information-processing events, and helped in predicting new observations and making new discoveries.
+
+### Research in Cognitive Psychology: The Diversity of Methods {.well}
+
+-   Cognitive psychology uses diverse methods to collect data and test hypotheses about mental processes and behaviour.
+-   These methods include:
+    -   performance testing (examining the accuracy and completeness of memory, changes in performance due to changes in input or circumstances, and comparisons of different people) ,
+    -   response time measurement (looks at the time it takes to make a response and can provide insights into what is happening in the mind),
+    -   observations of the brain and nervous system (through clinical neuropsychology and neuroimaging techniques, providing information about brain function and structure).
+-   Cognitive psychology has learned a lot about the mind through the use of these tools and has developed powerful theories and useful results.
+
+## Week 2: Object Recognition {.well}
+
+### Topic 1: Form Perception {.well}
+
+#### What do ambiguous or reversible figures (such as the Necker cube) tell us about perception?
+
+- Our perception of the cube isn't neutral, and the Necker Cube can be perceived in more than one way.
+- Our perception of the figure allows us to "go beyond the information" provided and perceive the cube in multiple ways.
+- The Gestalt principle of figure/ground applies
+- The whole is more than the sum of its parts.
+
+#### Describe the Gestalt approach and the following concepts: figure/ground, similarity, proximity, good continuation, closure, and simplicity
+
+- **Figure/Ground:** This concept refers to ambiguous objects and isolating where the figure begins and the background ends and vice versa.
+- **Similarity:** grouping of similar shapes (the diamond diagram)
+- **Proximity:** grouping of shapes/objects that are close together
+- **Continuity:** Points that are connected via straight or curved lines are seen in a way that follows the smoothest path are more related to one another than randomly places objects.
+- **Closure:** When viewing a complex arrangement of visual elements, we search for a single recognisable pattern, and our brain fills in the blanks where parts are missing.
+- **Simplicity:** We perceive the simplest shape possible, such as the black and white gramophone as opposed to the arrangement of the coloured circle, square and triangle.
+
+#### Explain how we know that two types of processing occur at the same time: perception of features and an analysis of the object's configuration
+
+Parallel processing allows both the perception of features (information gathering or bottom up processing and interpretation or top-down processing) at the same time utilising different areas of the brain. These different areas of the brain also interact and inform each other during this process.
+
+#### Explain unconscious inference
+
+- **Unconscious Inference** occurs through the concept of **constancy**, and refers to the calculations we perform on perception of an object based on an object's distance, angle and illumination as we perceive it, confirming the object as a constant size, shape, etc.
+
+#### Explain how constancy can cause perceptual illusions to occur
+
+Our perception and analysis of an object's properties can be miscalculated by our unconscious inference based where the object's properties are ambiguous, such as the example involving the chess board and cylinder. The cylinder casts a shadow on the board, and the individual squares around the target square provide ambiguous information to our unconscious inference.
+
+### Topic 2: Object Recognition {.well}
+
+#### Describe bottom-up and top-down processing.
+
+Bottom-up processing refers to the recognition of objects where an object's features are in view (whether in full or partial view) such as a cat on a chair, or a cat's head and foot partially obscured by a tree. This process is also known as data driven processing.
+
+Top-down processing refers to the recognition of ambiguous features of an object when perceived in context (with additional stimuli available), such as "THE CAT" diagram. This type of processing is also known as context driven processing.
+
+#### Describe how culture can influence top-down processes in the M&uuml;ller-Lyer perceptual illusion
+
+To those from WEIRD societies, the ML illusion appears to show two line segments of different length. The line segment with open fins appears to be longer than the line segment with closed fins. These shapes are recognised by non-WEIRD people as the same length due to the differences in geometric shapes used in architecture in WEIRD cultures not being familiar to those of non-WEIRD cultures. It is also an example of context based (top-down) processing.
+
+#### How do visual features contribute to object recognition?
+
+Visual features of an object assist us in recognition by allowing us to break down an object into distinct components which we can then break down further into smaller parts.
+
+
+### Topic 3: Word Recognition {.well}
+
+#### What is the experimental technique used to study word recognition?
+
+The Tachistoscope (now delivered via computers) flashes different words for approximately 20ms at a time, followed by a mask for an additional 20ms. The participant is then measured on both their accuracy and their response and word recognition time. The mask interrupts processing and priming so that researchers can control the availability of the stimulus to the viewer.
+
+#### How does word frequency affect word recognition?
+
+We generally recognise more frequently used words more readily (approximately 65%) than less frequently used words (< 50%). This is also known as the **frequency affect**
+
+#### How does recency of view affect word recognition?
+
+We generally recognise more recently viewed words quicker than less recently viewed words. This is also known as **repetition priming**
+
+#### Define Word Superiority Effect (WSE) and describe the technique used to establish it.
+
+We are better at recognising letters within words than we are at recognising individual letters. The effect is also present in word like groups of letters. e.g. "FIKE" vs. "HYZE".
+
+Technique:
+
+1. `K` &rarr; `MASK` &rarr; `E` or `K`
+2. `DARK` &rarr; `MASK` &rarr; `E` or `K`
+3. `DARE` &rarr; `MASK` &rarr; `E` or `K`
+
+#### Why are degrees of well-formedness important in word recognition?
+
+Well-formedness refers to how closely the letter sequence confirms to letter groupings in English, increasing the likelihood of word recognition.
+
+### Topic 4: Feature Nets {.well}
+
+#### Describe the layout of a feature net and explain how word recognition occurs.
+
+A feature net details the neural process of word recognition in the visual cortex, with each layer building words via the firing of grouped neurons.
+
+**Feature Detectors** fire on recognition of specific letter features, such as the bottom of an `S` or the cross bar of an `A`, etc. This information then fires:
+
+**Letter Detectors** are a higher level group of neurons which fire based on the detected features.
+
+**Bigram Detectors** then fire based on paired letter combinations that commonly occur in English, which in turn fire:
+
+**Word Detectors** fire based on signals received from the relevant Bigram detectors to select a specific word.
+
+#### How do bigram detectors account for well-formedness?
+
+Bigram detectors fire the narrowed down combination of letter pairings prior to the action potentials of word detectors. Well-formedness is assisted by the knowledge across the feature net, but most heavily at the bigram detector level, where the perceiver has a more thorough knowledge of possible pairings.
+
+#### What happens when we encounter ambiguous inputs?
+
+When we encounter an ambiguous input, detectors at each level (feature, letter, bigram, word) will fire but at a lower intensity. The resulting lower intensity action potentials ensure that common letters and bigrams will fire due to neural priming (frequency and recency). e.g. "THE CAT"
+
+#### How can we explain the word superiority effect (WSE) using a feature net?
+
+WSE refers to the ease with which we recognise a word based on the context of its presentation, and the letters within the word. The available options often boil down to a 50/50 choice which we select by guessing.
+
+#### How do recognition errors occur for input like `CQRN`?
+
+Our tendency to misread unfamiliar letter sequences as though they were common sequences is higher. We perceive these sequences in a way that brings them in line with more regular sequences, and are guided by our existing knowledge.
+
+#### What role des distributed knowledge play in the feature net?
+
+Distributed knowledge influences our recognition at the neural level by firing a given detector at the time of perception (rather than words and pairings of letters being stored in a particular place), though the strength or weakness of action potentials based on priming (frequency and recency).
+
+#### How is the McClelland and Rummelhart (1981) model similar to and different from the "classic" version?
+
+The M&R model is similar to the classic in that it incorporates feature and letter detectors, as well as the strength and weakness of action potentials.
+
+The M&R model differs from the classic in that bigram detectors are not present. The direction of action potentials travel both up and down, whilst both being excitatory and inhibitory depending on feature and letter detector action potentials.
+
+#### How do people recognise objects in the Recognition By Components (RBC) model?
+
+The RBC network model is explained via geometric icons (geons), geon assemblies and object models as the layers of the feature net. The RBC model is comprised of 20 individual geons, which are then connected at the assembly level, and finally identified as complete objects by the object model detectors. Geons are more readily identified from multiple angles, and can also be detected accurately even when partially obscured by other objects.
+
+#### What is the difference between viewpoint-independent and viewpoint-independent cells?
+
+Viewpoint independent cells fire strongly to a certain view of an object and less strongly to other views (e.g. on perception of certain objects at almost any angle, such as a hand, or hand in gloves), while viewpoint dependent cells only respond to an object's shape, which then fire viewpoint independent cells.
+
+### Topic 5: Facial Recognition {.well}
+
+#### Why do we think that there is a special recognition system for faces?
+
+Evidence suggests tat there are separate feature networks for faces, objects and words. Prosopagnosia is a condition preventing people from recognising faces (via the fusiform face area (FFS)), although they are still able to recognise words, letters, and objects. Further evidence also suggests that facial recognition also incorporates other centres in the brain suggesting shared processes.
+
+#### What is the evidence for holistic recognition of faces?
+
+The evidence thus far in holistic recognition of faces is demonstrated with the top and bottom halves of two different faces in a single photo. When the images are aligned, facial recognition is difficult. When misaligned, recognition becomes easier.
+
+#### Give a priming example to show how our knowledge of the world influences object recognition
+
+Our knowledge of the world influences our perception thereby priming feature nets from our experiences in anticipation of stimuli. For example, a discussion about Star Wars should prime our knowledge about the knowledge of the characters, plots, etc before the stimulus is presented.
+
+
+## Week 3: Attention {.well}
+### Topic 1: Selective Attention
+
+#### Describe a dichotic listening experiment and the typical results that are found.
+
+In a dichotic experiment, participants are asked to focus on one task while ignoring other events going on around them. The test is conducted via headphones, with participants being asked to pay attention to the message delivered in one ear (attended channel), and ignore the message in the other ear (unattended channel). They are then asked to repeat the message to confirm it's content.
+
+It was found that participants were 100% accurate in recounting the details of the attended channel, but could only recall select details (gender of speaker, pitch of voice and volume) of the unattended channel. This is referred to as the **cocktail party effect**, where we can only recall a few details of the unattended channel content.
+
+#### What is inattentional blindness and how was it demonstrated in Mack and Rock's (1998) experiment?
+
+Inattentional blindness is a phenomena demonstrating our propensity to miss changes to a stimulus when our attention is focussed on another stimulus. e.g. A person crossing the road if we are driving while talking on the phone.
+
+Participants are instructed to fixate on a point on a computer screen but to attend to, and report on, a “+” sign that appears off to one side for 180 ms. After several trials, the fixation point is unexpectedly replaced by a new shape, but the participants do not notice this change.
+
+#### Describe how change blindness occurs in pairs of pictures, videos, and real life.
+
+Participants are shown a pair of similar pictures separated by a blank interval (spot the difference). The pictures are identical except for a single aspect (e.g., a man is wearing a hat in one scene but not in the other, or a neighbour paints their front door a different colour). In these kinds of tasks, participants often find it hard to detect the change.
+
+Electrical activity in the brain in the interval just after the presentation of a stimulus shows that the neurons are more responsive to attended inputs than unattended inputs.
+
+#### What is the early selection hypothesis and what is the evidence for it?
+
+The early selection hypothesis states that the attended input receives all the attention available from the viewer, while the unattended input receives very little attention at all.
+
+The evidence for this is demonstrated by the N1 effect detailing brain activity recorded at the time of perception of the attended stimulus. Under this model the distractor stimulus is discarded before being perceptually encoded (80ms), but it still influences our perception.  
+
+#### What is the late selection hypothesis and what is the evidence for it?
+
+The late selection hypothesis states that all inputs receive a largely complete analysis, and the attended input is subsequently selected.
+
+The evidence for this is also demonstrated by the N1 effect, with distractor stimuli perceived briefly on input, but are selected out before they reach consciousness.
+
+### Topic 2: Priming Attention
+
+#### How can relevant detectors be primed?
+
+Recency, Repetition and Expectations
+
+We can prime the detectors relevant to a particular task by deliberately priming these prior to attempting a task. For example, practise questions at the start of an exam.
+
+#### Describe how spatial attention is affected by our expectations.
+
+Posner, Snyder, and Davidson (1980) examined spatial attention using arrows as primes. In most of the trials the arrow pointed to the area where the stimulus would appear a moment later, but 20% of the time it did not. They compared reaction times (RTs) for trials when the cue correctly pointed to the stimulus location, for trials when the arrow pointed toward an incorrect position, and for trials with a neutral cue (no arrow).
+
+This study showed that our RT was just under 250ms for an expected location (primed for a specific location), slightly longer for a neutral cue (dividing attention between two spatial locations), and longer again for an unexpected location (attention focused on one spatial location instead of the other).
+
+#### How is expectation-based priming different from repetition priming and how does it provide evidence for a limited-capacity system?
+
+Expectation based priming allows us to activate neurons that we anticipate will be needed in completing a new or infrequently completed task, while repetition based priming allows us to continue or go back to a repetitive task drawing on our overall knowledge and experience.
+
+The evidence that this is a limited capacity system is that we can be misled into priming the incorrect action potentials through our attention, and take longer to respond to a stimulus as our resources are deployed to the wrong part of the brain for action. 
+
+### Topic 3: Focusing Spatial Attention
+
+#### What does it mean when we say that spatial attention is like a spotlight beam?
+
+Our attentions is compared to a spotlight beam in that it can be moved to a particular spatial area at our discretion, and focussed in towards a small part of our field of attention, or zoomed out to take in a much broader field of attention.
+
+#### What factors affect where we "shine" the "spotlight beam" of attention?
+
+- Information that stands out (prominent features in a photo)
+- Information that is interesting/important
+- Beliefs
+- Culture (Japanese v American)
+- Control of attention (can amplify or inhibit input, enhancing processing of interesting information, or undermining the processing of information which is a distraction), which consists of:
+  - Orienting system (needed to disengage attention from one target to another)
+  - Alerting system (for maintaining an alert state in the brain)
+  - Executive system (controls voluntary actions)
+  
+The centres that perform the above functions are located in different regions of the brain to allow for overall processing. Visual information, for example, is processed in the occipital lobe, again, to allow for visual processing to work with these processes.
+
+#### Describe how cultural background affects the focus of attention.
+
+Western individualistic vs Eastern Collectivist
+
+Westerners generally focus on individual people, items and their attributes, whereas Easterners tend to focus more on how people are linked to or shape each other, although people can stray from these characteristics.
+
+#### Explain the evidence that suggests that we pay attention to objects themselves and the evidence that suggests that we pay attention to positions in space.
+
+People with unilateral neglect syndrome provide us with evidence that we can pay attention to objects as they may read "bother" as "her" or "carrot" as "rot" referring to half of the object's boundaries. Focus on position for these people are demonstrated when an object is rotated (like the barbell experiment), with attention following the rotation from left to right.
+
+The attention paid to SPACE in preparation for stimulus and to OBJECTS where focus is required for a specific stimulus superimposed over another 
+
+#### What is the "binding problem" and how does priming help "glue together" the features of the input?
+
+
+
+### Topic 4: Divided Attention
+
+#### What is divided attention?
+
+#### Why is divided attention easier when the simultaneous tasks are very different from each other?
+
+#### How do we know that there is a "general resource" that even seemingly different tasks compete with each other for?
+
+#### What is "executive control" and when is it needed?
+
+### Topic 5: Practice
+
+#### Why does practice improve performance?
+
+#### What is automaticity? Describe it using Stroop interference as an example.
+
+## Week 4: Working Memory {.well}
+
+### Topic 1: Working Memory {.well}
+
+#### What are the three phases of memory?
+
+**Acquisition:** The process of interpreting and storing information into long term memory.
+
+**Storage:** A "dormant" state in which memories are kept. It is theorised that memories remain unchanged in this state. An alternate view is that memories are more dynamic, interacting with newer memories or being replaced.
+
+**Retrieval:** The process of bringing memories into consciousness or working memory.
+
+#### Describe the information processing approach's modal model and its components
+
+<center>
+
+![Working Memory Model](images/HPS203/WM.svg)
+
+</center>
+
+#### Define working memory and long-term memory
+
+Working memory is a process handled by a group of processing structures concurrently, and is rehearsed, connected to other memories, and assigned meaning before being stored in Long Term Memory.
+
+Long Term Memory is a much larger entity where all of our knowledge and experiences are stored.
+
+#### What are the four fundamental differences between working memory and long-term memory?
+
+**Size:** Our working memory can only store or work with a small amount of information at a given time, while our Long Term Memory can store large amounts of information for retrieval at a later date.
+
+**Storage:** Our WM is quite adept at utilising information in the present moment, can be utilised at many times in a day, but can only work with a small amount of data at a time (similar to RAM), which can be easily lost. Our LTM requires encoding, storage and retrieval to be utilised effectively (similar to a hard drive on a computer).
+
+**Retrieval:** The retrieval of information from WM is a straightforward process, with data coming from our WM (like solving a maths problem) or conscious thought quickly. Retrieval from our LTM is a more complicated and cumbersome endeavour. 
+
+**Strength:** WM is fragile and unreliable, while LTM is more robust and reliable.
+
+### Topic 2: Serial Position Effect {.well}
+
+#### Describe the serial position effect/curve, the primacy effect, and the recency effect and explain why they occur
+
+The serial position effect refers to the order of words recalled in a free recall procedure. The primacy effect refers to working memory and rehearsal of the first 3 - 5 words in the list and our ability to process these words via our working memory. The recency effect refers to our ability to process the last few words in the list. Our recall for the words between these states is diminished.
+
+At the end of the free recall procedure, we can generally only remember the first few words and the last few words from the list. This is because our working memory can only process and store a certain amount of information at a given time.
+
+#### Explain what happens to the primacy and recency effects when we include a filled or an unfilled delay after the presentation of the word list
+
+A filled delay between words will negatively impact or displace working memory, eliminating the recency effect, but not long term memory and primacy. An unfilled delay between words has no effect on primacy or recency.
+
+#### Explain what happens to the primacy and recency effects when we present the word list at a faster or slower rate
+
+At a slower rate everything before recency is unaffected, allowing to memorise words at the same rate during primacy. Th recency effect is diminished as the delay at the end of the test is increased.
+
+At a faster rate of presentation, the ability of working memory is negatively effected with words in the primacy and intermediate phases being displaced, as working memory does not have sufficient capacity for rehearsal and storage. The recency effect in this scenario remains unaffected.
+
+### Topic 3: Measuring Working Memory {.well}
+
+#### What is the digital span task and what does it tell us about the capacity of working memory?
+
+The digital span task involves the processing and immediate recall of a series of digits (i.e., 8, 3, 4). If done successfully, the participant is given a longer list (i.e., 9, 2, 4, 0) and so on, until an incorrect answer is given. The capacity of working memory is 7 $\pm$ 2 digits in this particular format of the test (using individual digits). In the case of letters, these can be chunked together, meaning recall may be if 7 chunks of letters, but chunks may contain up to 12 or so characters.
+
+#### What are operation span tasks and what do they measure?
+
+Operation span tasks measure the efficiency with which working memory operates when in use, and involves the pairing of mathematical equations and a word, with the recall of the key words required.
+
+#### Describe a cultural difference in operation span measurement.
+
+Cultural differences in operation span measurement are effected by language and speed. Chinese participants, for example, are able to complete maths equations at a faster rate than those from the US. One reason behind this could be that the Chinese words for numbers are much shorter and quicker to say than the English words. It is also considered that the Chinese are generally faster at completing maths problems.
+
+### Topic 4: Components of Working Memory {.well}
+
+#### Describe the articulatory rehearsal loop and its function
+
+The articulatory (phonological) loop is a part of the working memory system that helps us rehearse and maintain input, which allows us to proceed concurrently with other more demanding tasks. The rehearsal on subvocalisation of data in the phonological buffer allows us to "store" data in working memory until required by the concurrent task.
+
+#### What happens when people are given a concurrent articulation task while trying to remember a list of words or numbers?
+
+A concurrent articulation task occupies the available resources to the phonological loop, displacing the originally required information, making the task more difficult in terms of working memory capacity.
+
+<center>
+
+![Central Executive](images/HPS203/CentExec.svg)
+
+</center>
+
+### Topic 5: Entering Long Term Memory {.well}
+
+#### What are the two types of rehearsal and how are they different?
+
+**Maintenance Rehearsal:** repeating information to keep ideas active in working memory or consciousness.
+
+**Relational or Elaborative Rehearsal:** Considering the meaning and connection of ideas to other things we already know.
+
+#### Why do we need active encoding?
+
+Active or elaborate encoding is a process through which we add depth to the learning of new information. By formulating multiple connections of new information with our existing knowledge we can more easily embed new knowledge and create greater connections with existing knowledge, which in turn improves the ease of recall.
+
+#### What does Hyde and Jenkin's (1969) experiment tell us about intentional vs incidental learning?
+
+This experiment tells us that the intention in learning is not as important as the depth of the developed knowledge. Incidental learning provides a depth of knowledge not possible with intentional learning as we form deeper connections between new and existing knowledge. 
+
+#### How do "levels of processing" affect memory?
+
+As we increase the depth of our knowledge, a greater number of connections are formed between all of the information we know and learn. The deeper the level of learning, the more connected it is to other knowledge, making recall of memories and knowledge more available to us. These levels of processing also assist with recall of the same information for longer periods of time throughout our lives.
+
+#### Why do connections promote the retrieval of information from memory?
+
+The connections between memories and knowledge act as a prompt from our long term memory to allow us to retrieve information more readily similar to the links in a bike chain. We may receive stimuli from our environment that allows us to find one of these links and retrieve information more readily and accurately along any point of this chain.
+
+#### How does elaborate processing promote retrieval?
+
+Elaborate processing promotes greater memory connections assisting in the retrieval of information as per the chain analogy above. The simple sentence vs. the elaborate sentence assists with the connections of these links (i.e., the varied ways we may be able to use a particular word in a sentence).
+
+### Topic 6: Organising and Remembering {.well}
+
+#### What are mnemonic strategies? Provide some examples.
+
+Mnemonic strategies are methods of enforcing organisation on information to assist in recall. Examples of this are:
+
+- Treble Clef: Every Good Boy Deserves Fruit
+- FACE
+- Bass Clef: Good Boys Do Fine Always
+- All Cows Eat Grass
+- ROY G BIV
+- Peg Word Rhymes
+
+#### What are the advantages and disadvantages of using mnemonic strategies?
+
+Mnemonics are helpful ways of remembering lists of information as in the examples above for colours of the rainbow or the lines. One of the disadvantages of Mnemonics is that there is usually no meaning attached to these words or phrases, as they are a simple way of assigning minimal meaning to a list of items.
+
+#### How does understanding improve memorising?
+
+Understanding assists us in memorising by creating connections between components of a phenomena, which in turn assists with the recall and resilience of memories and knowledge.
+
+## Week 5: Many Types of Memory {.well}
+
+### Topic 1: The Importance of Context
+
+#### Explain the relationship between the way in which you learn information and the way in which you retrieve information.
+
+Learning and retrieving information has a large basis in context and environment. For example, we may find ourselves in a familiar environment, and 'randomly' retrieve a memory from our distant past as a result of an unconscious retrieval cue.
+
+#### Explain the results of Godden and Baddeley's (1975) context-dependent learning experiment.
+
+This study confirmed that learning context is important by testing two groups of divers on word recall both under water and on land. For both groups, the associated retrieval paths were important to retrieval and storage when the environmental conditions matched.
+
+#### Why does people's memory improve if we use context reinstatement?
+
+The use of context reinstatement posits that memory retrieval is psychologically (rather than physically) dependent. This means that retrieval pathways are formed in conjunction with our thoughts and feelings experienced during encoding, aiding in the retrieval process.
+
+#### What is encoding specificity?
+
+Encoding specificity is a retrieval pathway between a stimulus and its environment/connections when learned/encoded.
+
+The Piano
+
+Group 1: "The man lifted the piano" suggests that the piano is heavy.
+Group 2: "The man tuned the piano" suggests that the piano is a musical instrument.
+
+Group 1 would be more likely to recall the item more readily when given the hint "something heavy"
+Group 2 would be more likely to recall the item more readilty when given the hint "nice sound"
+
+#### Describe how encoding context affects Japanese and American participant's recognition memory.
+
+Eastern cultures are more holistic in their approach to encoding, while western cultures are more object oriented. Masuda and Nisbett showed this by confirming that the Japanese participants are more likely to recall an object correctly when the stimulus is presented with the corresponding original background.
+
+### Topic 2: The Memory Network
+
+#### What is spreading activation and how does it work?
+
+Spreading activation refers to the process for retrieval of memories in our long term memory via nodes of knowledge. These nodes are linked to other nodes via a network of associations or retrieval paths. The **sub-threshold** activation of multiple nodes of knowledge leads to **summation**, bringing a particular node to threshold. This process across multiple nodes of knowledge is the process of spreading activation.
+
+#### Describe Meyer and Schvaneveldt's (1971) semantic priming experiment.
+
+Semantic priming refers to the process where processing a word is either enhanced (when paired with a similarly contextual word), or inhibited (when paired with a non-related or nonsense word).
+
+Meyer and Schvaneveldt demonstrated this with their experiment by presenting pairs of letter strings, requiring participants to respond with "yes" if both strings were words, and "no" if not. Words in these pairings were also either related ("nurse" and "doctor"), or not related ("cake" and "shoe"). Response times were measured with delays evident in the non-related word pairings.
+
+Spreading activation can be shut down in the event that the wrong nodes are being activated. 
+
+### Topic 3: Memory Testing and Implicit Memory
+
+#### Explain the difference between recall and recognition.
+
+Recall refers to the retrieval of information from our long term memory via pathways of association, whereas recognition relies on familiarity.
+
+**Recall test:** Given a retrieval cue and asked to search our memory for the answer. (e.g., What did you have for breakfast this morning?)
+
+**Recognition test:** A question providing options where we:
+
+1. Rely on both recall and recognition when presented with options
+2. One of the provided options "feels" more correct or familiar than others. We don't remember the answer, but attribute the feeling to our actions (familiarity). (e.g., What did you have for breakfast this morning? A, B or C?)
+
+#### What is the distinction between source memory and familiarity and how are remember/know judgments used to distinguish between them?
+
+Source memory refers to events or facts that we recall, or retrieve from LTM, and familiarity refers to items/events that "feel" familiar to us, even though we do not have an explicit memory of the event or person.
+
+A remember judgement means that we have recalled the information, whereas a know judgement signals familiarity without remembering the experience.
+
+#### What types of tests are used to reveal explicit and implicit memory?
+
+**Explicit:** Direct memory test (involving recall and recognition)
+**Implicit:** Indirect memory test (using priming or word stem completion tasks)
+
+#### What is the "false fame" effect and why does it occur?
+
+This refers to recognition of names on a list, and again on a rate fame list (Jacoby, et al. 1989). Familiarity in this study (implicit memory) led participants to rate the names also appearing on the second list as famous, even though they were not.
+
+#### What is the "illusion of truth" and why does it occur?
+
+The illusion of truth effect is similar to the false fame effect when testing participants using statements instead of names. It occurs through repetition priming and familiarity.
+
+### Topic 4: Processing Fluency
+
+#### What is processing fluency?
+
+Processing fluency describes the speed and ease with which our detectors are activated in repeated exposures to a stimulus.
+
+<div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;Electron\&quot; modified=\&quot;2023-04-26T13:40:24.364Z\&quot; agent=\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36\&quot; etag=\&quot;-edT5TXIBPz5NzZOaHjs\&quot; version=\&quot;21.2.1\&quot; type=\&quot;device\&quot;&gt;&lt;diagram name=\&quot;Page-1\&quot; id=\&quot;97916047-d0de-89f5-080d-49f4d83e522f\&quot;&gt;&lt;mxGraphModel dx=\&quot;1114\&quot; dy=\&quot;854\&quot; grid=\&quot;0\&quot; gridSize=\&quot;10\&quot; guides=\&quot;1\&quot; tooltips=\&quot;1\&quot; connect=\&quot;1\&quot; arrows=\&quot;1\&quot; fold=\&quot;1\&quot; page=\&quot;1\&quot; pageScale=\&quot;1.5\&quot; pageWidth=\&quot;1169\&quot; pageHeight=\&quot;827\&quot; background=\&quot;none\&quot; math=\&quot;0\&quot; shadow=\&quot;0\&quot;&gt;&lt;root&gt;&lt;mxCell id=\&quot;0\&quot;/&gt;&lt;mxCell id=\&quot;1\&quot; parent=\&quot;0\&quot;/&gt;&lt;mxCell id=\&quot;HmB75et-1CLTsSrrs-U2-42\&quot; value=\&quot;\&quot; style=\&quot;group\&quot; vertex=\&quot;1\&quot; connectable=\&quot;0\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry width=\&quot;831\&quot; height=\&quot;46.5\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;2\&quot; value=\&quot;Exposure to&amp;#10;stimulus\&quot; style=\&quot;rounded=1;strokeColor=none;shadow=1;fontStyle=1;fontSize=14;labelBackgroundColor=none;fillColor=#182E3E;fontColor=#FFFFFF;\&quot; parent=\&quot;HmB75et-1CLTsSrrs-U2-42\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry width=\&quot;99\&quot; height=\&quot;46\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;HmB75et-1CLTsSrrs-U2-32\&quot; value=\&quot;Practice or&amp;#10;perceiving\&quot; style=\&quot;rounded=1;strokeColor=none;shadow=1;fontStyle=1;fontSize=14;labelBackgroundColor=none;fillColor=#182E3E;fontColor=#FFFFFF;\&quot; vertex=\&quot;1\&quot; parent=\&quot;HmB75et-1CLTsSrrs-U2-42\&quot;&gt;&lt;mxGeometry x=\&quot;159\&quot; width=\&quot;90\&quot; height=\&quot;46\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;HmB75et-1CLTsSrrs-U2-33\&quot; value=\&quot;Fluency\&quot; style=\&quot;rounded=1;strokeColor=none;shadow=1;fontStyle=1;fontSize=14;labelBackgroundColor=none;fillColor=#182E3E;fontColor=#FFFFFF;\&quot; vertex=\&quot;1\&quot; parent=\&quot;HmB75et-1CLTsSrrs-U2-42\&quot;&gt;&lt;mxGeometry x=\&quot;309\&quot; width=\&quot;71\&quot; height=\&quot;46.5\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;HmB75et-1CLTsSrrs-U2-34\&quot; value=\&quot;Stimulus is&amp;#10;&amp;quot;special&amp;quot;\&quot; style=\&quot;rounded=1;strokeColor=none;shadow=1;fontStyle=1;fontSize=14;labelBackgroundColor=none;fillColor=#182E3E;fontColor=#FFFFFF;\&quot; vertex=\&quot;1\&quot; parent=\&quot;HmB75et-1CLTsSrrs-U2-42\&quot;&gt;&lt;mxGeometry x=\&quot;440\&quot; width=\&quot;93\&quot; height=\&quot;46\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;HmB75et-1CLTsSrrs-U2-35\&quot; value=\&quot;Attribution&amp;#10;of fluency\&quot; style=\&quot;rounded=1;strokeColor=none;shadow=1;fontStyle=1;fontSize=14;labelBackgroundColor=none;fillColor=#182E3E;fontColor=#FFFFFF;\&quot; vertex=\&quot;1\&quot; parent=\&quot;HmB75et-1CLTsSrrs-U2-42\&quot;&gt;&lt;mxGeometry x=\&quot;593\&quot; width=\&quot;90\&quot; height=\&quot;46\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;HmB75et-1CLTsSrrs-U2-36\&quot; value=\&quot;Familiarity\&quot; style=\&quot;rounded=1;strokeColor=none;shadow=1;fontStyle=1;fontSize=14;labelBackgroundColor=none;fillColor=#182E3E;fontColor=#FFFFFF;\&quot; vertex=\&quot;1\&quot; parent=\&quot;HmB75et-1CLTsSrrs-U2-42\&quot;&gt;&lt;mxGeometry x=\&quot;743\&quot; width=\&quot;88\&quot; height=\&quot;46\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;HmB75et-1CLTsSrrs-U2-37\&quot; value=\&quot;\&quot; style=\&quot;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;HmB75et-1CLTsSrrs-U2-42\&quot; source=\&quot;2\&quot; target=\&quot;HmB75et-1CLTsSrrs-U2-32\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;402\&quot; y=\&quot;271\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;452\&quot; y=\&quot;221\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;HmB75et-1CLTsSrrs-U2-38\&quot; value=\&quot;\&quot; style=\&quot;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;HmB75et-1CLTsSrrs-U2-42\&quot; source=\&quot;HmB75et-1CLTsSrrs-U2-32\&quot; target=\&quot;HmB75et-1CLTsSrrs-U2-33\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;109\&quot; y=\&quot;33\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;169\&quot; y=\&quot;33\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;HmB75et-1CLTsSrrs-U2-39\&quot; value=\&quot;\&quot; style=\&quot;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;HmB75et-1CLTsSrrs-U2-42\&quot; source=\&quot;HmB75et-1CLTsSrrs-U2-33\&quot; target=\&quot;HmB75et-1CLTsSrrs-U2-34\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;385\&quot; y=\&quot;70\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;445\&quot; y=\&quot;70\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;HmB75et-1CLTsSrrs-U2-40\&quot; value=\&quot;\&quot; style=\&quot;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;HmB75et-1CLTsSrrs-U2-42\&quot; source=\&quot;HmB75et-1CLTsSrrs-U2-34\&quot; target=\&quot;HmB75et-1CLTsSrrs-U2-35\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;550\&quot; y=\&quot;92\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;610\&quot; y=\&quot;92\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;HmB75et-1CLTsSrrs-U2-41\&quot; value=\&quot;\&quot; style=\&quot;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;HmB75et-1CLTsSrrs-U2-42\&quot; source=\&quot;HmB75et-1CLTsSrrs-U2-35\&quot; target=\&quot;HmB75et-1CLTsSrrs-U2-36\&quot;&gt;&lt;mxGeometry width=\&quot;50\&quot; height=\&quot;50\&quot; relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;683\&quot; y=\&quot;65\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;743\&quot; y=\&quot;65\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;&lt;/diagram&gt;&lt;/mxfile&gt;&quot;,&quot;toolbar&quot;:&quot;pages zoom layers lightbox&quot;,&quot;page&quot;:0}"></div>
+
+#### How does processing fluency create an illusion of familiarity?
+
+The illusion of familiarity is created through the repetition of processing a stimulus, where we attribute "specialness" to a stimulus as demonstrated by the false fame or illusion of truth experiments. Our familiarity with a stimulus makes both of these conditions seem more plausible.
+
+#### Describe the heirarchy of memory types
+
+<div class="mxgraph" style="max-width:100%;border:none;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;Electron\&quot; modified=\&quot;2023-04-26T11:37:26.077Z\&quot; agent=\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36\&quot; etag=\&quot;Q8KjXTXi1tj5uCAn2leb\&quot; version=\&quot;21.2.1\&quot; type=\&quot;device\&quot;&gt;&lt;diagram name=\&quot;Page-1\&quot; id=\&quot;97916047-d0de-89f5-080d-49f4d83e522f\&quot;&gt;&lt;mxGraphModel dx=\&quot;1434\&quot; dy=\&quot;907\&quot; grid=\&quot;0\&quot; gridSize=\&quot;10\&quot; guides=\&quot;1\&quot; tooltips=\&quot;1\&quot; connect=\&quot;1\&quot; arrows=\&quot;1\&quot; fold=\&quot;1\&quot; page=\&quot;1\&quot; pageScale=\&quot;1.5\&quot; pageWidth=\&quot;1169\&quot; pageHeight=\&quot;827\&quot; background=\&quot;none\&quot; math=\&quot;0\&quot; shadow=\&quot;0\&quot;&gt;&lt;root&gt;&lt;mxCell id=\&quot;0\&quot;/&gt;&lt;mxCell id=\&quot;1\&quot; parent=\&quot;0\&quot;/&gt;&lt;mxCell id=\&quot;2\&quot; value=\&quot;Memory\&quot; style=\&quot;rounded=1;strokeColor=none;shadow=1;fontStyle=1;fontSize=14;labelBackgroundColor=none;fillColor=#182E3E;fontColor=#FFFFFF;\&quot; parent=\&quot;1\&quot; vertex=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;777\&quot; y=\&quot;240\&quot; width=\&quot;200\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;31\&quot; value=\&quot;\&quot; style=\&quot;edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; parent=\&quot;1\&quot; source=\&quot;2\&quot; target=\&quot;JIpHdhT-VLKmtiCuDlJG-37\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;22\&quot; y=\&quot;165.5\&quot; width=\&quot;100\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;772\&quot; y=\&quot;405.5\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;402\&quot; y=\&quot;420\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;32\&quot; value=\&quot;\&quot; style=\&quot;edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; parent=\&quot;1\&quot; source=\&quot;2\&quot; target=\&quot;JIpHdhT-VLKmtiCuDlJG-48\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;22\&quot; y=\&quot;165.5\&quot; width=\&quot;100\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;772\&quot; y=\&quot;405.5\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;1090\&quot; y=\&quot;420\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-37\&quot; value=\&quot;Explicit Memory\&quot; style=\&quot;swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;350\&quot; y=\&quot;420\&quot; width=\&quot;178\&quot; height=\&quot;110\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-38\&quot; value=\&quot;- Direct Tests&amp;lt;br&amp;gt;- Conscious&amp;lt;br&amp;gt;- Processed via Hippocampus&amp;lt;br&amp;gt;\&quot; style=\&quot;align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;JIpHdhT-VLKmtiCuDlJG-37\&quot;&gt;&lt;mxGeometry y=\&quot;50\&quot; width=\&quot;178\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;FYlgqzw13BDhlxtAiNLo-61\&quot; value=\&quot;\&quot; style=\&quot;edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#23445D;\&quot; parent=\&quot;1\&quot; source=\&quot;JIpHdhT-VLKmtiCuDlJG-38\&quot; target=\&quot;JIpHdhT-VLKmtiCuDlJG-40\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;-340\&quot; y=\&quot;505.5\&quot; width=\&quot;100\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;442\&quot; y=\&quot;480\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;324\&quot; y=\&quot;700\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;FYlgqzw13BDhlxtAiNLo-62\&quot; value=\&quot;\&quot; style=\&quot;edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;\&quot; parent=\&quot;1\&quot; source=\&quot;JIpHdhT-VLKmtiCuDlJG-38\&quot; target=\&quot;JIpHdhT-VLKmtiCuDlJG-44\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;-362\&quot; y=\&quot;729.5\&quot; width=\&quot;100\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;440\&quot; y=\&quot;550\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;554\&quot; y=\&quot;700\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-40\&quot; value=\&quot;Episodic Memory\&quot; style=\&quot;swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;230\&quot; y=\&quot;620\&quot; width=\&quot;178\&quot; height=\&quot;155\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-41\&quot; value=\&quot;Memory for specific events&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;Examples&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;- First day of school&amp;lt;br&amp;gt;- Graduation ceremony\&quot; style=\&quot;align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;JIpHdhT-VLKmtiCuDlJG-40\&quot;&gt;&lt;mxGeometry y=\&quot;50\&quot; width=\&quot;178\&quot; height=\&quot;105\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-44\&quot; value=\&quot;Semantic Memory\&quot; style=\&quot;swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;465\&quot; y=\&quot;620\&quot; width=\&quot;178\&quot; height=\&quot;152\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-45\&quot; value=\&quot;General knowledge not tied to&amp;lt;br&amp;gt;any time or place&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;Examples:&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;- Memory of a horse\&quot; style=\&quot;align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;JIpHdhT-VLKmtiCuDlJG-44\&quot;&gt;&lt;mxGeometry y=\&quot;50\&quot; width=\&quot;178\&quot; height=\&quot;102\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-48\&quot; value=\&quot;Implicit Memory\&quot; style=\&quot;swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;1000\&quot; y=\&quot;420\&quot; width=\&quot;178\&quot; height=\&quot;120\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-49\&quot; value=\&quot;- Indirect Tests&amp;lt;br&amp;gt;- Unconscious&amp;lt;br&amp;gt;- Processed via Amygdala\&quot; style=\&quot;align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;JIpHdhT-VLKmtiCuDlJG-48\&quot;&gt;&lt;mxGeometry y=\&quot;50\&quot; width=\&quot;178\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;FYlgqzw13BDhlxtAiNLo-63\&quot; value=\&quot;\&quot; style=\&quot;edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#23445D;\&quot; parent=\&quot;1\&quot; source=\&quot;JIpHdhT-VLKmtiCuDlJG-49\&quot; target=\&quot;JIpHdhT-VLKmtiCuDlJG-50\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;330\&quot; y=\&quot;605.5\&quot; width=\&quot;100\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;1090\&quot; y=\&quot;530\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;750\&quot; y=\&quot;630\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;FYlgqzw13BDhlxtAiNLo-64\&quot; value=\&quot;\&quot; style=\&quot;edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; parent=\&quot;1\&quot; source=\&quot;JIpHdhT-VLKmtiCuDlJG-49\&quot; target=\&quot;JIpHdhT-VLKmtiCuDlJG-52\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;320\&quot; y=\&quot;645.5\&quot; width=\&quot;100\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;1090\&quot; y=\&quot;530\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;930\&quot; y=\&quot;650\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;FYlgqzw13BDhlxtAiNLo-66\&quot; value=\&quot;\&quot; style=\&quot;edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; parent=\&quot;1\&quot; source=\&quot;JIpHdhT-VLKmtiCuDlJG-49\&quot; target=\&quot;JIpHdhT-VLKmtiCuDlJG-54\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;250\&quot; y=\&quot;635.5\&quot; width=\&quot;100\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;1090\&quot; y=\&quot;530\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;1180\&quot; y=\&quot;620\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;FYlgqzw13BDhlxtAiNLo-65\&quot; value=\&quot;\&quot; style=\&quot;edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; parent=\&quot;1\&quot; source=\&quot;JIpHdhT-VLKmtiCuDlJG-49\&quot; target=\&quot;JIpHdhT-VLKmtiCuDlJG-56\&quot; edge=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;280\&quot; y=\&quot;615.5\&quot; width=\&quot;100\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;1090\&quot; y=\&quot;530\&quot; as=\&quot;sourcePoint\&quot;/&gt;&lt;mxPoint x=\&quot;1410\&quot; y=\&quot;610\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-50\&quot; value=\&quot;Procedural Memory\&quot; style=\&quot;swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;700\&quot; y=\&quot;620\&quot; width=\&quot;178\&quot; height=\&quot;150\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-51\&quot; value=\&quot;Obtained through practice and&amp;lt;br&amp;gt;trial and error, adjusting&amp;lt;br&amp;gt;performance at each attempt&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;Example:&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;- Learning to ride a bike\&quot; style=\&quot;align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;JIpHdhT-VLKmtiCuDlJG-50\&quot;&gt;&lt;mxGeometry y=\&quot;50\&quot; width=\&quot;178\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-52\&quot; value=\&quot;Priming\&quot; style=\&quot;swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;900\&quot; y=\&quot;620\&quot; width=\&quot;178\&quot; height=\&quot;150\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxRectangle x=\&quot;200\&quot; width=\&quot;90\&quot; height=\&quot;50\&quot; as=\&quot;alternateBounds\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-53\&quot; value=\&quot;Influenced by repeating stimuli&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;Example:&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;- &amp;quot;false fame&amp;quot; effect&amp;lt;br&amp;gt;- &amp;quot;Illusion of truth&amp;quot; effect\&quot; style=\&quot;align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;JIpHdhT-VLKmtiCuDlJG-52\&quot;&gt;&lt;mxGeometry y=\&quot;50\&quot; width=\&quot;178\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-54\&quot; value=\&quot;Perceptual Learning\&quot; style=\&quot;swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;1100\&quot; y=\&quot;620\&quot; width=\&quot;178\&quot; height=\&quot;150\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-55\&quot; value=\&quot;- Smells&amp;lt;br&amp;gt;- Colours&amp;lt;br&amp;gt;- Musical notes (pitch)\&quot; style=\&quot;align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;JIpHdhT-VLKmtiCuDlJG-54\&quot;&gt;&lt;mxGeometry y=\&quot;50\&quot; width=\&quot;178\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-56\&quot; value=\&quot;Classical Conditioning\&quot; style=\&quot;swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;1300\&quot; y=\&quot;620\&quot; width=\&quot;178\&quot; height=\&quot;150\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;JIpHdhT-VLKmtiCuDlJG-57\&quot; value=\&quot;Memory through association&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;b&amp;gt;Example:&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;- Pavlov&#39;s dog\&quot; style=\&quot;align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;\&quot; vertex=\&quot;1\&quot; parent=\&quot;JIpHdhT-VLKmtiCuDlJG-56\&quot;&gt;&lt;mxGeometry y=\&quot;50\&quot; width=\&quot;178\&quot; height=\&quot;100\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;&lt;/diagram&gt;&lt;/mxfile&gt;&quot;,&quot;toolbar&quot;:&quot;pages zoom layers lightbox&quot;,&quot;page&quot;:0}"></div>
+<script type="text/javascript" src="https://app.diagrams.net/js/viewer-static.min.js"></script>
+
+### Topic 5: Amnesia
+
+#### Define retrograde and anterograde amnesia.
+
+Retrograde amnesia refers to the loss of information acquired prior to the onset of amnesia whereas anterograde amnesia refers to an impaired ability to learn new information.
+
+#### Outline the evidence that suggests that people with anterograde amnesia have impaired explicit memory and intact implicit memory.
+
+etc
+etc
+
+#### Describe the double dissociation between explicit and implicit memory shown in Bechara et al.'s (1995) experiment.
+
+
+
+## Week 6: Remembering Complex Events {.well}
+
+### Topic 1: Memory errors
+
+#### Describe Crombag et al. (1996) and Brewer & Treyens (1981), which have demonstrated how people make memory errors.
+
+Crombag et al. (1996): Plane Crash in Holland
+Brewer & Treyens (1981): Professor's Office
+
+Demonstrating false memory: people admitting to seeing a plane crash and some of the details about the incident. We are not designed to remember everything, only what is important to us.
+
+Brewer and Treyens tested participants on what was in a professor's office and asked to recall what was in the office from another room. Participants recalled a number of items correctly, but also items that were not in the office. Books were claimed to have been in the office, but there were none in the photo.
+
+People fill in the blanks of these events based on the associated schema around what we might expect from these two environments.
+
+#### Explain how understanding can both help and hurt memory.
+
+Owens et al. (1979)
+
+Participants in this study were asked to recall sentences from a paragraph without context (Nancy and the Professor at the party)
+
+Understanding helps recall as it is informed by our schema of a particular event. This can also hurt memory as we may fill in details that were not present from these schemas. We make more errors in recall as a result.
+
+#### Describe the DRM effect and why it occurs.
+
+The DRM effect (Deese-Roediger-McDermott) is where a list of words with similar meaning are presented, and participants need to recall as many as possible. In this type of test we falsely remember non-presented words (such as in the sleep example), which was the key theme of the list rather than a word in the list.
+
+#### Explain how schema contribute to memory errors.
+
+Schemata refer to our expectations of a given event or experience that we learn over time. Our schema misinforms us of a situation in the absence of specific memories.
+
+### Topic 2: False Memories
+
+#### Describe the misinformation effect and why it occurs
+
+Loftus et al. (1978)
+
+False suggestions or misleading information makes our memory less accurate. This is demonstrated in this study through the wording of the questions about the "Stop" sign (75% recall) or "Yield" sign (41% recall), where the "Stop" sign is the correct answer.
+
+Loftus and Palmer (1974) confirmed this effect through the use of the words "smashed" and "hit", implying faster or slower speeds respectively. Those who received "hit" recalled slower impact speeds and no glass on the road, while "smashed" implied faster impact speeds and more damage to the vehicles.
+
+#### Describe how false and true photos have been used to implant false childhood memories
+         
+Loftus and Pickerell (1995)
+
+Participants received a false description of an event in conjunction with 3 true ones. 25% of participants supposed this event to be true even though a lot of the details of this false event were not recalled.
+
+Wade et al. (2002)
+
+3 true photos and one false photo were shown to participants. 50% of participants recalled a false event based on a photoshopped image. Participants agreed that the event must have happened based on the false photo, but were not confident of their memories.
+
+#### Explain whether people's confidence about their memories can be used as an indication of the accuracy of their memories.
+
+Juries are more likely to believe a witness testimony based on their confidence.
+
+Wells and Bradfield (1998)
+
+This study determines that confidence of our memories based on positive feedback given after identification (whether they were correct or not), misled participants into believing they were correct.
+
+As a result, people's confidence cannot be used to determine accuracy of memory. 
+  
+### Topic 3: Forgetting
+
+#### What are the three possible explanations for forgetting?
+
+1. Decay of information over time (thorugh lack of use/repetition)
+2. Interference (i.e., new address vs. old address)
+3. Retrieval Failure (i.e., childhood freind's name)
+
+#### Explain whether we can "undo" forgetting.
+
+- Researchers have attempted to recover memories through hypnosis, but found misreporting of events through guesses, inferences and assumptions.
+- "Cognitive Interview" procedure used by police through mental context reinstatement (similar to the study with divers recall tested on both land and underwater) in order to reinstate the psychological context of a place or time.
+
+### Topic 4: Autobiographical Memories
+
+#### What is autobiographical memory?
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="481px" height="281px" viewBox="-0.5 -0.5 481 281" content="&lt;mxfile host=&quot;Electron&quot; modified=&quot;2023-04-30T13:04:13.423Z&quot; agent=&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36&quot; etag=&quot;49V9nh0cuGEsZkvE1i2Z&quot; version=&quot;21.2.1&quot; type=&quot;device&quot;&gt;&#10;  &lt;diagram name=&quot;Page-1&quot; id=&quot;o17M-CMPIhs5Dfsh-_cy&quot;&gt;&#10;    &lt;mxGraphModel dx=&quot;984&quot; dy=&quot;718&quot; grid=&quot;1&quot; gridSize=&quot;10&quot; guides=&quot;1&quot; tooltips=&quot;1&quot; connect=&quot;1&quot; arrows=&quot;1&quot; fold=&quot;1&quot; page=&quot;1&quot; pageScale=&quot;1&quot; pageWidth=&quot;1169&quot; pageHeight=&quot;827&quot; math=&quot;0&quot; shadow=&quot;0&quot;&gt;&#10;      &lt;root&gt;&#10;        &lt;mxCell id=&quot;0&quot; /&gt;&#10;        &lt;mxCell id=&quot;1&quot; parent=&quot;0&quot; /&gt;&#10;        &lt;object label=&quot;Event&quot; tooltip=&quot;- Self-relevant information is better remembered than information that is not self-relevant.&amp;#xa;- Mix of recall and schema based reconstruction.&amp;#xa;- Schema based reconstruction is biased or inaccurate.&amp;#xa;- This makes the past look more like the present than it really was.&quot; id=&quot;Event&quot;&gt;&#10;          &lt;mxCell style=&quot;rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#bac8d3;strokeColor=#23445d;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;            &lt;mxGeometry x=&quot;400&quot; y=&quot;40&quot; width=&quot;80&quot; height=&quot;80&quot; as=&quot;geometry&quot; /&gt;&#10;          &lt;/mxCell&gt;&#10;        &lt;/object&gt;&#10;        &lt;object label=&quot;Long&amp;lt;br&amp;gt;Delay&quot; id=&quot;Long Delay&quot;&gt;&#10;          &lt;mxCell style=&quot;rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#bac8d3;strokeColor=#23445d;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;            &lt;mxGeometry x=&quot;600&quot; y=&quot;240&quot; width=&quot;80&quot; height=&quot;80&quot; as=&quot;geometry&quot; /&gt;&#10;          &lt;/mxCell&gt;&#10;        &lt;/object&gt;&#10;        &lt;object label=&quot;Emotions&quot; tooltip=&quot;- Emotion is a way in which memories are biologically &amp;quot;cemented&amp;quot; in place.&amp;#xa;- Memory is initially fragile. It is through the process of consolidation that causes this &amp;quot;cementing&amp;quot;.&amp;#xa;- Consolidation takes place during sleep and rest.&amp;#xa;- Emotion enhances consolidation. The amygdala is activated, which in turn, activates the hippocampus.&amp;#xa;- A self-relevant event guarantees our close attention and thoughtful processing.&amp;#xa;- It is this processing after an event that is akin to rehearsal (working memory).&amp;#xa;- Emotion influences what as well as how well we remember an event, &amp;quot;narrowing&amp;quot; our attention, while other aspects of the event are overlooked.&quot; id=&quot;Emotions&quot;&gt;&#10;          &lt;mxCell style=&quot;rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#bac8d3;strokeColor=#23445d;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;            &lt;mxGeometry x=&quot;200&quot; y=&quot;240&quot; width=&quot;80&quot; height=&quot;80&quot; as=&quot;geometry&quot; /&gt;&#10;          &lt;/mxCell&gt;&#10;        &lt;/object&gt;&#10;        &lt;mxCell id=&quot;5ztfeBW0Ac0Nt5Hi7nFj-5&quot; value=&quot;Autobiographical&amp;lt;br style=&amp;quot;font-size: 19px;&amp;quot;&amp;gt;Memory&quot; style=&quot;text;html=1;fontSize=19;fontStyle=1;verticalAlign=middle;align=center;sketch=1;curveFitting=1;jiggle=2;&quot; parent=&quot;1&quot; vertex=&quot;1&quot;&gt;&#10;          &lt;mxGeometry x=&quot;350&quot; y=&quot;200&quot; width=&quot;180&quot; height=&quot;40&quot; as=&quot;geometry&quot; /&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;5ztfeBW0Ac0Nt5Hi7nFj-7&quot; value=&quot;&quot; style=&quot;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#bac8d3;strokeColor=#23445d;&quot; parent=&quot;1&quot; source=&quot;Emotions&quot; target=&quot;Event&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;310&quot; y=&quot;170&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;360&quot; y=&quot;120&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;5ztfeBW0Ac0Nt5Hi7nFj-8&quot; value=&quot;&quot; style=&quot;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#bac8d3;strokeColor=#23445d;&quot; parent=&quot;1&quot; source=&quot;Long Delay&quot; target=&quot;Event&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;640&quot; y=&quot;160&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;760&quot; y=&quot;40&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;        &lt;mxCell id=&quot;5ztfeBW0Ac0Nt5Hi7nFj-9&quot; value=&quot;&quot; style=&quot;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#bac8d3;strokeColor=#23445d;&quot; parent=&quot;1&quot; source=&quot;Emotions&quot; target=&quot;Long Delay&quot; edge=&quot;1&quot;&gt;&#10;          &lt;mxGeometry width=&quot;50&quot; height=&quot;50&quot; relative=&quot;1&quot; as=&quot;geometry&quot;&gt;&#10;            &lt;mxPoint x=&quot;330&quot; y=&quot;430&quot; as=&quot;sourcePoint&quot; /&gt;&#10;            &lt;mxPoint x=&quot;450&quot; y=&quot;310&quot; as=&quot;targetPoint&quot; /&gt;&#10;          &lt;/mxGeometry&gt;&#10;        &lt;/mxCell&gt;&#10;      &lt;/root&gt;&#10;    &lt;/mxGraphModel&gt;&#10;  &lt;/diagram&gt;&#10;&lt;/mxfile&gt;&#10;"><defs/><g><rect x="200" y="0" width="80" height="80" rx="12" ry="12" fill="none" stroke="none" pointer-events="all"/><path d="M 203.25 2.71 C 203.25 2.71 203.25 2.71 203.25 2.71 M 203.25 2.71 C 203.25 2.71 203.25 2.71 203.25 2.71 M 201.68 10.62 C 202.47 5.98 204.99 6.47 210.2 0.81 M 201.68 10.62 C 203.51 6.52 208.16 3.92 210.2 0.81 M 201.41 17.02 C 208.55 12.29 209.07 10.28 214.54 1.92 M 201.41 17.02 C 203.39 11.51 209.53 11.44 214.54 1.92 M 201.81 22.66 C 208.34 21.39 208.62 9.72 219.52 2.28 M 201.81 22.66 C 209.15 15.57 216.89 8.01 219.52 2.28 M 201.55 29.06 C 212.88 22.71 219.67 13.7 225.17 1.89 M 201.55 29.06 C 210.67 18.31 215.69 12.74 225.17 1.89 M 201.94 34.7 C 214.09 19.56 224.89 9.09 230.15 2.25 M 201.94 34.7 C 211.92 23.46 219.73 16.87 230.15 2.25 M 201.68 41.1 C 210.21 29.68 222.87 16.29 235.8 1.85 M 201.68 41.1 C 212.59 27.36 227.62 12.14 235.8 1.85 M 201.42 47.5 C 210.77 32.67 219.93 28.39 240.78 2.22 M 201.42 47.5 C 209.01 36.99 219.86 26.69 240.78 2.22 M 201.81 53.14 C 219.61 39.33 228.66 20.84 246.43 1.82 M 201.81 53.14 C 213.16 40.93 223.94 28.47 246.43 1.82 M 201.55 59.54 C 216.38 44.41 228.45 28.55 251.41 2.18 M 201.55 59.54 C 214.4 46.85 224.33 32.78 251.41 2.18 M 201.29 65.94 C 218.17 40.21 238.7 18.36 257.06 1.79 M 201.29 65.94 C 218.54 49.68 231.68 32.06 257.06 1.79 M 203 70.07 C 227.83 48.59 244.72 25.4 262.04 2.15 M 203 70.07 C 218.22 52.87 235.12 33.67 262.04 2.15 M 204.05 74.96 C 213.41 56.61 227.64 39.37 269 0.24 M 204.05 74.96 C 219.41 62.38 233.07 44.01 269 0.24 M 205.75 79.09 C 228.56 48.97 253.6 26.15 272.67 2.11 M 205.75 79.09 C 230.83 50.33 253.64 23.21 272.67 2.11 M 209.43 80.96 C 233.44 50.03 259.83 24.59 277 3.23 M 209.43 80.96 C 223.85 61.17 240.57 42.99 277 3.23 M 213.76 82.08 C 234.31 60.7 252.21 36.51 278.71 7.36 M 213.76 82.08 C 227.79 67.75 240.58 50.54 278.71 7.36 M 219.4 81.68 C 239.45 54.22 267.2 28.89 279.76 12.25 M 219.4 81.68 C 240.5 54.82 265.72 28.79 279.76 12.25 M 224.39 82.04 C 247.73 63.2 258.85 38.38 282.78 14.87 M 224.39 82.04 C 240.41 65.25 258.39 46.32 282.78 14.87 M 230.03 81.65 C 246.19 63.95 259.76 46.37 283.17 20.52 M 230.03 81.65 C 246.7 62.04 263.49 43.71 283.17 20.52 M 235.02 82.01 C 248.41 69.64 259.8 50.62 282.91 26.91 M 235.02 82.01 C 246.11 71.55 254.49 58.53 282.91 26.91 M 240.66 81.61 C 258.76 63.4 271.47 41.23 283.31 32.56 M 240.66 81.61 C 256.88 66.25 269.74 45.15 283.31 32.56 M 245.65 81.97 C 259.3 66.55 274.24 49.55 283.05 38.95 M 245.65 81.97 C 254.97 73.77 262.77 62.82 283.05 38.95 M 251.29 81.58 C 258.63 72.57 273.8 57.93 282.79 45.35 M 251.29 81.58 C 256.62 72.47 266.28 65.86 282.79 45.35 M 256.28 81.94 C 260.95 72.41 273.03 60.36 283.18 51 M 256.28 81.94 C 261.32 73.51 266.82 70.79 283.18 51 M 261.92 81.54 C 267.5 68.11 277.09 61.99 282.92 57.39 M 261.92 81.54 C 270.71 74.35 276.89 64.56 282.92 57.39 M 268.22 80.39 C 274.83 77.37 283.17 70.11 283.31 63.04 M 268.22 80.39 C 271.7 76.21 278.77 71.86 283.31 63.04 M 275.83 77.74 C 277.76 76.77 279.4 73.01 282.4 70.19 M 275.83 77.74 C 277.88 75.9 280.23 73.41 282.4 70.19" fill="none" stroke="#bac8d3" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 212 0 M 212 0 C 229.04 -3.8 246.18 0.32 268 0 M 212 0 C 230.97 0.9 251.85 0.37 268 0 M 268 0 C 276.8 3.99 278.48 1.34 280 12 M 268 0 C 274.71 -2.88 284.12 6.38 280 12 M 280 12 C 282.34 22.94 282.76 34.76 280 68 M 280 12 C 278.6 25.93 280.38 44.38 280 68 M 280 68 C 277.51 72.02 273.53 82.41 268 80 M 280 68 C 278.56 75.38 280.28 82.37 268 80 M 268 80 C 253.16 76.87 237.45 80.15 212 80 M 268 80 C 255.61 80.06 239.12 80.8 212 80 M 212 80 C 202.97 76.83 196.8 75.32 200 68 M 212 80 C 201.47 80.27 197.3 77.92 200 68 M 200 68 C 198.75 44.65 204.03 24.46 200 12 M 200 68 C 199.58 45.65 200.79 23.47 200 12 M 200 12 C 200.33 2.02 204.78 -1.86 212 0 M 200 12 C 199.14 0.55 200.15 -2.53 212 0" fill="none" stroke="#23445d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 40px; margin-left: 201px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">Event</div></div></div></foreignObject><text x="240" y="44" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Event</text></switch></g><rect x="400" y="200" width="80" height="80" rx="12" ry="12" fill="none" stroke="none" pointer-events="all"/><path d="M 403.07 202.92 C 403.07 202.92 403.07 202.92 403.07 202.92 M 403.07 202.92 C 403.07 202.92 403.07 202.92 403.07 202.92 M 401.5 210.82 C 405.86 206.23 408.16 203.4 410.68 200.26 M 401.5 210.82 C 402.79 207.24 405.21 204.42 410.68 200.26 M 401.89 216.47 C 405.81 209.24 410.1 208.31 414.36 202.13 M 401.89 216.47 C 406.74 209.84 409.18 205.56 414.36 202.13 M 401.63 222.86 C 409.18 214.35 407.14 213.61 420 201.73 M 401.63 222.86 C 407.21 216.43 412.77 211.46 420 201.73 M 401.37 229.26 C 406.97 225.27 414.01 212.78 424.99 202.09 M 401.37 229.26 C 409.5 220.4 413.15 216.31 424.99 202.09 M 401.77 234.91 C 412.71 223.96 419.89 210 429.98 202.45 M 401.77 234.91 C 407.03 228.21 415.75 219.83 429.98 202.45 M 401.5 241.3 C 406.75 236.57 413.59 222.3 435.62 202.06 M 401.5 241.3 C 412.93 229.91 421.57 220.67 435.62 202.06 M 401.9 246.95 C 412.15 240.49 418.23 231.41 440.61 202.42 M 401.9 246.95 C 408.98 236.01 421.18 226.39 440.61 202.42 M 401.64 253.34 C 417.46 235.18 434.62 214.08 446.25 202.02 M 401.64 253.34 C 413.18 244.72 420.1 232.19 446.25 202.02 M 401.38 259.74 C 422.42 239.82 439.15 212.78 451.24 202.38 M 401.38 259.74 C 413.39 248.43 421.47 236.02 451.24 202.38 M 401.77 265.39 C 420.42 242.92 438.76 223.83 456.88 201.99 M 401.77 265.39 C 420.89 244.8 437.29 223.16 456.88 201.99 M 402.82 270.27 C 419.06 245.23 439 223.93 461.87 202.35 M 402.82 270.27 C 422.59 250.42 442.37 224.88 461.87 202.35 M 404.53 274.41 C 427.82 246.87 445.69 222.42 468.82 200.45 M 404.53 274.41 C 421.24 252.88 442.46 230.38 468.82 200.45 M 405.58 279.3 C 422.98 256.08 443.78 233.6 472.5 202.32 M 405.58 279.3 C 422.18 261.28 434.81 246.15 472.5 202.32 M 409.91 280.41 C 433.3 253.7 465.6 223.18 476.83 203.43 M 409.91 280.41 C 430.4 257.73 452.4 233.03 476.83 203.43 M 414.24 281.53 C 432.38 265.27 443.66 243.19 478.53 207.56 M 414.24 281.53 C 438.15 255.89 458.28 229.16 478.53 207.56 M 419.23 281.89 C 436.05 268.6 446.21 254.12 480.24 211.7 M 419.23 281.89 C 441.47 258.83 462.26 232.65 480.24 211.7 M 424.87 281.49 C 445.99 253.16 466.7 234.15 483.26 214.32 M 424.87 281.49 C 442.82 261.31 459.1 243.23 483.26 214.32 M 429.86 281.85 C 448.31 257.08 474.69 231.84 483 220.72 M 429.86 281.85 C 443.41 262.99 460.79 245.25 483 220.72 M 435.5 281.46 C 448.98 266.54 465.32 249.01 482.74 227.12 M 435.5 281.46 C 453.58 261.86 467.83 244.13 482.74 227.12 M 440.49 281.82 C 454.68 270.6 469.08 255.98 483.13 232.76 M 440.49 281.82 C 447.77 269.26 457.43 258.88 483.13 232.76 M 446.13 281.42 C 460.86 270.63 470.05 255.57 482.87 239.16 M 446.13 281.42 C 454.38 273.08 462.19 264.1 482.87 239.16 M 451.12 281.78 C 455.41 275.24 467.9 267.45 483.26 244.8 M 451.12 281.78 C 462.69 270.08 468.95 260.43 483.26 244.8 M 456.1 282.14 C 461.35 273.55 477.37 261.5 483 251.2 M 456.1 282.14 C 466.81 272.35 473.59 259.84 483 251.2 M 461.75 281.75 C 464.54 276.91 472.45 268.9 482.74 257.6 M 461.75 281.75 C 467.45 275.76 476.07 268.13 482.74 257.6 M 468.05 280.6 C 472.18 277.72 476.89 269.83 483.14 263.24 M 468.05 280.6 C 470.98 276.2 475.95 272.57 483.14 263.24 M 475.66 277.94 C 476.78 276.62 481.83 272.36 482.22 270.39 M 475.66 277.94 C 477 275.67 480.36 272.25 482.22 270.39" fill="none" stroke="#bac8d3" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 412 200 M 412 200 C 431.34 201.39 456.1 203.16 468 200 M 412 200 C 434.21 199.44 456.03 201.78 468 200 M 468 200 C 475.84 202.16 476.06 207.22 480 212 M 468 200 C 475.18 204.03 481.87 203.11 480 212 M 480 212 C 476.84 226.31 480.31 245.95 480 268 M 480 212 C 480.89 229.46 480.31 249.04 480 268 M 480 268 C 477.92 276.83 475.29 276.56 468 280 M 480 268 C 477.17 279.55 472.43 278.27 468 280 M 468 280 C 444.78 281.05 427.94 282.75 412 280 M 468 280 C 450.76 281.98 437.67 282.04 412 280 M 412 280 C 404.21 282.48 398.19 275.24 400 268 M 412 280 C 404.34 278.84 403.31 273.35 400 268 M 400 268 C 403.59 255.84 403.06 236.53 400 212 M 400 268 C 399.51 249.51 399.34 229.41 400 212 M 400 212 C 400.37 203.39 401.54 202.41 412 200 M 400 212 C 403.97 205.44 406.99 197.38 412 200" fill="none" stroke="#23445d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 240px; margin-left: 401px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">Long<br />Delay</div></div></div></foreignObject><text x="440" y="244" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Long...</text></switch></g><rect x="0" y="200" width="80" height="80" rx="12" ry="12" fill="none" stroke="none" pointer-events="all"/><path d="M 2.69 203.35 C 2.69 203.35 2.69 203.35 2.69 203.35 M 2.69 203.35 C 2.69 203.35 2.69 203.35 2.69 203.35 M 1.78 210.5 C 3.84 205.89 5.03 204.55 10.31 200.69 M 1.78 210.5 C 3.85 208.76 5.26 205.29 10.31 200.69 M 1.52 216.9 C 1.32 217.01 10.93 212.84 14.64 201.81 M 1.52 216.9 C 3.79 212.16 9.71 207.44 14.64 201.81 M 1.91 222.55 C 3.35 215.86 13.45 216.95 19.62 202.17 M 1.91 222.55 C 10.38 213.87 16.09 205.11 19.62 202.17 M 1.65 228.94 C 9.9 217.93 14.45 213.71 25.27 201.77 M 1.65 228.94 C 12.07 218.02 17.8 209.76 25.27 201.77 M 1.39 235.34 C 10.23 226.61 15.17 217.32 30.25 202.13 M 1.39 235.34 C 13.06 221.44 23.07 211.83 30.25 202.13 M 1.78 240.98 C 10.22 227.12 25.41 210.44 35.9 201.74 M 1.78 240.98 C 8.09 233.28 16.97 225.69 35.9 201.74 M 1.52 247.38 C 17.03 228.66 27.54 214.25 40.88 202.1 M 1.52 247.38 C 14.25 234.57 23.83 218.95 40.88 202.1 M 1.91 253.02 C 18.43 231.36 34.43 210.39 45.87 202.46 M 1.91 253.02 C 15.46 236.55 32.76 219.85 45.87 202.46 M 1.65 259.42 C 16.16 242.27 21.25 231.62 51.51 202.06 M 1.65 259.42 C 21.69 236.07 38.44 213.78 51.51 202.06 M 1.39 265.82 C 18.77 251.44 32.95 232.19 56.5 202.42 M 1.39 265.82 C 15.36 249.83 29.28 236.03 56.5 202.42 M 2.44 270.71 C 27.22 240.01 49.19 216.49 62.14 202.03 M 2.44 270.71 C 19.76 251.93 35.86 230.33 62.14 202.03 M 4.15 274.84 C 18.56 258.73 33.24 235.71 68.44 200.88 M 4.15 274.84 C 31 246.38 54.6 217.85 68.44 200.88 M 5.86 278.98 C 21.91 259.66 42.6 231.29 72.77 202 M 5.86 278.98 C 18.4 263.07 31.63 248.87 72.77 202 M 9.53 280.85 C 30.52 250.96 51.84 226.64 77.1 203.11 M 9.53 280.85 C 33.25 255.7 57.34 226.88 77.1 203.11 M 13.86 281.96 C 37.7 260.17 58.61 231.27 78.81 207.24 M 13.86 281.96 C 38.1 252.69 64.2 222.48 78.81 207.24 M 19.5 281.57 C 42.48 254.92 62.16 235.19 79.86 212.13 M 19.5 281.57 C 34.84 265.12 52.91 245.38 79.86 212.13 M 24.49 281.93 C 43.19 264.47 51.71 251.49 82.88 214.76 M 24.49 281.93 C 37.8 267.24 52.46 249.8 82.88 214.76 M 30.13 281.53 C 41.51 266.43 60 252.01 83.28 220.4 M 30.13 281.53 C 52.55 256.01 70.34 233.61 83.28 220.4 M 35.12 281.89 C 48.01 265.05 66.09 250.65 83.01 226.8 M 35.12 281.89 C 52.86 262.24 70.35 240.2 83.01 226.8 M 40.76 281.5 C 55.09 264.81 61.59 253.2 82.75 233.2 M 40.76 281.5 C 56.19 265.9 70.34 248.3 82.75 233.2 M 45.75 281.86 C 55.85 266.79 68.01 252.37 83.15 238.84 M 45.75 281.86 C 58.03 267.33 70.18 255.56 83.15 238.84 M 51.4 281.46 C 64.09 272.83 71.29 258.45 82.89 245.24 M 51.4 281.46 C 61.7 271.08 67.27 263.63 82.89 245.24 M 56.38 281.82 C 65.51 274.93 69.57 267.93 83.28 250.88 M 56.38 281.82 C 64.26 271.37 71.5 260.79 83.28 250.88 M 62.03 281.43 C 65.18 277.7 68.92 275.97 83.02 257.28 M 62.03 281.43 C 71.57 271.4 80.12 260.29 83.02 257.28 M 68.32 280.28 C 77.68 273.82 80 267.75 82.76 263.67 M 68.32 280.28 C 71.73 274.73 74.95 270.43 82.76 263.67 M 75.94 277.62 C 77.74 274.15 81.99 270.05 82.5 270.07 M 75.94 277.62 C 78.21 275.41 79.29 273.66 82.5 270.07" fill="none" stroke="#bac8d3" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 12 200 M 12 200 C 29.29 202.71 47.27 202.26 68 200 M 12 200 C 33.05 201.29 55.32 201.13 68 200 M 68 200 C 74.29 201.35 79.24 203.74 80 212 M 68 200 C 76.07 200.21 80.79 201.31 80 212 M 80 212 C 80.14 223.08 78.7 237.58 80 268 M 80 212 C 78.96 233.83 81 254.76 80 268 M 80 268 C 80.28 275.37 76.43 280.41 68 280 M 80 268 C 75.84 275.01 74.33 278.1 68 280 M 68 280 C 54.11 278.57 39.75 281.47 12 280 M 68 280 C 48.01 279.13 27.79 277.88 12 280 M 12 280 C 3.92 277.11 1.23 275.11 0 268 M 12 280 C 2 282.14 -4.54 278.14 0 268 M 0 268 C -3.08 254.88 0.27 237.3 0 212 M 0 268 C 1.3 252.08 0.19 235.82 0 212 M 0 212 C 3.18 202.59 2.44 196.84 12 200 M 0 212 C -1.47 202.82 3.76 201.21 12 200" fill="none" stroke="#23445d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 240px; margin-left: 1px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">Emotions</div></div></div></foreignObject><text x="40" y="244" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">Emotions</text></switch></g><rect x="150" y="160" width="180" height="40" fill="none" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 180px; margin-left: 240px;"><div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;"><div style="display: inline-block; font-size: 19px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: nowrap;">Autobiographical<br style="font-size: 19px;" />Memory</div></div></div></foreignObject><text x="240" y="186" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="19px" text-anchor="middle" font-weight="bold">Autobiographical...</text></switch></g><path d="M 84.5 195.5 L 195.5 84.5" fill="none" stroke="none" pointer-events="stroke"/><path d="M 80.79 199.21 L 83.27 191.78 L 84.5 195.5 L 88.22 196.73 Z" fill="none" stroke="none" pointer-events="all"/><path d="M 199.21 80.79 L 196.73 88.22 L 195.5 84.5 L 191.78 83.27 Z" fill="none" stroke="none" pointer-events="all"/><path d="M 84.5 195.5 M 84.5 195.5 C 120.25 160.5 150.63 126.26 195.5 84.5 M 84.5 195.5 C 122.14 159.64 156.19 123.52 195.5 84.5" fill="none" stroke="#23445d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 83.54 191.47 C 83.54 191.47 83.54 191.47 83.54 191.47 M 83.54 191.47 C 83.54 191.47 83.54 191.47 83.54 191.47 M 81.31 200.14 C 82.32 198.5 82.82 197.37 85.24 195.61 M 81.31 200.14 C 82.34 198.76 83.84 197.42 85.24 195.61" fill="none" stroke="#23445d" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 80.79 199.21 M 80.79 199.21 C 80.68 195.61 81.1 193.89 83.27 191.78 M 80.79 199.21 C 81.49 196.28 82 194.36 83.27 191.78 M 83.27 191.78 C 83.91 193.43 83.89 194.46 84.5 195.5 M 83.27 191.78 C 83.64 192.79 83.87 193.75 84.5 195.5 M 84.5 195.5 C 86.33 196.27 86.15 196.18 88.22 196.73 M 84.5 195.5 C 85.48 195.55 86.27 196.13 88.22 196.73 M 88.22 196.73 C 86.39 196.91 84.82 198.72 80.79 199.21 M 88.22 196.73 C 86.29 197.65 83.56 198.76 80.79 199.21" fill="none" stroke="#23445d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 191.99 83.03 C 191.99 83.03 191.99 83.03 191.99 83.03 M 191.99 83.03 C 191.99 83.03 191.99 83.03 191.99 83.03 M 195.67 84.9 C 196.51 83.53 196.93 82.59 198.95 81.12 M 195.67 84.9 C 196.53 83.75 197.78 82.63 198.95 81.12" fill="none" stroke="#23445d" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 199.21 80.79 M 199.21 80.79 C 197.56 81.35 196.59 83.84 196.73 88.22 M 199.21 80.79 C 198.15 82.42 197.16 84.98 196.73 88.22 M 196.73 88.22 C 196.49 87.49 195.69 86.13 195.5 84.5 M 196.73 88.22 C 196.36 87.4 195.97 86.48 195.5 84.5 M 195.5 84.5 C 194.94 84.52 192.4 83.65 191.78 83.27 M 195.5 84.5 C 194.78 83.92 193.87 83.94 191.78 83.27 M 191.78 83.27 C 194.5 81.97 197.52 82.24 199.21 80.79 M 191.78 83.27 C 194.16 82.58 195.77 82.25 199.21 80.79" fill="none" stroke="#23445d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 395.5 195.5 L 284.5 84.5" fill="none" stroke="none" pointer-events="stroke"/><path d="M 399.21 199.21 L 391.78 196.73 L 395.5 195.5 L 396.73 191.78 Z" fill="none" stroke="none" pointer-events="all"/><path d="M 280.79 80.79 L 288.22 83.27 L 284.5 84.5 L 283.27 88.22 Z" fill="none" stroke="none" pointer-events="all"/><path d="M 395.5 195.5 M 395.5 195.5 C 363.98 159.49 327.38 133.65 284.5 84.5 M 395.5 195.5 C 352.97 153.06 307.91 111.38 284.5 84.5" fill="none" stroke="#23445d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 391.61 196.93 C 391.61 196.93 391.61 196.93 391.61 196.93 M 391.61 196.93 C 391.61 196.93 391.61 196.93 391.61 196.93 M 395.94 198.04 C 396.77 197.67 398.74 195.92 399.22 194.27 M 395.94 198.04 C 397.32 196.97 397.94 195.83 399.22 194.27" fill="none" stroke="#23445d" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 399.21 199.21 M 399.21 199.21 C 396.06 197.94 395.52 198.89 391.78 196.73 M 399.21 199.21 C 395.88 197.7 393.91 197.87 391.78 196.73 M 391.78 196.73 C 392.38 196.84 393.14 195.49 395.5 195.5 M 391.78 196.73 C 392.79 196.61 393.54 196.32 395.5 195.5 M 395.5 195.5 C 395.75 193.57 396.75 192.32 396.73 191.78 M 395.5 195.5 C 395.59 193.89 395.96 193.34 396.73 191.78 M 396.73 191.78 C 396.22 195.86 398.76 198.74 399.21 199.21 M 396.73 191.78 C 396.98 193.75 397.84 196.32 399.21 199.21" fill="none" stroke="#23445d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 280.83 80.75 C 280.83 80.75 280.83 80.75 280.83 80.75 M 280.83 80.75 C 280.83 80.75 280.83 80.75 280.83 80.75 M 282.53 84.88 C 283.2 84.58 284.77 83.19 285.16 81.86 M 282.53 84.88 C 283.64 84.02 284.13 83.12 285.16 81.86" fill="none" stroke="#23445d" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 280.79 80.79 M 280.79 80.79 C 281.22 80.79 284.31 82.95 288.22 83.27 M 280.79 80.79 C 282.57 81.22 285.68 83.08 288.22 83.27 M 288.22 83.27 C 286.87 84.06 285.69 83.36 284.5 84.5 M 288.22 83.27 C 287.7 83.52 286.93 83.72 284.5 84.5 M 284.5 84.5 C 283.74 85.51 283.77 87.19 283.27 88.22 M 284.5 84.5 C 283.78 85.36 283.34 87.24 283.27 88.22 M 283.27 88.22 C 280.8 86.44 281.38 83.46 280.79 80.79 M 283.27 88.22 C 282.25 86.47 281.84 85.23 280.79 80.79" fill="none" stroke="#23445d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 86.37 240 L 393.63 240" fill="none" stroke="none" pointer-events="stroke"/><path d="M 81.12 240 L 88.12 236.5 L 86.37 240 L 88.12 243.5 Z" fill="none" stroke="none" pointer-events="all"/><path d="M 398.88 240 L 391.88 243.5 L 393.63 240 L 391.88 236.5 Z" fill="none" stroke="none" pointer-events="all"/><path d="M 86.37 240 M 86.37 240 C 175.33 246.1 265.74 245.28 393.63 240 M 86.37 240 C 165.31 243.84 246.24 243.76 393.63 240" fill="none" stroke="#23445d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 81.26 239.84 C 81.26 239.84 81.26 239.84 81.26 239.84 M 81.26 239.84 C 81.26 239.84 81.26 239.84 81.26 239.84 M 84.93 241.71 C 85.2 241.11 85.8 240.89 86.24 240.2 M 84.93 241.71 C 85.29 241.26 85.69 240.8 86.24 240.2" fill="none" stroke="#23445d" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 81.12 240 M 81.12 240 C 83.9 239.53 85.03 238.41 88.12 236.5 M 81.12 240 C 84.02 238.32 86.5 237.12 88.12 236.5 M 88.12 236.5 C 88.33 237.66 87.97 238.06 86.37 240 M 88.12 236.5 C 87.25 237.75 86.68 238.89 86.37 240 M 86.37 240 C 87.31 241.19 87.06 241.47 88.12 243.5 M 86.37 240 C 86.78 241.11 87.18 241.35 88.12 243.5 M 88.12 243.5 C 85.89 242.29 83.18 240.17 81.12 240 M 88.12 243.5 C 87.18 242.73 85.09 241.32 81.12 240" fill="none" stroke="#23445d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 391.68 236.74 C 391.68 236.74 391.68 236.74 391.68 236.74 M 391.68 236.74 C 391.68 236.74 391.68 236.74 391.68 236.74 M 394.04 240.11 C 394.3 239.51 394.91 239.29 395.35 238.6 M 394.04 240.11 C 394.4 239.66 394.79 239.2 395.35 238.6" fill="none" stroke="#23445d" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/><path d="M 398.88 240 M 398.88 240 C 398.69 240.97 396.94 241.29 391.88 243.5 M 398.88 240 C 396.38 240.82 393.5 242.31 391.88 243.5 M 391.88 243.5 C 392.89 243.22 393.25 242.2 393.63 240 M 391.88 243.5 C 392.17 242.31 392.84 240.96 393.63 240 M 393.63 240 C 393.51 239.33 392.31 237.72 391.88 236.5 M 393.63 240 C 393.26 239.5 392.86 238.15 391.88 236.5 M 391.88 236.5 C 393.53 237.16 394.75 237.01 398.88 240 M 391.88 236.5 C 393.96 237.5 394.95 237.63 398.88 240" fill="none" stroke="#23445d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/></g><switch><g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/><a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank"><text text-anchor="middle" font-size="10px" x="50%" y="100%">Text is not SVG - cannot display</text></a></switch></svg>
+
+#### Explain the self-reference effect and self-schema and why they are important in autobiographical memory
+    
+**Self-Reference Effect:** The SRE occurs for self-relevant events, and are processed by the medial pre-frontal cortex (MPFC). It is this distinctive form of processing that ensures self-relevant events are better remembered.
+
+**Self-Schema:** Our self-schema inform our basis of self-reference by filling in the blanks while we are consolidating. This means that we are likely to process our experience of an event based on our self-schema (where our attention is focussed on self-relevant details of an event), rather than the full experience when viewed more objectively from a distance.
+
+These factors are important in autobiographical memory as the SRE provides a specific type of processing for self-relevant events (as opposed to events that we are an outside witness to), while our self-schema fills in the blanks (usually erroneously) where some of the less self-relevant details of the event are outside our attention.
+
+#### What is memory consolidation and how is it enhanced by emotion?
+
+Memory consolidation is the process through which memories are biologically "cemented into place". Most memories are initially fragile, with consolidation (especially during periods of rest or sleep) being an important factor in retaining memories. Consolidation is promoted through these periods of rest and sleep via activation of the amygdala and subsequently, the hippocampus. Emotional events are well remembered due to consolidation as they are a) more important to us drawing more selective attention, and b) this selective attention we give to an event is the equivalent of rehearsal via our working memory.
+
+#### Describe flashbulb memories
+
+Flashbulb memories (e.g., the death of Princess Diana, Michael Jackson, JFK) are points in time surrounding highly emotional events. These, too are influenced by our emotions and long delays between recollections. They are also effected by social influence (making the retelling of the experience sound more interesting to a new audience each time it is retold), making recall uneven.
+
+#### Why are traumatic events typically remembered better than non-traumatic events? Are there any exceptions?
+
+People who experience highly traumatic events often experience an enhancement of memory through extreme bodily arousal (SNS and PNS).
+
+Exceptions to this are sleep deprivation, head injuries or substance abuse which disrupt consolidation through multiple bodily affects such as both enhancing and undermining memory which allows a person to only remember a broad outline of the event. For example, soldiers who have experienced an extreme event are only able to remember their interrogator 68% of the time.
+
+#### Why are memory researchers sceptical about repression and recovered memories?
+
+There is little to no empirical evidence that repression or recovery of memories are possible. People generally delay processing particular events for an extended period, experience a retrieval cue, or at some level may experience false memories. This is over and above the already documented process of episodic memory.
+
+### Topic 5: Very long term remembering
+
+#### Describe Bahrick and colleagues' studies to explain how well people remember events over very long periods of time.
+
+Participants were able to name match their colleagues from high school accurately for some time (up to 47 years) with around 60% accuracy. In the picture cueing task participants memory decline after 47 years shows a marked decline with all results across the span showing a noticable decline across the lifespan.
+
+Although we know that time claims our memories over extended periods, if information is well learned at the start, or revisited across the lifespan our memories can be maintained to a beneficial level.
+
+#### Describe the lifespan retrieval curve, reminiscence bump, and period of childhood amnesia.
+
+The lifespan retrieval curve refers to the number of autobiographical memories encoded at various ages across the lifespan and consists of three components:
+
+  - Childhood Amnesia (from birth to 5 years old)
+  - The reminiscence bump (from 10 to 30 years)
+  - The period of recency (from 30 years to the present)
+
+#### How does culture influence remembering across the lifespan?
+
+The influence of culture on remembering across the lifespan has been found to be consistent, with the reminiscence bump being (very close to) the most universal of time periods.
+
+## Week 7: Concepts {.well}
+
+### Topic 1: Definitions and Prototypes
+
+#### Why do our definitions of basic concepts like "dog" often fail?
+
+Our definitions of basic concepts often fail as we can readily find aspects of these concepts that do not universally match, or are exceptions to the general rule.
+
+#### Explain the meaning of the term "family resemblance"?
+
+**Family Resemblance** is a term that we use to compare the members of a category where the most common or expected features are present for a large number of members of a given category.
+
+#### Describe prototype theory.
+
+A prototype refers to the typical member of a category sharing common traits or features across multiple members of a category. In other words, the "ideal" characteristics of a category member sharing a family resemblance with other members.
+
+#### What is meant by graded membership?
+
+**Graded membership** refers to a category member as being "more" or "less" (closer to or farther from the prototype) like other members. A family resemblance is present, but some of the important characteristics do not match (i.e., a hairless dog, penguins vs pidgeons, etc.)
+
+#### How can the prototype notion be tested?
+
+The prototype notion is tested through a sentence verification task. Participants are asked to answer True or False questions against sentences comparing animals to different prototypes in memory. Other testing involves a production test, where participants are asked to name as many birds or dogs as they can. This test confirms that participants start with their lists at the centre of the prototype and work outwards as the list gets longer. A third type of test involves a rating task where participants rate (out of 10) how similar or different a particular animal is from the centre of their prototype.
+#### What are basic level categories?
+
+Basic level categories are terms used to refer to concepts that are neither too specific or too general. A superordinate reference may be too broad (i.e., a piece of furniture), while a subordinate reference may be too specific (i.e., Granyy Smith or Pink Lady Apple).
+
+### Topic 2: Exemplars
+
+#### What are exemplars?
+
+Exemplars are specific instances of a prototype that we uphold as being "better' than other instances.
+
+#### How are exemplars similar to and different from prototypes?
+
+While a prototype is an average of all objects (i.e., all chairs) from a category, an exemplar is one specific instance of a member of the prototype pulled from memory (i.e., Grandpa's Chair).
+
+A prototype is useful and economical when a quick reference or judgement is required, while an exemplar is useful when looking for a more specific example.
+
+#### Explain how we rely on both exemplars and prototypes in our thinking about categories.
+
+The situation in which we are recalling an item determines whether we retrieve an exemplar or prototype from memory based on convenience (i.e., *prototype:* we may be looking for a chair to fill a gap at home, where characteristics may not be as important.), or a comfortable chair we plan on using often (*exemplar*).
+
+### Topic 3: Categorisation via Resemblance
+
+#### Describe a situation in which categorisation and typicality do not go "hand in hand".
+
+Typicality and categorisation may not go hand in hand in the case of a $20 note. We typically accept that a $20 note has been printed with the approval and supervision of government agencies. It also has various security features built into it such as the hologram, federation star and signature of the reserve bank governor.
+
+A counterfeit note , on the other hand, does not have these security measures, or at least, they will be poor representations of them. It may resemble a legitimate $20 note, but the craftsmanship and detail may be considerably lacking.
+
+#### What else do we use to make category judgments besides typicality and how do we know?
+
+We need to have deeper beliefs or theories about the prototypes or categories. For example, we might know that a mechanical / electronic item such as a toaster (artefact) can be modified to operate as a coffee pot, however, a kiwi fruit modelled to look like a koala will always be a kiwi fruit.
+
+#### Describe the beliefs that people hold and why we need them for categorisation.
+
+Our beliefs guide our judgement on category membership where the distinction between one category and another may be difficult to separate based purely on typicality or resemblance. Our beliefs then guide our judgement on membership of a category in a similar way to the lion / gazelle enzyme example.
+
+#### How do these beliefs about categories affect our learning and the inferences that we make?
+
+Our beliefs guide our inferences (i.e., wooden aeroplane) about why certain objects are as they are (i.e., wings for lift, wheels for landing, etc.). These inferences help us to process stimuli more readily, determine their purpose, and more easily understand how to use them (hammer example).
+
+#### How do people think about diverse concepts, such as artefacts and natural kinds?
+
+People tend to assume that the properties of natural kinds have more stability and homogeneity than artefacts do. Other diverse concepts can be categorised by:
+  - goals (e.g., diet food or exercise)
+  - cause and effect (e.g., steps required to achieve a goal)
+  - relational (e.g., rivalry or hunting)
+  - events (e.g., visits, dates, shopping trips)
+
+### Topic 4: The Knowledge Network
+
+#### How is knowledge stored? How is it retrieved?
+
+- Network of nodes with associative links
+- These links both tie the nodes together, and help represent knowledge:
+
+  - Washington &rarr; President
+  - Birds &rarr; can fly
+  
+  Category knowledge is retrieved through this network via its associations (e.g., a canary is a bird) as well as its associated features (e.g., a bird lays eggs). It is not always expedient to retrieve this knowledge via its superordinate properties (i.e., all animals have hearts), but it can be done, albeit at a slower rate than its subordinate properties (i.e., a canary is yellow).
+
+#### Describe Collins and Quillian's (1969) experiment and what it tells us about the structure of the knowledge network
+
+C & Q's study used sentence verification task to measure response times to a series or true or false judgements of various statements. Responses were typically faster for sentences with direct associations (regardless of whether they were true or false), and were slower for sentences exploring indirect associations (requiring a two-step type of processing). The rate of response was slowed depentant on the number of nodes examined/activated by each question.
+
+### Topic 5: Propositional Networks and PDP
+
+#### What are propositional networks?
+
+A propositional network is an array of objects/nodes and associations that link categories of objects to their typical or expected behaviours.
+
+<center>
+
+![Propositional Network](images/HPS203/PN.svg)
+
+</center>
+
+#### What are the similarities and differences between a network with local representations and a connectionist network?
+
+##### Similarities:
+
+- Both use nodes to represent concepts or ideas and both use associations for storage and retrieval of these concepts.
+- Both demonstrate learning as the development of new associations and strengthening (or weakening) of existing nodes (possibly extinction as well)
+
+*Differences:*
+
+- Local representations highlight only one association between nodes (i.e., Wundt &rarr; Introspection), while connectionist networks involve a more complex array of associations between multiple nodes of another network. Some of these nodes are shared between groups. 
+
+#### What is parallel distributed processing (PDP)?
+
+PDP is a process of utilising multiple nodes of knowledge and their relevant associations in order to analyse concepts. For example, the many nodes representing a "computer" concept manage activation of both the common and distinct nodes that manage the "Macbook" concept. One widespread pattern of activation, in turn, activates the next pattern. The parallel portion of this activation refers to multiple parts of the activation process being worked on (by different centres of the brain) at the same time.
+
+## Week 8: Visual Knowledge {.well}
+
+### Topic 1: Chronometric Studies
+
+#### What technique did Galton use to study mental images and what is the main problem with his technique?
+
+Galton used a technique of mental imagery or visualisation to report on these images. The main problem with this technique, however, was that some participants were simply unable to visualise a scene, or accurately describe the scene in words (i.e., translate the scene to others via language).
+
+#### What do chronometric studies of visual images refer to?
+
+Chronometric tasks measure the time it takes for a participant to complete them, such as the study conducted by Kosslyn (1976), participants were asked to imagine a cat and its features. This study found that participants took longer to visualise the "hidden" features like claws compared to more obvious features like whiskers or ears.
+
+Kosslyn et al. (1978) tested participants on the features of a map. Once participants were able to draw the map from memory, they were asked to visualise a dot travelling from one feature of the map to another. Over all the participants in this test a strong positive correlation was found between the time taken to trace the line (mentally) or travel between the features.
+
+#### Describe Shepard's mental rotation task and what the results of this task tell us about visual imagery.
+
+This task asked participants to rotate a 3D object via imagery to determine whether the two objects were the same. This study confirmed that the task takes considerable time depending on how much rotation of the object in each question is required. It was also found a strong positive correlation between response times and required angle of rotation for both 2D and 3D images.
+
+#### Why can we discount the demand characteristics of the experiments as a plausible explanation of the results?
+
+In a study by Finke and Pinker (1982) and others has confirmed that mental imagery requires longer scans with longer "mental travel". This response is received regardless of whether examiners encourage a specific result or not.
+
+### Topic 2: Imagery and Perception
+
+#### Describe the relationship between imagining and perceiving.
+
+Visualising and perceiving utilise similar brain regions (V1 and V2), with either one of these activities priming the other.
+
+#### Describe the evidence for this relationship from Segal and Fusella's experiments.
+
+<center>
+![Signalling](images/HPS203/Segal1.svg)
+![Interference](images/HPS203/Segal2.svg)
+</center>
+
+The processing overlap between like stimuli means that we are less likely to be able to visualise a stimulus existing in memory and perceive a new stimulus at the same time as the same cognitive centres are required for both visualising and perceiving.
+
+The same effect is true of auditory input.
+
+#### Describe the similarity in brain areas that are activated when people are imagining vs perceiving.
+
+- Vision and imagery brain structures are very similar (as highlighted by *f*MRI images from the text) in the occipital cortex (areas V1 and V2).
+- In both cases, perceiving either faces or places activates areas V1 and V2.
+-Imagining faces leaves a much smaller footprint on these areas than imagining places.
+
+#### What happens when TMS or brain damage disrupts the visual system?
+
+Brain damage or TMS can cause disruptions to the V1 and V2 areas (where axons from the visual system first enter the occipital cortex), causing problems to both vision and imagery:
+
+- Damage leading to colour perception also effect colour imagery.
+- Damage to areas of perceiving fine detail also negatively impact imagery of fine detail.
+- Unilateral neglect syndrome effects these areas of the brain, and therefore, visual and imagery processing.
+
+#### What is spatial imagery and how do we know that it is different from visual imagery?
+
+Spatial imagery refers to our ability to imagine all three aspects of a three dimensional object, such as a blind (from birth) person perceiving a sculpture with their hands, so that they can imagine the object.
+
+We know it is different to visual imagery as people blind from birth produce similar test results to sighted persons in imagery tasks in terms of time taken to process "distance". Processing time for tasks requiring "rotation" are also similar between blind since birth and sighted persons.
+
+#### How does vivid imagery impact our lives?
+
+People with more developed sense of visual imagery tend to find careers in the arts, are more prone to strong emotions and phobias, have a more detailed autobiographical memory and are surprised the learn that some others have no visualisation skills at all.
+
+#### What are aphantasia and eidetic imagery?
+
+Aphantasia refers to an inability to imagine objects and/or scenes, whereas eidetic imagery refers to the ability to remember or recreate highly detailed drawings of complex visual scenery. People with eidetic imagery skills are commonly effected by autism.
+
+### Topic 3: Images and Piictures
+
+#### How are vidual images different from pictures?
+
+An ambiguous picture (rabbit / duck) is available to be interpreted or perceived either way, whereas when imagining the image its ambiguity is "lost" or it is only imagined in one of its forms: either the rabbit OR the duck.
+
+#### Understand how imagery based mnemonics have been used in different cultural contexts.
+
+Indigenous cultures often used mnemonics as a practise of remembering that was tied to the place they have once occupied.
+
+For example, Medical students at Monash University learn the citric acid cycle through a story that is encoded into a stand of lemon gum trees on the campus. There is a bit of sex and violence in the story, and the names of characters and actions in the story often rhyme with the chemicals and processes they need to memorise. Multiple layers are added to the story as their learning increases, as the cycle is a very complex process connected to many other systems. The scent of the leaves crushed in the students’ hands is also used to trigger memory and make the experience more visceral. Students are encouraged to map the story and even create objects as mnemonic devices, however for most it is enough to be familiar with the place they walk past every day to remember the story and information.
+
+The limitations of this type of mnemonic memorising are:
+
+- Significant time investment is required,
+- Landscapes are constantly altered by civilisations (trees are cut down, streets are resurfaced, or blocked off),
+- Moving interstate for work can negatively impact locally coded mnemonics.
+- Explains the cultural significance to Aboriginal cultures of land dispossession.
+
+Ancient Greeks using memory palaces (method of loci).
+
+A study conducted by Reser et al. (2021) examined the differences between these two types of mnemonic strategies:
+
+- Group 1: 30 mins of training in memory palaces
+- Group 2: 30 mins of training in Aboriginal memory technique
+- Group 3: No training.
+- The study examined correct recall in a specific order
+- Results showed both mnemonic strategies increased recall compared to no training.
+- Aboriginal technique was found to be much better for recalling the order of things.
+
+### Topic 4: Long Term Visual Memory
+
+#### How are images stored in memory and how do we form an image when trying to remember it?
+
+Images are stored in memory as pieces or components, which are reconstructed piece by piece dependent on the level of detail required.
+
+#### How do we know that visual information can also be stored as a verbal label?
+
+1. People with large colour vocabularies have better colour memories as they are able to recall the colour via the label rather than the colour itself.
+2. Carmichael et al. (1932) confirmed this by linking basic shapes with a different label for two groups (i.e., barbell, 7, sun). Participants recreated the images in very different (and detailed) forms ti tge original based on the labels they were given with the somewhat ambiguous figures.
+3. Stevens and Coupe (1978) tested participants on which city was further north (Seattle Vs Montreal) and which city was further west (Reno vs San Diego). This study outlined logic as the determinant of map position for the above cities rather than a stored mental image.
+
+#### Describe the two step procedure that shows imagery helps memory from Paivio's experiments.
+
+1. Rating nouns (on a scale of 1 to 7) on how easily they provoke an image.
+2. These ratings were then tested for accuracy against a second group to try and predict memory performance.
+
+This study showed that from a list of nouns, some words were easier to visualise (church, elephant) than others (context, virtue) as they are able to be recalled from memory either via the mental image or the word.
+
+#### What is the best visual imagery technique to use when you want to remember particular information?
+
+The best strategy to aid memory is dual coding, as it allows us to both organise and visualise materials. We can then use either path to retrieve the information (creating additional associations between nodes of knowledge).
+
+<center>
+![Dual Coding](images/HPS203/dual.svg)
+</center>
+
+#### Why does imagery improve memory?
+
+Imagery improves memory as it allows us to apply multiple associations or pathways to retrieval (the word itself, and the image the word represents).
+
+#### What is boundary extension and why does it occur?
+
+Boundary extension is a phenomena where participants are shown a scene (like the rubbish bins close up) and we encode this scene incorporating more detail than is provided. The occurrence is suggested to be informed by our perceptual schemas (we construct the missing context from our expectations).
+
+#### Is memory for images the same as for other content?
+
+Yes. The other aspects of memory all have an influence over our ability to encode and decode images:
+
+- Rehearsal
+- Primacy and Recency
+- Source Monitoring and Familiarity
+- Recall dependent on memory connections/associations
+- Priming
+- Encoding Specificity
+- Influence of (perceptual) schema.
+
+## Week 9: Judgment and Reasoning {.well}
+## Week 10: Problem Solving and Creativity {.well}
+## Week 11: Intelligence {.well}
+
+
+
+
+
+
+
+
+
+
