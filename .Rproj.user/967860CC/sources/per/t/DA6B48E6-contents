@@ -1516,231 +1516,146 @@ While Erikson’s theory has garnered support for providing a broad framework th
 ##### Piaget's Cognitive Development Theory
 
 <details>
+<summary>Overview</summary>
+::: {.table}
+| Stage             | Age (yrs) | Key Features and Emerging Structures |
+|-------------------|-----------|--------------------------------------|
+| **Sensorimotor Intelligence**  | 0-2       | - Sensory and motor [adaptation]( . "The process of attaining equilibrium between the environment and cognitive components of mental structures, through formation of new schemes and alterations to existing schemes.")<br>- Causal schemes and reasoning.<br>- Understanding of objects including object permanence and categorization of objects. |
+| **Preoperational Thought** | 2-7      | - Loose, egocentric logic.<br>- Acquisition of **semiotic (representational) thought** supporting mental manipulation of objects rather than relying on direct behaviour:<br>  - Imitation in the absence of the model<br>  - Mental Images<br>  - Symbolic Drawing<br>  - Symbolic Play<br>  - Language |
+| **Concrete Operational Thought** | 7-11 | - Mental operations involving the representation of objects and relationships among objects.<br>- Coordination of mental structures including identity, reversibility, and reciprocity resulting in conservation of mass, number, weight, and volume.<br>- Classification, including structures for class inclusion and class hierarchies. |
+| **Formal Operational Thought**   | 12+  | - Mental operations that form a logical system which can be applied to hypothetical as well as to concrete or real-world problems.<br>- Structures that permit coordination of multiple variables; probabilistic thinking; and reflection about one's thoughts and reasoning. |
+:::
+</details>
+
+<details>
 <summary>Key concepts of Piaget's Theory</summary>
 
-<div class="alert alert-success" role="alert">
+::: {.alert .alert-success}
   <h4><i class="fa-solid fa-circle-info"></i> Typical Development</h4>
   <ul>
    <li>An adult's ability to formulate, execute and evaluate the outcome of a plan is dependent on the outcomes of mastery experiences.</li>
    <li>Mastery and a sense of competence are derived from the investigation of our environment, directed problem solving, and persistence toward a goal.</li>
   </ul>
-</div>
+:::
 
-<div class="alert alert-info" role="alert">
+::: {.alert .alert-info}
   <h4><i class="fa-solid fa-circle-info"></i> Schemes</h4>
-  <ul>
-    <li>A scheme is "the structure or organisation of actions as they are transferred or generalised by repetition in similar circumstances"</li>
-    <li>The two primary schemes begin formation in infancy through:</li>
-      <ol>
-        <li>Actions such as grasping and sucking,</li>
-        <li>Linking actions together (i.e. climbing into a high chair, or crawling to the door to meet Dad).</li>
-      </ol>
-    <li>Further schemes develop for people, objects, actions and emotional capacities (i.e. visual abilities to establish who is familiar and who is not, or auditory abilities to express contentment or distress).</li>
-    <li>Schemes continue to develop throughout life, although they may be difficult to explain to another.</li>
-  </ul>
-</div>
-</br>
-<div class="alert alert-info" role="alert">
-  <h4><i class="fa-solid fa-circle-info"></i> Organisation</h4>
-  <ul>
-    <li>The collection of systems and senses to perform tasks and attain goals. (i.e. seeing and object and grasping it as two separate actions).</li>
-    <li>The formation of categories (i.e. fruits, animals, family members) to minimise the amount of new information (making categories adaptive) required to interact with objects.</li>
-  </ul>
-</div>
-</br>
-<div class="alert alert-info" role="alert">
+- A scheme is "the structure or organisation of actions as they are transferred or generalised by repetition in similar circumstances."
+- The two primary schemes begin formation in infancy through:
+  1. Actions such as grasping and sucking,
+  2. Linking actions together (i.e., climbing into a high chair, or crawling to the door to meet Dad).
+- Further schemes develop for people, objects, actions, and emotional capacities (i.e., visual abilities to establish who is familiar and who is not, or auditory abilities to express contentment or distress).
+- Schemes continue to develop throughout life, although they may be difficult to explain to another.
+
+:::
+
+::: {.alert .alert-info}
   <h4><i class="fa-solid fa-circle-info"></i> Adaptation</h4>
 - Adaptation contributes to organised thought which contributes to structured thought
 - The context and diversity of experiences stimulate the formation of new schemes.
 - Adaptation is the process of employing an existing scheme in an experience, or altering a scheme through new experience:
   - **Assimilation:** Refers to the interpretation of existing schemes through existing schemes (i.e. assuming that someone is a snob), and
   - **Accommodation:** Refers to the alteration of existing schemes based on new information (i.e. gathering more information about a person to discover they are not a snob).
-</div>
+:::
+
+::: {.alert .alert-warning}
+<h4><i class="fa-solid fa-triangle-exclamation"></i> Egocentrism in Childhood</h4>
+- The beginning of each phase of development is marked by a limited perspective, requiring [decentering]( . "A process allowing the person to approach situations from a more objective and analytical point of view, employing new, relevant behaviours."):
+  - **Sensorimotor:** Inability to separate one's own actions from their effects on objects and people.
+  - **Preoperational:** Inability to separate one's perspective from that of another, such as the Facetime camera example.
+  - **Concrete to Formal Operational:** Inability to recognise that others may not share one's own hypothetical system (cooperation vs. competition).
+
+---
+
+<h4><i class="fa-solid fa-triangle-exclamation"></i> Egocentrism in Adolescence</h4>
+- Decentring in adolescence requires participation in multiple roles (family member, student, worker, friend) allowing a balance of their own ideas with the expectations of others.
+- Addressing egocentrism in adolescence requires decentering around our pluralistic society, and discrepancies between the goals and aspirations of individuals. This process has two characteristics:
+  - **Imaginary Audience:** The tendency to assume we are the centre of other's attention, rather than understanding that others have their own concerns and plans.
+    - A judgemental and critical imaginary audience can lead to development of anxiety and social alienation.
+  - **Personal Fable:** The belief that our experiences and feelings are unique to us, or the "That will never happen to me." mindset.
+    - An unchallenged personal fable may lead to a heightened sense of self-importance.
+
+:::
+
 </details>
 <details>
-<summary>Piaget's Stages of Development</summary>
-</br>
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Stage</th>
-            <th>Age (yrs)</th>
-            <th>Key Features and Emerging Structures</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Sensorimotor</td>
-            <td>0-2</td>
-            <td>
-              <ul>
-                <li>Sensory and motor [adaptation]( . "The process of attaining equilibrium between the environment and cognitive components of mental structures, through formation of new schemes and alterations to existing schemes."), incorporating [assimilation]( . "The interpretation of new experiences through reference to existing schemes.") and [accommodation]( . "The modification of existing schemes to incorporate new information regarding an object or event").</li>
-                <li>Causal schemes and reasoning.</li>
-                <li>Understanding of objects including object permanence and categorization of objects.</li>
-              </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Preoperational</td>
-            <td>2-7</td>
-            <td>
-              <ul>
-                <li>Loose, egocentric logic.</li>
-                <li>Acquisition of **semiotic (representational) thought** supporting mental manipulation of objects rather than relying on direct behaviour:</li>
-                  <ul>
-                    <li>Imitation in the absence of the model</li>
-                    <li>Mental Images</li>
-                    <li>Symbolic Drawing</li>
-                    <li>Symbolic Play</li>
-                    <li>Language</li>
-                  </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Concrete Operational</td>
-            <td>7-11</td>
-            <td>
-              <ul>
-                <li>Mental operations involving the representation of objects and relationships among objects.</li>
-                <li>Coordination of mental structures including identity, reversibility, and reciprocity resulting in conservation of mass, number, weight, and volume.</li>
-                <li>Classification, including structures for class inclusion and class hierarchies.</li>
-              </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Formal Operational</td>
-            <td>12+</td>
-            <td>
-              <ul>
-                <li>Mental operations that form a logical system which can be applied to hypothetical as well as to concrete or real-world problems.</li>
-                <li>Structures that permit coordination of multiple variables; probabilistic thinking; and reflection about one's thoughts and reasoning.</li>
-              </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
+<summary>Explanation of Piaget's Stages of Development</summary>
 
-<div class="alert alert-info" role="alert">
-  <h4><i class="fa-solid fa-circle-info"></i> Concrete Operational Thought</h4>
-  <ul>
-    <li>The beginning of each phase of development is marked by a limited perspective, requiring [decentering]( . "A process allowing the person to approach situations from a more objective and analytical point of view, employing new, relevant behaviours."):</li>
-      <ul>
-        <li>Sensorimotor: Inability to separate one's own actions from their effects on objects and people.</li>
-        <li>Preoperational: Inability to separate one's perspective from that of another, such as the Facetime camera example.</li>
-        <li>Concrete to Formal Operational: Inability to recognise that others may not share one's own hypothetical system (cooperation vs. competition)</li>
-        <li>Adolescence: Addressing egocentrism in adolescence requires decentering around our pluralistic society, and discrepancies of individuals goals and aspirations</li>
-      </ul>
-  </ul>
-</div>
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Sensorimotor Intelligence</h4>
+::: {.table}
+| Stage                           | Approximate Age (yrs) | Characteristic                                 | Example                                       |
+|---------------------------------|-----------------------|------------------------------------------------|-----------------------------------------------|
+| Reflexes                        | Birth - 1 mth         | Reflexive responses to specific stimuli        | Grasp Reflex                                  |
+| Pri. Circular Reactions<br>(First Habits) | 1 - 4 mths           | Use of reflexive responses to explore new stimuli | Grasp rattle                                  |
+| Sec. Circular Reactions         | 4 - 10 mths           | Use of familiar actions to achieve new goals   | Grasp rattle and make banging noise on table  |
+| Coordination of<br>means and ends | 10 - 12 mths         | Deliberate use of actions to reach goals       | Grasp rattle and shake to play with dog       |
+| Experimentation<br>with new means | 12 - 18 mths         | Modifications of actions to reach goals        | Use of rattle to bang a drum                  |
+| Insight                         | 18 - 24 mths          | Mental recombination of means and ends         | Use rattle and string to make a new toy       |
+:::
+:::
 
-<div class="alert alert-info" role="alert">
-  <h4><i class="fa-solid fa-circle-info"></i> Formal Operational Thought</h4>
-  <ul>
-    <li>This stage of development is characterised by a gradual departure of reliance on sensation based learning.</li>
-    <li>Move towards the realisation of logical bases for understanding and analysing experiences.</li>
-    <li>A broadening of consciousness is evident through:</li>
-      <ul>
-        <li>Greater introspection on thoughts,</li>
-        <li>Greater integration of information from various sources.</li>
-        <li>More focussed planning and control of behaviours with strategy and goals offering guidance.</li>
-        <li>Considering several dimensions at once.</li>
-      </ul>
-    <li>Mental separation/distinguish between reality and possibility (identifying/analysing/changing job interests, balancing practicalities (commute to different jobs, full/part time hours).</li>
-    <li>**Hypothetico-deductive reasoning** best sums up the development at this stage via the pendulum test:</li>
-      <ul>
-        <li>Experiment to identify the sole cause of a swinging pendulum's speed of movement.</li>
-        <li>The variables to be examined are: the mass of the pendulum, the starting height of the pendulum, the speed the pendulum is pushed at, and the length of the string.</li>
-        <li>Concrete operational children have trouble at isolating the four variables, and/or lose track of which are constant or variable.</li>
-        <li>Formal Operational children are capable of developing a matrix of the variables to record results.</li>
-      </ul>
-  </ul>
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Preoperational Thought</h4>
+- Children acquire five representational skills at this stage:
+  - Imitation in the absence of the model,
+  - Mental Images
+  - Symbolic Drawing
+  - Symbolic Play
+  - Language
+- This stage of development is characterised by **Representational (semiotic) thinking**, where symbols and signs begin to be interchanged to represent physical objects:
+  - Using a matchstick as a symbol to represent a car.
+  - Using a cardboard box as a symbol to represent a building.
+  - The word dog as a sign referring to the animal.
+- Children are unable to pretend prior to this stage, as they are unable to let one object stand for another.
+- Children begin to recount events apart from the situation in which they occurred (such as explaining what happened at school that day).
+- They also begin to describe imaginary events or describe relationships in both past and present tense, as well as what they are like, and what they would like to change about them.
+
+:::
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Concrete Operational Thought</h4>
+- The term concrete refers to problem solving in physical space rather than generating hypotheses about philosophical or abstract concepts.
+  
+
+**Conservation:**
+  
+  - **Identity:**
+  - **Reversibility:**
+  - **Reciprocity:**
+
+**Classification:**
+
+:::
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Formal Operational Thought</h4>
+- This stage of development is characterised by a gradual departure of reliance on sensation based learning.</li>
+- Move towards the realisation of logical bases for understanding and analysing experiences.</li>
+- A broadening of consciousness is evident through:</li>
+  - Greater introspection on thoughts,</li>
+  - Greater integration of information from various sources.</li>
+  - More focussed planning and control of behaviours with strategy and goals offering guidance.</li>
+  - Considering several dimensions at once.</li>
+  - Mental separation/distinguish between reality and possibility (identifying/analysing/changing job interests, balancing practicalities (commute to different jobs, full/part time hours).</li>
+- **Hypothetico-deductive reasoning** best sums up the development at this stage via the pendulum test:</li>
+  - Experiment to identify the sole cause of a swinging pendulum's speed of movement.</li>
+  - The variables to be examined are: the mass of the pendulum, the starting height of the pendulum, the speed the pendulum is pushed at, and the length of the string.</li>
+  - Concrete operational children have trouble at isolating the four variables, and/or lose track of which are constant or variable.</li>
+  - Formal Operational children are capable of developing a matrix of the variables to record results.</li>
 </br>
 
-#### Six Characteristics of Formal Operational Thought
+<h4><i class="fa-solid fa-circle-info"></i> Six Characteristics of Formal Operational Thought</h4>
 
-  <ol>
-    <li>Drawing on multiple variables to explain their behaviours as well as that of others, mentally manipulating more than two types of variable at the same time.</li>
-    <li>The changes (to things such as friendships) that may occur in the future.</li>
-    <li>Ability to hypothesise about a logical sequence of possible events, such as planning a career.</li>
-    <li>Anticipation of the consequences of one's actions (i.e. dropping out of school).</li>
-    <li>Detecting logical consistencies and inconsistencies in a statement (i.e. All people are equal before the law vs the reality of rich vs. poor)</li>
-    <li>Acceptance and adoption of behavioural norms within a culture, and the differences in norms of other cultures.</li>
-  </ol>
-</div>
+1. Drawing on multiple variables to explain their behaviours as well as that of others, mentally manipulating more than two types of variable at the same time.</li>
+2. The changes (to things such as friendships) that may occur in the future.</li>
+3. Ability to hypothesise about a logical sequence of possible events, such as planning a career.</li>
+4. Anticipation of the consequences of one's actions (i.e. dropping out of school).</li>
+5. Detecting logical consistencies and inconsistencies in a statement (i.e. All people are equal before the law vs the reality of rich vs. poor)</li>
+6. Acceptance and adoption of behavioural norms within a culture, and the differences in norms of other cultures.</li>
 
-<div class="alert alert-warning" role="alert">
-  <h4><i class="fa-solid fa-triangle-exclamation"></i> Egocentrism</h4>
-  <ul>
-    <li>The beginning of each phase of development is marked by a limited perspective, requiring [decentering]( . "A process allowing the person to approach situations from a more objective and analytical point of view, employing new, relevant behaviours."):</li>
-      <ul>
-        <li>Sensorimotor: Inability to separate one's own actions from their effects on objects and people.</li>
-        <li>Preoperational: Inability to separate one's perspective from that of another, such as the Facetime camera example.</li>
-        <li>Concrete to Formal Operational: Inability to recognise that others may not share one's own hypothetical system (cooperation vs. competition).</li>
-        <li>Adolescence: Addressing egocentrism in adolescence requires decentering around our pluralistic society, and discrepancies between the goals and aspirations of individuals. This process has two characteristics:</li>
-        <ul>
-          <li>Imaginary Audience: The tendency to assume we are the centre of other's attention, rather than understanding that others have their own concerns and plans.</li>
-          <li>Personal Fable: The belief that our experiences and feelings are unique to us, or the "That will never happen to me." mindset.</li>
-          <li>Decentring in this phase of development requires participation in multiple roles (family member, student, worker, friend) allowing a balance of their own ideas with the expectations of others.</li>
-          <li>A judgemental and critical imaginary audience can lead to development of anxiety and social alienation.</li>
-          <li>An unchallenged personal fable may lead to a heightened sense of self-importance.</li>
-        </ul>
-      </ul>
-  </ul>
-</div>
-
+:::
 </details>
-
-<div class="alert alert-info" role="alert">
-  <h4><i class="fa-solid fa-circle-info"></i> Six Stages in the Development of Sensorimotor Causality</h4>
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Stage</th>
-            <th>Approximate Age (yrs)</th>
-            <th>Characteristic</th>
-            <th>Example</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Reflexes</td>
-            <td>Birth - 1 mth</td>
-            <td>Reflexive responses to specific stimuli</td>
-            <td>Grasp Reflex</td>
-        </tr>
-        <tr>
-            <td>Pri. Circular Reactions<br>(First Habits)</td>
-            <td>1 - 4 mths</td>
-            <td>Use of reflexive responses to explore new stimuli</td>
-            <td>Grasp rattle</td>
-        </tr>
-        <tr>
-            <td>Sec. Circular Reactions</td>
-            <td>4 - 10 mths</td>
-            <td>Use of familiar actions to achieve new goals</td>
-            <td>Grasp rattle and make banging noise on table</td>
-        </tr>
-        <tr>
-            <td>Coordination of<br>means and ends</td>
-            <td>10 - 12 mths</td>
-            <td>Deliberate use of actions to reach goals</td>
-            <td>Grasp rattle and shake to play with dog</td>
-        </tr>
-        <tr>
-            <td>Experimentation<br>with new means</td>
-            <td>12 - 18 mths</td>
-            <td>Modifications of actions to reach goals</td>
-            <td>Use of rattle to bang a drum</td>
-        </tr>
-        <tr>
-            <td>Insight</td>
-            <td>18 - 24 mths</td>
-            <td>Mental recombination of means and ends</td>
-            <td>Use rattle and string to make a new toy</td>
-        </tr>
-    </tbody>
-</table>
-</br>
 
 ### LO2
 
@@ -1758,56 +1673,14 @@ While Erikson’s theory has garnered support for providing a broad framework th
 
 ##### Factors Affecting Cognitive Development
 
-<div class="container mt-5">
-    <div class="accordion" id="accordionExample">
-        <div class="card">
-            <div class="card-header" id="headingOne">
-                <h2 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Accordion Item #1
-                    </button>
-                </h2>
-            </div>
+::: {.card .p-3}
+This block is styled with the Bootstrap `.card` class.
+:::
 
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
-                    Content for Accordion Item #1
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header" id="headingTwo">
-                <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Accordion Item #2
-                    </button>
-                </h2>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div class="card-body">
-                    Content for Accordion Item #2
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header" id="headingThree">
-                <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Accordion Item #3
-                    </button>
-                </h2>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                    Content for Accordion Item #3
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+This is a normal paragraph.
 
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+::: {.well}
+This paragraph is styled with the Bootstrap `.well` class.
+:::
+
 
