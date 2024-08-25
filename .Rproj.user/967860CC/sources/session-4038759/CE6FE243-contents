@@ -25,8 +25,9 @@ In contrast to Freud's theory, Erikson focused more on:
 -   activity and the ability for people to adapt to, or overcome damaging early experiences, and
 -   the notion that development continued after adolescence.
 
+::: {.table .table-striped}
 | Stage | Conflict | Approximate age | Virtue |
-| :----: | :----: | :----: | :----: |
+| :----: | :---- | :---- | :---- |
 | Stage 1 | Trust vs Mistrust | Birth to 18 months | [Hope]( . "Focus on oral–sensory activity; development of trusting relationships with caregivers and of self-trust (hope) and confidence. Mistrust occurs when infants are handled harshly and have to wait too long for comfort and for their basic needs to be met.") |
 | Stage 2 | Autonomy vs Shame and Doubt | 1 to 2 years | [Will]( . "Focus on muscular–anal activity; development of control over bodily functions and activities (will). With the development of motor and mental skills, children wish to make choices and decisions for themselves. Autonomy can be fostered by parents by permitting reasonable free choice. It can also be fostered by parents not forcing or shaming the child — which will result in the child doubting themselves, their abilities and skills.") |
 | Stage 3 | Initiative vs Guilt | 3 to 5 years | [Purpose]( . "Focus on locomotor–genital activity; testing limits of self-assertion and purposefulness (purpose). Children are exploring and experimenting with the kind of person that they can become. They are developing initiative, a sense of responsibility and purpose. The demand by parents for too much self-control can lead to over-control, and the child can feel guilty for displaying their initiative.") |
@@ -35,6 +36,7 @@ In contrast to Freud's theory, Erikson focused more on:
 | Stage 6 | Intimacy vs Isolation | 18 to 40 years | [Love]( . "Focus on achievement of an intimate relationship (love) and career direction. Some individuals experience difficulty in forming close relationships because of earlier disappointments, which leads to isolation.") |
 | Stage 7 | Generativity vs Stagnation | 40 to 65 years | [Care]( . "Focus on fulfilment through creative, productive activity that contributes to future generations (care). Failure to achieve this results in an absence of meaningful accomplishment.") |
 | Stage 8 | Integrity vs Despair | 65 years to death | [Wisdom]( . "Focus on belief in integrity of life, including successes and failures (wisdom). Individuals reflect on the kind of person they have been, if life has been worth living and if they have accomplished their goals. Dissatisfaction with life results in a fear of death.") |
+:::
 </details>
 <details>
 <summary>Limitations of Erikson's theory</summary>
@@ -1565,7 +1567,7 @@ While Erikson’s theory has garnered support for providing a broad framework th
   - **Preoperational:** Inability to separate one's perspective from that of another, such as the Facetime camera example.
   - **Concrete to Formal Operational:** Inability to recognise that others may not share one's own hypothetical system (cooperation vs. competition).
 
----
+</br>
 
 <h4><i class="fa-solid fa-triangle-exclamation"></i> Egocentrism in Adolescence</h4>
 - Decentring in adolescence requires participation in multiple roles (family member, student, worker, friend) allowing a balance of their own ideas with the expectations of others.
@@ -1576,7 +1578,6 @@ While Erikson’s theory has garnered support for providing a broad framework th
     - An unchallenged personal fable may lead to a heightened sense of self-importance.
 
 :::
-
 </details>
 <details>
 <summary>Explanation of Piaget's Stages of Development</summary>
@@ -1616,43 +1617,52 @@ While Erikson’s theory has garnered support for providing a broad framework th
 ::: {.alert .alert-info}
 <h4><i class="fa-solid fa-circle-info"></i> Concrete Operational Thought</h4>
 - The term concrete refers to problem solving in physical space rather than generating hypotheses about philosophical or abstract concepts.
-  
+- A child going through this stage can perform mental and physical operations, but not describe them
+- They can also perform mental operations around items with two categories (coniferous and deciduous trees), as well as describing features of these categories.
+- Deepen their understanding of the logic, order and predictability of the physical world.
+- Beginning of application to logic and order to explain social relations in areas of friendships, team play, self-evaluation and game rules.
 
-**Conservation:**
-  
-  - **Identity:**
-  - **Reversibility:**
-  - **Reciprocity:**
-
-**Classification:**
+- **Conservation:** A child develops an understanding in the change of form and its relation to:
+  - **Mass:** same weight despite differing shapes between the ball and pancake,
+  - **Number:** number of poker chips stacked, strewn across a table, or lined up in a row, and
+  - **Volume:** Changing the shape of a clay ball to a pancake of the same mass (differing shapes, same amount of clay).
+- By the end of this stage, children are able to use the following concepts to examine physical concepts:
+  - **Identity:** The same piece of clay is used to shape the ball and the pancake,
+  - **Reversibility:** The malleable object can be shaped and reshaped (ball to pancake to ball)
+  - **Reciprocity:** The ball is small and thick, while the pancake is large and thin.
+- **Classification:** Refers to the child's ability to identify the properties of categories, relate them to one another, and use categorical information to solve problems.
+  - Grouping items together with similar characteristics (i.e. both water and orange juice can be poured)
+  - Birds
+    - Ducks
+      - Breed of duck
 
 :::
 
 ::: {.alert .alert-info}
 <h4><i class="fa-solid fa-circle-info"></i> Formal Operational Thought</h4>
-- This stage of development is characterised by a gradual departure of reliance on sensation based learning.</li>
-- Move towards the realisation of logical bases for understanding and analysing experiences.</li>
-- A broadening of consciousness is evident through:</li>
-  - Greater introspection on thoughts,</li>
-  - Greater integration of information from various sources.</li>
-  - More focussed planning and control of behaviours with strategy and goals offering guidance.</li>
-  - Considering several dimensions at once.</li>
-  - Mental separation/distinguish between reality and possibility (identifying/analysing/changing job interests, balancing practicalities (commute to different jobs, full/part time hours).</li>
-- **Hypothetico-deductive reasoning** best sums up the development at this stage via the pendulum test:</li>
-  - Experiment to identify the sole cause of a swinging pendulum's speed of movement.</li>
-  - The variables to be examined are: the mass of the pendulum, the starting height of the pendulum, the speed the pendulum is pushed at, and the length of the string.</li>
-  - Concrete operational children have trouble at isolating the four variables, and/or lose track of which are constant or variable.</li>
-  - Formal Operational children are capable of developing a matrix of the variables to record results.</li>
+- This stage of development is characterised by a gradual departure of reliance on sensation based learning.
+- Move towards the realisation of logical bases for understanding and analysing experiences.
+- A broadening of consciousness is evident through:
+  - Greater introspection on thoughts,
+  - Greater integration of information from various sources.
+  - More focussed planning and control of behaviours with strategy and goals offering guidance.
+  - Considering several dimensions at once.
+  - Mental separation/distinguish between reality and possibility (identifying/analysing/changing job interests, balancing practicalities (commute to different jobs, full/part time hours).
+- **Hypothetico-deductive reasoning** best sums up the development at this stage via the pendulum test:
+  - Experiment to identify the sole cause of a swinging pendulum's speed of movement.
+  - The variables to be examined are: the mass of the pendulum, the starting height of the pendulum, the speed the pendulum is pushed at, and the length of the string.
+  - Concrete operational children have trouble at isolating the four variables, and/or lose track of which are constant or variable.
+  - Formal Operational children are capable of developing a matrix of the variables to record results.
 </br>
 
 <h4><i class="fa-solid fa-circle-info"></i> Six Characteristics of Formal Operational Thought</h4>
 
-1. Drawing on multiple variables to explain their behaviours as well as that of others, mentally manipulating more than two types of variable at the same time.</li>
-2. The changes (to things such as friendships) that may occur in the future.</li>
-3. Ability to hypothesise about a logical sequence of possible events, such as planning a career.</li>
-4. Anticipation of the consequences of one's actions (i.e. dropping out of school).</li>
-5. Detecting logical consistencies and inconsistencies in a statement (i.e. All people are equal before the law vs the reality of rich vs. poor)</li>
-6. Acceptance and adoption of behavioural norms within a culture, and the differences in norms of other cultures.</li>
+1. Drawing on multiple variables to explain their behaviours as well as that of others, mentally manipulating more than two types of variable at the same time.
+2. The changes (to things such as friendships) that may occur in the future.
+3. Ability to hypothesise about a logical sequence of possible events, such as planning a career.
+4. Anticipation of the consequences of one's actions (i.e. dropping out of school).
+5. Detecting logical consistencies and inconsistencies in a statement (i.e. All people are equal before the law vs the reality of rich vs. poor)
+6. Acceptance and adoption of behavioural norms within a culture, and the differences in norms of other cultures.
 
 :::
 </details>
@@ -1661,26 +1671,607 @@ While Erikson’s theory has garnered support for providing a broad framework th
 
 ##### Vygotsky’s Sociocultural Theory of Cognitive Development
 
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Overview</h4>
+- Vygotsky proposed the concept of the **zone of proximal development** to help explain the relationship of learning and development.
+- Each child can be described as functioning at a certain mental age and as having the potential to function at a more advanced mental age.
+- The zone of proximal development is “the distance between the actual developmental level as determined by independent problem solving and the level of potential development as determined through problem solving under adult guidance or in collaboration with more capable peers” (the mid blue section).
+- A child's abilities and potential can also be viewed as an abstract and unusual shape rather than a circle, as well all develop in a non-uniform fashion.
+
+![](images/HPS202/Week5/ZPD.jpg)
+
+- We have all experienced a situation in which we were unable to solve a task by ourselves, but with the assistance and advice of someone else we were able to be successful.
+- Learning and development within the ZPD is informed by those around us, and can take many forms:
+  - The typical efforts of parents to help a child put together a jigsaw puzzle by suggesting strategies (straight-edged pieces to make the border, or sorting with a similar colour),
+  - Children watch older children perform a task and they copy the strategy,
+  - Children ask their parents or teachers for help when they get stuck in a task,
+  - Teachers give children suggestions about how to organize a task or how to use resources that will help them complete an assignment.
+  - In these and many other instances, we recognize the variety of ways whereby children expand the level of their independent problem-solving capacities by drawing upon the expertise of others.
+- Vygotsky suggested that the level of functioning a child can reach through the guidance of others reflects the functions that are in the process of maturation.
+- The experiences and functions the child has been previously assisted with are indicative of functions that have already matured.
+- In light of this, learning and cognitive development grows in the direction of the intellectual characteristics of those who populate the child’s world:
+  - “Human learning presupposes a specific social nature and a process by which children grow into the intellectual life of those around them”.
+
+</br>
+
+<h4><i class="fa-solid fa-circle-info"></i> Development Lags Behind Learning</h4>
+- Development progresses when children are exposed to new ideas, and engage with these new ideas.
+- Through everyday function, culture and social context guide progress and direction of learning and development respectively.
+- Learning also prompts the reorganisation and internalisation of existing developmental competences, which then become synthesized at a new and higher intramental level.
+- Vygotsky used the term “zone of proximal development” to refer to a range of potential performance.
+- When trying to assess a child’s developmental level, it is important to understand:
+  - What the child already knows and can already perform, and
+  - The domains that are emerging as new fields of mastery.
+- Adults, parents, teachers, and more advanced peers promote development by engaging children in activities and problem-solving tasks that draw children into the new directions along which their capacities are maturing.
+- The interplay between two concurrent developmental levels (baseline level of cognitive functioning, and potential level of functioning) given appropriate instruction, support, and encouragement predict the expansion of the child's overall ZPD.
+- Both of these levels exist within the zone for each domain of knowledge, and can be leveraged by education systems.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Cultural Historical Activity Theory (CHAT)</h4>
+- Vygotsky's cross-cultural focus was a departure from Piaget's regimented, Westernised stage based theory.
+- Comparisons of Piaget's concrete and formal operational stages were not immediately transferable to other cultures, because:
+  1. Children not performing well here were observed as capable in other complex activities, and
+  2. Variations in schooling influenced a child's approach to tasks, including understanding of Piagetian testing situations, abilities and willingness to engage in Piaget's abstract tasks.
+- The focus of CHAT shifted towards Vygotsky's cultural focus, where cognition remains relevant to our cultures.
+- CHAT refers to contemporary revisions of Vygotsky's theory, incorporating the influence of education on learning and development.
+- Acculturated adults and peers impart the meanings, values and goals of the group (which are gradually internalised) on the child throughout his or her development.
+- Culturally relevant activities are the primary vehicle through which individual integration is achieved (rather than Piaget's fixed stages) at differing junctures.
+- In the CHAT paradigm, cultural learning is not a generalised process to all.
+- Individuals are contextually educated by their given culture, through participation in the relevant cultural activities.
+- Over time, generational participation in such cultural activities also imparts influence on the culture.
+
+:::
+
 ### LO3
 
 ##### Information Processing Perspective of Cognitive Development
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Overview</h4>
+- Information processing refers to the way we:
+  - Collate, synthesise, and store the vast amounts of information our environments offer us,
+  - Analyse tasks to ensure effective performance,
+  - Translate analysis into plans for action, and
+  - Implement such plans.
+- The fundamental areas of developmental study are:
+  - Attention,
+  - Working (Short Term) Memory,
+  - Long Term Memory,
+  - Processing Speed,
+  - Organisational Strategies, and
+  - Self-Modification.
+- Other aspects under study include:
+  - Planning,
+  - Decision Making,
+  - Goal Setting,
+  - Coping, and
+  - Motivations towards these.
+- Cognitive neuroscience is the primary method of study, using technology to identify the brain centres activated when engaging in these tasks.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Attention</h4>
+- In order for something to be processed, it has to be perceived.
+- Improvements are detected through aging in:
+  - **Selective Attention:** Focus on one kind of information and the blocking of others, and
+  - **Divided Attention:** Maintaining focus on two types or sources of information.
+- **Attention control** is a foundational control supporting higher order cognitive functions, used to regulate information processing in the service of goal directed behaviour.
+- Attention control allows us to focus on small distinctions in stimuli.
+- ADHD has become more prevalent in society due to increasing demands on information processing.
+
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Short Term (Working) Memory</h4>
+
+![](images/HPS202/Week5/STM.svg)
+
+- Adults can keep 5 - 9 units of information in working memory for about 30 seconds, before:
+  - linking to other memory in Long Term Memory,
+  - Recycling unprocessed data in Working Memory, or
+  - Discarding.
+  - e.g. Remembering a new acquaintance's name.
+- Strategies for transfer to Long Term Memory include:
+  - Repetition,
+  - Putting items into a familiar context to aid storage, or
+  - Connecting to unique context to aid retrieval.
+- Working Memory can be used as a work space for combining information, or recalling Long Term Memory for linking and updating to re-store.
+
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Long Term Memory</h4>
+
+![](images/HPS202/Week5/LTM.svg)
+
+- **Semantic:** Basic knowledge such as the meaning of words, which is very resistant to loss.
+- **Episodic:** Specific situation and data. Prone to loss unless of specific importance.
+- **Prospective:** All about events or actions that will take place in the future, such as an appointment or interview. Requires a future event, and tasks needing completion before or during the event.
+- Improves from infancy through to adolescence, with increased encoding and retrieval speed.
+- Neural pruning results in stronger neural networks or associations, and more rapid storage/retrieval.
+- Short Term Memory remains steady as we age, however, Long Term Memory becomes less efficient with greater context and meaning required to aid storage/retrieval.
+- Exposure to different types of memory during development ensures effective use of these.
+- Greater attention is needed for adults during encoding and retrieval.
+- **Self-Modification:** refers to storage, retrieval and updating of memory, incorporating new experiences.
+
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Organisational Strategies</h4>
+- Helps preserve and retrieve information.
+- Grouping bits of information together.
+- Linking new information with existing.
+- Associated with maturation with the pre-frontal cortex, which is responsible for Executive Function.
+- Executive Function includes:
+  - Working Memory,
+  - Planning/Organising,
+  - Resistance to distractions, and
+  - Inhibits detrimental impulses.
+- Individual differences exist due to:
+  - Genetics,
+  - Prenatal Environment, and
+  - Caregiving quality in infancy and toddlerhood.
+- Executive Function matures throughout childhood, and is foundational for scientific reasoning, problem solving and planning.
+
+:::
 
 ### LO4
 
 ##### Theory of Mind
 
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Overview</h4>
+- Understanding the behaviours of another, based on logical link between behaviours, beliefs, desires and actions.
+- Action comes about through the belief that action will satisfy a desire.
+- Beliefs + Desire = Action
+- Research on Theory of Mind focuses on a child participant's explanations of the b + d = a "equation". e.g. Hiding chocolate in old vs new location.
+- 3yr olds start to consider the desire of others, but other's beliefs are conceptually difficult to separate from their own. The separation starts to present itself at around 5yrs of age.
+- ToM helps older children see potential limits of their own points of view.
+- ToM helps diminish our self-centred views through interaction with others (Piaget).
+- Children readily bargain and compromise, creating opportunity to move away from egocentrism.
+- Interacting with more competent peers helps us develop more advanced/flexible approaches to problem solving.
+
+:::
+
 ### LO5
 
 ##### Factors Affecting Cognitive Development
 
-::: {.card .p-3}
-This block is styled with the Bootstrap `.card` class.
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Nature vs. Nurture</h4>
+
+<h4><i class="fa-solid fa-circle-info"></i> Nativism</h4> 
+- Nativists believe that human characteristics are largely (or entirely) determined biologically.
+- These researchers position themselves on the "nature" side of the debate, and attribute human development to genetics.
+- This perspective assumes that we are born with the blueprint for all of our abilities and characteristics, they are hard-wired into us, and predetermined before we're even born. 
+- Under this paradigm, our ability to learn new concepts is limited by our biological make-up, our ability to develop cognitively is capped by a pre-determined set of plans laid out by our genetics. 
+
+<h4><i class="fa-solid fa-circle-info"></i> Empiricism</h4>
+- Empiricists believe our environment, experiences, and upbringing (nurture) is the driving force behind human development.
+- It can be considered that differences in our individual cognitive development between largely attributes to differences in live experience and interactions with the environment.
+- It is learning and our upbringing that governs our cognitive development.
+
+<h4><i class="fa-solid fa-circle-info"></i> Epigenetics</h4> 
+- Epigenetics is an emerging field of research that describes the way our experiences (nurture) affect the expression of our genetics (nature).
+- This position falls somewhere between nativism and empiricism.
+- Our genetics determine what may be possible, but only some genes will be "switched on" based on our environment and experiences. 
 :::
 
-This is a normal paragraph.
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Biological factors</h4>
 
-::: {.well}
-This paragraph is styled with the Bootstrap `.well` class.
+<h4><i class="fa-solid fa-circle-info"></i> Birth Weight</h4>
+- There is some evidence to suggest that lower birth weight may be associated with disruptions in cognitive development, however, the research in this domain appears to be mixed.
+- Some research shows there is no effect of low birth weight on cognitive development, while other research suggests the effect could be measured by IQ at age 5. 
+
+<h4><i class="fa-solid fa-circle-info"></i> Genetics</h4>
+- There is evidence to suggest that, at least in part, genetics may play a role in cognitive development.
+- A study of 8-21 year olds showed that the below cognitive abilities are heritable:
+  - General Cognition,
+  - Executive Function,
+  - Memory,
+  - Complex Reasoning,
+  - Social Cognition, and
+  - Sensorimotor Speed.
+
+<h4><i class="fa-solid fa-circle-info"></i> Infectious Diseases</h4>
+- Research suggests that some infectious diseases, such as malaria and HIV, have been associated with cognitive deficits/delays in children.
+
 :::
 
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Psychological Factors</h4>
+- **Stress:** Many things can be stressful for children, including injuries, illnesses, school/home expectations, and exposure to violence and other traumatic experiences.
+- This childhood stress can affect the brain, and thus cognitive development.
+- Specifically, some research suggests that stress can dysregulate the hypothalamic–pituitary-adrenocortical system, which can affect cognitive processing.
 
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Social/Environmental Factors</h4>
+
+<h4><i class="fa-solid fa-circle-info"></i> Caregiver Health and Well-being</h4>
+- Right from the moment we are born we typically spend most of our time with specific people (our caregivers).
+- Research suggests that our interactions with these people may influence our development.
+- The quality and quantity of these interactions can be influenced by the health and well-being of our caregivers.
+- Caregiver participation in activities that promote language and problem-solving skills/development have been shown to positively influence child cognitive development.
+
+<h4><i class="fa-solid fa-circle-info"></i> Nutrition</h4>
+- Reduced access to healthy and nutritious foods may lead to deficiencies in children.
+- For example, iron deficiency and anaemia in infancy and early childhood have been associated with poorer cognitive development.
+
+Nutrition may indirectly impact a child via parent nutrition during pregnancy. Some research has shown that infants of undernourished mothers had reduced problem-solving abilities compared to infants of not malnourished mothers. Parental nutrition during pregnancy can also influence an infant's birth weight, which we have already discussed may influence cognitive development.
+
+<h4><i class="fa-solid fa-circle-info"></i> Socio-Economic Status (SES)</h4>
+- There are several ways in which socio-economic status can indirectly influence a child's cognitive development.
+- Those living in a low socio-economic status often experience reduced access to resources, which can include healthy and nutritious foods.
+
+:::
+
+## Week 6: Language Development {.well .tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+##### Understand the concepts of phonology, morphology, semantics, syntax & pragmatics.
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Phonology</h4>
+- Refers to the basic units of sound (*phonemes*) and the rules in combining them.
+- Different languages are comprised of different phonologies, so they sound foreign to us when we experience them.
+- Learning how to construct and interpret these phonemes allows us to understand others and be understood.
+- Learning and understanding the basic sounds and combinations which exist in one language, but do not belong to another.
+
+<br>
+<h4><i class="fa-solid fa-circle-info"></i> Morphology</h4>
+- Looks at the formation of words from sounds.
+- Morphology looks at the root of a verb, and altering either a prefix or suffix to convey a tense or plurality, for example.
+- The combination of these components also allows us to convey meaningful words.
+
+<br>
+<h4><i class="fa-solid fa-circle-info"></i> Semantics</h4>
+- Refers to the meaning conveyed in words and sentences.
+- The smallest meaningful units of language are called *morphemes*:
+- *Free Morphemes* are words which can be expressed on their own, such as 'dog'.
+- *Bound Morphemes* are word elements that cannot stand on their own, such as the 's' in 'dogs'.
+- The semantics of language allow us to combine free and bound morphemes in order to contextually change the meaning of words, form larger and more complex sentences, and comprehend others and be further understood.
+
+<br>
+<h4><i class="fa-solid fa-circle-info"></i> Syntax</h4>
+- Refers to how words are combined in order to convey meaning:
+  - Garfield Odie bit.
+  - Garfield bit Odie.
+  - Odie bit Garfield.
+- The above sentences demonstrate how the combination and order of just three words can alter the meaning of a sentence. 
+
+<br>
+<h4><i class="fa-solid fa-circle-info"></i> Pragmatics</h4>
+- Refers to the requirement to adjust our language dependant on the audience or social context, in order to be understood.
+- *Sociolinguistic knowledge* refers to an understanding of the styles of language required in particular circumstances:
+  - A 6 year old explaining the rules of a game to a 2 year old,
+  - A 3 year old asking Grandma for a cookie.
+
+:::
+
+### LO2
+
+##### Understand the theories of language development as they relate to Learning/Empiricist, Nativist, and Interactionist Theories of Language Development.
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> The Learning/Empiricist Perspective</h4>
+- This theory suggests that we learn language through imitation, reinforcement and correction provided by our caregivers.
+- Our learning is constructed by our caregivers as we grow, from babbling to the formation of increasingly sophisticated sentences, with reinforcement/validation from adults along the way.
+- Caregivers who encourage conversation, use many novel and sophisticated words through play, reading and other supportive interventions are more likely to advance the child's language skills beyond their peers.
+- Parents more predictably reinforce or validate a child's semantic language rather than syntax (i.e. <abbr title="Semantically correct on the sight of a cow, but grammatically incorrect">"Him Cow!"</abbr> vs. <abbr title="Grammatically correct, but semantically incorrect on the sighting of a cow.">"There's a dog."</abbr>)
+- The primary criticism of this theory is that imitation and reinforcement do not impart grammar or syntax rules, and also that parents provide this feedback to their children in terms of semantics or factually correct statements.
+- Further, caregivers tend to reinforce factual correctness over grammatical correctness.
+
+</br>
+
+<h4><i class="fa-solid fa-circle-info"></i> The Nativist Perspective</h4>
+- According to Noam Chomsky and other nativists, language is too complex to be taught by parents, or through trial and error, but is learned through a *Language Acquisition Device (LAD)*
+- The LAD contains a *universal grammar*, or knowledge about the syntax of all languages, permitting any child to learn any language through a suitably large enough vocabulary.
+- Slobin believed that children have an innate *language making capability (LMC)*, providing the cognitive abilities required to learn language.
+- These innate abilities allow us to formulate and further develop the rules of language, allowing us to test, hypothesise and adjust them through our own attempts to communicate.
+
+![Figure 5.1: Nativist Theory](images/HPS202/Week5/nativist.svg)
+
+</br>
+
+- Supporting evidence for this perspective includes:
+  - Children the world over reach the *linguistic universals* at similar ages regardless of place of origin or culture.
+  - The development of language is specific to humans.
+  - The language centres of the brain (Broca's Area & Wernicke's Area) are located in the left hemisphere, with damage to one of these resulting in *aphasia*.
+  - *Broca's Area* is located in the left hemisphere of the frontal cortex, and is responsible for language production.
+  - *Wernicke's Area* is located in the temporal lobe of the left hemisphere, and is responsible for interpreting speech.
+- *Brain Specialisation and Language:*
+  - These areas of the brain are sensitive to speech from the day of birth.
+  - Speech sounds elicit a response from the left hemisphere, while music and non-speech sounds elicit a response from centres in the right hemisphere.
+- *The sensitive period Hypothesis*
+  - Language/s are most easily acquired between birth and puberty.
+  - Child aphasics often recover their function within this period without intervention, while adults require extensive therapies and interventions to recover a portion of these skills.
+  - It is thought that the unspecialised centres in the right hemisphere of a child's brain can develop or recover lost function, where an adult's fully developed right hemisphere is unable to assume these duties.
+  - This is also evident in the language development of parent and child immigrants to a new country and their ability to communicate as native speakers.
+  - Children not offered the opportunity to develop language skills early in life tend to find it most difficult later in life.
+  - Learners of a second language tend to find development of these skills later in life. There is evidence to confirm that skills required for communicating in a second language activate different parts of the brain to those utilised in processing their first language.
+  
+**Criticisms of the Nativist Perspective**
+
+- Infant response to language is also reflected in other species (i.e. rhesus monkeys and chinchillas).
+- Knowing that specific areas of the brain are responsible for different aspects of speech and language does not explain how these areas contribute to the development of language abilities.
+- The view that language development is biologically programmed does not explain how (i.e. the explanation for physical growth is identified through our understanding of nutrition, hormones, etc).
+- The sole focus of biological mechanisms overlooks the impact of environmental factors on the development of our language skills.
+
+</br>
+
+<h4><i class="fa-solid fa-circle-info"></i> The Interactionist Perspective</h4>
+- Posits that language development comes from a combination of biological maturation, cognitive development, and the constant change of environment (nature and nurture).
+
+![Figure 5.2: Interactionist Theory](images/HPS202/Week5/interactionist.svg)
+
+</br>
+
+- Infants and toddlers often express whatever cognitive understandings they are developing at the time.
+- Cognitive and language development are intertwined.
+- While we are biologically prepared to acquire a language (through a powerful human brain that matures slowly), our development of language and grammar develops out of necessity in our increasingly complex interactions with our environments:
+  - Infants are taught how to take turns in conversations with caregivers through repeated opportunities to learn and a supportive learning environment,
+  - Parents and older siblings address infants and toddlers with short, simple sentences.
+  - Utterances are spoken slowly, in a high-pitched voice with emphasis placed on specific words,
+  - The length and complexity of sentences grows over time, in line with the child's stage of development, providing exposure to new semantic and grammatical rules.
+  - This exposure is provided by parents and others as they seek to <abbr title="a grammatically correct and embellished version of a child's sentence">expand</abbr>, <abbr title="rephrasing a sentence in an alternately correct arrangement of words">recast</abbr> or <abbr title="Maintaining and extending the conversation without expansion or recasting to demonstrate appropriateness">extend</abbr> conversation.
+  - Children must be active participants in the use of language in order to develop a deeper understanding of linguistic nuance.
+- While the interactionist perspective is highly favoured over all theories, it still does not explain how language is acquired.
+
+:::
+
+### LO3
+
+##### Understand key events and processes associated with language development in the pre- and early-linguistic period.
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Early Reactions to Speech</h4>
+- Infants are more responsive to Mother's voice than that of a female stranger.
+- Infants are able to discriminate between speech and other sounds within a few days of birth, as well as infer tone and stress.
+- By 2 months, infants can also recognise phonemes spoken by different speakers in pitch and intensity.
+- Infants can also discriminate a wider variety of phonemes than adults, as we lose the ability to identify phonemes that are outside of our native language.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> The Importance of Intonational Cues</h4>
+- Adults reliably vary their tone of voice when attempting to deliver different message to their infant.
+- Rising intonation is used to regain attention, offer support, or elicit positive affect.
+- 2 to 6 month olds often match tone they have just heard.
+- Infants become increasingly aware in the first year of sounds, combinations and phrases as well as the rhythms within phrases and pauses between them.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Pre-linguistic Vocalisations</h4>
+- The early milestones of <abbr title="vowel-like sounds that young infants repeat over and over during periods of contentment">*cooing*</abbr> and <abbr title="vowel/consonant combinations that infants begin to produce at about 4 to 6 months">*babbling*</abbr> appear at around 2 and 4 months respectively.
+- Deaf infants who have deaf parents who use sign language experiment with gestures in a similar fashion to hearing children.
+- Within the first 6 months, infants are able to match intonation from others, while deaf infants begin to fall behind in their ability to produce accurate phonemes.
+- 10 to 12 month olds begin to differentiate between the different phonemes and their meanings.
+- Within the first 6 months, infants begin cooing and babbling in an effort to harmonise with adult phonemes.
+- At around 7 to 8 months infants begin to take turns in exchanges with caregivers, modelling conversation.
+- Adult caregivers demonstrate the interactional turn taking through "conversations", playing games, and prompting participation when it's the adult's turn.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Gestures & Non-verbal responses</h4>
+- 8 to 10 month olds via two types of non-verbal gestures:
+  - *Declarative Gestures:* the infant directs the attention of others through either pointing at or touching the object.
+  - *Imperative Gestures:* the infant attempts to gain permission through either pointing at an object or through other gestures like tugging at pant leg.
+- These are both functional gestures (behaving like words), and are often used in conjunction with words to ensure effective communication.
+- Caregiver attention is central at this age, as infants are unable to name an object without the guidance of a caregiver.
+- *Receptive language* (comprehension) is ahead of *productive language* (expression) by around 12 to 13 months.
+
+:::
+
+##### Early Linguistic Period
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Overview</h4>
+- The Early Linguistic (Holophrastic period) is characterised as the first stage of meaningful speech, through the use of single word phrases used to represent an entire sentence.
+- *Holophrase:* Words are constructed from a consonant / vowel pairing (i.e. "ta"), or repetitions of these (i.e. "Mama").
+- Phonological development accelerates from about 30 months onwards, with motor skill development (vocal tract) taking an individualistic path regarding specific words that they are attentive to within their companions.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Early Semantics & Vocabulary</h4>
+
+- The pace of word learning quickens at 18 to 24 months at around 10 to 20 new words a week.
+- This growth is referred to as the *naming explosion*, where toddlers realise that all things have a name, and they want to learn as many of them as possible.
+- The average vocabulary of a 2 year old is around 200 words.
+- The primary lexical focus is on objects in this period with a focus on objects they can interact with directly (i.e. balls or shoes), and objects that move themselves (i.e. animals or vehicles).
+- Infants also talk about actions they have been exposed to through *multimodal motherese*, where understanding is aided by sensorimotor experience.
+- Most infants use a *referential style* (first borns in particular) of vocabulary referring to people or objects, while later borns develop an *expressive style* with vocabulary focussing on personal/social words (i.e. please, thank-you, don't, stop it).
+- First borns are generally introduced to language centred on objects, while later borns are introduced to language centred on behaviour.
+- Referential styles are typically modelled by westernised (individualistic) families, while expressive styles tend to be encouraged through eastern (collectivist) cultures.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Attaching meaning to words</h4>
+- **Toddlers and Word Meanings:**
+  - Toddlers use fast-mapping to quickly learn word meanings after limited exposure, with the names of objects acquired more easily than names of actions or activities.
+  - Even 13-15 month-olds can learn new words through fast-mapping.
+- **Development of Fast-Mapping:**
+  - Fast-mapping improves with age.
+  - 18-20 month-olds learn words when jointly attending to labelled object/activity.
+  - By 24-30 months, children can infer meanings from overheard words or amidst competing attention.
+- **Word Production and Fast-Mapping:**
+  - Despite fast-mapping, young children have limited word production.
+  - Study suggests that young toddlers struggle to retrieve known words from memory for speaking.
+  - Vocabulary gap between comprehension and production due to difficulty in retrieving words from memory to express.
+- **Vocabulary Development Explanation:**
+  - Vocabulary explosion occurs later due to inability of 12-15 month-olds to retrieve learned words from memory for speech.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Common Errors in Word Use</h4>
+
+- **Toddlers' Word Meanings:**
+  - Toddlers often assign different meanings to words compared to adults.
+  - **Overextension:** Using a word for a broader range than adults would.
+  - **Underextension:** Using a word for a narrower range than adults would.
+- **Fast-Mapping and Errors:**
+  - Fast-mapping contributes to overextension and underextension.
+  - Children may generalise perceptual features when attaching words.
+  - Overextension: Applying "doggie" to all furry, four-legged animals.
+  - Underextension: Restricting "doggie" only to the family pet.
+- **Word Deciphering Complexity:**
+  - Deciphering new word meanings can be complex.
+  - Context matters: Determining if a word refers to an object or an action.
+  - Ambiguity: Unclear if word refers to an animal's features, actions, sounds, etc.
+  - Children must make choices from numerous plausible possibilities.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Strategies for Inferring Word Meanings</h4>
+
+- **Challenges in Word Learning:**
+  - How children learn meanings of less obvious words is complex and ongoing.
+  - Young children, around 2 years old, sensitive to social and contextual cues for novel speech understanding.
+- **Akhter and Associates Study:**
+  - Experiment with 2-year-olds and adults using unnamed objects.
+  - Absent adult introduced new unnamed object and used the term "gazzer."
+  - Many 2-year-olds inferred speaker's referential intent correctly, selecting new object.
+- **Cognitive Strategies for Word Inference:**
+  - Young children use cognitive strategies to narrow word meaning possibilities.
+  - Basic constraints guide inferences about word meanings.
+- **Object Scope and Mutual Exclusivity:**
+  - Object scope constraint: Children assign words to whole objects, not parts or attributes.
+  - Mutual exclusivity: Children rarely call objects by each other's names.
+  - Mutual exclusivity becomes challenging when adults use multiple words for one object.
+- **Lexical Contrast Constraint:**
+  - Used when multiple words refer to the same object.
+  - For example, children contrast "doggie" with "cocker spaniel" to understand distinctive features.
+- **Hierarchical Linguistic Categories:**
+  - Contrasting familiar and novel words aids in forming hierarchical linguistic categories.
+  - Helps children understand relations between objects and categories.
+- **Word Learning through Syntax:**
+  - Young language learners infer word meanings from sentence context.
+  - Example: Hearing "zav" as noun ("This is a zav.") refers to the toy; as adjective ("This is a zav one.") refers to a characteristic.
+  - Syntactical bootstrapping aids in deciphering the meaning of new verbs.
+- **Syntactical Clues in Sentences:**
+  - Sentence structure provides clues to word meanings.
+  - Syntactical bootstrapping especially helpful in understanding new verbs.
+- **Verbs and Sentence Structure:**
+  - Verb's syntax helps determine its meaning.
+  - Children prefer matching videos based on verb meaning in sentences.
+- **Using Familiar Verbs to Infer Nouns:**
+  - Children use meaning of familiar verbs to understand the referents of new nouns.
+  - For example, "Daddy is eating cabbage" links "cabbage" to the leafy substance being consumed.
+- **Proficiency in Syntactical Inference:**
+  - By age 3, children are proficient at inferring word meanings from syntactical cues.
+  - Trust sentence structure when new word's referent is unclear, even when other constraints differ.
+- **Holophrases in Infant Language:**
+  - Infants' one-word utterances often called holophrases.
+  - Resemble attempts to convey a full sentence's meaning.
+  - Serve various functions based on tone and context (Greenfield & Smith, 1976).
+- **Example of Holophrases:**
+  - Example of 17-month-old Shelley's use of "ghetti" (spaghetti).
+  - Used for questioning, naming, requesting, and demanding.
+  - Tone and context influence the meaning conveyed.
+- **Basic Language Functions:**
+  - Infants in holophrastic phase display basic language functions.
+  - Functions include naming, questioning, requesting, and demanding.
+  - Functions later carried out through different sentence types.
+- **Pragmatic Lesson:**
+  - Infants learn that one-word messages can be ambiguous.
+  - Accompanying gestures or intonational cues may be needed for understanding (Ingram, 1989).
+  
+:::
+
+### LO4
+
+##### Understand key events and processes associated with language development in the telegraph and pre-school period. 
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Overview</h4>
+- **Emergence of Simple Sentences:**
+  - Around 18 to 24 months, children start forming simple sentences.
+  - These sentences are similar across diverse languages (e.g., English, German, Finnish, Samoan).
+  - Often referred to as telegraphic speech due to containing key content words.
+- **Focus on Nouns and Verbs:**
+  - Children stress nouns and verbs in their early sentences.
+  - Telegraphic speech omits less critical parts like articles, prepositions, auxiliary verbs.
+  - Children still understand full grammatical sentences better than telegraphic versions.
+- **Processing and Production Constraints:**
+  - Telegraphic speech might be due to children's own processing and production limitations.
+  - Shorter utterances emphasise crucial words for effective communication.
+- **Variations Across Languages:**
+  - Telegraphic speech is not universal; it varies by language.
+  - Russian and Turkish children often produce reasonably grammatical sentences.
+  - Languages stress different aspects; children acquire what's most noticeable.
+- **Language Structure Acquisition:**
+  - Children acquire what's most emphasised in a language's structure.
+  - Content words and word order rules take precedence in languages like English.
+  - Telegraphic utterances prioritise crucial information while omitting less stressed elements.
+
+:::
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> A Semantic Analysis of Telegraphic Speech</h4>
+- **Viewing Child Language as Foreign Language:**
+  - Psycholinguists treat early child language as a foreign language to understand its rules.
+  - They aim to describe the sentence-forming rules that young children use.
+- **Early Syntax in Telegraphic Speech:**
+  - Early analyses showed that many two-word sentences in telegraphic speech followed some grammatical rules.
+  - English-speaking children tend to use specific word orders for conveying meaning.
+- **Limitations of Syntax-Only Analysis:**
+  - Focusing solely on syntax underestimated children's linguistic abilities.
+  - Same two-word utterance might convey different meanings in different contexts.
+- **Context and Semantic Intent:**
+  - Interpretation of telegraphic speech requires considering the child's semantic intent.
+  - Contexts in which utterances are made are essential to understanding their meaning.
+- **Example of Changing Meaning:**
+  - Example of "Mommy sock" used in two instances with different meanings.
+  - Context helps determine whether it implies possession or an action happening.
+
+:::
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> The Pragmatics of early speech</h4>
+- **Supplementing Words with Gestures:**
+  - Incomplete early sentences and ambiguous meanings lead children to use gestures and intonational cues alongside words for better communication.
+  - Deaf children can develop sophisticated languages based entirely on non-verbal signs and gestures.
+- **Importance of Non-verbal Communication:**
+  - Non-verbal gestures play a significant role in effective communication, even though they might seem limited to spoken language experts.
+  - Many deaf children use non-verbal signs and gestures to communicate (AUSLAN).
+- **Understanding Social and Situational Cues:**
+  - Toddlers become sensitive to social and situational factors for effective communication.
+  - They learn vocal turn-taking and cues for yielding the floor in conversations.
+  - They adjust their distance and voice volume based on the listener's proximity.
+- **Considering Partners' Knowledge:**
+  - Toddlers choose conversational topics and requests based on their partners' knowledge.
+  - They prefer discussing events not known to their partners.
+  - Requests for assistance are more elaborate when partners are unaware of the object's location.
+- **Monitoring and Clarifying Communication:**
+  - Toddlers monitor others' verbal responses and clarify misunderstood utterances.
+  - They correct failed messages by rephrasing and adding emphasis.
+- **Learning Sociolinguistic Norms:**
+  - Young children learn sociolinguistic norms, like politeness in speech.
+  - Parents inadvertently teach etiquette through prompts like "What do you say?" or "Say the magic word."
+
+:::
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Pre-School Period</h4>
+
+- From $2\frac{1}{2}\ to\ 5$ years of age children begin to produce sentences that are complex and adult-like.
+- A much deeper understanding of the pragmatics of language is evident.
+
+</br>
+
+:::{.table}
+
+| 28 mths</br>(Telegraphic Speech) | 35 mths                                      | 38 mths                                                |
+|----------------------------------|----------------------------------------------|--------------------------------------------------------|
+| Somebody pencil                  | No-I don't know.                             | I like a racing car.                                   |
+| Floor.                           | What dat feeled like?                        | I broke my racing car.                                 |
+| Where birdie go?                 | Lemme do again.                              | It's broked.                                           |
+| Real dat.                        | Don't-don't hold with me.                    | You got some beads.                                    |
+| Hit hammer, Mommy.               | I'm going to drop it-inne dump truck.        | Who put dust on my hair.                               |
+| Yep, it fit.</br>Have screw      | Why-cracker can't talk?</br>Those are mines. | Mommy don't let me buy some.</br>Why it's not working? |
+
+:::
+:::
