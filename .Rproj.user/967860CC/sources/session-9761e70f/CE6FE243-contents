@@ -2364,7 +2364,7 @@ Nutrition may indirectly impact a child via parent nutrition during pregnancy. S
 ##### Motor Imagery and Motor Skill Interventions
 ## Week 9: Neurodiversity {.well .tabset .tabset-fade .tabset-pills}
 
-::: {.alert .alert-danger}
+::: {.alert .alert-warning}
 <h4><i class="fa-solid fa-circle-info"></i> A Note on Language</h4>
 
 - The language used to discuss the various conditions that fall under the neurodiversity umbrella is continuously evolving.
@@ -2383,7 +2383,9 @@ Nutrition may indirectly impact a child via parent nutrition during pregnancy. S
 
 :::
 
-### Autism
+### 9.1
+
+##### Autism
 
 ::: {.alert .alert-info}
 <h4><i class="fa-solid fa-circle-info"></i> Overview</h4>
@@ -2480,7 +2482,9 @@ Criterion E: Symptoms are not better explained by another intellectual or develo
     - **Infections Infant or Obstetric Risk Factors:** Premature birth; low birth weight; low Apgar score
 :::
 
-### ADHD
+### 9.2
+
+##### ADHD
 
 ::: {.alert .alert-info}
 <h4><i class="fa-solid fa-circle-info"></i> Overview</h4>
@@ -2627,24 +2631,616 @@ Like all neurodiversities, the mechanisms underlying the development of ADHD are
   - Each of these parenting factors or behaviours influence levels of responsivity, sensitivity, and reactivity to children, which impacts mother-child relationships and increases risk of adverse developmental outcomes. 
 
 :::
-::: {.alert .alert-info}
 
+### 9.3
+
+##### Neurodiversity and Child/Adolescent Development
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Overview</h4>
+
+- Neurodiversity involves differences in how individuals receive, organize, and process information.
+- These differences are linked to variations in the development of the pre-frontal cortex (responsible for impulse control, focus, and motivation) and brain region activity/communication.
+- Neurodivergent individuals have unique cognitive profiles, or "neurotypes," leading to different ways of understanding, interacting with the world, learning, and experiencing emotions.
+- These cognitive and sensory differences can create communication gaps and functional differences between neurodivergent people and others.
+- Most neurodivergent individuals are characterized by Executive Functioning Differences and Sensory Processing Differences.
 :::
 ::: {.alert .alert-info}
 
+<h4><i class="fa-solid fa-circle-info"></i> Executive Functioning Differences</h4>
+
+- **Executive Functioning**: Higher-order cognitive processes include response inhibition, cognitive flexibility, working memory, planning, and decision-making.
+- Executive function skills are essential for completing tasks, achieving goals, learning, and social interactions.
+- Neurodivergent individuals (~80%) possess unique executive function profiles due to differences in brain structure and function.
+- **Strengths**:
+  - Autistic individuals often have strong attention to detail and pattern recognition.
+  - Some autistic people display monotropism—intense focus on a single task or interest.
+  - ADHD children/adolescents may have advanced language skills and enhanced cognitive flexibility, fostering creativity and innovation.
+- **Challenges**:
+  - Neurodivergent individuals may struggle with planning, task switching, impulse control, working memory, and emotional regulation.
+  - Autistic people may have less cognitive flexibility and greater planning difficulties.
+  - ADHD individuals may need more support with attention and inhibition control.
+  - Challenges can be “invisible” in classroom settings but may impact academic performance and relationships.
+- **Contextual and Internal Factors**:
+  - Executive function skills can fluctuate depending on social context, emotional state, and energy levels.
+  - Dysregulation can prevent neurodivergent individuals from accessing their executive function skills effectively.
+- Neurodivergent children often expend significant cognitive and physical effort to compensate for executive function challenges, leading to exhaustion and sensory distress.
+- Tailored support that leverages strengths and addresses challenges is crucial for neurodivergent individuals to thrive in academic and social environments.
 :::
-### LO3
 
-##### Apply knowledge of the core areas of child and adolescent development (cognitive, social, identity etc.), to characterise neurodiversity/diversity in development
+::: {.alert .alert-info}
 
+<h4><i class="fa-solid fa-circle-info"></i> Sensory Processing Differences</h4>
 
+- Neurodivergent individuals often have unique combinations of sensory sensitivities.
+- They may process sensory information from their environment and bodies differently than non-neurodivergent individuals.
+- **Autistic individuals** may experience heightened or reduced sensitivity to lights, sounds, smells, and textures.
+- Those with a low sensory threshold may feel overwhelmed or distressed by excessive sensory input.
+- **ADHD individuals** may also experience increased sensory sensitivity and a tendency to seek out sensory stimulation.
+- Sensory overwhelm can impact emotions and hinder daily activities such as learning, social interactions, and self-care.
+- Embracing and understanding sensory differences is crucial for supporting neurodivergent individuals.
+- Increasing self-awareness and societal understanding allows neurodivergent children to modify their environments, advocate for their needs, and enhance their sensory experiences.
+:::
 
-### LO4
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Neurodiversity and Social Development</h4>
 
-##### Demonstrate knowledge of the underlying principles of neurodiversity and strengths-based perspectives when conceptualising autism and ADHD 
+- **Social Development**: Autistic children and those with ADHD exhibit diverse social development, play styles, and social interactions compared to non-neurodivergent peers.
+- **Play Styles**:
+  - Autistic children engage in more sensory-focused and less imaginative play.
+  - Play may focus on specific interests and be more structured or less "free-flowing."
+  - Neurodivergent play is recognized as meaningful, and when aligned with a child's interests, it fosters enjoyment, education, and agency.
+  - Play that accommodates a child’s preferences can promote inclusive learning environments and growth.
+  
+- **Social and Communication Differences**:
+  - Differences in social and communicative skills, as well as emotion regulation challenges, create barriers for neurodivergent children and adolescents in forming relationships.
+  - Neurodivergent adolescents often report social exclusion, isolation, and reduced well-being.
+  
+- **Reframing Social "Deficits"**:
+  - Recent perspectives suggest that social difficulties in autism may be **bidirectional**, stemming from communication mismatches between different neurotypes (autistic vs non-autistic).
+  - The **Double Empathy Problem** posits that mutual misunderstanding between autistic and non-autistic people may be due to different ways of processing information and perceiving the world, not a lack of empathy or social skills.
+  
+- **ADHD and Social Development**:
+  - Children with ADHD who possess stronger social skills demonstrate greater resilience.
+  - ADHD adolescents often describe themselves as social and confident in forming friendships, though maintaining relationships can be challenging.
+  - Stable friendships serve as protective factors against victimization, isolation, and emotional difficulties.
+  
+- **Promoting Inclusion**:
+  - Creating environments that embrace neurodiversity and foster inclusion helps neurodivergent individuals build meaningful relationships, develop strengths, and confidently navigate social challenges.
+:::
 
-### LO5
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Neurodiversity and Identity Development</h4>
 
-##### Apply knowledge of neuro-affirming practice to understand contemporary approaches to the assessment and support provision of autism and ADHD 
+- **Identity Definition**: Identity is the process by which a person forms a sense of continuity with oneself and with groups they share characteristics with (Erikson, 1980).
+- Identity includes both internal (self) and external aspects (relationships) consistent throughout life experiences.
+- **Neurodiversity and Identity**:
+  - Most research linking identity and neurodiversity has focused on autism.
+  - Autistic adolescents face unique challenges in making sense of their autism diagnosis while forming their identity as autistic individuals.
+  - The **neurodiversity movement** reframes autism as a natural, valuable part of human diversity and promotes the acceptance of autism as central to one's identity.
+  - Autism, like cultural or gender identity, forms a lens through which autistic people view and experience the world.
+  - The movement has supported autistic adolescents in developing positive self-understanding and acceptance of differences from non-autistic people.
+  
+- **Autism as a Social Identity**:
+  - Autistic individuals increasingly identify with the autistic community, fostering feelings of solidarity and shared understanding.
+  - Social connections and shared identity within the autistic community promote acceptance, belonging, and positive personal identity development.
+  - Positively integrating autism into one's identity can enhance self-esteem, self-concept, and reduce mental health risks.
+
+- **ADHD and Identity Development**:
+  - There is less understanding of identity formation in ADHD adolescents.
+  - The ADHD diagnostic process significantly affects how adolescents perceive themselves within social groups.
+  - Some adolescents struggle to reconcile externally applied ADHD labels with their identity, while others integrate positive aspects, shaping pride and self-esteem.
+  - Individual and societal perceptions of ADHD greatly impact identity formation and the associated psychological benefits. 
+:::
+
+### 9.4
+
+##### What is Neurodiversity?
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Neurodiversity and Identity Development</h4>
+
+- **Neurodiversity**: Refers to the natural differences in brain function found in 15%-20% of the human population.
+- There is no clear consensus on which conditions fall under neurodiversity, with variations across disciplines.
+- In psychology and education, neurodiversity commonly includes autism, ADHD, Developmental Coordination Disorder, and dyslexia.
+- The term has been expanded to include conditions such as dyscalculia, dysgraphia, and Tourette's Syndrome.
+- Neurodiversity emphasizes that neurological differences are a natural and valuable part of human variation.
+- It reframes these conditions as **neurological "differences"** rather than disorders.
+- Greater focus on differences aims to broaden understanding of what is considered typical, influencing societal support for neurodivergent children.
+:::
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Medical Model of Disability</h4>
+
+- **Neurodiversity** encourages moving away from deficit-focused perspectives that pathologise weaknesses in neurodivergent conditions.
+- It advocates recognizing and developing the strengths associated with neurodivergence.
+- There is a shift away from the **Medical Model of Disability**, which defines conditions by impairments and aims to "treat" symptoms to fit normative behavior.
+- The medical model has been criticized for increasing difficulties for neurodivergent individuals, perpetuating stigma, and ignoring social and environmental factors.
+- It emphasizes changing neurodivergent children rather than society, side lining the role of parents and educators.
+:::
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"> Social Model of Disability</i> </h4>
+
+- **Neurodiversity** acknowledges both the challenges faced by the neurodivergent community and how these experiences are shaped by their environment.
+- It incorporates the **Social Model of Disability**, which argues that disability-related challenges arise from an unaccommodating environment, not from the individual.
+- Neurodivergent individuals face structural, systemic, and social barriers in a world designed for neurotypical people.
+- The **Social Model** suggests that challenges can be minimized or avoided by changing the environment and providing accessible support.
+- This approach promotes creating more inclusive environments to enhance the well-being and quality of life for neurodivergent individuals.
+:::
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"> Integrated Model of Disability</i> </h4>
+
+- The **Neurodiversity Movement** has significantly changed how the experiences of the neurodivergent community are understood, making it difficult to categorize within traditional medical or social models of disability.
+- It acknowledges the challenges and support needs of neurodivergent individuals (medical model) and the social barriers that lead to exclusion and oppression (social model).
+- The movement proposes an **integrative model of disability**, which recognizes that challenges arise from the interaction between individual diversity and an unaccommodating environment.
+- This integrative model offers a multidimensional and nuanced understanding of the experiences of the neurodivergent community, influencing personal development, identity, and well-being.
+:::
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"> The Neurodiversity Movement</i></h4>
+
+- **Neurodiversity** refers to the diversity of human minds, while the **neurodiversity movement** is a social justice and political movement aimed at addressing various social issues, including disability rights and discrimination.
+- The movement aims to raise awareness and appreciation for cognitive diversity and to promote equal rights for the neurodivergent community.
+- Originating in the **1990s**, the movement has gained momentum, largely driven by the autistic community, and has united scholars, advocates, and supporters in addressing socio-cultural and political concerns.
+  
+**Key Areas of Focus in the Neurodiversity Movement:**
+- **Value of Cognitive Diversity**: Recognizing cognitive diversity as a natural aspect of humanity and promoting equal rights and support for the neurodivergent community.
+- **Language Change**: Rejecting negative medicalized terms like "disorder," "deficit," and "impairment," advocating for identity-first language and avoiding "levels of functioning" labels (e.g., high vs. low functioning).
+- **Neurodiversity as Identity**: Viewing neurodiversity as an integral part of one’s identity, empowering neurodivergent individuals to advocate for their experiences and enhance their autonomy and well-being.
+- **Representation in Research and Policy**: Increasing the involvement of neurodivergent individuals in research, policy-making, and practice through respectful partnerships and participatory methods, emphasizing strengths-based research.
+:::
+
+### 9.5
+
+##### Neuro-affirming Approaches and Practice
+
+:::{.alert .alert-warning}
+<h4><i class="fa-solid fa-circle-info"> Overview</i></h4>
+- The **neurodiversity movement** and increased advocacy have led to advancements in support and education for the neurodivergent community, conceptualized as **Neuro-affirming Practice**.
+- This approach recognizes the unique abilities and strengths of neurodivergent individuals and aims to create inclusive environments that maximize autonomy and agency.
+- Professionals across disciplines are encouraged to adopt the neurodiversity paradigm, focusing on children's unique abilities, inclusion, and well-being in all support and education provisions.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"> Key Aspects of Neuro-Affirming Practice</i></h4>
+
+- **Opposition to Traditional Interventions**: Neuro-affirming practices reject medicalized and normative approaches (e.g., ABA therapy) that push neurodivergent individuals to conform to neurotypical expectations.
+- **Critique of Behavioural Modification**: Traditional modalities often suppress neurodivergent traits (like stimming) and enforce neurotypical communication styles (like forced eye contact), undermining personal agency and body autonomy. These approaches can lead to reduced feelings of safety, self-worth, increased burnout, and distress.
+- **Focus on Self-Defined Goals**: Neuro-affirming therapies prioritize the self-defined goals and strengths of neurodivergent children and their families, aiming to remove social barriers and support the development of personal strategies and environmental adaptations.
+- **Enhanced Self-Understanding**: These therapies focus on helping individuals understand and value their differences while prioritizing safety and well-being in all sessions.
+- **Tailored Therapeutic Environment**: The therapeutic setting is customized to suit individuals' communication preferences (e.g., visual aids) and sensory needs (e.g., adjusted lighting).
+- **Role in Identity Acceptance**: Neuro-affirming practice supports a child's understanding and acceptance of their neurodivergent identity while fostering autonomy and self-advocacy.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"> Neuro-affirming Education</i></h4>
+
+**Inclusion and Acceptance in Neurodiversity**
+
+- **Alternative Models for Inclusion**: Neurodiversity promotes alternative models for delivering inclusion in schools by valuing neurodivergent contributions (Fletcher-Watson, 2022).
+- **Creating Safe Learning Environments**: Effective inclusion stems from creating safe and supportive learning environments that foster inclusion and positive relationships among peers and educators.
+- **Recognition of Diversity**: An inclusive school environment is characterized by the recognition of all forms of diversity, where students feel that unique perspectives of each neurotype are appreciated and understood.
+- **Importance of Peer Relationships**: Neurodivergent students often rely on small groups of 1-2 supportive friendships, which are crucial for their feelings of acceptance and inclusion within the school environment (Jacobs et al., 2021).
+- **Protection Against Social Exclusion**: Companionship and acceptance from peers serve as significant protective factors against feelings of social exclusion and friendship difficulties commonly experienced by neurodivergent students (Taneja-Johansson, 2023).
+- **Correlation with Personal Value**: Inclusion and acceptance from peers are strongly linked to feelings of personal value, belonging, and positive connections to the school environment (Myles et al., 2019).
+
+**Educate and Communicate**
+
+- **Lack of Awareness**: Neurodivergent students report a significant lack of awareness among educators and peers regarding neurodiversity, which negatively affects their school experience.
+- **Barriers to Positive Experience**: Poor understanding of unique needs is cited as a major barrier that interferes with students' social, emotional, and academic potential.
+- **Impact of Teacher Awareness**: Levels of teacher awareness significantly influence the implementation of reasonable adjustments and accommodations to support student learning and well-being.
+- **Consequences of Reduced Knowledge**: Inconsistent teacher knowledge can lead to misunderstandings of unique needs and inadequate support, hindering students' access to the curriculum (Tomlinson et al., 2022).
+- **Importance of Positive Teacher Relationships**: Strong, positive relationships with teachers can enhance students' feelings of safety in the classroom and boost their confidence to disclose learning difficulties and self-advocate.
+- **Role of Educators in Inclusion**: Educators play a crucial role in fostering an inclusive environment, making their understanding of neurodivergent students' unique needs essential for effective support.
+- **Reducing Misconceptions**: Increased knowledge and awareness among educators can help reduce misconceptions, improve attitudes, and foster acceptance of neurodiversity.
+- **Understanding from the Student's Perspective**: Educators are encouraged to seek to understand neurodivergent students' unique needs, strengths, and challenges from their perspective, while identifying and addressing academic, social, and environmental barriers in the school setting. 
+
+**Adjustments for New Ways of Learning**
+
+- **Impact of Environmental Adjustments**: Modifications to the learning environment can significantly support neurodivergent students in achieving their potential (Haroon, 2024).
+- **Personalized Adjustments**: Providing personalized adjustments tailored to individual learning needs, while embedding neuro-affirming principles into teacher training and school culture, enhances student experiences and academic outcomes.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"> Key Adaptations</i></h4>
+
+- **Whole School Approach**:
+   - **Embracing Diversity**: Establishing a whole-school culture that acknowledges and embraces all differences, thereby reducing stigma and promoting equality (Botha et al., 2020).
+   - **Universal Learning Design**: Implementing Universal Learning Design in curriculum planning supports the acceptance of diverse learning processes, completion rates, and knowledge contributions among all students (Almeqdad et al., 2023).
+- **Supporting Executive Function**:
+   - **Personalized Teaching Methods**: Adapting teaching methods, routines, and expectations to suit each student's learning style.
+   - **Practical Strategies**:
+     - Allowing extra processing time.
+     - Providing scaffolded support (e.g., breaking down instructions).
+     - Using visual resources for information.
+     - Maintaining a consistent routine for predictability.
+   - **Sensory Accommodations**: Adjusting for individual sensory needs, such as providing low-stimulation environments for students with heightened sensitivity, allowing early entry to classrooms, or creating safe spaces.
+- **Broader Adjustments**:
+   - **Listening and Learning Styles**: Recognizing and accommodating neurodivergent listening and learning preferences, such as:
+     - Fidget toys, wobble cushions, and movement breaks during lessons to support focus, particularly for students with ADHD.
+- **Creating Dynamic Learning Environments**: By integrating these principles, educators can foster responsive and inclusive learning spaces that respect and celebrate individual diversity, enhancing the overall school experience and academic outcomes for neurodivergent students.
+:::
 
 ## Week 10: Gender & Sexuality {.well .tabset .tabset-fade .tabset-pills}
+
+### 10.1
+
+:::{.alert .alert-warning}
+<h4><i class="fa-solid fa-circle-info"></i> What is Gender?</h4>
+
+- Gender refers to a complex set of behaviours, cultural and psychological features that can be associated with being male, female, or anywhere along the gender spectrum.
+- Gender is often conceptualised as an umbrella term, whereby someone's overall experience of their gender is comprised of a combination of their:
+  - Gender Identity (internal self concept of their gender)
+  - Gender Expression (how individuals present their gender)
+  - Gender Norms (a set of socially accepted behaviours and attitudes deemed appropriate or desirable for individuals based on their sex)
+  - The Gender Roles we have learned or embody,
+- And how this relates to their sex assigned at birth as well as our sense of femininity and masculinity. 
+
+<h4><i class="fa-solid fa-circle-info"></i> Is it Gender or Sex?</h4>
+
+- Although the terms gender and sex do overlap, it is important to understand that these constructs are distinct from one another.
+- While sex is biologically determined and refers to biological traits that define being male or female, gender is both self-defined and socially and culturally determined.
+- Contemporary theories of gender now acknowledge that gender is not equivalent to sex assigned at birth and are using gender definitions more carefully.
+- Understanding the difference between sex and gender helps us understand and respect the diversity of human experiences in relation to their gender. 
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> How Has Our Understanding of Gender Changed Over Time?</h4>
+
+Concepts of gender are historically shaped, vary across contexts, and change over time. In the last few decades, the salience of gender has increased substantially, resulting in significant changes to our understanding of gender. Over time, gender has continued to evolve, reflecting societal changes in systems and structures, increased activism, and new knowledge in this space. These changes have challenged traditional misconceptions of gender being a binary concept of 'male' or 'female' and prompted greater inclusion and appreciation of diversity in gender identity and expression. The table below provides a summary of the most significant changes in the way that gender has been conceptualised over time:
+
+<table>
+  <thead>
+    <tr>
+      <th>Traditional Understandings of Gender</th>
+      <th>Contemporary Perspectives of Gender</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <ul>
+          <li>Understood by binary definitions of 'male' or 'female'.</li>
+          <li>Perceived as a fixed and stable trait.</li>
+          <li>Proposed to develop across a series of developmental stages in early childhood</li>
+        </ul>
+      <td>
+        <ul>
+          <li>Gender is diverse and sits along a broad spectrum of gender identities and various expressions</li>
+          <li>This has led to increased recognition and acceptance of the diversity in gender and various gender identities</li>
+          <li>Gender is dynamic and fluid</li>
+          <li>Evolves throughout the life course, with different ages and contexts</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Gender Roles and Stereotypes: Societal Changes</h4> 
+
+- In addition to broader understandings of gender, gender roles and stereotypes are also undergoing significant and complex societal changes.
+- Challenging traditional conceptions related to gender, males are increasingly becoming involved in the care of their children, while the representation of females in both the workforce and leadership roles has continued to rise over time.
+- These societal changes are transforming the fixed traditional notions of masculinity and femininity that are grounded in rigid conceptions of gender roles, norms and stereotypes.
+- Reflecting a shift in societal values, these changes are acting as a preliminary step in reducing gender inequality, gender discrimination and improving access to opportunities for individuals irrespective of their gender.
+:::
+
+### 10.2
+
+##### Gender Development Across Childhood and Adolescence
+
+:::{.alert .alert-warning}
+<h4><i class="fa-solid fa-circle-info"></i> Overview</h4> 
+
+- Despite the multidimensional nature of gender, research exploring the development of gender has predominantly focused on the development of gender identity.
+- Although factors including gender differences in overt gender role behaviours (e.g. toy preferences) are widely documented in this research area, the following review of gender development will be focused on gender identity development, and the process involved in cisgender children's developing understanding of themselves as 'girls' or 'boys'.
+- Throughout each developmental stage, children play an active role in their gender development and continuously construct and revise what it means to be their identified gender.
+- As we progress throughout this topic, we will also explore how various biological, cognitive and socio-environmental factors emerge in life to influence the full spectrum of gender-normative to gender-variant development of gender identity and the expressions within this. 
+
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Gender Identity in Early Childhood: Awareness and Construction of Gender</h4>
+
+- Gender stereotypes affect child development, but are we on the brink of a  backlash? - BBC Science Focus Magazine
+- From an early age, children develop an awareness of differences between males and females and what it means to be a "boy" or a "girl".
+- Between 18 months to 2 years of age, most children develop the ability to label others according to gender and to use gender labels regularly in their speech.
+- This period coincides with the time that children begin to develop a sense of self-hood and actively seek information about socially appropriate behaviours.
+- As well as being able to  reliably identify and use gender categories, children's gender-typed behaviour increases.
+- This has been evidenced by an increase in sex-typed toy preferences such as boys showing more interest in cars compared to dolls. 
+- Between 3 and 6 years, children develop an understanding that gender is an enduring social category, and their awareness of gender stereotypes increases.
+- Children adopt rigid ideas of gender (masculinity and femininity) that reflect perceptions of appropriate clothing, toy preferences and behaviours of 'boys' and 'girls'. e.g. only girls wear pink. 
+:::
+
+::: {.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Gender Identity in Mid Childhood: Increased Flexibility in Gender</h4>
+- Children adopt more flexible concepts of masculinity and femininity and gender-based thinking (e.g. boys and girls can wear pink).
+- These changes reflect an awareness that while gender is permanent, it cannot be altered by changes in dress or play behaviours.
+- The increase in cognitive flexibility (7-8 years) also corresponds to important social cognitive and neurological changes in middle childhood.
+- This is when children develop greater awareness that other individuals have their own unique beliefs, intentions, feelings, and points of view, as well as a growing ability to view social categories from many perspectives.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Gender Identity in Adolescence: Increased Salience and Complexity</h4>
+
+- Adolescence is an important developmental period for gender-related changes that are influenced by the development of a sexual identity, biological changes that accompany puberty, and experiences of first romantic relationships.
+- Cognitive maturation that occurs during adolescence also lead to development of more sophisticated knowledge about gender, resulting in more complex identities which become more embedded in their social worlds.
+- These changes lead to considerable advancements in the ways that adolescence understand, express and experience their gender (Halimi et al., 2021).
+- The salience of gender identity also increases substantially and becomes important for self-evaluation and psychological wellbeing.
+- During adolescence, gender identity and gender role attitudes continue to develop simultaneously (Halimi et al., 2021).
+- In recent years and mostly in countries with high levels of social equality, individuals develop more egalitarian gender attitudes and roles during adolescence (Ulrich et al., 2022).
+- Young women tend to exhibit more egalitarian attitudes than young men, which may be a reflection of the substantial changes to female gender roles that have occurred over time.
+- These developmental changes may also be strengthened by contemporary societal changes, where adolescents are being more readily exposed to, and more accepting of diversity in gender identity and attitudes.
+- This is prompting new ways of thinking about gender, while creating a more inclusive social climate for the expression of the full diversity of gender, and non traditional gender attitudes and ideals. 
+:::
+
+### 10.3
+
+##### Biopsychosocial Approaches to Gender Development
+
+:::{.alert .alert-warning}
+<h4><i class="fa-solid fa-circle-info"></i> Overview</h4>
+
+- Over time, various hypotheses have been proposed to explain the factors that play a role in gender development, which continue to be shaped and refined with new research and societal progress.
+- Current theories have moved away from traditional ideas of gender being caused by single modal factors to instead acknowledge the shared contribution of biological, psychological and social mechanisms, and the ways that these interact to shape gender development.
+- Contemporary perspectives now recognise the multifaceted nature of gender through the biopsychosocial model.
+- Consideration of gender through a biopsychosocial lens allows for a more holistic understanding of gender as a dynamic construct, and greater awareness of the intricate interplay between the factors that influence gender identity and expression. 
+
+The following sections provide a brief overview of the key tenants of each of the biological, psychological and social perspectives related to gender development.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Biological</h4>
+
+The results of modern brain studies together with findings from behavioural genetic research have provided evidence for various biological processes in the development of gender and gender identity. The most prominent biological explanations for gender development include:
+
+- **Hormones:**
+  - Increased exposure to prenatal hormones, and in particular, testosterone, can guide the development of sex specific more 'masculine' patterns of behaviour, and a 'male-based' gender identity in those assigned either male or female at birth.
+  - The increased testosterone hypothesis can only really explain gender diversity in those assigned female at birth, and does not account for the influence of social factors on the development of gender identity.
+  - As such, there remains a need to further understand the process of prenatal hormones, including how they play a role in sex differentiations in behaviour across different stages of development.
+- **Genes:**
+  - There is some evidence of a genetic influence on gender identity.
+  - Although single or specific genes have been identified, genetic contributions are likely the result of a complex interaction between multiple genes that shape gender development and expression.
+- **Structural and anatomical brain differences:**
+  - Well documented differences in:
+    - The trajectories of prefrontal cortex maturation;
+    - The size and distribution of white and grey matter;
+    - The level of connectivity between brain regions between males and females have been linked to gender differences in cognitive and behaviours patterns in males and females.
+  - For example:
+    - Males are more likely to engage in more systematic thinking, show greater interest in abstract concepts and stronger visuospatial skills
+    - Increased and more rapid development of white matter in girls has been linked to increased verbal and socio-emotional skills, verbal fluency, and stronger abilities retrieving information from long term memory than boys of the same age.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Psychological</h4>
+
+- Cognitive perspectives highlight the importance of observation in childhood, whereby children process direct (observation of behaviours) and indirect (socially transmitted messages about gender) gender information from parents, friends and media sources. Assigning meaning to these observations, children actively use their understandings of gender to guide their behaviour, activities and interests.
+- A key tenant of cognitive theories is that this social information affects all children differently. Due to changes in cognitive development; understanding of the meaning of gender as a social category (Kohlberg, 1966); and the differences in salience of gender over key developmental periods; the degree to which individuals attend to, and encode gender based information is unique for each person. These individual level differences impact the way children incorporate gender into their self concept and how likely they are to apply gendered thinking to view their social worlds (Bem, 1981).
+- As a result of these cognitive differences and processes, cognitive theories suggest that children do not perfectly replicate their socialised environments (unlike social perspectives). Instead, they play an active part in constructing their own knowledge about gender categories, which impacts their behaviours, attitudes and conformity to gender norms. This is the key distinction between cognitive and social perspectives of gender development. 
+- The cognitive underpinning of gender was first proposed by Kohlberg's (1966) Gender Constancy, and then and Bem's (1981) Gender Schema Theory. These theories differ slightly in their perspectives around the role of cognition, the focus on development over time, and the focus on schemas and how they are applied. These have been the most influential theories to have guided the development of more contemporary cognitive understandings of the complexity of gender identity development. A brief overview of the central tenants of these theories is provided below:
+
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th>Kohlberg's Gender Constancy (1966)</th>
+      <th>Bem's Gender Schema Theory (1981)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <ul>
+          <li>There are stage-related changes in children’s thinking, and children’s stability of gender provides their motivation to learn about and adhere to gender norms.</li>
+          <li>Kohlberg proposed that gender identity developed across 3 distinct stages, which include:</li>
+          <li>
+            <ul>
+              <li>**Gender Labelling:** Children are able to recognise and label themselves according to their gender (2-3 years)</li>
+              <li>**Gender Stability:** Children understand the permanency of their gender and equate their own and others gender various gender stereotypes (3-4 years)</li>
+              <li>**Gender Constancy:** Children develop a core sense of their gender identity that is congruent with their natal sex (5-7 years)</li>
+            </ul>
+          </li>
+          <li>Kohlberg’s theory of gender being permanent at age 5 and only explaining cisgender gender development has been challenged by more recent theories which have provided evidence of the fluid and diverse nature of gender.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Influenced by Kohlberg (1966), Gender Schema Theory argues that children develop a “gender schema,” or a network of gender-related information that allows them organize others’ behaviour, activities, and attributes into gender (male vs female) categories.</li>
+          <li>Children actively seek and learn information about gender related, objects, attitudes and roles categorise them as being masculine or feminine.</li>
+          <li>Children then attend to and retain more gender-consistent information and interpret it in ways that are consistent with their existing schema. This reinforces their beliefs about their gender and allows them to make gender-related inferences and judgements.</li>
+          <li>This theory facilitated understanding of the ways that children and adults acquire, attend to, and remember gender based information, as well as the kinds of gender based attitudes and behaviours they develop and engage in.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Social(isation)</h4>
+
+Early Social Learning Theory (Bandura, 1986): Gender role behaviours are learned through the following processes of observation, modelling, reinforcement and punishment:
+
+- Children learn gender roles by firstly observing and retaining gender appropriate behaviour from same-gender role models (older children, adults, characters in media sources)
+- Children are motivated to engage in gender appropriate behaviours then model the observed behaviours.
+- They also receive positive reinforcement for engaging in behaviours that are consistent with their gender roles (e.g. praise from parents).
+- Children who engage in behaviours that are not consistent with gender norms/roles receive negative feedback from others, or other indicators of disapproval for breaking gender roles (punishment).
+- Children who are reinforced for their engagement in gender appropriate behaviours are then more motivated, and more likely to engage in gender appropriate behaviours in the future.
+- *Parents in particular are an important source of gender based learning*, and influence the toys and clothing that children are provided, and the activities that they are encouraged to engage in.
+:::
+
+### 10.4
+
+##### What is Sexuality?
+
+:::{.alert .alert-warning}
+<h4><i class="fa-solid fa-circle-info"></i> Overview</h4>
+
+- **Human Sexuality**: A complex construct involving feelings, behaviours, interactions, and expressions related to sex.
+- **Central Aspect**: Sexuality and sexual identity are fundamental to human experience.
+- **Expression vs. Orientation**: Sexual expression is not solely determined by sexual orientation; similar practices can appeal to various orientations.
+- **Influence of Activities**: Enjoyable activities can shape one's sexuality.
+- **Distinction between Sexuality and Gender**: Sexuality relates to attraction, while gender concerns personal identity.
+- **Avoid Conflation**: It's essential to differentiate between sexuality and gender.
+- **Transgender Identities**: Transgender individuals can identify as heterosexual or within the broader spectrum of sexual orientations.
+- **Best Practice**: Each identity should be discussed and referred to separately.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Sexual Orientation</h4>
+
+A multidimensional construct that encompasses the dimensions of:
+
+- **Sexual Identity:** A person's internally derived perception and felt sense of themselves, and how they articulate their sexuality. This includes aspects of sexual orientation (e.g., heterosexual, queer, bisexual etc.), behaviour and expression. 
+- **Sexual (and romantic) Attraction:** The sex or gender of others that individuals feel attracted to (e.g., attracted to both males and females, attracted only to males).
+- **Sexual Behaviour:** The sex of sexual partners (e.g. engage in sexual behaviours with individuals of the same sex, different sex etc.). 
+- The APA (2023) defines sexual orientation as an enduring pattern of a person’s sense of (personal and social) identity based on their attractions to others of the same or different sex, or both.
+- It also refers to any related behaviours, and membership to a community of others who share those attractions.
+- Unlike gender, which children develop a sense of in early childhood, adolescents begin to explore and develop their sexual orientation following the onset of puberty.
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> How Has Our Understanding of Sexuality (Sexual Orientation) Changed Over Time?</h4>
+
+- Much of the study of human sexuality has focused on the development and experiences related to sexual orientation over identity and attraction.
+- Historically, sexual orientation was understood as a strict dichotomy of 'heterosexual/straight' or 'homosexual/gay'.
+- Since then, marked societal changes together with increased visibility and acceptance of diversity have led to greater endorsement of a diverse range of sexual orientations.
+- This has resulted in a shift in the application of sexual orientation labels particularly among adolescents.
+  - For example, the "queer" sexual orientation identity label has been reclaimed in recent years as it allows for greater flexibility than other identity labels, term does not specify the directionality of attractions and is not attached to assumptions made about specific sexual orientation groups (such as the assumption of equal attraction toward women and men among bisexual individuals).
+- This has also led to new understandings of sexual orientation being conceptualised along a continuum, ranging from exclusive attraction to the opposite sex/gender to exclusive attraction to the same sex/gender.  
+- Traditional conceptualisations and theories of sexual orientation development also proposed that sexual orientation developed along an ordered linear pathway and remain fixed after initial formation in early adolescence.
+- It is now widely recognised that there is diversity in the stability of various components of sexual orientation, which also continue to evolve over time.
+- There is also increasing evidence that female sexuality is more flexible and adaptive than males.
+- As some people experience shifts in their sexual orientation with age, and often in response to changes in their personal and social circumstances, the prevalence of sexual diversity also varies as a function of age and life-course.
+:::
+
+### 10.5
+
+##### Sexuality Development Across Childhood and Adolescence
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Sexuality in Childhood (3 - 7 years)</h4>
+
+- Sexuality and sexual development starts at birth. In early childhood, children start to exhibit a natural curiosity about their bodies, however these behaviours are not sexually motivated.
+- This natural curiosity about bodies extends to other children's and adults bodies and body functions over childhood.
+- Children observe the behaviours of their parents, other adults and peers, and learn attitudes about sexuality and socially acceptable sex-related behaviours (Li, 2022).
+- Children are also aware of bodily and physical differences between males and females, and develop positive or negative messages about their bodies based on how others interact with them about their body.
+- Increased curiosity about bodies at this age allows for gradual discussion about the names and functions of body parts as well as simple information about pregnancy and childbirth (True Relationships and Reproductive Health, 2024). 
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Sexuality in Late Childhood (8 - 11 years)</h4>
+
+- Children attain a deeper and more complex understanding of sexuality, the purpose of reproduction and the physical changes that occur during puberty.
+- This coincides with an increased interest in the purpose and function of adult bodies (Li, 2022).
+- Children at this age also start to develop an awareness that individuals have different sexual orientations, and attain knowledge of their personal rights related to body safety. - With greater interest in sexuality related topics, children will often begin seeking sexuality related information from peers, social media, and social sources other than their caregivers.
+- Sexual orientation may manifest in children’s sexual attraction, with both heterosexual and sexually diverse children experiencing first other or same-sex sexual attraction at around age 10 (Li, 2022).
+- Age of first attraction also coincides with age of pubertal onset for most children. 
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Sexuality in Adolescence (12+ years)</h4>
+
+- **Adolescence and Sexuality**: A critical stage for sexual development, marked by experimentation and identity formation.
+- **Awareness of Sexual Orientation**: Recognizing one's sexual feelings and orientation is a key developmental task during this period.
+- **Interconnected Development**: Sexuality development interacts with other facets like morality, values, and identity, and is influenced by the social-ecological environment.
+- **Role of Puberty**: Puberty brings hormonal, anatomical, and neuropsychological changes that contribute to sexuality and identity formation.
+- **Cognitive and Social-Affective Changes**: Sexual attractions, romantic feelings, and behavioral milestones develop alongside cognitive maturation.
+- **Learning Opportunities**: Adolescence offers a window for learning about navigating romantic and sexual experiences, shaped by interpersonal and social factors.
+- **Need for Accurate Information**: Adolescents require reliable sources of sexual information and support as they navigate these developments.
+- **Same-Sex Experimentation**: Some adolescents experience same-sex attractions or experimentation, but these are not always reliable indicators of adult sexual orientation.
+- **Decline of Experimentation**: Sexual experimentation and questioning typically decrease over time as individuals form stable adult sexual identities.
+- **Long-Term Shift**: Adolescent sexuality development is seen as a progressive, self-regulated process influenced by biopsychosocial changes rather than solely external factors.
+:::
+
+### 10.6
+
+##### Biopsychosocial Approaches to Sexuality Development
+
+:::{.alert .alert-warning}
+<h4><i class="fa-solid fa-circle-info"></i> Overview</h4>
+
+- **Biopsychosocial Approach to Sexuality Development**: Early adolescence involves key transitions like gender expression and sexual experimentation, integrating gender identity and sexuality into overall identity.
+- **Influencing Factors**: Puberty-related hormonal changes, cognitive development, personal attitudes, and cultural norms shape sexuality development.
+- **Comprehensive Perspective**: Biopsychosocial theories view sexuality as the product of the whole person, offering the most accurate framework for understanding its complexity.
+- **Sexual Orientation Development**: There is no consensus on the specific cause of sexual orientation, but research highlights biological, developmental, social, and cultural factors.
+- **Complex Interactions**: Sexual orientation development is understood as the result of multifaceted interactions, primarily involving hormones, genetics, and prenatal influences.
+- **Predetermined Orientation**: Evidence supports the idea that sexual orientation is determined early and unfolds steadily during puberty.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Biological Perspectives</h4>
+
+- **Puberty and Sexual Maturity**: Hormonal changes during puberty lead to physical and physiological transformations, resulting in biological maturity and reproductive capability.
+- **Cognitive and Social-Affective Development**: Puberty opens opportunities for adolescents to learn about navigating sexuality, with increased focus on social and emotional information related to sexual behavior.
+- **Biological Theories of Sexual Orientation**: Similarities exist between biological theories of sexual orientation and gender development, making it difficult to fully separate their influences.
+- **Prenatal Hormonal Influence**: Sexual orientation is thought to be shaped during prenatal development by sex hormones, but the exact mechanisms remain unclear.
+- **Genetic Factors**: Early twin studies showed a genetic link to sexual orientation, with higher rates of sexual diversity among monozygotic twins. However, no single gene has been identified; sexual orientation likely involves multiple genes.
+- **Complexity of Genetic Influences**: Genetic studies suggest that different sets of genes may influence sexual orientation in different individuals, but current techniques cannot fully capture this complexity.
+- **Ongoing Research**: Despite a lack of definitive theories, significant progress has been made in understanding the biological origins of sexuality and sexual orientation.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Psychological (Cognitive) Perspectives</h4>
+
+- **Psychological Influences on Sexuality**: Personality traits, temperament, and learning shape attitudes toward sexuality and expectations about sexual behavior.
+- **Personality and Sexual Expression**: Introverts may be less likely to confidently express their sexuality, while those open to new experiences may explore same-sex attractions.
+- **Learned Associations**: Positive or negative past experiences can shape expectations of sexual interactions, influencing future sexual behavior.
+- **Sexual Self-Concept**: Refers to how individuals view themselves in relation to sexuality, which impacts attitudes toward sexual practices.
+- **Adolescent Development**: Developing a sexual self-concept is a key task in adolescence, helping shape future sexual behaviors and experiences.
+- **Positive vs. Negative Self-Perception**: Adolescents with positive sexual self-concept tend to have better body esteem and more favorable expectations of sexual experiences, while negative self-perception leads to discomfort with sexuality and poor relationship expectations.
+- **Psychological Factors and Sexual Orientation**: While psychological factors don’t determine sexual orientation, they influence the development of a clear sexual identity and the disclosure of sexual orientation.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Social Perspectives</h4>
+
+- **Social and Environmental Influences**: Parenting styles, family environment, peer relationships, culture, and community shape adolescent sexuality development.
+- **Role of Parents**: Parents are primary sources of sexual knowledge, teaching family sexual culture, gender attitudes, reproduction, and relationship norms, influencing adolescent sexual attitudes and knowledge.
+- **Impact of Parent-Child Relationships**: Open communication with parents about sexuality fosters sexual knowledge and reduces risks of negative sexual health outcomes.
+- **Peer Influence**: Peers are crucial in shaping adolescent sexual attitudes and behaviors, providing models, information, and social approval related to sexuality.
+- **Media Influence**: Traditional and social media are significant sources of sexual information. Increased use of digital platforms (e.g., pornography, sexting) raises concerns about their impact on adolescent sexual behavior and development.
+- **Social Environment and Sexual Orientation**: Social factors do not influence adult sexual orientation, which is biologically determined in the prenatal period. Misconceptions like being raised by same-sex parents or childhood trauma shaping sexual orientation are unsupported by scientific evidence.
+- **Focus on Positive Sexual Identity**: Current research shifts from seeking causes of sexual orientation to exploring social factors that shape a positive sexual identity and well-being, especially in sexually diverse communities.
+- **Diversity of Human Sexuality**: Sexual orientation is recognized as part of human diversity, with limited benefit in seeking its underlying mechanisms or causes.
+:::
+
+### 10.7
+
+##### Diversity in Gender and Sexuality
+
+:::{.alert .alert-warning}
+<h4><i class="fa-solid fa-circle-info"></i> Overview</h4>
+
+- **Progress for the LGBTQ+ Community**: Significant advancements have been made over the last few decades, with new taxonomies emerging that challenge binary notions of gender and sexual identity.
+- **Changing Social Environments**: Contemporary children and adolescents experience more inclusive and accepting social environments regarding gender and sexual diversity compared to previous generations.
+- **Increased Visibility**: Topics related to gender and sexuality are more frequently covered in the media, discussed in schools, and debated in legislation, leading to greater expression of diverse identities among youth.
+- **Support from Adults**: Parents, educators, and medical professionals are seeking to understand and support the unique identities of gender and sexually diverse children.
+- **Social Justice and Identity Expansion**: Understanding the expansion of identity labels contributes to social justice and positive development, allowing adolescents to engage with and redefine existing taxonomies.
+- **Resistance and Stigma**: Despite acceptance in some areas, there remains significant pushback in other regions, leading to stigma, discrimination, and abuse for those who do not conform to societal expectations.
+- **Impact on Adolescent Development**: Adolescents face challenges in developing their identities while navigating societal pressures related to their gender or sexual identity, which can hinder healthy development and expression.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Gender Diversity</h4>
+
+- **Understanding Gender Diversity**: Gender-diverse children and adolescents are part of the natural spectrum of human diversity, which may include identifying as a different gender, feeling a mix of genders, being gender-neutral, or experiencing gender variability over time.
+- **Prevalence of Gender Diversity**: The national prevalence of gender diversity is challenging to determine due to societal stigmas surrounding disclosure. In Australia, an estimated 2%-3% of secondary school students identify as gender diverse or transgender without experiencing gender dysphoria.
+- **Gender Dysphoria**: This condition involves distress due to the incongruence between a person's gender identity and their assigned gender at birth. It can lead to significant discomfort in various life areas (social, school, home) for those affected.
+- **Unique Developmental Trajectories**: Experiences of gender diversity vary for each individual, often becoming particularly distressing during puberty as secondary sexual characteristics develop.
+- **Role of Parental Support**: Parental support is crucial for gender-diverse youth, as it influences their ability to explore and express their gender identity. Those with supportive environments tend to develop a clearer sense of their gender identity earlier.
+- **Gender Affirming Care**: This type of care aims to help individuals feel safe and validated in their identified gender. It can include support for gender expression (e.g., clothing, name, pronouns) and mental health services, as well as medical interventions like hormonal therapies for those needing more extensive support.
+:::
+
+:::{.alert .alert-info}
+<h4><i class="fa-solid fa-circle-info"></i> Sexual Diversity</h4>
+
+- **Definition of Sexual Diversity**: Sexual diversity encompasses a range of sexual identities and orientations that go beyond the binary view of heterosexuality and homosexuality. Common identities include lesbian, gay, bisexual, queer, pansexual, demisexual, and asexual, each representing different experiences of attraction and desire.
+- **Evolving Labels**: Recent trends among adolescents show an increased use of labels that reflect variability in sexual desire and romantic attraction, challenging traditional norms surrounding these concepts.
+- **Prevalence of Sexual Diversity**: Estimating rates of sexual diversity in Australian youth is complex due to limitations in research, which often focuses on narrow identity categories or collapses various identities into broader LGBTQIA+ groups. Current data suggests that sexual diversity rates among youth range from 2% to 12.6%, higher than the 3%-4% seen in the broader adult population.
+- **Adolescence and Sexual Orientation Development**: Adolescence is a critical period for the development of sexual orientation as part of overall identity formation. The developmental process typically includes milestones such as recognizing diverse attractions, engaging in romantic or sexual behaviours, and disclosing one’s identity to others. This trajectory is non-linear, with individuals experiencing these milestones at different stages.
+- **Fluidity of Sexual Orientation**: Evidence suggests that sexual orientation can be fluid, especially among adolescents, leading to variability in how stable sexual identity labels are over time.
+- **Impact of Support on Identity Development**: Similar to gender-diverse youth, sexually diverse adolescents who have supportive environments and opportunities for exploration tend to experience more positive identity development and health outcomes. They are also more likely to disclose their identities early on compared to those who feel pressured to conceal their diversity due to fears of rejection.
+:::
