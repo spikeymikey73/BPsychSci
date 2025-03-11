@@ -1,0 +1,1946 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>HPS301: Psychology Research Methods (Intermediate)</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BPsychSci</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-list fa-lg"></span>
+     
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-book fa-lg"></span>
+     
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="HBS110.html">HBS110</a>
+    </li>
+    <li>
+      <a href="HPS104.html">HPS104</a>
+    </li>
+    <li>
+      <a href="HPS105.html">HPS105</a>
+    </li>
+    <li>
+      <a href="HPS111.html">HPS111</a>
+    </li>
+    <li>
+      <a href="HPS121.html">HPS121</a>
+    </li>
+    <li>
+      <a href="HPS201.html">HPS201</a>
+    </li>
+    <li>
+      <a href="HPS202.html">HPS202</a>
+    </li>
+    <li>
+      <a href="HPS203.html">HPS203</a>
+    </li>
+    <li>
+      <a href="HPS204.html">HPS204</a>
+    </li>
+    <li>
+      <a href="HSH105.html">HSH105</a>
+    </li>
+    <li>
+      <a href="HSH206.html">HSH206</a>
+    </li>
+    <li>
+      <a href="SIT191.html">SIT191</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">HPS301: Psychology Research Methods
+(Intermediate)</h1>
+
+</div>
+
+
+<div id="week-1-experimental-design"
+class="section level2 well tabset tabset-fade tabset-pills">
+<h2 class="well tabset tabset-fade tabset-pills">Week 1: Experimental
+Design</h2>
+<div id="lo1" class="section level3">
+<h3>LO1</h3>
+<div id="understand-the-five-approaches-to-research"
+class="section level4">
+<h4>Understand the five approaches to research</h4>
+<div class="alert alert-info">
+<h5>
+<i class="fas fa-info-circle"></i> Experimental Research
+</h5>
+<ul>
+<li><strong>Researcher Control</strong>: The researcher controls all
+aspects of the study, especially participants’ experiences.</li>
+<li><strong>Manipulation of Variables</strong>: The researcher
+deliberately manipulates predictor variables (IVs) while allowing the
+outcome variable (DV) to vary naturally.</li>
+<li><strong>Causal Relationships</strong>: The goal is to determine if
+changes in IVs cause changes in DVs.</li>
+<li><strong>Control of Other Factors</strong>: Everything else is kept
+constant or balanced to isolate the effect of IVs on DVs.</li>
+<li><strong>Randomisation</strong>: Used to assign participants to
+different groups to minimize systematic differences between them.</li>
+<li><strong>Confounders</strong>: Factors other than IVs that might
+influence results (e.g., diet in smoking studies).</li>
+<li><strong>Improper vs. Proper Experimentation</strong>:
+<ul>
+<li>Observing smokers vs. non-smokers is not a true experiment due to
+lack of researcher control.</li>
+<li>A proper experiment (though unethical) would involve randomly
+assigning smoking status to participants to ensure groups differ only by
+that factor.</li>
+</ul></li>
+<li><strong>Ethical Concerns</strong>: True experiments on harmful
+behaviours (e.g., smoking) would be unethical, despite their scientific
+rigour.</li>
+</ul>
+</div>
+<div class="alert alert-info">
+<h5>
+<i class="fas fa-info-circle"></i> Quasi-Experimental Research
+</h5>
+<ul>
+<li><strong>Definition</strong>: Similar to experimental research, but
+lacks <strong>random assignment</strong> of participants to
+conditions.</li>
+<li><strong>Key Feature</strong>: Researchers manipulate IVs but cannot
+fully control group allocation, often due to ethical or practical
+constraints. Some practical examples include gender, class level,
+between schools.</li>
+<li><strong>Purpose</strong>: To examine <strong>cause-and-effect
+relationships</strong> when true experiments aren’t feasible.</li>
+<li><strong>Example</strong>: Studying the effects of a new teaching
+method by comparing students in different schools (without randomly
+assigning them).</li>
+</ul>
+</div>
+<div class="alert alert-info">
+<h5>
+<i class="fas fa-info-circle"></i> Non-Experimental Research
+</h5>
+<ul>
+<li><strong>Definition</strong>: Any research where the researcher does
+not actively manipulate variables.</li>
+<li><strong>Key Feature</strong>: Observes relationships and patterns
+without intervention or control over variables.</li>
+<li><strong>Purpose</strong>: To explore phenomena that cannot be
+experimentally tested due to ethical, logistical, or practical
+reasons.</li>
+<li><strong>Example</strong>: Studying the effects of smoking on health
+by observing existing smokers and non-smokers.</li>
+</ul>
+</div>
+<div class="alert alert-info">
+<h5>
+<i class="fas fa-info-circle"></i> Correlational Research
+</h5>
+<ul>
+<li><strong>Definition</strong>: A type of non-experimental research
+that examines the <strong>relationship between two or more
+variables</strong> without manipulation.</li>
+<li><strong>Key Feature</strong>: Measures how strongly variables are
+associated (positive, negative, or no correlation) but <strong>does not
+imply causation</strong>.</li>
+<li><strong>Purpose</strong>: To identify patterns and potential
+connections between variables.</li>
+<li><strong>Example</strong>: Investigating the relationship between
+social media use and anxiety levels.</li>
+</ul>
+<p><strong>Problems with Correlational Research</strong></p>
+<details>
+<summary>
+Third Variable Problem
+</summary>
+<ul>
+<li><strong>Definition</strong>
+<ul>
+<li>The <strong>third-variable problem</strong> refers to a situation in
+research or statistical analysis where two variables appear to be
+related, but their relationship is actually being influenced by a third,
+unexamined variable.</li>
+<li>This third variable can create a spurious or misleading correlation
+between the first two, making it seem like they are directly related
+when in fact they may not be.</li>
+</ul></li>
+<li>Example:
+<ul>
+<li>Suppose there’s a correlation between ice cream sales and the number
+of drowning incidents.</li>
+<li>A researcher might initially conclude that ice cream sales cause
+drowning, or vice versa.</li>
+<li>However, the third variable, <em>temperature</em>, may actually be
+influencing both.</li>
+<li>Higher temperatures lead to more people buying ice cream and also
+more people swimming, which increases the likelihood of drownings.</li>
+<li>The third variable, temperature, is what’s actually driving the
+observed correlation.</li>
+</ul></li>
+</ul>
+</details>
+</details>
+<details>
+<summary>
+Directionality Problem
+</summary>
+<ul>
+<li><strong>Definition</strong>:
+<ul>
+<li>The <strong>directionality problem</strong> in a correlational study
+design refers to the difficulty in determining the direction of the
+relationship between two correlated variables.</li>
+<li>In a correlational study, researchers observe that two variables are
+related, but the study design does not allow them to determine whether
+one variable causes the other, or if the relationship is the reverse, or
+if both variables influence each other.</li>
+</ul></li>
+<li><strong>Example</strong>:
+<ul>
+<li>If there is a correlation between <em>hours spent studying</em> and
+<em>academic performance</em>, we can’t tell from the data alone whether
+studying more leads to better academic performance, or if better
+academic performance leads students to study more.</li>
+<li>Similarly, a correlation between <em>stress</em> and <em>health
+problems</em> could be interpreted in two ways: does stress cause health
+problems, or do pre-existing health problems lead to increased
+stress?</li>
+</ul></li>
+<li><strong>Conclusion</strong>:</li>
+<li>The directionality problem arises because correlational studies only
+show that two variables change together, but they don’t provide insight
+into which variable influences the other.</li>
+<li>Establishing cause-and-effect relationships typically requires
+experimental research, where the researcher manipulates one variable and
+observes its effect on another, controlling for other factors.</li>
+</ul>
+</details>
+</div>
+<div class="alert alert-info">
+<h5>
+<i class="fas fa-info-circle"></i> Descriptive Research
+</h5>
+<ul>
+<li><strong>Definition</strong>: A research approach that aims to
+<strong>systematically describe</strong> characteristics, behaviours, or
+phenomena without testing relationships between variables.</li>
+<li><strong>Key Feature</strong>: Focuses on <strong>what
+exists</strong> rather than why it happens. Can use surveys,
+observations, case studies, etc.</li>
+<li><strong>Purpose</strong>: To provide a detailed and accurate account
+of a subject.</li>
+<li><strong>Example</strong>: Conducting a survey to determine the
+average screen time of teenagers per day.</li>
+</ul>
+</div>
+<div class="alert alert-info">
+<h5>
+<i class="fas fa-info-circle"></i> Selecting between these types of
+design
+</h5>
+<p><img src="images/HPS301/Week1/qual.des.svg" /></p>
+</div>
+</div>
+</div>
+<div id="lo2" class="section level3">
+<h3>LO2</h3>
+<div
+id="examine-internal-and-external-validity-and-some-of-the-main-threats"
+class="section level4">
+<h4>Examine internal and external validity and some of the main
+threats</h4>
+<div class="alert alert-info">
+<h5>
+<i class="fas fa-info-circle"></i> Internal validity.
+</h5>
+<ul>
+<li><strong>Internal validity</strong> refers to how well a study is
+conducted and whether it accurately establishes a cause-and-effect
+relationship between the independent and dependent variables.</li>
+<li>A study with high internal validity ensures that changes in the
+dependent variable are due to the independent variable and not due to
+confounding factors or biases.</li>
+</ul>
+<p></br></p>
+<details>
+<summary>
+What is an extraneous variable?
+</summary>
+<ul>
+<li><strong>Definition</strong>:
+<ul>
+<li>An <strong>extraneous variable</strong> is any variable that is not
+the independent variable in a study but could still influence the
+dependent variable.</li>
+<li>These are variables that are not of primary interest in the research
+but can introduce unwanted variation or noise, potentially confounding
+the results.</li>
+<li>If not controlled, extraneous variables can create misleading
+conclusions because they may be affecting the outcome of the study,
+making it difficult to determine whether the observed effects are due to
+the independent variable or to these other variables.</li>
+</ul></li>
+<li><strong>Example</strong>:
+<ul>
+<li>In a study examining the effect of a new study technique on test
+scores, extraneous variables might include factors like:
+<ul>
+<li>Amount of sleep participants had before the test.</li>
+<li>Prior knowledge or experience in the subject.</li>
+<li>Test-taking anxiety.</li>
+<li>Environmental factors like room temperature or noise.</li>
+</ul></li>
+</ul></li>
+<li>While extraneous variables are not the focus of the study,
+researchers often try to control for them to ensure that the results
+reflect the actual relationship between the independent and dependent
+variables.</li>
+</ul>
+</details>
+<details>
+<summary>
+What is a confounding variable?
+</summary>
+<ul>
+<li>A <strong>confounding variable</strong> is a variable that
+influences both the independent variable and the dependent variable,
+creating a false or misleading association between them.</li>
+<li>This can make it seem like there is a direct relationship when, in
+reality, the effect is due to the confounding factor.
+<ul>
+<li><strong>Example</strong>:
+<ul>
+<li>If a study finds that people who drink more coffee tend to have
+higher rates of heart disease, a confounding variable could be
+smoking.</li>
+<li>If coffee drinkers are more likely to smoke, and smoking causes
+heart disease, the relationship between coffee and heart disease might
+be misleading.</li>
+</ul></li>
+</ul></li>
+<li><strong>How to Address Confounding</strong>:
+<ul>
+<li>Randomization (in experiments).
+<ul>
+<li>Matching (pairing subjects with similar characteristics).</li>
+<li>Statistical Controls (using regression models to account for
+confounders).</li>
+</ul></li>
+</ul></li>
+</ul>
+</details>
+<details>
+<summary>
+What is Assignment Bias?
+</summary>
+<ul>
+<li><strong>Definition</strong>: Occurs when participants are not
+randomly assigned to different study conditions, leading to pre-existing
+differences between groups.</li>
+<li><strong>Confounding Variables</strong>: Differences between groups
+(e.g., age, prior knowledge, motivation) may influence the results,
+making it unclear if the independent variable (IV) truly caused the
+observed effect.</li>
+<li><strong>Misleading Causal Conclusions</strong>: If groups differ
+systematically before the study begins, any differences in outcomes may
+be due to these pre-existing characteristics rather than the manipulated
+variable.</li>
+<li><strong>Minimising Assignment Bias:</strong>
+<ul>
+<li><strong>Random Assignment</strong>: Ensures participants are equally
+likely to be in any group, balancing out potential confounding
+factors.</li>
+<li><strong>Matching</strong>: If random assignment isn’t possible,
+researchers can match participants on key characteristics (e.g., age,
+prior knowledge) across groups.</li>
+<li><strong>Statistical Controls</strong>: Techniques like covariate
+analysis (ANCOVA) can help adjust for initial group differences.</li>
+</ul></li>
+</ul>
+</details>
+<details>
+<summary>
+List and explain five time-related threats to internal validity.
+</summary>
+<ol style="list-style-type: decimal">
+<li><strong>History</strong></li>
+</ol>
+<ul>
+<li><strong>Definition</strong>: History effects refer to external
+events or experiences that occur during a study and affect participants’
+behaviour or responses, outside of the independent variable (IV) being
+studied.</li>
+<li><strong>Affect on Internal Validity</strong>:
+<ul>
+<li><strong>Confounding Factors</strong>: If an external event
+influences participants differently across study conditions, it becomes
+unclear whether the IV or the event caused the observed changes.</li>
+<li><strong>Misattribution of Cause</strong>: Researchers might
+mistakenly attribute changes in the dependent variable (DV) to the
+experimental manipulation, rather than the historical event.</li>
+</ul></li>
+<li><strong>Example of History Threats</strong>
+<ul>
+<li><strong>Educational Study</strong>: A school implements a new
+reading program, and students’ reading scores improve. However, at the
+same time, a popular reading app is introduced nationwide, which might
+have contributed to the improvement.</li>
+<li><strong>Health Intervention Study</strong>: A study tests a new
+exercise program, but midway through, a national health campaign
+promotes physical activity, leading to increased exercise habits across
+all groups.</li>
+</ul></li>
+<li><strong>Minimising History Threats</strong>
+<ul>
+<li><strong>Use a Control Group</strong>: If both experimental and
+control groups experience the external event, researchers can compare
+the results to determine if the event had an impact.</li>
+<li><strong>Shorten Study Duration</strong>: Reducing the study time
+frame minimizes the chance of external events occurring.</li>
+<li><strong>Record External Events</strong>: Monitoring external factors
+helps researchers interpret their potential influence on results.</li>
+</ul></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Maturation</strong></li>
+</ol>
+<ul>
+<li><strong>Definition</strong>: <strong>Maturation effects</strong>
+refer to natural changes in participants over time that occur
+<strong>independently of the independent variable (IV)</strong> and may
+influence study outcomes.<br />
+</li>
+<li><strong>Affect on Internal Validity</strong>:
+<ul>
+<li><strong>Confounding Variables</strong>: If participants naturally
+improve or change over time (e.g., due to aging, learning, fatigue), it
+becomes difficult to determine whether the observed effects are due to
+the IV or simply natural progression.<br />
+</li>
+<li><strong>Misattribution of Cause</strong>: Researchers might
+<strong>incorrectly attribute</strong> changes in the dependent variable
+(DV) to their experimental manipulation rather than normal development
+or personal growth.<br />
+</li>
+</ul></li>
+<li><strong>Examples of Maturation Threats</strong>
+<ul>
+<li><strong>Child Development Study</strong>: A study examines the
+impact of a new reading program on young children over six months.
+However, children naturally develop better reading skills over time,
+making it unclear if the program itself caused the improvement.<br />
+</li>
+<li><strong>Therapy Effectiveness Study</strong>: A study tests whether
+a stress management program reduces anxiety in college students over a
+semester. Some students may experience reduced stress simply due to
+<strong>adjusting to college life</strong>, not because of the
+program.<br />
+</li>
+</ul></li>
+<li><strong>Minimising Maturation Threats</strong>
+<ul>
+<li><strong>Use a Control Group</strong>: A comparison group that does
+not receive the intervention helps distinguish between changes due to
+the IV and changes due to natural maturation.<br />
+</li>
+<li><strong>Shorten Study Duration</strong>: Reducing the study time
+frame minimizes the impact of natural growth or change.<br />
+</li>
+<li><strong>Measure Baseline Trends</strong>: Collecting data at
+multiple points before the intervention helps determine if changes were
+already occurring.<br />
+</li>
+</ul></li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Instrumentation</strong></li>
+</ol>
+<ul>
+<li><strong>Definition</strong>: <strong>Instrumentation
+effects</strong> occur when changes in measurement tools, procedures, or
+observers affect the results of a study, rather than the independent
+variable (IV).<br />
+</li>
+<li><strong>Affect on Internal Validity</strong>:
+<ul>
+<li><strong>Inconsistent Measurement</strong>: If the way data is
+collected changes over time, differences in results may be due to
+<strong>changes in measurement</strong> rather than actual differences
+in the dependent variable (DV).<br />
+</li>
+<li><strong>Observer Bias</strong>: If human raters change how they
+interpret responses over time (e.g., becoming more lenient or strict),
+it threatens the validity of the study.<br />
+</li>
+<li><strong>Equipment Changes</strong>: If instruments (e.g., scales,
+sensors, software) are updated or malfunction during a study, results
+may be inconsistent.<br />
+</li>
+</ul></li>
+<li><strong>Examples of Instrumentation Threats</strong>
+<ul>
+<li><strong>Educational Study</strong>: A study measures student writing
+skills using two different grading rubrics at different time points,
+making it unclear whether score changes reflect true improvement or just
+differences in grading criteria.<br />
+</li>
+<li><strong>Health Study</strong>: A researcher measures participants’
+blood pressure before and after a treatment, but switches to a different
+blood pressure monitor midway through the study, leading to measurement
+inconsistencies.<br />
+</li>
+<li><strong>Psychological Study</strong>: A therapist rates patients’
+anxiety levels throughout a study but gradually becomes more lenient in
+scoring, causing apparent reductions in anxiety that are actually due to
+<strong>observer drift</strong>, not real change.<br />
+</li>
+</ul></li>
+<li><strong>Minimising Instrumentation Threats</strong>
+<ul>
+<li><strong>Standardize Measurement Procedures</strong>: Use the same
+tools, tests, or rating criteria throughout the study.<br />
+</li>
+<li><strong>Train Observers Consistently</strong>: Ensure raters or
+interviewers apply the same standards over time.<br />
+</li>
+<li><strong>Calibrate Equipment</strong>: Regularly check and maintain
+measurement tools to prevent errors.<br />
+</li>
+<li><strong>Use Automated or Objective Measures</strong>: Reduce human
+bias by relying on consistent, computerized assessments when
+possible.<br />
+</li>
+</ul></li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Testing Effects</strong></li>
+</ol>
+<ul>
+<li><strong>Definition</strong>: <strong>Testing effects</strong> occur
+when taking a test or being measured multiple times influences
+participants’ performance, rather than the independent variable (IV).
+This happens when prior exposure to a test affects later
+responses.<br />
+</li>
+<li><strong>Affect on Internal Validity</strong>:
+<ul>
+<li><strong>Practice Effect</strong>: Participants may improve simply
+because they have seen the test before and become familiar with its
+format, not because of the IV.<br />
+</li>
+<li><strong>Fatigue Effect</strong>: If participants take multiple
+tests, they may become tired or bored, leading to <strong>worse
+performance</strong> over time.<br />
+</li>
+<li><strong>Sensitisation</strong>: Repeated testing can make
+participants more aware of the study’s purpose, potentially influencing
+their behaviour.<br />
+</li>
+</ul></li>
+<li><strong>Examples of Testing Effects</strong>:</li>
+<li><strong>Educational Study</strong>: Students take a math test before
+and after a tutoring program. If scores improve, it could be due to
+familiarity with the test rather than the tutoring itself.
+<ul>
+<li><strong>Psychological Study</strong>: A study measures anxiety
+levels using the same questionnaire at different time points.
+Participants may change their responses based on previous exposure, not
+real changes in anxiety.<br />
+</li>
+<li><strong>Physical Performance Study</strong>: Athletes perform a
+strength test multiple times. They may improve just by <strong>learning
+how to take the test better</strong>, not because of actual strength
+gains.<br />
+</li>
+</ul></li>
+<li><strong>Minimising Testing Effects</strong>:
+<ul>
+<li><strong>Use a Control Group</strong>: If both the experimental and
+control groups take the test multiple times, researchers can compare
+results to determine if the IV truly caused changes. - <strong>Use
+Alternate Test Versions</strong>: Changing the wording, order, or format
+of the test reduces practice effects.<br />
+</li>
+<li><strong>Increase Time Between Tests</strong>: Spacing out testing
+sessions helps minimize memory effects.<br />
+</li>
+<li><strong>Counterbalancing</strong>: Varying the order in which tests
+are presented reduces systematic bias.<br />
+</li>
+</ul></li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>Regression to the Mean</strong></li>
+</ol>
+<ul>
+<li><strong>Definition</strong>: <strong>Regression to the mean</strong>
+occurs when extreme scores on a measurement naturally move closer to the
+average (mean) upon retesting, (regardless of any intervention or
+treatment), which can create the illusion of change when none has truly
+occurred.<br />
+</li>
+<li><strong>Affect on Internal Validity</strong>:
+<ul>
+<li><strong>Misinterpreted Effects</strong>: If a study selects
+participants based on extreme initial scores (e.g., very high anxiety,
+very low test scores), their later scores may improve or decline
+<strong>naturally</strong>, not because of the independent variable
+(IV).<br />
+</li>
+<li><strong>False Causal Conclusions</strong>: Researchers might
+mistakenly attribute score changes to an intervention, when in reality,
+participants were just moving toward average levels naturally.<br />
+</li>
+</ul></li>
+<li><strong>Examples</strong>:
+<ul>
+<li><strong>Educational Study</strong>: A program targets students with
+extremely low test scores. Their scores improve on the second test, but
+this may happen <strong>naturally</strong> rather than because of the
+program.<br />
+</li>
+<li><strong>Medical Study</strong>: A new treatment is given to patients
+with very high blood pressure. Over time, their blood pressure
+decreases, but this could be <strong>natural fluctuation</strong> rather
+than the effect of the treatment.<br />
+</li>
+<li><strong>Sports Performance Study</strong>: Coaches implement a new
+training method after an athlete’s <strong>worst performance</strong>.
+The athlete improves in the next game, but this may be due to
+<strong>natural performance variation</strong>, not the training.<br />
+</li>
+</ul></li>
+<li><strong>Minimising Regression to the Mean</strong>:
+<ul>
+<li><strong>Use a Control Group</strong>: If both the experimental and
+control groups experience similar changes, regression to the mean is
+likely the cause rather than the IV.<br />
+</li>
+<li><strong>Avoid Selecting Based on Extreme Scores</strong>: If
+possible, choose a more representative sample rather than only extreme
+cases.<br />
+</li>
+<li><strong>Multiple Baseline Measurements</strong>: Taking several
+pre-test measurements helps identify natural fluctuations before the
+intervention.<br />
+</li>
+</ul></li>
+</ul>
+</details>
+</div>
+<div class="alert alert-info">
+<h5>
+<i class="fas fa-info-circle"></i> External Validity
+</h5>
+<ul>
+<li><strong>Definition</strong>: External validity refers to how well
+study findings generalise to real-life settings.<br />
+</li>
+<li><strong>Key Concern</strong>: If results don’t apply beyond the
+study’s specific conditions (tasks, environment, participants), the
+study lacks external validity.<br />
+</li>
+<li><strong>Common Issue</strong>: Many psychology studies rely on
+<strong>undergraduate psychology students</strong>, which may limit
+generalisation to a wider population.
+<ul>
+<li>External validity is at risk If psychology students differ from the
+general population <strong>in ways relevant</strong> to the study.<br />
+</li>
+<li>If differences are <strong>irrelevant</strong> to the study (e.g.,
+visual illusion research), external validity remains intact.<br />
+</li>
+</ul></li>
+<li><strong>Other Threats to External Validity</strong>:
+<ul>
+<li>Participants may <strong>respond differently in a study</strong>
+than in real life.<br />
+</li>
+<li><strong>Lab experiments</strong> might not reflect real-world
+scenarios (e.g., learning tasks in a study vs. actual learning
+experiences).</li>
+</ul></li>
+</ul>
+<p></br></p>
+<details>
+<summary>
+What is selection and volunteer bias?
+</summary>
+<p></br> - <strong>Selection bias</strong> occurs when the way
+participants are chosen for a study systematically affects the results,
+making the sample unrepresentative of the population, potentially
+leading to inaccurate conclusions. - <strong>Example</strong>: A study
+on the effects of exercise on mental health recruits participants from a
+gym. - Since gym-goers are already likely to be more active and
+health-conscious, the study may overestimate the benefits of exercise
+compared to the general population. - <strong>Volunteer bias</strong>
+happens when people who choose to participate in a study differ
+significantly from those who don’t, leading to non-generalisable
+results. - <strong>Example</strong>: A study on stress levels recruits
+participants by asking people to sign up. - Those who volunteer might
+already be more health-conscious or less stressed, making the results
+not reflective of the general population. - <strong>How to Reduce These
+Biases?</strong> - <strong>Random Sampling</strong>: Ensuring every
+member of the target population has an equal chance of being included. -
+<strong>Stratified Sampling</strong>: Dividing the population into
+subgroups and randomly selecting participants from each. -
+<strong>Reducing Barriers to Participation</strong>: Making studies more
+accessible to a diverse range of people.</p>
+</details>
+<details>
+<summary>
+How does selection bias limit the external validity of a study?
+</summary>
+<p></br> <strong>Selection bias</strong> occurs when the participants in
+a study are not representative of the broader population, leading to
+limited <strong>external validity</strong> (the ability to generalize
+findings to other people, settings, or times). Below are key ways
+selection bias reduces external validity:</p>
+<ul>
+<li><strong>Unrepresentative Sample</strong>
+<ul>
+<li><strong>Issue</strong>: If participants are chosen in a way that
+systematically differs from the target population, the results may not
+apply to others.<br />
+</li>
+<li><strong>Example</strong>: A study on workplace stress conducted only
+on executives may not generalise to lower-level employees.<br />
+</li>
+</ul></li>
+<li><strong>Self-Selection Bias</strong>
+<ul>
+<li><strong>Issue</strong>: When individuals opt into a study
+voluntarily, they may differ from those who do not participate.<br />
+</li>
+<li><strong>Example</strong>: If a study on a new diet program only
+includes people who are highly motivated to lose weight, the results may
+not apply to the general population.<br />
+</li>
+</ul></li>
+<li><strong>Convenience Sampling</strong>
+<ul>
+<li><strong>Issue</strong>: When participants are selected based on ease
+of access (e.g., college students in psychology studies), the sample may
+not reflect the broader population.<br />
+</li>
+<li><strong>Example</strong>: A study on consumer behavior using only
+university students may not apply to older adults or different
+socio-economic groups.<br />
+</li>
+</ul></li>
+<li><strong>Geographic and Cultural Limitations</strong>
+<ul>
+<li><strong>Issue</strong>: If a study is conducted in a specific region
+or culture, its findings may not apply to other locations.<br />
+</li>
+<li><strong>Example</strong>: A study on social attitudes in an urban
+U.S. city may not be valid in rural areas or other countries.<br />
+</li>
+</ul></li>
+<li><strong>Exclusion of Certain Groups</strong>
+<ul>
+<li><strong>Issue</strong>: If certain demographics (e.g., older adults,
+people with disabilities, non-English speakers) are excluded, the
+findings may not apply to them.<br />
+</li>
+<li><strong>Example</strong>: A clinical trial that excludes elderly
+patients may not provide valid results for how a medication affects
+older populations.<br />
+</li>
+</ul></li>
+<li><strong>How to Reduce Selection Bias and Improve External
+Validity</strong>
+<ul>
+<li><strong>Use Random Sampling</strong>: Select participants randomly
+to ensure a representative sample.<br />
+</li>
+<li><strong>Increase Sample Diversity</strong>: Include individuals from
+different backgrounds, locations, and demographics.<br />
+</li>
+<li><strong>Compare Study Sample to Population</strong>: Check whether
+key characteristics of the sample match the target population.<br />
+</li>
+<li><strong>Use Multiple Study Sites</strong>: Conduct research in
+different locations to enhance generalizability.</li>
+</ul></li>
+</ul>
+</details>
+<details>
+<summary>
+What is the novelty effect, and how can it limit the external validity
+of a study?
+</summary>
+<p></br> The <strong>novelty effect</strong> refers to a temporary
+improvement in performance or behaviour when individuals are exposed to
+something new, simply because it is novel or different, rather than due
+to any inherent effectiveness of the change itself.</p>
+<p><strong>Key Characteristics of the Novelty Effect:</strong></p>
+<ol style="list-style-type: decimal">
+<li><strong>Short-Lived Impact</strong> – The boost in performance or
+engagement often fades as participants become accustomed to the new
+stimulus.<br />
+</li>
+<li><strong>Not Due to the Intervention’s True Effectiveness</strong> –
+The improvement is caused by excitement, curiosity, or increased
+attention, not by the actual quality of the change.<br />
+</li>
+<li><strong>Common in Technology and Education</strong> – Seen when new
+teaching methods, workplace tools, or systems are introduced, making it
+difficult to determine if they are genuinely beneficial.</li>
+</ol>
+<p><strong>Examples of the Novelty Effect:</strong></p>
+<ul>
+<li><strong>Education</strong>: A new learning app initially increases
+student engagement, but after a few weeks, interest and performance
+return to previous levels.<br />
+</li>
+<li><strong>Workplace Productivity</strong>: Employees become more
+productive after the introduction of a new project management tool, but
+the boost wears off as the novelty fades.<br />
+</li>
+<li><strong>Medical Treatments</strong>: Patients report feeling better
+after trying a new therapy, but the effect diminishes as they adjust to
+it.</li>
+</ul>
+<p><strong>How to Minimize the Novelty Effect in Research:</strong></p>
+<ul>
+<li><strong>Long-Term Studies</strong>: Measure effects over an extended
+period to see if improvements persist.<br />
+</li>
+<li><strong>Control Groups</strong>: Compare new interventions with
+stable alternatives to rule out novelty-driven gains.<br />
+</li>
+<li><strong>Multiple Testing Points</strong>: Conduct follow-ups after
+the initial introduction phase to check for lasting effects.</li>
+</ul>
+</details>
+<details>
+<summary>
+How can experimenter characteristics limit the external validity of a
+study?
+</summary>
+<p></br> <strong>Experimenter characteristics</strong> refer to the
+personal attributes of the researcher (e.g., gender, age, personality,
+demeanour) that may unintentionally influence participants’
+responses.</p>
+<p><strong>Ways Experimenter Characteristics Affect External
+Validity:</strong></p>
+<ul>
+<li><strong>Demand Characteristics</strong><br />
+</li>
+<li><strong>Issue</strong>: Participants may modify their behaviour
+based on perceived expectations from the experimenter.<br />
+</li>
+<li><strong>Example</strong>: If a friendly researcher unconsciously
+encourages positive responses, participants might over report
+satisfaction levels.<br />
+</li>
+<li><strong>Demographic Effects</strong><br />
+</li>
+<li><strong>Issue</strong>: Characteristics like gender, age, or
+ethnicity may influence how participants respond, making findings less
+generalisable.<br />
+</li>
+<li><strong>Example</strong>: A study on leadership effectiveness led by
+a male experimenter may yield different results compared to one
+conducted by a female experimenter.<br />
+</li>
+<li><strong>Interpersonal Rapport</strong><br />
+</li>
+<li><strong>Issue</strong>: Experimenters with varying levels of warmth
+or enthusiasm can alter participant engagement, affecting results.<br />
+</li>
+<li><strong>Example</strong>: A highly enthusiastic researcher might
+increase motivation in participants, leading to higher performance that
+wouldn’t generalise to real-world settings.<br />
+</li>
+<li><strong>Experimenter Bias</strong><br />
+</li>
+<li><strong>Issue</strong>: The researcher’s expectations may subtly
+influence data collection, either through tone, body language, or
+selective interpretation of results.<br />
+</li>
+<li><strong>Example</strong>: In a study on creativity, an experimenter
+who values originality might unconsciously rate responses higher when
+evaluating participants’ ideas.<br />
+</li>
+<li><strong>Limited Generalisability Across Settings</strong><br />
+</li>
+<li><strong>Issue</strong>: If the experimenter’s characteristics are
+unique or unusual, findings may not apply in different contexts.<br />
+</li>
+<li><strong>Example</strong>: A mindfulness study conducted by an
+experienced meditation instructor might not generalise to workplace
+settings where mindfulness is taught by regular employees.<br />
+</li>
+<li><strong>Ways to Minimise Experimenter Effects and Improve External
+Validity:</strong>
+<ul>
+<li><strong>Standardised Procedures</strong>: Use scripted instructions
+to reduce variability in researcher behaviour.<br />
+</li>
+<li><strong>Blinded Studies</strong>: Have researchers unaware of the
+hypothesis or participant conditions to prevent bias.<br />
+</li>
+<li><strong>Multiple Experimenters</strong>: Involve researchers with
+diverse characteristics to test for consistency across different
+individuals.<br />
+</li>
+<li><strong>Automated Data Collection</strong>: Use surveys, online
+tools, or AI-based assessments to minimise human influence.</li>
+</ul></li>
+</ul>
+</details>
+<details>
+<summary>
+What is assessment sensitisation?
+</summary>
+<p>Here’s your response formatted in <strong>R Markdown (.rmd)</strong>
+with Australian English spelling:</p>
+<ul>
+<li><p><strong>Assessment sensitisation</strong> (also called
+<strong>pre-test sensitisation</strong>) occurs when the process of
+measuring or assessing participants influences their responses or
+behaviour in a study.</p></li>
+<li><p>This effect can reduce the validity of research findings, as the
+observed outcomes may be due to the assessment itself rather than the
+actual intervention or treatment.</p></li>
+<li><p><strong>Key Characteristics of Assessment
+Sensitisation</strong></p>
+<ul>
+<li><strong>Influences Participant Behaviour</strong> – Participants may
+change their responses simply because they are aware they are being
+assessed.<br />
+</li>
+<li><strong>Interacts with the Intervention</strong> – Exposure to a
+pre-test or repeated assessments may alter how participants react to the
+independent variable.<br />
+</li>
+<li><strong>Reduces Generalisability</strong> – Findings may not apply
+to real-world settings where people are not regularly assessed.<br />
+</li>
+</ul></li>
+<li><p><strong>Examples</strong></p>
+<ul>
+<li><strong>Education</strong>: Students who take a pre-test on a
+subject may pay more attention to related content in a lesson, leading
+to improved post-test scores that do not reflect the intervention’s true
+effect.<br />
+</li>
+<li><strong>Health Research</strong>: A study on exercise habits might
+find increased physical activity simply because participants were asked
+about their habits in a pre-study survey.<br />
+</li>
+<li><strong>Psychology Experiments</strong>: Participants in a mood
+study may alter their emotional responses if they complete repeated
+self-reports about their feelings.<br />
+</li>
+</ul></li>
+<li><p><strong>How to Minimise Assessment Sensitisation</strong></p>
+<ul>
+<li><strong>Use Control Groups</strong>: Compare groups that receive
+different levels of assessment to isolate its effects.<br />
+</li>
+<li><strong>Delay Pre-Testing</strong>: Introduce assessments at
+different points to prevent immediate changes in behaviour.<br />
+</li>
+<li><strong>Use Alternative Measures</strong>: Instead of direct
+questioning, use unobtrusive methods like behavioural
+observations.<br />
+</li>
+<li><strong>Counterbalancing</strong>: Vary the order of assessments to
+reduce predictable effects.</li>
+</ul></li>
+</ul>
+</details>
+<details>
+<summary>
+What are the three ways in which measurement issues can threaten the
+external validity of a study?
+</summary>
+<p></br></p>
+<ul>
+<li><strong>Demand Characteristics or Participant Reactivity (Hawthorne
+Effect)</strong>
+<ul>
+<li><strong>Issue</strong>: When participants alter their behaviour
+simply because they are being observed or measured.<br />
+</li>
+<li><strong>Example</strong>: In a study on exercise habits,
+participants may report increased physical activity because they know
+they are being tracked, rather than because of the intervention.<br />
+</li>
+<li><strong>Impact on External Validity</strong>: The findings may not
+generalise to real-world settings where people are not under
+observation.<br />
+</li>
+<li><strong>Solution</strong>: Use unobtrusive measures (e.g., wearable
+fitness trackers) or naturalistic observation to reduce
+reactivity.<br />
+</li>
+</ul></li>
+<li><strong>Non-Representative Measurement Tools</strong>
+<ul>
+<li><strong>Issue</strong>: When measurement instruments do not
+accurately reflect real-world conditions or populations.<br />
+</li>
+<li><strong>Example</strong>: A cognitive ability test developed for
+university students may not generalise to older adults or people from
+different cultural backgrounds.<br />
+</li>
+<li><strong>Impact on External Validity</strong>: The study’s findings
+may only be valid for the specific group tested, limiting
+generalisability.<br />
+</li>
+<li><strong>Solution</strong>: Use validated, standardised measures
+across diverse samples and settings to ensure applicability.<br />
+</li>
+</ul></li>
+<li><strong>Artificial Testing Conditions</strong>
+<ul>
+<li><strong>Issue</strong>: When measurement occurs in a controlled,
+unrealistic environment that does not reflect real-life settings.<br />
+</li>
+<li><strong>Example</strong>: A study on decision-making conducted in a
+laboratory with hypothetical scenarios may not generalise to actual
+high-pressure workplace situations.<br />
+</li>
+<li><strong>Impact on External Validity</strong>: The results may not
+apply to real-world contexts where conditions differ from the controlled
+study environment.<br />
+</li>
+<li><strong>Solution</strong>: Conduct field studies, use real-world
+tasks, or apply ecological validity checks to ensure measurements
+reflect authentic situations.<br />
+</li>
+</ul></li>
+</ul>
+</details>
+</div>
+</div>
+</div>
+<div id="lo3" class="section level3">
+<h3>LO3</h3>
+<div id="understand-open-science-and-pre-registration"
+class="section level4">
+<h4>Understand Open Science and pre-registration</h4>
+<div class="alert alert-info">
+<p>Beyond commonly discussed threats, researchers’ honesty and
+self-deception can also impact research validity. These threats
+include:</p>
+<ul>
+<li><strong>Fraud</strong> – Fabricating data or making up findings
+(rare but possible).<br />
+</li>
+<li><strong>Deception &amp; Self-Deception</strong>: refers to
+unintentional bias in research, including:
+<ul>
+<li>Data fabrication or hoaxes.<br />
+</li>
+<li>Misrepresenting or omitting study details.<br />
+</li>
+<li>Data mining (searching for significant results without prior
+hypotheses).<br />
+</li>
+<li>Publication bias (favouring studies with significant findings).</li>
+</ul></li>
+</ul>
+<p>The <strong>Open Science movement</strong> helps counter these
+threats by promoting transparency and collaboration. Key practices
+include:</p>
+<ul>
+<li><strong>Pre-registration</strong> – Outlining research plans before
+data collection to prevent bias.<br />
+</li>
+<li><strong>Open Data &amp; Methods</strong> – Sharing hypotheses,
+datasets, and analysis procedures to enhance reproducibility.</li>
+</ul>
+<p>Adopting Open Science practices improves research integrity, making
+findings more transparent, replicable, and reliable.</p>
+</div>
+</div>
+</div>
+<div id="lo4" class="section level3">
+<h3>LO4</h3>
+<div
+id="understand-the-underlying-principles-of-experimental-research-and-how-to-control-for-extraneous-variables"
+class="section level4">
+<h4>Understand the underlying principles of experimental research and
+how to control for extraneous variables</h4>
+<div class="alert alert-info">
+
+</div>
+</div>
+</div>
+<div id="lo5" class="section level3">
+<h3>LO5</h3>
+<div id="understand-the-nature-of-between-subjects-designs"
+class="section level4">
+<h4>Understand the nature of between-subjects designs</h4>
+<div class="alert alert-info">
+
+</div>
+</div>
+</div>
+<div id="lo6" class="section level3">
+<h3>LO6</h3>
+<div
+id="understand-the-advantages-and-disadvantages-of-within-subjects-designs"
+class="section level4">
+<h4>Understand the advantages and disadvantages of within-subjects
+designs</h4>
+<div class="alert alert-info">
+
+</div>
+</div>
+</div>
+<div id="lo7" class="section level3">
+<h3>LO7</h3>
+<div
+id="examine-how-counterbalancing-is-used-in-within-subjects-designs"
+class="section level4">
+<h4>Examine how counterbalancing is used in within-subjects designs</h4>
+<div class="alert alert-info">
+
+</div>
+</div>
+</div>
+</div>
+<div id="week-2-correlations"
+class="section level2 well tabset tabset-fade tabset-pills">
+<h2 class="well tabset tabset-fade tabset-pills">Week 2:
+Correlations</h2>
+<div id="lo1-1" class="section level3">
+<h3>LO1</h3>
+<div id="topic-1" class="section level4">
+<h4>Topic 1</h4>
+</div>
+</div>
+<div id="lo2-1" class="section level3">
+<h3>LO2</h3>
+<div id="topic-2" class="section level4">
+<h4>Topic 2</h4>
+</div>
+</div>
+<div id="lo3-1" class="section level3">
+<h3>LO3</h3>
+<div id="topic-3" class="section level4">
+<h4>Topic 3</h4>
+</div>
+</div>
+<div id="lo4-1" class="section level3">
+<h3>LO4</h3>
+<div id="topic-4" class="section level4">
+<h4>Topic 4</h4>
+</div>
+</div>
+<div id="lo5-1" class="section level3">
+<h3>LO5</h3>
+<div id="topic-5" class="section level4">
+<h4>Topic 5</h4>
+</div>
+</div>
+<div id="lo6-1" class="section level3">
+<h3>LO6</h3>
+<div id="topic-6" class="section level4">
+<h4>Topic 6</h4>
+</div>
+</div>
+<div id="lo7-1" class="section level3">
+<h3>LO7</h3>
+<div id="topic-7" class="section level4">
+<h4>Topic 7</h4>
+</div>
+</div>
+</div>
+<div id="week-3-multiple-regression"
+class="section level2 well tabset tabset-fade tabset-pills">
+<h2 class="well tabset tabset-fade tabset-pills">Week 3: Multiple
+Regression</h2>
+<div id="lo1-2" class="section level3">
+<h3>LO1</h3>
+<div id="topic-1-1" class="section level4">
+<h4>Topic 1</h4>
+</div>
+</div>
+<div id="lo2-2" class="section level3">
+<h3>LO2</h3>
+<div id="topic-2-1" class="section level4">
+<h4>Topic 2</h4>
+</div>
+</div>
+<div id="lo3-2" class="section level3">
+<h3>LO3</h3>
+<div id="topic-3-1" class="section level4">
+<h4>Topic 3</h4>
+</div>
+</div>
+<div id="lo4-2" class="section level3">
+<h3>LO4</h3>
+<div id="topic-4-1" class="section level4">
+<h4>Topic 4</h4>
+</div>
+</div>
+<div id="lo5-2" class="section level3">
+<h3>LO5</h3>
+<div id="topic-5-1" class="section level4">
+<h4>Topic 5</h4>
+</div>
+</div>
+<div id="lo6-2" class="section level3">
+<h3>LO6</h3>
+<div id="topic-6-1" class="section level4">
+<h4>Topic 6</h4>
+</div>
+</div>
+<div id="lo7-2" class="section level3">
+<h3>LO7</h3>
+<div id="topic-7-1" class="section level4">
+<h4>Topic 7</h4>
+</div>
+</div>
+</div>
+<div id="week-4-one-way-anova"
+class="section level2 well tabset tabset-fade tabset-pills">
+<h2 class="well tabset tabset-fade tabset-pills">Week 4: One-Way
+ANOVA</h2>
+<div id="lo1-3" class="section level3">
+<h3>LO1</h3>
+<div id="topic-1-2" class="section level4">
+<h4>Topic 1</h4>
+</div>
+</div>
+<div id="lo2-3" class="section level3">
+<h3>LO2</h3>
+<div id="topic-2-2" class="section level4">
+<h4>Topic 2</h4>
+</div>
+</div>
+<div id="lo3-3" class="section level3">
+<h3>LO3</h3>
+<div id="topic-3-2" class="section level4">
+<h4>Topic 3</h4>
+</div>
+</div>
+<div id="lo4-3" class="section level3">
+<h3>LO4</h3>
+<div id="topic-4-2" class="section level4">
+<h4>Topic 4</h4>
+</div>
+</div>
+<div id="lo5-3" class="section level3">
+<h3>LO5</h3>
+<div id="topic-5-2" class="section level4">
+<h4>Topic 5</h4>
+</div>
+</div>
+<div id="lo6-3" class="section level3">
+<h3>LO6</h3>
+<div id="topic-6-2" class="section level4">
+<h4>Topic 6</h4>
+</div>
+</div>
+<div id="lo7-3" class="section level3">
+<h3>LO7</h3>
+<div id="topic-7-2" class="section level4">
+<h4>Topic 7</h4>
+</div>
+</div>
+</div>
+<div id="week-5-multiple-comparisons"
+class="section level2 well tabset tabset-fade tabset-pills">
+<h2 class="well tabset tabset-fade tabset-pills">Week 5: Multiple
+Comparisons</h2>
+<div id="lo1-4" class="section level3">
+<h3>LO1</h3>
+<div id="topic-1-3" class="section level4">
+<h4>Topic 1</h4>
+</div>
+</div>
+<div id="lo2-4" class="section level3">
+<h3>LO2</h3>
+<div id="topic-2-3" class="section level4">
+<h4>Topic 2</h4>
+</div>
+</div>
+<div id="lo3-4" class="section level3">
+<h3>LO3</h3>
+<div id="topic-3-3" class="section level4">
+<h4>Topic 3</h4>
+</div>
+</div>
+<div id="lo4-4" class="section level3">
+<h3>LO4</h3>
+<div id="topic-4-3" class="section level4">
+<h4>Topic 4</h4>
+</div>
+</div>
+<div id="lo5-4" class="section level3">
+<h3>LO5</h3>
+<div id="topic-5-3" class="section level4">
+<h4>Topic 5</h4>
+</div>
+</div>
+<div id="lo6-4" class="section level3">
+<h3>LO6</h3>
+<div id="topic-6-3" class="section level4">
+<h4>Topic 6</h4>
+</div>
+</div>
+<div id="lo7-4" class="section level3">
+<h3>LO7</h3>
+<div id="topic-7-3" class="section level4">
+<h4>Topic 7</h4>
+</div>
+</div>
+</div>
+<div id="week-6-factorial-anova"
+class="section level2 well tabset tabset-fade tabset-pills">
+<h2 class="well tabset tabset-fade tabset-pills">Week 6: Factorial
+ANOVA</h2>
+<div id="lo1-5" class="section level3">
+<h3>LO1</h3>
+<div id="topic-1-4" class="section level4">
+<h4>Topic 1</h4>
+</div>
+</div>
+<div id="lo2-5" class="section level3">
+<h3>LO2</h3>
+<div id="topic-2-4" class="section level4">
+<h4>Topic 2</h4>
+</div>
+</div>
+<div id="lo3-5" class="section level3">
+<h3>LO3</h3>
+<div id="topic-3-4" class="section level4">
+<h4>Topic 3</h4>
+</div>
+</div>
+<div id="lo4-5" class="section level3">
+<h3>LO4</h3>
+<div id="topic-4-4" class="section level4">
+<h4>Topic 4</h4>
+</div>
+</div>
+<div id="lo5-5" class="section level3">
+<h3>LO5</h3>
+<div id="topic-5-4" class="section level4">
+<h4>Topic 5</h4>
+</div>
+</div>
+<div id="lo6-5" class="section level3">
+<h3>LO6</h3>
+<div id="topic-6-4" class="section level4">
+<h4>Topic 6</h4>
+</div>
+</div>
+<div id="lo7-5" class="section level3">
+<h3>LO7</h3>
+<div id="topic-7-4" class="section level4">
+<h4>Topic 7</h4>
+</div>
+</div>
+</div>
+<div id="week-7-repeated-measure-anova"
+class="section level2 well tabset tabset-fade tabset-pills">
+<h2 class="well tabset tabset-fade tabset-pills">Week 7: Repeated
+Measure ANOVA</h2>
+<div id="lo1-6" class="section level3">
+<h3>LO1</h3>
+<div id="topic-1-5" class="section level4">
+<h4>Topic 1</h4>
+</div>
+</div>
+<div id="lo2-6" class="section level3">
+<h3>LO2</h3>
+<div id="topic-2-5" class="section level4">
+<h4>Topic 2</h4>
+</div>
+</div>
+<div id="lo3-6" class="section level3">
+<h3>LO3</h3>
+<div id="topic-3-5" class="section level4">
+<h4>Topic 3</h4>
+</div>
+</div>
+<div id="lo4-6" class="section level3">
+<h3>LO4</h3>
+<div id="topic-4-5" class="section level4">
+<h4>Topic 4</h4>
+</div>
+</div>
+<div id="lo5-6" class="section level3">
+<h3>LO5</h3>
+<div id="topic-5-5" class="section level4">
+<h4>Topic 5</h4>
+</div>
+</div>
+<div id="lo6-6" class="section level3">
+<h3>LO6</h3>
+<div id="topic-6-5" class="section level4">
+<h4>Topic 6</h4>
+</div>
+</div>
+<div id="lo7-6" class="section level3">
+<h3>LO7</h3>
+<div id="topic-7-5" class="section level4">
+<h4>Topic 7</h4>
+</div>
+</div>
+</div>
+<div id="week-8-sampling"
+class="section level2 well tabset tabset-fade tabset-pills">
+<h2 class="well tabset tabset-fade tabset-pills">Week 8: Sampling</h2>
+<div id="lo1-7" class="section level3">
+<h3>LO1</h3>
+<div id="topic-1-6" class="section level4">
+<h4>Topic 1</h4>
+</div>
+</div>
+<div id="lo2-7" class="section level3">
+<h3>LO2</h3>
+<div id="topic-2-6" class="section level4">
+<h4>Topic 2</h4>
+</div>
+</div>
+<div id="lo3-7" class="section level3">
+<h3>LO3</h3>
+<div id="topic-3-6" class="section level4">
+<h4>Topic 3</h4>
+</div>
+</div>
+<div id="lo4-7" class="section level3">
+<h3>LO4</h3>
+<div id="topic-4-6" class="section level4">
+<h4>Topic 4</h4>
+</div>
+</div>
+<div id="lo5-7" class="section level3">
+<h3>LO5</h3>
+<div id="topic-5-6" class="section level4">
+<h4>Topic 5</h4>
+</div>
+</div>
+<div id="lo6-7" class="section level3">
+<h3>LO6</h3>
+<div id="topic-6-6" class="section level4">
+<h4>Topic 6</h4>
+</div>
+</div>
+<div id="lo7-7" class="section level3">
+<h3>LO7</h3>
+<div id="topic-7-6" class="section level4">
+<h4>Topic 7</h4>
+</div>
+<div id="motor-imagery-and-motor-skill-interventions"
+class="section level4">
+<h4>Motor Imagery and Motor Skill Interventions</h4>
+</div>
+</div>
+</div>
+<div id="week-9-scales-and-survey-design"
+class="section level2 well tabset tabset-fade tabset-pills">
+<h2 class="well tabset tabset-fade tabset-pills">Week 9: Scales and
+Survey Design</h2>
+<div id="lo1-8" class="section level3">
+<h3>LO1</h3>
+<div id="topic-1-7" class="section level4">
+<h4>Topic 1</h4>
+</div>
+</div>
+<div id="lo2-8" class="section level3">
+<h3>LO2</h3>
+<div id="topic-2-7" class="section level4">
+<h4>Topic 2</h4>
+</div>
+</div>
+<div id="lo3-8" class="section level3">
+<h3>LO3</h3>
+<div id="topic-3-7" class="section level4">
+<h4>Topic 3</h4>
+</div>
+</div>
+<div id="lo4-8" class="section level3">
+<h3>LO4</h3>
+<div id="topic-4-7" class="section level4">
+<h4>Topic 4</h4>
+</div>
+</div>
+<div id="lo5-8" class="section level3">
+<h3>LO5</h3>
+<div id="topic-5-7" class="section level4">
+<h4>Topic 5</h4>
+</div>
+</div>
+<div id="lo6-8" class="section level3">
+<h3>LO6</h3>
+<div id="topic-6-7" class="section level4">
+<h4>Topic 6</h4>
+</div>
+</div>
+<div id="lo7-8" class="section level3">
+<h3>LO7</h3>
+<div id="topic-7-7" class="section level4">
+<h4>Topic 7</h4>
+</div>
+</div>
+</div>
+<div id="week-10-qualitative-research"
+class="section level2 well tabset tabset-fade tabset-pills">
+<h2 class="well tabset tabset-fade tabset-pills">Week 10: Qualitative
+Research</h2>
+<div id="lo1-9" class="section level3">
+<h3>LO1</h3>
+<div id="topic-1-8" class="section level4">
+<h4>Topic 1</h4>
+</div>
+</div>
+<div id="lo2-9" class="section level3">
+<h3>LO2</h3>
+<div id="topic-2-8" class="section level4">
+<h4>Topic 2</h4>
+</div>
+</div>
+<div id="lo3-9" class="section level3">
+<h3>LO3</h3>
+<div id="topic-3-8" class="section level4">
+<h4>Topic 3</h4>
+</div>
+</div>
+<div id="lo4-9" class="section level3">
+<h3>LO4</h3>
+<div id="topic-4-8" class="section level4">
+<h4>Topic 4</h4>
+</div>
+</div>
+<div id="lo5-9" class="section level3">
+<h3>LO5</h3>
+<div id="topic-5-8" class="section level4">
+<h4>Topic 5</h4>
+</div>
+</div>
+<div id="lo6-9" class="section level3">
+<h3>LO6</h3>
+<div id="topic-6-8" class="section level4">
+<h4>Topic 6</h4>
+</div>
+</div>
+<div id="lo7-9" class="section level3">
+<h3>LO7</h3>
+<div id="topic-7-8" class="section level4">
+<h4>Topic 7</h4>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

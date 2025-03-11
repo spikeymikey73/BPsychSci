@@ -1,0 +1,234 @@
+---
+title: "HPY210: Applied Counselling Skills (Introductory)"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+library(kableExtra)  # For additional styling (optional)
+library(ggplot2)
+```
+
+## Week 1: Introduction and Research Methods in Adult Development Pt 1  {.well .tabset .tabset-fade .tabset-pills}
+
+### Lecture 1: Introduction to Counselling
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> How is Counselling Defined?
+
+</br>
+
+##### Professional Organisations
+
+::: {.blockquote}
+>“Professional counselling is a safe and confidential collaboration between **qualified** counsellors and clients to promote **mental health and wellbeing, enhance self-understanding**, and resolve identified concerns. **Clients are active participants** in the counselling process at every stage”
+>
+><footer class="pull-right">Psychotherapy and Counselling Federation of Australia (PACFA)</footer>
+:::
+
+:::{.blockquote}
+>Counselling is a professional **relationship** that **empowers** diverse individuals, families, and groups to accomplish **mental health, wellness, education, and career goals**.
+>
+><footer class="pull-right">American Counselling Association</footer>
+:::
+
+:::{.blockquote}
+>Counselling and psychotherapy are **umbrella terms** that cover a range of talking therapies. They are delivered by **trained practitioners** who work with people over a short or long term to help them bring about **effective change or enhance their wellbeing**.
+>
+><footer class="pull-right">British Association for Counselling and Psychotherapy</footer>
+:::
+
+</br>
+
+##### Textbooks
+
+::: {.blockquote}
+>"&hellip;a **principled relationship** characterised by the application of one or more psychological **theories and a recognised set of communication skills**, modified by experience, intuition and other interpersonal factors, to **clients’ intimate concerns, problems or aspirations.**”
+>
+><footer class="pull-right">Feltham and Dryden (1993)</footer>
+:::
+
+::: {.blockquote}
+>“Counselling is an **intimate form of learning**, and it demands a practitioner who is willing to be an authentic person in the **therapeutic relationship.** It is within the context of such a **person-to-person connection** that the client experiences **growth.**”
+>
+><footer class="pull-right">Corey (2016)</footer>
+:::
+
+::: {.blockquote}
+>“Counselling is [an] **intensive and personal process**&hellip;[it is] about **listening to and understanding** a client’s life challenges and **developing strategies** for change and growth.”
+>
+><footer class="pull-right">Ivey, Ivey and Zalaquett (2018)</footer>
+:::
+
+</br>
+
+##### Key Components of Effective Counselling
+
+| **Concept**                          | **Description** |
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| **Relationship**                     | The relationship is built on trust, empathy, privacy and respect, and it allows the client to feel heard and understood.       |
+| **Client-centredness**               | Counselling is a purposeful endeavour that arises from and serves the client’s intentions, priorities, needs, hopes and goals. |
+| **Understanding and Change**         | Counselling stimulates capacity for understanding and fosters learning of skills/strategies for pursuit of personal goals or mental wellbeing. |
+| **Skilful (and qualified) use of techniques** | Effective counselling relies on the mastery of a set of skills and approaches. Accreditation organisations monitor competencies for professional counsellors. |
+
+</br>
+
+##### Key Ingredients of Effective Counselling
+
+![](images/HPY210/Week1/Effective.svg)
+
+##### Professional Counselling vs. Counselling Skills
+
+- Professional Counselling is  :
+  - Conducted by Psychologists, counsellors, psychotherapists, social workers, psychiatrists.
+  - Uses a therapeutic approach to promote personal development or enhance mental wellbeing.
+  - Delivered over a number of sessions (short-term or long-term), each session has limited duration (usually 50 mins).
+- Counselling Skills are:
+  - Used in a variety of careers, such as people-focused healthcare professionals, coaches, trainers/facilitators, supervisors, managers, tutors and presenters.
+  - Aims at enhancing personal development within a particular domain (current employment or group).
+  - Delivered more casually on an ad-hoc basis.
+
+##### Counselling Skills vs. Communication/Interpersonal Skills
+
+- Counselling Skills involve:
+  - Attentive listening
+  - Responding to and focusing on the client’s interests.
+  - Confidentiality
+  - Application of microskills
+  - Goal-focused
+
+##### Comparison Between Counselling and Coaching
+
+- **Counselling**:  
+  - Awareness.
+  - Assistance with problems or dysfunction.
+  - Getting back to ‘normal’ functioning.
+  - Has tended until recently to be problem focussed.
+- **Coaching**:
+  - Awareness;
+  - Skill development;
+  - Going beyond current capabilities;
+  - Building strengths; Often outcome-focussed;
+  - Business and sport focus, and within training organisations;
+  - Health
+- **Similarities** identified (between coaching & counselling):
+  - Listening
+  - Questioning
+  - Non-judgemental (a ‘safe’ space)
+  - The process of uncovering (although what was uncovered differed)
+- **Differences** identified:
+  - Focus and intention (coaching aimed at movement toward desired outcomes; present-future orientated; realising potential)
+  - Client base (coaching aimed at business, but can venture beyond).
+  
+::: {.blockquote}
+>“Coaching [is] a human development process that involves structured, focused interaction and the use of appropriate strategies, tools and techniques to promote desirable and sustainable change&hellip;”  
+><footer class="pull-right">Cox et al, (2014)</footer>  
+:::
+
+##### How Can Counselling Help?
+
+- **Insight**: gaining understanding of the origins and development of one’s difficulties and <abbr title="enduring set of behaviours reflecting a pervasive/inflexible response-style, which may at one stage have helped with self-preservation, it but has now become deleterious to well-being.">self-defeating patterns</abbr>.
+- **Awareness**: the process of noticing and experiencing one’s thoughts, feelings, and behaviours in real time.
+- **Self-acceptance**: development of a positive attitude towards self.
+- **Relating with others**: ability to form and maintain satisfying relationships with others.
+- **Problem-solving**: a cognitive and behavioural process of finding solutions to problems and includes a series of steps.
+- **Psychoeducation**: a collaborative process of information-giving and skills-building to promote changes in thoughts, feelings and behaviours.
+- **Cognitive change**: a process of modifying or restructuring the thought patterns and core beliefs underlying psychological distress.
+- **Behaviour change**: empowering individuals to adopt positive practices
+- **Distress reduction**
+- **tolerance and emotion regulation**
+
+</br>
+
+:::{.blockquote}
+> “Feelings, emotions, and moods constitute a river that continually runs through us – peaceful, meandering, turbulent, or raging, often beneficial, sometimes dangerousm seldom neutral”.
+>
+><footer class="pull-right">Egan (2014)</footer>
+:::
+
+</br>
+
+:::{.blockquote}
+> “To change in therapy, clients cannot just talk intellectually about themselves and their feelings, they need to viscerally experience what they talk about&hellip;”
+>
+><footer class="pull-right">Greenberg (2002)</footer>
+:::
+
+</br>
+
+##### Working With Feelings
+
+- According to Greenberg (2010) there are three categories or strategies when working with feelings:
+  - **Building awareness through research**; putting feelings into words helps decrease amygdala arousal (Lieberman et al 2004).
+  - **Expressing feelings**: Feelings are elicited and tolerated in the session; using body awareness to help clients get in touch with their feelings.
+  - **Reflection and regulation**.
+
+:::
+
+### Lecture 2: When and Why Do People Change?
+
+### Compulsory Reading
+
+```{r, echo=FALSE, results='asis'}
+
+# Data for counselling process table
+data <- data.frame(
+  `Process of Counselling` = c(
+    "Developing trust and engagement, including ‘presence’ and empowerment through relationship change",
+    "Exploring the problem",
+    "Goal-setting",
+    "Empowering action",
+    "Maintaining the change",
+    "Ending counselling"
+  ),
+  `Cycle of Change` = c(
+    "Pre-contemplation",
+    "Contemplation",
+    "Preparation",
+    "Action",
+    "Maintenance",
+    "Termination or lapse or relapse"
+  ),
+  `Process of Maintaining Change` = c(
+    "Anticipating and preventing problems",
+    "Stopping the triggering of a return to problematic behaviour",
+    "Monitoring and analysing high-risk situations",
+    "Teaching coping responses",
+    "Stopping a lapse become a relapse",
+    "Dealing with helplessness; reducing expectations of old patterns of thinking and behaving"
+  ),
+  check.names = FALSE
+)
+
+# Generate HTML table with Bootstrap 3.3.5 styling
+kable(data, format = "html", escape = FALSE) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  column_spec(1, bold = TRUE)
+
+```
+
+
+
+## Week 2: Introduction and Research Methods in Adult Development Pt 2  {.well .tabset .tabset-fade .tabset-pills}
+
+## Week 3: Ethics and Reflective Practice  {.well .tabset .tabset-fade .tabset-pills}
+
+## Week 4: Ethical Decision Making Frameworks and Risk Assessment  {.well .tabset .tabset-fade .tabset-pills}
+
+## Week 5: Theories and Frameworks: Introduction, Assessments, and Terminations  {.well .tabset .tabset-fade .tabset-pills}
+
+## Week 6: Theories and Frameworks: Person-Centred Approaches  {.well .tabset .tabset-fade .tabset-pills}
+
+## Week 7: Theories and Frameworks: Motivational Interviewing  {.well .tabset .tabset-fade .tabset-pills}
+
+## Week 8: Theories and Frameworks - Solution Focused Approaches  {.well .tabset .tabset-fade .tabset-pills}
+
+## Week 9: Theories and Frameworks - Cognitive Behavioural Approaches  {.well .tabset .tabset-fade .tabset-pills}
+
+## Week 10: Theories and Frameworks - Mindfulness Based Approaches  {.well .tabset .tabset-fade .tabset-pills}
+
