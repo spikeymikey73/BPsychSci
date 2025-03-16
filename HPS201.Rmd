@@ -10,16 +10,19 @@ output:
 knitr::opts_chunk$set(echo=FALSE)
 library(jmv)
 library(kableExtra)
+library(ggplot2)
 ```
 
-## Week 1: Measurement {.well}
-### LO1: Understand the difference between population and sample {.well}
+## Week 1: Measurement {.well .tabset .tabset-fade .tabset-pills}
 
-#### Population vs. Sample
+### LO1
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Understand the difference between population and sample
 
 **Population:** the entire set of individuals, or events, of interest in a particular study (Often not feasible!) **Sample:** set of individuals selected from a population
 
-#### Example:
+##### Example:
 
 A psychologist wants to determine whether a motivational program is effective in improving work performance in Australian office workers.
 
@@ -27,22 +30,26 @@ A psychologist wants to determine whether a motivational program is effective in
 -   Problem?: Not feasible, and not sure if it works yet.
 -   Solution: Select a sample from the population Sample (e.g., 100 workers from each state)
 -   Generalise: Results from the sample (100 workers from each state) back to the population of interest (Every Australian Office Worker)
+:::
 
-### LO2: Distinguish between parameters and statistics {.well}
+### LO2
 
-**Parameter:** a value that describes a key characteristic of the population, such as:
+:::{.alert .alert-info}
+##### <i class="fas fa-info-circle"></i> Distinguish between parameters and statistics
 
--   Average income of all Australians
--   Average age of all Australians
+- **Parameter:** a value that describes a key characteristic of the population, such as:
+  - Average income of all Australians
+  - Average age of all Australians
+- **Statistic:** a value that describes a key characteristic of the sample, such as:
+  - Average IQ of a sample of 1000 Australian Uni Students
+  - Average Age of a sample of 1000 Australian Uni Students
+- **Statistics are used to estimate values that exist in the population.**
+:::
 
-**Statistic:** a value that describes a key characteristic of the sample, such as:
+### LO3
 
--   Average IQ of a sample of 1000 Australian Uni Students
--   Average Age of a sample of 1000 Australian Uni Students
-
-$\bigstar$ Statistics are used to estimate values that exist in the population.
-
-### LO3: Distinguish between descriptive and inferential statistics {.well}
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Distinguish between descriptive and inferential statistics
 
 As a researcher, you have:
 
@@ -58,56 +65,54 @@ Statistics is the method of using mathematics to organize, summarise, and interp
 
 Two main types:
 
-#### Descriptive statistics:
+- **Descriptive statistics**:
+  -   Simply used to describe data (Weeks 1 and 2)
+  -   Summarize data
+  -   Averages, score ranges etc.
+  -   Makes data manageable
+- **Inferential statistics**:
+  -   Used when we want to answer research questions (Week 3 onwards).
+  -   Allows us to make generalisations from our sample to our population of interest.
+:::
 
--   Simply used to describe data (Weeks 1 and 2)
--   Summarize data
--   Averages, score ranges etc.
--   Makes data manageable
+### LO4
 
-#### Inferential statistics:
-
--   Used when we want to answer research questions (Week 3 onwards)
--   Allows us to make generalisations from our sample to our population of interest
-
-### LO4: Distinguish between discrete and continuous variables {.well}
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Distinguish between discrete and continuous variables
 
 -   Before we can answer our research questions we need data
 -   Data is obtained by measuring specific variables of interest to your research question
 -   **Variable:** a characteristic or condition that changes or has different values for different individuals (Previous example: Depression, Age, etc.)
 
-#### Discrete data
+- **Discrete data:**
+  -   Contain only a small number of values, such as:
+      -   handedness (right/left/ambidextrous)
+      -   favourite season (summer/autumn/ winter/ spring)
+  -   Often referred to as Categorical data
+- **Continuous**:
+  - Contain many different values - Weight (40kg- 140kg), age (0-100 years)
+  -   Are often referred to as Measurement data
+  -   Often depends on the way you set up the measurement.
+  -   e.g. Anxiety levels of HPS201/771 students
+- **Discrete or continuous?**
+  -   Continuous variables can represent a score on a scale (e.g. an anxiety questionnaire)
+  -   Questionnaire scores range from 0-60
+  -   Discrete variables allow for people to be organised into groups:
+    -   High anxiety (41-60)
+    -   Average anxiety (21-40)
+    -   Low anxiety (0-20)
 
--   Contain only a small number of values, such as:
-    -   handedness (right/left/ambidextrous)
-    -   favourite season (summer/autumn/ winter/ spring)
--   Often referred to as Categorical data
+- **Why does it matter?**
+  - **The type of data that you use will impact the types of statistical approach that we use to analyse data**
+  -   Continuous/Measurement data are usually summarised using means (e.g. Mean age of HPS201 students is 19.8, Mean height of AFL footballers is 188cm)
+  -   Discrete/Categorical data are usually summarized using percentage (e.g. 15% of participants were left-handed, 75% right-handed, 10% ambidextrous. 32% of students have black hair, 8% have red hair, 50% have brown hair, 5 % have blonde hair, 5% other)
+:::
 
-#### Continuous:
+### LO5
 
-Continuous variables contain many different values - Weight (40kg- 140kg), age (0-100 years)
-
--   Are often referred to as Measurement data
--   Often depends on the way you set up the measurement.
--   e.g. Anxiety levels of HPS201/771 students
-
-#### Discrete or continuous?
-
--   Continuous variables can represent a score on a scale (e.g. an anxiety questionnaire)
--   Questionnaire scores range from 0-60
--   Discrete variables allow for people to be organised into groups:
-      -   High anxiety (41-60)
-      -   Average anxiety (21-40)
-      -   Low anxiety (0-20)
-
-#### Why does it matter?
-
-**The type of data that you use will impact the types of statistical approach that we use to analyse data**
-
--   Continuous/Measurement data are usually summarised using means (e.g. Mean age of HPS201 students is 19.8, Mean height of AFL footballers is 188cm)
--   Discrete/Categorical data are usually summarized using percentage (e.g. 15% of participants were left-handed, 75% right-handed, 10% ambidextrous. 32% of students have black hair, 8% have red hair, 50% have brown hair, 5 % have blonde hair, 5% other)
-
-### LO5: Explain the difference between categorical data and measurement data {.well}
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Explain the difference between
+categorical data and measurement data
 
 The type of data that you use will impact the types of statistical approach that we use to analyse data.
 
@@ -120,75 +125,82 @@ Discrete/Categorical data are usually summarized using percentage
 
 -   15% of participants were left-handed, 75% right-handed, 10% ambidextrous
 -   32% if students have black hair, 8% have red hair , 50% have brown hair, 5 % have blonde hair, 5% other
+:::
 
-### LO6: Distinguish between independent and dependent variables {.well}
+### LO6
 
-#### Independent variable (IV / X-axis):
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Distinguish between independent and dependent variables
+
+##### Independent variable (IV / X-axis):
 
 -   The variable that we manipulate
 -   As a researcher, we believe that the IV will effect our dependent variable
 
-#### Dependent variable (DV / Y-axis):
+##### Dependent variable (DV / Y-axis):
 
 -   The variable that we measure
 -   The variable that is observed for differences/changes
-#### Quiz time!
+
+##### Quiz-time!
 
 A researcher wanted to test her theory that people tend to walk faster on cold days compared to hot days...
 
 <abbr title="Type of day (hot vs cold)">Independent variable?</abbr>
 
 <abbr title="Walking speed">Dependant variable?</abbr>
-#### Quiz time!
+
+###### Quiz-time!
 
 A psychologist wants to investigate whether caffeine improves attention. She gives different amounts of caffeine (low or high) to the research participants and then measures their attentional capacity...
 
 <abbr title="Amount of caffeine">Independent variable?</abbr>
 
 <abbr title="Attentional Capacity">Dependant variable?</abbr>
+:::
 
-### LO7: Understand the different types of measurement scales (nominal, ordinal, interval and ratio) {.well}
+### LO7
+
+:::{.alert .alert-info}
+##### <i class="fas fa-info-circle"></i> Understand the different types of measurement scales (nominal, ordinal, interval and ratio)
 
 We measure our IV and DV's using a variety of measurement scales:
 
--   **Nominal:** consist of a set of categories with different names in no ordered sequence
+- **Nominal:** consist of a set of categories with different names in no ordered sequence
+  - **Example:**
+    - Handedness (Right, Left, Ambidextrous)
+    - No category is higher/lower, better/worse than any other as they are just labels for different categories
+- **Ordinal:** Ordinal scales consist of a set of categories with different names AND are organised into an ordered sequence
+  - Highest level of academic qualification:
+    - High School Incomplete
+    - High School Complete
+    - Diploma
+    - Bachelor Degree
+    - Masters Degree
+    - PhD
+- **Interval:** Consist of ordered categories where the intervals are exactly the same size
+  - The distance between each value is the same along the scale
+  - Usually have a more data points than ordinal scales (continuous data)
+  - **No absolute zero point**
+    - Degrees Celsius
+    - Distance between 10-15 degrees is the same as the distance between 30-35 degrees
+    - Zero degrees does not represent the absence of temperature. It is just a point on the temperature scale
+- **Ratio:** Consist of ordered categories where the intervals are exactly the same size
+  - The distance between each value is the same along the scale
+  - Usually have a more data points than ordinal scales (continuous data)
+  - **With a true zero point**
+    - Time (minutes)
+    - length (cm)
+:::
 
-    -   Handedness:
-        -   Right, Left, Ambidextrous
-        -   No category is higher/lower, better/worse than any other as they are just labels for different categories
+### L08
 
--   **Ordinal:** Ordinal scales consist of a set of categories with different names AND are organized into an ordered sequence
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Understand how to construct frequency distributions and histograms
 
-    -   Highest level of academic qualification:
-        -   High School Incomplete
-        -   High School Complete
-        -   Diploma
-        -   Bachelor Degree
-        -   Masters Degree
-        -   PhD
-
--   **Interval:** Consist of ordered categories where the intervals are exactly the same size
-
-    -   The distance between each value is the same along the scale
-    -   Usually have a more data points than ordinal scales (continuous data)
-    -   **No absolute zero point**
-        -   Degrees Celsius
-        -   Distance between 10-15 degrees is the same as the distance between 30-35 degrees
-        -   Zero degrees does not represent the absence of temperature. It is just a point on the temperature scale
-
--   **Ratio:** Consist of ordered categories where the intervals are exactly the same size
-
-    -   The distance between each value is the same along the scale
-    -   Usually have a more data points than ordinal scales (continuous data)
-    -   **With a true zero point**
-        -   Time (minutes)
-        -   length (cm)
-
-### L08: Understand how to construct frequency distributions and histograms {.well}
-
-**Frequency distributions** report how often each score was recorded in a given data set. When presented in table form, a frequency distribution lists all values for a variable along with the frequency of each.
-
-For example, imagine a researcher obtains the following self-esteem scores from 16 people (measured as a continuous variable ranging from 0--10):
+- **Frequency distributions** report how often each score was recorded in a given data set.
+- When presented in table form, a frequency distribution lists all values for a variable along with the frequency of each.
+- For example, imagine a researcher obtains the following self-esteem scores from 16 people (measured as a continuous variable ranging from 0--10):
 
 5 1 3 4 5 6 2 5 5 4 7 4 4 8 6 3
 
@@ -208,11 +220,17 @@ jmv::descriptives(
     max = FALSE)
 ```
 
-The frequency table above helps to summarise the collected data, allowing us to easily see the number of participants recording each score. We can also gather from this table the highest concentration of results towards the centre of the table (those who answered 4 or 5).
+- The frequency table above helps to summarise the collected data, allowing us to easily see the number of participants recording each score.
+- We can also gather from this table the highest concentration of results towards the centre of the table (those who answered 4 or 5).
+- The **histogram** is a graphical representation of the data in the frequency table.
+- A larger data set may be most relevant when the results are grouped together (known as a **bin**), while smaller data sets can simply be plotted as collected.
+- Grouping data in bins assists in reducing the number of 'random' results and to assist in identifying trends.
+:::
 
-The **histogram** is a graphical representation of the data in the frequency table. A larger data set may be most relevant when the results are grouped together (known as a **bin**), while smaller data sets can simply be plotted as collected. Grouping data in bins assists in reducing the number of 'random' results and to assist in identifying trends.
+### LO9
 
-### LO9: Understand positive skew, negative skew and kurtosis {.well}
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Understand positive skew, negative skew and kurtosis
 
 **Bimodal:** A frequency distribution is said to be bimodal when the majority of results are visible at 2 clear peaks in the data being presented.
 
@@ -221,140 +239,192 @@ The **histogram** is a graphical representation of the data in the frequency tab
 **Positively Skewed:** A greater number of people have scored at the low end of a scale.
 
 **Kurtosis:** refers to the peaks of the recorded variable (<abbr title="low peaked distribution">platykurtosis</abbr> or <abbr title="high peaked distribution">leptokurtosis</abbr>).
+:::
 
+## Week 2:  Central Tendency, Variability and z-scores {.well .tabset .tabset-fade .tabset-pills}
 
+### LO1
 
+:::{.alert .alert-info}
 
-## Week 2: Statistical Notation {.well}
-### Notation {.tabset}
-#### Variables
+#### <i class="fas fa-info-circle"></i> Statistical Notation
 
-$\Sigma = sum$
+**Variables**
 
-$X = variable$
+$$
+\Sigma = \text{sum} \\
+X = \text{variable} \\
+\bar{X} = \text{mean of } X
+$$
 
-$\overline{X} =$ mean of $X$
+**Summation Notation**
 
-#### Summation Notation
 ```{r}
 X <- c(45,42,35,23,52)
 options(scipen = 999)
-knitr::kable(X)
 ```
 
-$\Sigma X = (X_1 + X_2 + X_3 + X_4 + X_5) =$ `r sum(X)`
+$$
+\Sigma X = (X_1 + X_2 + X_3 + X_4 + X_5) = 197 \\
+\Sigma X^2 = (X_1^2 + X_2^2 + X_3^2 + X_4^2 + X_5^2) = 8247 \\
+(\Sigma X)^2 = (X_1 + X_2 + X_3 + X_4 + X_5)^2 = 38809
+$$
 
-$\Sigma X^2 = (X_1^2 + X_2^2 + X_3^2 + X_4^2 + X_5^2) =$ `r  sum(X^2)`
 
-$(\Sigma X)^2 = (X_1 + X_2 + X_3 + X_4 + X_5)^2 =$ `r  sum(X)^2`
-
-![Summation Notation Examples](~/Documents/BPsychSci/HPS201/Images/Notation.png)
-
-#### Double Subscripts {-}
+**Double Subscripts**
 
 $X_{ij}$ where i = the row and j = the column
 
-![Double Notation Examples](~/Documents/BPsychSci/HPS201/Images/DoubleNotation.png)
+- In the above data set:
+  - 3^rd^ trial on day 2
+    - $X_{2,3} = 13$
+  - 4^th^ trial on day 1
+    - $X_{1,4} = 9$
+:::
 
->In the above data set:
->
->3^rd^ trial on day 2
->
-> $X_{2,3} = 13$
->
->4^th^ trial on day 1
->
->$X_{1,4} = 9$
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Measures of Central Tendency
 
-### Measures of Central Tendency {.tabset}
-
-Once data is collected, research psychologists would usually be interested in examining the <abbr title="the mid-point of a frequency distribution">central tendency</abbr> of this data. 
-
-#### The Mode
-
-The mode is he most frequently occurring value and thus represented by the highest bar in a histogram.
-
-#### The Median
-
->‘the score that corresponds to the point at or below which 50% of the scores fall when the data are arranged in numerical order’
-
-A simple rule of thumb formula for finding the **median location** in a set of scores is $(N + 1)/2$ (where $N =$ the number of scores).
-
-#### The Mean {-}
-
--   The most common and popular measure of central tendency is the mean.
--   The mean is simply the average score in a data set and is calculated as:
+- Once data is collected, research psychologists would usually be interested in examining the <abbr title="the mid-point of a frequency distribution">central tendency</abbr> of this data. 
+  - **Mode**: The most frequently occurring value and thus represented by the highest bar in a histogram.
+  - **Median**: The score that corresponds to the point at or below which 50% of the scores fall when the data are arranged in numerical order.
+    - A simple rule of thumb formula for finding the **median location** in a set of scores is $(N + 1)/2$ (where $N =$ the number of scores).
+  - **Mean**:
+    - The most common and popular measure of central tendency is the mean.
+    - The mean is simply the average score in a data set and is calculated as:
 
 $$\frac{\Sigma X}{N}$$
 
-#### Relative Pros & Cons
+#### <i class="fas fa-info-circle"></i> Relative Pros & Cons
 
 | <i class="fas fa-ruler fa-lg"></i> | <i class="fas fa-plus fa-lg"></i>                                                                  | <i class="fas fa-minus fa-lg"></i>                                                                               |
 |---------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Mode    | - actual value appearing in data</br>- represents the largest number of people</br>- Unaffected by outliers | - Unable to be manipulated algebraically</br>- Poor indicator of population trends                                  |
 | Median  | - Unaffected by outliers                                                                            | - Does not always appear in data</br>- Unable to be manipulated algebraically</br>- Poor indicator of population trends |
 | Mean    | - Most common measure</br>- Can be manipulated algebraically</br>- Good estimate of population mean         | - Does not always appear in data</br>- Influenced by outliers                                                       |
+:::
 
-### Variability {.tabset}
+### LO2
 
-#### Range and interquartile range {.well}
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Variability
 
--   **Range** statistics report the minimum and maximum score in a data set.
--   The range is influenced by extreme scores.
--   The range may not provide a true indication of the variability in a data set if extreme scores are present.
--   The **interquartile range** overcomes the problem of extreme values by removing the upper 25% and lower 25% of the distribution.
--   **Trimmed Samples**: Removing 50% of the data we could be losing important information.
-
-#### Average Deviation {.well}
-
-The degree to which scores vary from the mean, when calculating the mean and then compute how much each score deviates from this average value. We then average these deviations to provide a single measure of variability. However, this would not work as some scores will be above, and some below the mean, resulting in positive and negative deviations (which will serve to balance each other out and sum to zero)
-
-#### Mean Absolute Deviation (m.a.d.) {.well}
-
-The mean absolute deviation (m.a.d.) overcomes this problem by using the absolute values of the deviations. This is helpful as we are not interested in whether scores are above or below the mean, simply the extent to which they vary from the mean. The m.a.d. is the sum of the absolute deviations divided by N to provide an average deviation.
-
-#### Variance ($S^2$) {.well}
-
-This statistic uses squared deviations to deal with the problem of positive/negative differences from the mean. A negative value, once squared, becomes positive. So we calculate the sum of the squared deviations from the mean (or sums of squares, $SS$). This value is then divided by N – 1 to provide the variance:
-
-$$
-  S^2 = \frac{\Sigma(X - \overline{X})^2}{N - 1}
-$$
-
-#### Standard Deviation ($S$) {.well}
-
-The standard deviation is simply the square root of the variance. It provides a measure of the average deviation from the mean and is the most commonly reported statistic of variability. Once the s^2 has been calculated, it can be converted into the SD by simply taking the square root of s^2
+- Range and interquartile range
+  - **Range** statistics report the minimum and maximum score in a data set.
+  - The range is influenced by extreme scores.
+  - The range may not provide a true indication of the variability in a data set if extreme scores are present.
+  - The **interquartile range** overcomes the problem of extreme values by removing the upper 25% and lower 25% of the distribution.
+  - **Trimmed Samples**: Removing 50% of the data we could be losing important information.
+- Average Deviation
+  - The degree to which scores vary from the mean, when calculating the mean and then compute how much each score deviates from this average value.
+  - We then average these deviations to provide a single measure of variability.
+  - However, this would not work as some scores will be above, and some below the mean, resulting in positive and negative deviations (which will serve to balance each other out and sum to zero).
+- Mean Absolute Deviation (m.a.d.)
+  - The mean absolute deviation (m.a.d.) overcomes this problem by using the absolute values of the deviations.
+  - This is helpful as we are not interested in whether scores are above or below the mean, simply the extent to which they vary from the mean.
+  - The m.a.d. is the sum of the absolute deviations divided by N to provide an average deviation.
+- Variance ($S^2$)
+  - This statistic uses squared deviations to deal with the problem of positive/negative differences from the mean.
+  - A negative value, once squared, becomes positive.
+  - So we calculate the sum of the squared deviations from the mean (or sums of squares, $SS$).
+  - This value is then divided by N – 1 to provide the variance:
 
 $$
-  S = \sqrt{\frac{\Sigma(X - \overline{X})^2}{N - 1}}
+  S^2 = \frac{\Sigma(X - \bar{X})^2}{N - 1}
 $$
 
-#### Standard Normal Distribution {.well}
+##### Standard Deviation ($S$)
 
-A variety of statistical techniques assume that the dependent variables under study are normally distributed in the population. If we assume a normal distribution then we can make a range of inferences about the probabilities of particular events or phenomenon.
-
-#### z-scores {.well}
-
-The standard normal distribution has a mean of 0 and a standard deviation of 1. We can convert any distribution into a standard normal distribution by applying the z-score formula, which converts each score into **standard deviation units.**
-
-The formula for z using the IQ test example is:
+- The standard deviation is simply the square root of the variance.
+- It provides a measure of the average deviation from the mean and is the most commonly reported statistic of variability.
+- Once the $s^2$ has been calculated, it can be converted into the SD by simply taking the square root of $s^2$
 
 $$
-  z = \frac{X-\overline{X}}{s}
+  S = \sqrt{\frac{\Sigma(X - \bar{X})^2}{N - 1}}
+$$
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+##### <i class="fas fa-info-circle"></i> Standard Normal Distribution
+
+- A variety of statistical techniques assume that the dependent variables under study are normally distributed in the population.
+- If we assume a normal distribution then we can make a range of inferences about the probabilities of particular events or phenomenon.
+
+</br>
+
+```{r warning=FALSE}
+# Define IQ distribution parameters
+mean_IQ <- 100
+sd_IQ <- 15
+
+# Generate x-values (IQ scores ranging from 55 to 145)
+x <- seq(55, 145, length = 1000)
+y <- dnorm(x, mean = mean_IQ, sd = sd_IQ)
+
+# Convert to data frame
+df <- data.frame(x, y)
+
+# Create the plot
+ggplot(df, aes(x, y)) +
+  geom_line(color = "blue", size = 1.2) +  # Plot the normal curve
+  geom_area(aes(y = y), fill = "skyblue", alpha = 0.5) +  # Shade the area under the curve
+  geom_vline(xintercept = mean_IQ, color = "red", linetype = "dashed", size = 1.2) +  # Mean line
+  annotate("text", x = mean_IQ, y = max(y) * 0.9, label = "Mean IQ = 100", color = "red", size = 5, vjust = -1) +
+  labs(title = "IQ Score Distribution (N(100, 15))",
+       x = "IQ Score",
+       y = "Density") +
+  theme_minimal()  # Use a clean theme
+```
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+##### <i class="fas fa-info-circle"></i> z-scores
+
+- The standard normal distribution has a mean of 0 and a standard deviation of 1.
+- We can convert any distribution into a standard normal distribution by applying the z-score formula, which converts each score into **standard deviation units.**
+
+The formula for z-using the IQ test example is:
+
+$$
+  z-= \frac{X-\bar{X}}{s}
     = \frac{100-130}{15}
     = 2
 $$
+:::
 
-#### Using z tables {.well}
+### LO5
 
-Consider an intelligence test which has a mean of 100 and a standard deviation of 15 in the general population. From this information we can work out how much of the area under the normal curve is above 1 standard deviations from the mean. That is, we can work out the probability of obtaining a score of 115 or more (+1 standard deviation) on this intelligence test.
+:::{.alert .alert-info}
+##### <i class="fas fa-info-circle"></i> Using z-tables
 
-Given that z scores represent standard deviation units we want to find the area above z = 1. To answer this we need to consult the z table. From Appendix z you need to find the row corresponding to z = 1 and locate the ‘smaller portion’ column, as we are interested in the area above that score. You should find that the smaller portion equals 0.1587. So, the probability that a person drawn randomly from the population will score 115 or above on this intelligence test is 0.1587 or approximately 16%.
+- Consider an intelligence test which has a mean of 100 and a standard deviation of 15 in the general population.
+- From this information we can work out how much of the area under the normal curve is above 1 standard deviations from the mean.
+- That is, we can work out the probability of obtaining a score of 115 or more (+1 standard deviation) on this intelligence test.
+- Given that z-scores represent standard deviation units we want to find the area above z-= 1.
+- To answer this we need to consult the z-table.
+- From Appendix z-you need to find the row corresponding to z-= 1 and locate the ‘smaller portion’ column, as we are interested in the area above that score.
+- You should find that the smaller portion equals 0.1587.
+- So, the probability that a person drawn randomly from the population will score 115 or above on this intelligence test is 0.1587 or approximately 16%.
+:::
 
-#### Setting Probable Limits on z {-}
+### LO6
 
-Setting limits on an observation provides researchers with a way of stating the confidence of their results. That is, having set limits on a score we can specify with a certain degree of confidence that the score will lie between two values. Usually researchers employ 95% confidence intervals so that they can say with 95% confidence that a score will lie between two values. The ztables help us here also.
-We need to remove 5% of the area under the curve, which means we need to find the value that cuts off 2.5% at each end. Inspection of the ztables (Appendix z) indicates that z = ±1.96 corresponds to this value. This means that we can be 95% confident that a score on the intelligence test will fall between 1.96 standard deviations below and 1.96 standard deviations above the mean. So what does this mean for our intelligence test? This is simply a matter of calculating scores that correspond to 1.96 standard deviations from the mean. A way to calculate this is provided by Howell on page 74:
+:::{.alert .alert-info}
+##### <i class="fas fa-info-circle"></i> Setting Probable Limits on z
+
+- Setting limits on an observation provides researchers with a way of stating the confidence of their results.
+- That is, having set limits on a score we can specify with a certain degree of confidence that the score will lie between two values.
+- Usually researchers employ 95% confidence intervals so that they can say with 95% confidence that a score will lie between two values.
+- We need to remove 5% of the area under the curve, which means we need to find the value that cuts off 2.5% at each end.
+- Inspection of the z-tables (Appendix z) indicates that z-= ±1.96 corresponds to this value.
+- This means that we can be 95% confident that a score on the intelligence test will fall between 1.96 standard deviations below and 1.96 standard deviations above the mean.
+- So what does this mean for our intelligence test?
+- This is simply a matter of calculating scores that correspond to 1.96 standard deviations from the mean.
+- A way to calculate this is provided by Howell on page 74:
 
 
 $$
@@ -373,15 +443,18 @@ $$  \begin{aligned}
 $$
 
 This indicates that we can be 95% confident that a person selected at random from the population will score between 70.6 and 129.4 on this intelligence test. Thus, any score higher than 130 (i.e. 2sd above the mean) is a rare occurrence as only 2% of the population are expected to score this highly.
+:::
 
+## Week 3: Sampling Distributions and Hypothesis Testing {.well .tabset .tabset-fade .tabset-pills}
 
-## Week 3: Sampling Distributions and Hypothesis Testing {.well}
-### Sampling {.tabset}
-#### Sampling Error
+### LO1
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Sampling Error
 
 The degree to which the difference between the population mean and sample mean are “due to chance”, which can be answered using hypothesis testing and inferential statistics.
 
-#### Sampling Distributions {-}
+#### <i class="fas fa-info-circle"></i>Sampling Distributions
 
 -   Identify the degree of variability from one sample to another as a result of the sampling error.
 -   From an infinite number of samples, with plotted means of these samples, a normal distribution of means would be the result.
@@ -403,12 +476,16 @@ In summary, here are a few points that can help with your study into sampling di
 -   If we take repeated samples from a population and calculate the mean, these mean scores will vary and form a distribution (distribution of sample means) which will itself have a mean and standard deviation.
 -   The degree to which the sample means vary from the overall population mean (i.e. the standard deviation of the sampling distribution) is the standard error.
 -   Larger samples provide more information than smaller samples so statistics from large samples have less standard error than statistics from smaller samples.
+:::
 
-### Hypothesis Testing {.tabset}
+### LO2
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Hypothesis Testing
 
 The information provided by the sampling distribution of the mean can be used to test hypotheses. Hypotheses are specific predictions which can be subject to an empirical and statistical test. For example, suppose we wanted to know whether the mean intelligence score of 109 we have obtained from our sample of 50 people is different from the general population mean of 100. If our sample was special in some way (e.g. all high functioning people) we might hypothesise that there would be a difference. Using the sampling distribution of the mean, we can test whether such a sample could reasonably have arisen had we drawn our sample from a population in which μ = 100. That is, what is the probability of finding a sample which scores 109 on average, given a population mean of 100? We might find that the probability of obtaining a score of 109 is 0.20, which is a fairly high probability. Thus, a sample mean that high is often obtained from a population with a mean of 100—we would conclude there is no statistical difference between our sample mean and the population mean.
 
-#### Steps
+**Steps**
 
 The steps that will be used throughout this unit when we are testing hypotheses using inferential statistics are as follows:
 
@@ -418,8 +495,12 @@ The steps that will be used throughout this unit when we are testing hypotheses 
 4.    Conduct the experiment and collect data.
 5.    Compare the sample statistic you obtain to the sampling distribution.
 6.    Evaluate the null hypothesis according to the probability of the statistic. That is, how probable is it that our sample mean comes from a distribution whose mean is 100? If it is highly unlikely, then we can reject the null hypothesis and conclude that there is a difference.
+:::
 
-#### $H_0$
+### LO3
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Null Hypothesis ($H_0$)
 
 The null hypothesis is the primary starting point for any statistical test. Basically, the null hypothesis states that there is no difference between the groups, or that there is no relationship between two or more variables. In more specific terms and using our intelligence testing example, it states that the data we have obtained in our sample (mean = 109) are likely to have come from the population with a mean intelligence score of 100. The subsequent statistical tests that we employ are used to test the likelihood of this.
 
@@ -437,8 +518,12 @@ This states the null hypothesis ($H_0$) that the sample we have drawn comes from
 
 What happens if our data do not lead us to reject the null hypothesis? That is, often the statistics tell us that our sample mean is no different from the population (e.g. the difference could be just due to chance). Thus, the null hypothesis is ‘proved’ or ‘supported’. In these cases it is best to say that we fail to reject the null hypothesis.
 In summary, the null hypothesis states that there is no difference between groups, or no relationship between variables (i.e. null effect). The statistical test evaluates the likelihood of obtaining the data we have (e.g. mean of 109 on intelligence) if we took this sample from a population with a mean of 100.
+:::
 
-#### Hypothesis Testing using the Normal Distribution
+### LO4
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i>Hypothesis Testing using the Normal Distribution
 
 The following example is similar to the one provided by Howell. The principles are the same; however, illustrating the technique with a slightly different data set and outcome will be helpful in consolidating your understanding.
 
@@ -454,19 +539,19 @@ The first step here is to state the null hypothesis:
 
 $H_0$: There is no difference between our sample mean and the population mean. That is, the individual’s score does come from the population of ‘normal’ attention scores.
 
-Next we can calculate the probability of scoring 1100 given a normal population mean of 900 (standard deviation of 120). That is, we can now calculate the probability that a score as high as this would be obtained from this population. All we need to do is calculate the z score for this observed value and determine the probability using the normal distribution table (or z tables, as we did in Topic 2).
+Next we can calculate the probability of scoring 1100 given a normal population mean of 900 (standard deviation of 120). That is, we can now calculate the probability that a score as high as this would be obtained from this population. All we need to do is calculate the z-score for this observed value and determine the probability using the normal distribution table (or z-tables, as we did in Topic 2).
 
 $$
   \begin{aligned}
-    z &= \frac{X - \mu}{\sigma}\\
+    z-&= \frac{X - \mu}{\sigma}\\
     &= \frac{1100 - 900}{120}\\
     &= 1.67
   \end{aligned}
 $$
 
-Thus, we have a z score of 1.67. If we consult the z tables (Appendix z in Howell) we will see that the probability of a z score of 1.67 or above is 0.0475. The smaller portion column in the z table tells us the proportion of the population that score at that point and above. Therefore, less than 5% of the population score 1100 milliseconds or longer on this task. Statistically speaking, the probability that this score comes from a population with a mean of 900 is less than 5%. Is this likelihood sufficiently small? How do we decide if we can reject the null hypothesis based on this information?
+Thus, we have a z-score of 1.67. If we consult the z-tables (Appendix z-in Howell) we will see that the probability of a z-score of 1.67 or above is 0.0475. The smaller portion column in the z-table tells us the proportion of the population that score at that point and above. Therefore, less than 5% of the population score 1100 milliseconds or longer on this task. Statistically speaking, the probability that this score comes from a population with a mean of 900 is less than 5%. Is this likelihood sufficiently small? How do we decide if we can reject the null hypothesis based on this information?
 
-#### Decision Making {-}
+#### Decision Making
 
 To answer this question, we need to compare our obtained probability value to some standard. The conventional approach to this is to use the 0.05 level as a ‘cut off’. This is referred to as the rejection or significance level of the statistical test. If our probability level is less than or equal to this ‘rejection level’ then we reject H0. As noted by Howell, this is an arbitrary convention that has been established over the years for specific reasons but one that is pervasive throughout psychological research. Other significance levels are used (e.g. 0.01) for a variety of reasons. At this stage it is only necessary for you to know that the standard level of significance/rejection is 0.05.
  
@@ -498,8 +583,12 @@ $$
     H_1: \mu \lt 900
   \end{aligned}
 $$
+:::
 
-### Type I and II errors {.well}
+### LO5
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Type I and II errors
 
 There is always some error associated with decision making in everyday life. However, as noted by Howell, in statistics we can precisely identify the probability of making an error in our decision making processes.
 
@@ -518,31 +607,46 @@ The difference between Type I and Type II errors are illustrated in the table be
 |:------------------:|:-------------------:|:-------------------:|
 |   Reject $H_0$       |   Type I error      |   Correct decision  |
 |   Don’t reject $H_0$  |   Correct decision  |   Type II error     |
+:::
 
-### One and Two Tailed Tests {.well}
+### LO6
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> One and Two Tailed Tests
 
 One-tailed test: $\lt$ or $\gt$ (directional). For a one-tailed test, we use the full 5% rejection region in the ‘one-tail’, in this example the high tail. Thus, any scores that fall in the top 5% of scores are considered sufficiently unlikely.
 
-> One-tailed test: $H_1: \mu \gt 900$
-
+**One-tailed test:**
+$$
+H_1: \mu \gt 900
+$$
 Two-tailed test: $\ne$ (measuring/comparing difference). For a two-tailed test we must separate the proportion into the two tails: 0.025 at one end, 0.025 at the other (so that the overall probability level is set at 0.05).
 
-> Two-tailed test: $H_1: \mu \ne 900$
+**Two-tailed test:**
+$$
+H_1: \mu \ne 900
+$$
+:::
 
-## Week 4: Chi-Square {.well}
-### Goodness of Fit {.well}
+## Week 4: Chi-Square {.well .tabset .tabset-fade .tabset-pills}
 
--   Used for a **single** categorical (discrete) variable
--   Used  to determine percentages (proportions)
--   Used for data about frequencies of responses
+### LO1
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i>Chi-Square Goodness of Fit Test
+
+- Used for a **single** categorical (discrete) variable
+- Used  to determine percentages (proportions)
+- Used for data about frequencies of responses
 
 $O$ = Observed Frequencies
 
 $E$ = Expected Frequencies
 
 #### Formula
-
-$\chi^2 = \Sigma{\frac{(O-E)^2}{E}}$
+$$
+\chi^2 = \Sigma{\frac{(O-E)^2}{E}}
+$$
 
 #### Steps:
 
@@ -577,19 +681,25 @@ $\chi^2 = \Sigma{\frac{(O-E)^2}{E}}$
 
 ##### Chi-square Value
 
-$\chi^2 = \overbrace{\frac{(5-10)^2}{10}}^{A} + \overbrace{\frac{(18-10)^2}{10}}^{B} + \overbrace{\frac{(7-10)^2}{10}}^{C}$
-
-$= \frac{25}{10} + \frac{64}{10} + \frac{9}{10}$
-
-$= 9.8$
+$$
+\begin{align}
+\chi^2 &= \overbrace{\frac{(5-10)^2}{10}}^{A} + \overbrace{\frac{(18-10)^2}{10}}^{B} + \overbrace{\frac{(7-10)^2}{10}}^{C} \\
+&= \frac{25}{10} + \frac{64}{10} + \frac{9}{10} \\
+&= 9.8
+\end{align}
+$$
 
 ##### Degrees of Freedom
 
-$df = C-1$
+$$
+df = C-1
+$$
 
 ##### Critical Chi-square Value (from Chi Table)
 
-$5.99(df=2, \alpha = .05)$
+$$
+5.99(df=2, \alpha = .05)
+$$
 
 $\chi^2 = 9.8$ which is greater than critical value.
 
@@ -597,11 +707,16 @@ $\chi^2 = 9.8$ which is greater than critical value.
 
 -   If our calculated $\chi^2$ value is grater than our critical $\chi^2$ value, we reject the null hypothesis
 -   Rejection of the null hypothesis confirms that our Observed values significantly differ from our Expected values (as a result of chance)
-### Independence Test {.well}
+
+#### Independence Test
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.
+:::
 
-## Week 5: t-tests {.well}
+
+## Week 5: t-tests {.well .tabset .tabset-fade .tabset-pills}
+
+### t-tests
 
 **3 main types:**
 
@@ -609,7 +724,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget 
 -   Matched Samples: Compares changes in a sample mean across time
 -   Independent Samples: Compares two different sample means
 
-### Overview of the t-test
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Overview of the t-test
 
 -   Used for comparing the means of continuous (measurement) data (IQ, height, exam results)
 -   Differences between sample means
@@ -620,7 +736,7 @@ $$
   t = \frac{obtained\ mean\ difference}{std\ diff\ expected\ by\ chance}
 $$
 
-### Standard Error
+#### Standard Error
 
 -   The extent to which sample means deviate from the population mean
 -   The difference between the population mean and the sample mean we should expect by chance.
@@ -631,40 +747,42 @@ $$
   = \frac{\sigma}{\sqrt{n}} = \frac{pop'n\ sd}{\sqrt{sample\ size}}
 $$
 
-### Comparing the sample mean to population mean
+#### Comparing the sample mean to population mean
 
 $$
-  z = \frac{\overline{X} - \mu}{\frac{\sigma}{\sqrt{n}}}
+  z-= \frac{\bar{X} - \mu}{\frac{\sigma}{\sqrt{n}}}
 $$
 
 *This theorem confirms that the larger the sample size, the lower the error*
 
-### One Sample t-test {.well}
+#### One Sample t-test
 
 Compares a single sample mean to a population mean (when we do not know $\sigma$)
 
-#### Example
+##### Example
 
 -   'Impulsiveness' questionnaire (continuous scale from 0 - 18)
 -   $\mu = 7.01$
 -   Sample of 10 drug users ($n = 10$)
 -   Higher levels of impulsiveness is expected in drug users compared to the rest of the population.
 
-#### Hypotheses
+##### Hypotheses
 
+$$
 \begin{align}
   H_0: \mu = 7.01 \\
   H_a: \mu \ne 7.01 \\
 \end{align}
+$$
 
-#### Sample Data
+##### Sample Data
 
 <table class="table table-hover">
     <thead>
         <tr scope="row">
             <th scope="col">$X$</th>
-            <th scope="col">$X-\overline{X}$</th>
-            <th scope="col">$(X-\overline{X})^2$</th>
+            <th scope="col">$X-\bar{X}$</th>
+            <th scope="col">$(X-\bar{X})^2$</th>
         </tr>
     </thead>
     <tbody>
@@ -721,14 +839,16 @@ Compares a single sample mean to a population mean (when we do not know $\sigma$
     </tbody>
 </table>
 
+$$
 \begin{align}
-  \overline{X} = ???
-  s &= \sqrt{\frac{\Sigma(X-\overline{X})^2}{n-1}} = \sqrt{\frac{95}{9}} = 3.25 \\
-  t &= \frac{\overline{X} - \mu}{\frac{s}{\sqrt{n}}} = \frac{9.87 - 7.01}{\frac{3.25}{\sqrt{10}}} = \frac{2.86}{1.03} \\
+  \bar{X} &= ??? \\
+  s &= \sqrt{\frac{\Sigma(X-\bar{X})^2}{n-1}} = \sqrt{\frac{95}{9}} = 3.25 \\
+  t &= \frac{\bar{X} - \mu}{\frac{s}{\sqrt{n}}} = \frac{9.87 - 7.01}{\frac{3.25}{\sqrt{10}}} = \frac{2.86}{1.03} \\
   &= 2.78(df = 9)
 \end{align}
+$$
 
-#### Decision Making
+##### Decision Making
 
 -   Calculated t-value = 2.78
 -   Critical (from table) t-value = 2.262
@@ -737,11 +857,14 @@ Compares a single sample mean to a population mean (when we do not know $\sigma$
 
 ![](images/OneSampleT.png){width=50%}
 
->#### **Reporting**
->
->'The drug users in this sample reported significantly higher levels of impulsivity compared to the general population, *t*(9) = 2.78, *p* < .05.'
+:::{.alert .alert-warning}
+#### <i class="fas fa-info-circle"></i> Reporting
 
-### Matched Samples t-test {.well}
+'The drug users in this sample reported significantly higher levels of impulsivity compared to the general population, *t*(9) = 2.78, *p* < .05.'
+:::
+
+:::{.alert .alert-info}
+#### Matched Samples t-test
 
 -   Also known as related samples, repeated measures, dependent samples
 -   Same participants with measures recorded on two occasions (e.g. Pre and Post treatment)
@@ -751,7 +874,6 @@ Compares a single sample mean to a population mean (when we do not know $\sigma$
 ![](Images/matchSample.png){width=50%}
 
 **A matched samples t-test tells us whether the change in mean scores is statistically significant**
-
 
 #### Steps:
 
@@ -772,13 +894,15 @@ Compares a single sample mean to a population mean (when we do not know $\sigma$
   kable(impDiff) %>%
     kable_styling(latex_options = "striped", full_width = F)
 ```
-
+$$
 \begin{align}
-  \overline{D} &= 3.19 \\
-  s &= \sqrt{\frac{\Sigma (D-\overline{D})^2}{n-1}} = \sqrt{\frac{38.17}{14}} =  1.65 \\
-  t &= \frac{\overline{D} - 0}{\frac{s}{\sqrt{n}}} = \frac{3.19 - 0}{\frac{1.65}{\sqrt{15}}} = \frac{3.19}{0.42} \\
+  \bar{D} &= 3.19 \\
+  s &= \sqrt{\frac{\Sigma (D-\bar{D})^2}{n-1}} = \sqrt{\frac{38.17}{14}} =  1.65 \\
+  t &= \frac{\bar{D} - 0}{\frac{s}{\sqrt{n}}} = \frac{3.19 - 0}{\frac{1.65}{\sqrt{15}}} = \frac{3.19}{0.42} \\
   &= 7.59(df = 14)
 \end{align}
+$$
+:::
 
 #### Decision Making
 
@@ -790,23 +914,25 @@ Compares a single sample mean to a population mean (when we do not know $\sigma$
 
 Represented by Cohen's *d*, and reports the difference in standard deviation units. (0.20 = small, 0.50 = moderate, 0.8+ = large)
 
+$$
 \begin{align}
-  \overline{X_1} &= 11.53 \\
-  \overline{X_2} &= 8.33 \\
-  d &= \frac{\overline{X}_1 - \overline{X}_2}{s_{X1}} = \frac{11.53 - 8.33}{2.32} = 1.38 \\
+  \bar{X_1} &= 11.53 \\
+  \bar{X_2} &= 8.33 \\
+  d &= \frac{\bar{X}_1 - \bar{X}_2}{s_{X1}} = \frac{11.53 - 8.33}{2.32} = 1.38 \\
 \end{align}
+$$
 
->#### Reporting
->
->##### **Matched Sample t-test**
->
->'Overall the sample were significantly less impulsive following the treatment program (*M* = 8.33, *SD* = 1.61) than they were before it (*M* = 11.53, *SD* = 2.32), *t*(14) = 7.59, *p* < .05.'
->
->##### **Effect Size**
->
->'Impulsivity has reduced by almost 1.5 SD of pre-treatment levels'
+#### Reporting
 
-### Independent Samples t-test (equal sample sizes) {.well}
+**Matched Sample t-test**
+
+'Overall the sample were significantly less impulsive following the treatment program (*M* = 8.33, *SD* = 1.61) than they were before it (*M* = 11.53, *SD* = 2.32), *t*(14) = 7.59, *p* < .05.'
+
+##### **Effect Size**
+
+'Impulsivity has reduced by almost 1.5 SD of pre-treatment levels'
+
+#### Independent Samples t-test (equal sample sizes)
 
 Compares the sample means of two independent groups where DVs are continuous and population means are unknown.
 
@@ -824,13 +950,19 @@ $H_1: \mu_1 \ne \mu_2$ OR $H_0: \mu_1 - \mu_2 \ne 0$
 -   Used when sample sizes are equal.
 -   Two groups: smokers ($n=10$), and non-smokers ($n=10$)
 -   The DV is mean anxiety scores (on a scale of 0 - 20)
--   smokers ($\overline{X}=15.31$, $s=4.42$)
--   non-smokers ($\overline{X}=12.19$, $s=3.28$)
+-   smokers ($\bar{X}=15.31$, $s=4.42$)
+-   non-smokers ($\bar{X}=12.19$, $s=3.28$)
 
+$$
 \begin{align}
-  t &= \frac{\overline{X}_1-\overline{X}_2}{\sqrt{\frac{s^2_1}{n_1} + \frac{s^2_2}{n_2}}} =         \frac{15.31-12.19}{\sqrt{\frac{19.54}{10} + \frac{10.76}{10}}} = \frac{3.12}{\sqrt{1.95+1.08}} = \frac{3.12}{1.74} = 1.79 \\
+  t &= \frac{\bar{X}_1-\bar{X}_2}{\sqrt{\frac{s^2_1}{n_1} + \frac{s^2_2}{n_2}}} \\
+  &= \frac{15.31-12.19}{\sqrt{\frac{19.54}{10} + \frac{10.76}{10}}} \\
+  &= \frac{3.12}{\sqrt{1.95+1.08}} \\
+  &= \frac{3.12}{1.74} \\
+  &= 1.79 \\
   df &= (n_1-1)+(n_2-1)=(10-1)+(10-1)=18 \\
 \end{align}
+$$
 
 >$t(18) = 1.79,\ p>.05,\ two\ tailed$
 
@@ -840,44 +972,53 @@ $H_1: \mu_1 \ne \mu_2$ OR $H_0: \mu_1 - \mu_2 \ne 0$
 -   Critical (from table) t-value = 2.1 (two-sided)
 -   The calculated $t$-value of 1.79 is less than our <abbr title="from a table">critical</abbr> t-value of 2.1, which falls within our 95% confidence interval, meaning that the result is not statistically significant enough for us to reject the null hypothesis.
 
-### Independent Samples t-test (unequal sample sizes) {.well}
+#### Independent Samples t-test (unequal sample sizes)
 
 #### Pooled Variance
 
 The variance of our sample sizes is averaged using the following formula:
 
+$$
 \begin{align}
   s^2_p = \frac{(n_1 - 1)s^2_1 + (n_2 - 1)s^2_2}{n_1 + n_2 - 2}
 \end{align}
+$$
 
 Our t-statistic formula then becomes:
 
+$$
 \begin{align}
-  t = \frac{(\overline{X}_1 - \overline{X}_2)}{\sqrt{\frac{s^2_p}{n_1} + \frac{s^2_p}{n_2}}}
+  t = \frac{(\bar{X}_1 - \bar{X}_2)}{\sqrt{\frac{s^2_p}{n_1} + \frac{s^2_p}{n_2}}}
 \end{align}
+$$
 
 #### Example
 
 -   Two groups: smokers ($n=12$) and non-smokers ($n=27$)
 -   Our DV is mean anxiety scores (on a scale of 0 - 20)
--   Smokers ($\overline{X} = 15.31$, $s=4.42$)
--   Non-Smokers ($\overline{X} = 12.19$, $s=3.28$)
+-   Smokers ($\bar{X} = 15.31$, $s=4.42$)
+-   Non-Smokers ($\bar{X} = 12.19$, $s=3.28$)
 
 ##### Pooled Variance
 
+$$
 \begin{align}
   s^2_p &= \frac{(n_1 - 1)s^2_1 + (n_2 - 1)s^2_2}{n_1 + n_2 - 2} \\
   &= \frac{(12 - 1)4.42^2 + (27 - 1)3.28^2}{12 + 27 - 2} \\
   &= \frac{(11 \times 19.54) + (26 \times 10.76)}{37} \\
   &= \frac{214.94 + 279.76}{37} = \frac{494.70}{37} = 13.37
 \end{align}
+$$
 
 ##### t-test
+
+$$
 \begin{align}
-  t &= \frac{(\overline{X}_1 - \overline{X}_2)}{\sqrt{\frac{s^2_p}{n_1} + \frac{s^2_p}{n_2}}} \\
+  t &= \frac{(\bar{X}_1 - \bar{X}_2)}{\sqrt{\frac{s^2_p}{n_1} + \frac{s^2_p}{n_2}}} \\
   &= \frac{(15.31 - 12.19)}{\sqrt{\frac{13.37}{12} + \frac{13.37}{27}}} \\
   &= \frac{3.12}{\sqrt{\frac{1.11}{0.50} + \frac{13.37}{27}}} = \frac{3.12}{\sqrt{1.11 + 0.50}} = \frac{3.12}{1.27} = 2.45
 \end{align}
+$$
 
 >$t(37) = 2.45$, $p<.05$
 
@@ -891,30 +1032,32 @@ Our t-statistic formula then becomes:
 >
 >'Overall there is a significant difference in anxiety levels between smokers (*M* = 15.31, *SD* = 4.42) and non-smokers (*M* = 12.19, *SD* = 3.28), *t*(37) = 2.45, *p* < .05.'
 
-### Confidence limits {.well}
+#### Confidence limits
 
 -   Confidence limits (or confidence interval) provide a range of possible values existing within our 95% confidence level.
 -   Becoming more and more important in psychological research as it gives researchers an idea of how meaningful the difference is.
 -   **If the interval does not include zero our rejection of the null hypothesis is correct.**
 -   Confidence limits are calculated very simply as:
-      -   The $\overline{D} \pm t_{crit}$ (standard error of the mean difference)
+      -   The $\bar{D} \pm t_{crit}$ (standard error of the mean difference)
       
 As in the above example:
 
+$$
 \begin{align}
-  CI &= \overline{D} \pm z\frac{s}{\sqrt{n}} \\
+  CI &= \bar{D} \pm z\frac{s}{\sqrt{n}} \\
   &= 3.12 \pm z\frac{s}{\sqrt{n}} \\
   &= 3.12 ± 2.026(1.27) \\
   &= 3.12 ± 2.573 \\
   &= 0.547\ to\ 5.693
 \end{align}
+$$
 
 *As mentioned above, this interval does not contain zero, so we can be reassured that our rejection of the null hypothesis is correct.*
+:::
 
+## Week 6: Correlation {.well .tabset .tabset-fade .tabset-pills}
 
-## Week 6: Correlation {.well}
-
-### Introduction {.well}
+#### Introduction
 
 The purpose of correlation and regression is to describe the relationship between two variables:
 
@@ -1008,12 +1151,12 @@ The purpose of correlation and regression is to describe the relationship betwee
 #### Covariance
 
 \begin{align}
-  cov_{xy} = \frac{\Sigma(X-\overline{X})(Y-\overline{Y})}{N-1} \\
+  cov_{xy} = \frac{\Sigma(X-\bar{X})(Y-\bar{Y})}{N-1} \\
 \end{align}
 
 This formula is essentially the sum of the deviation products divided by N – 1.
 
-### Example {.well}
+#### Example
 
 -   Ten participants completed questionnaires which measured trait anxiety and negative mood. 
 -   The researcher was interested in examining whether a highly trait-anxious person is more likely to report more negative mood throughout the course of a day.
@@ -1029,9 +1172,9 @@ This formula is essentially the sum of the deviation products divided by N – 1
     <tr scope="row">
       <th scope="col">Anxiety(X)</th>
       <th scope="col">Negative<BR>mood (Y)</th>
-      <th scope="col">$X - \overline{X}$</th>
-      <th scope="col">$Y - \overline{Y}$</th>
-      <th scope="col">$(X-\overline{X})(Y-\overline{Y})$</th>
+      <th scope="col">$X - \bar{X}$</th>
+      <th scope="col">$Y - \bar{Y}$</th>
+      <th scope="col">$(X-\bar{X})(Y-\bar{Y})$</th>
     </tr>
   </thead>
   <tbody>
@@ -1103,15 +1246,15 @@ This formula is essentially the sum of the deviation products divided by N – 1
     </thead>
     <tbody>
         <tr scope="row">
-            <td>$\overline{X}$</td>
+            <td>$\bar{X}$</td>
             <td>5.9</td>
         </tr>
         <tr scope="row">
-            <td>$\overline{Y}$</td>
+            <td>$\bar{Y}$</td>
             <td>4.9</td>
         </tr>
         <tr scope="row">
-            <td>$\Sigma(X-\overline{X})(Y-\overline{Y})$</td>
+            <td>$\Sigma(X-\bar{X})(Y-\bar{Y})$</td>
             <td>37.9</td>
         </tr>
         <tr scope="row">
@@ -1122,7 +1265,7 @@ This formula is essentially the sum of the deviation products divided by N – 1
 </table>
 
 \begin{align}
-  cov_{xy} &= \frac{\Sigma(X-\overline{X})(Y-\overline{Y})}{N-1} \\
+  cov_{xy} &= \frac{\Sigma(X-\bar{X})(Y-\bar{Y})}{N-1} \\
   &= \frac{37.9}{9} = 4.21
 \end{align}
 
@@ -1168,7 +1311,7 @@ Is our obtained correlation coefficient ($r$) significantly different from zero 
 >
 >'As our calculated *t*-value is greater than the critical *t*-value, we can reject the null hypothesis. The critical value of *t*  indicates that there is a significant positive relationship between anxiety and negative mood (*r* = +0.75, *n* = 10, *p* < 0.05)'
 
-### Predicted/explained variance ($r^2$) {.well}
+#### Predicted/explained variance ($r^2$)
 
 #### Range restriction
 
@@ -1188,9 +1331,9 @@ An extreme score can have a dramatic influence on the correlation coefficient.
 -   Occurs when the data from two subgroups are mixed together. (i.e. collapsed across gender)
 -   Different groups could be characterised by different correlations between the variables of interest. (agreeableness between men and women)
 
-## Week 7: Regression {.well}
+## Week 7: Regression {.well .tabset .tabset-fade .tabset-pills}
 
-### Introduction {.well}
+#### Introduction
 
 -   Using the regression line (line of best fit), we can predict negative mood scores (Y / DV / criterion) based on anxiety (X / IV / predictor).
 -   In a bivariate analysis we can predict Y for any given value of X statistically, via the use of the intercept (a) and slope (b).
@@ -1199,7 +1342,7 @@ An extreme score can have a dramatic influence on the correlation coefficient.
 
 ![Regression Estimate](Images/RegEst.png){width=50%}
 
-### Components {.well}
+#### Components
 
 #### Slope
 
@@ -1214,7 +1357,7 @@ The slope describes the degree of difference (rise) in our Y prediction where th
 The intercept predicts the point at which our line of regression crosses the Y axis.
 
 \begin{align}
-  a &= \overline{Y} - b\overline{X}
+  a &= \bar{Y} - b\bar{X}
 \end{align}
 
 #### Equation
@@ -1239,7 +1382,7 @@ This value gives us the mean (?) distance between our plotted values and the reg
   CI_Y = \hat{Y} \pm (t_{a/2})(S_{Y.X})
 \end{align}
 
-### Anxiety vs Negative Mood Example {.well}
+#### Anxiety vs Negative Mood Example
 
 #### Data
 
@@ -1253,9 +1396,9 @@ This value gives us the mean (?) distance between our plotted values and the reg
     <tr scope="row">
       <th scope="col">Anxiety (*X*)</th>
       <th scope="col">Negative<BR>mood (*Y*)</th>
-      <th scope="col">$X - \overline{X}$</th>
-      <th scope="col">$Y - \overline{Y}$</th>
-      <th scope="col">$(X-\overline{X})(Y-\overline{Y})$</th>
+      <th scope="col">$X - \bar{X}$</th>
+      <th scope="col">$Y - \bar{Y}$</th>
+      <th scope="col">$(X-\bar{X})(Y-\bar{Y})$</th>
     </tr>
   </thead>
   <tbody>
@@ -1327,7 +1470,7 @@ This value gives us the mean (?) distance between our plotted values and the reg
     </thead>
     <tbody>
         <tr scope="row">
-            <td>$\overline{X}$</td>
+            <td>$\bar{X}$</td>
             <td>5.9</td>
         </tr>
         <tr scope="row">
@@ -1335,7 +1478,7 @@ This value gives us the mean (?) distance between our plotted values and the reg
             <td>2.85</td>
         </tr>
         <tr scope="row">
-            <td>$\overline{Y}$</td>
+            <td>$\bar{Y}$</td>
             <td>4.9</td>
         </tr>
         </tr>
@@ -1344,7 +1487,7 @@ This value gives us the mean (?) distance between our plotted values and the reg
             <td>1.97</td>
         </tr>
         <tr scope="row">
-            <td>$\Sigma(X-\overline{X})(Y-\overline{Y})$</td>
+            <td>$\Sigma(X-\bar{X})(Y-\bar{Y})$</td>
             <td>37.9</td>
         </tr>
         <tr scope="row">
@@ -1367,7 +1510,7 @@ This value gives us the mean (?) distance between our plotted values and the reg
 ##### Calculate Intercept ($a$)
 
 \begin{align}
-  a &= \overline{Y} - b\overline{X} \\
+  a &= \bar{Y} - b\bar{X} \\
   &= 4.9 - (0.52 \times 5.9) \\
   &= 1.83
 \end{align}
@@ -1404,7 +1547,7 @@ We now simply plot this line on the graph so that it passes through the points (
   &= 1.31
 \end{align}
 
-##### Confidence Limits {-}
+##### Confidence Limits
 
 The critical value of *t*($\alpha$ = 0.05, df = 8) is 2.306.
 
@@ -1422,9 +1565,9 @@ Where $X = 6$:
   &= 1.989\ to\ 8.031
 \end{align}
 
-## Week 8: ANOVA {.well}
+## Week 8: ANOVA {.well .tabset .tabset-fade .tabset-pills}
 
-### Introduction {.well}
+#### Introduction
 
 The differences between the t-test and ANOVA:
 
@@ -1434,7 +1577,7 @@ The differences between the t-test and ANOVA:
 | One DV: continuous values                                    | IQ score, exam results, unit results | One DV: Continuous values                        | IQ score, exam results, unit results |
 | Examines:<br>&nbsp;- between group variance                              | -                                    | Examines:<br>&nbsp;- between group, and<br>&nbsp;-    within group variance | -                                    |
 
-### Assumptions {.well}
+#### Assumptions
 
 -   Homogeneity of Variance: equal spread of each group around the mean
 -   Normality: data is characterised by a normal distribution around the mean
@@ -1442,13 +1585,13 @@ The differences between the t-test and ANOVA:
 -   If these assumptions are violated, caution is required in interpretation of the results.
 -   A larger sample size overcomes the violation of assumptions.
 
-### Sources of error {.well}
+#### Sources of error
 
 -   Individual Differences such as sex, gender, personality, measurement error,
 -   Variability within group is called error variance,
 -   Differences between groups due to chance or effect of treatment
 
-### F-statistic {.well}
+#### F-statistic
 
 -   Reflects the proportion of variance between groups with the variance within groups.
 -   Tells us how many times larger the treatment effect is than the error.
@@ -1463,7 +1606,7 @@ If $F_{calc} > F_{crit}$ we can reject $H_0$
   F &= \frac{treatment\ effect\ + difference\ due\ to\ chance}{difference\ due\ to\ chance}
 \end{align}
 
-### Logic of ANOVA {.well}
+#### Logic of ANOVA
 
 -   Compares whether the difference between means is greater than the difference expected by chance,
 -   Denominator referred to as error variance as it represents uncontrollable/random factors,
@@ -1471,7 +1614,7 @@ If $F_{calc} > F_{crit}$ we can reject $H_0$
 -   Numerator also contains differences due to treatment,
 -   If numerator treatment effect + error is larger than the denominator, there is evidence that treatment is affecting between group (mean) differences.
 
-### Calculation of ANOVA {.well}
+#### Calculation of ANOVA
 
 Steps:
 
@@ -1480,7 +1623,7 @@ Steps:
 3.    Mean Squares
 4.    F-value
 
-### Age vs. Happiness notes study from notes {.well}
+#### Age vs. Happiness notes study from notes
 
 <table class="table table-hover">
     <tr scope="row">
@@ -1539,14 +1682,14 @@ Steps:
 
 >Where:
 >
->$\overline{X}_j =$ treatment group mean,
+>$\bar{X}_j =$ treatment group mean,
 >
->$\overline{X}.. =$ grand mean
+>$\bar{X}.. =$ grand mean
 >
 >$n =$ group sample size
 >
 >\begin{align}
-> SS_{treatment} &= n\Sigma(\overline{X}_{j}-\overline{X}..)^2 \\
+> SS_{treatment} &= n\Sigma(\bar{X}_{j}-\bar{X}..)^2 \\
 > &= 5([6.2-7.07]+[6.6-7.07]+[8.4-7.07]) \\
 > &= 5(0.76 + 0.22 + 1.77) \\
 > &= 5 \times 2.75 \\
@@ -1561,10 +1704,10 @@ Steps:
 >
 >$X_{ij} =$ score of each person in group $j$, and
 >
->$\overline{X}_j=$ treatment group mean
+>$\bar{X}_j=$ treatment group mean
 >
 >\begin{align}
->  SS_{error} &= \Sigma(X_{ij}-\overline{X}_j)^2 \\
+>  SS_{error} &= \Sigma(X_{ij}-\bar{X}_j)^2 \\
 > &=[(6-6.2)^2+(7–6.2)^2+(7–6.2)^2+(6–6.2)^2+ \\
 >   &(5–6.2)^2+(7–6.6)^2+(8–6.6)^2+(5–6.6)^2+ \\
 >   &(7–6.6)^2+(6–6.6)^2+(8–8.4)^2+(9-8.4)^2+ \\
@@ -1634,11 +1777,11 @@ Steps:
 >-   Critical value for F (2, 12) at $\alpha$ = .05 is 3.89.
 >-   Since our $F_{calc} > F_{crit}$ we can reject the null hypothesis.
 
-### Reporting {.well}
+#### Reporting
 
 A one-way ANOVA was conducted to examine whether there was a significant difference in happiness between the young people, middle aged people and old people groups. The analysis found a significant difference between these groups, *F*(2, 12) = 6.875, *p* > .05, $\eta^2_p = .60$.
 
-### One-way ANOVA Summary Formulae {.well}
+#### One-way ANOVA Summary Formulae
 
 <table class="table table-hover">
     <tr scope="row">
@@ -1652,7 +1795,7 @@ A one-way ANOVA was conducted to examine whether there was a significant differe
     <tr scope="row">
         <td><abbr title="Between">Treatment</abbr></td>
         <td><abbr title="k = no. of groups">$k-1$</abbr></td>
-        <td><abbr title="n = Group sample size">$n\Sigma(\overline{X}_{j}-\overline{X}..)^2$</abbr></td>
+        <td><abbr title="n = Group sample size">$n\Sigma(\bar{X}_{j}-\bar{X}..)^2$</abbr></td>
         <td>$\frac{SS_{treatment}}{df_{treatment}}$</td>
         <td>$\frac{MS_{treatment}}{MS_{error}}$</td>
         <td><abbr title="Significance level determined prior to test">.05</abbr></td>
@@ -1660,7 +1803,7 @@ A one-way ANOVA was conducted to examine whether there was a significant differe
     <tr scope="row">
         <td><abbr title="Within">Error</abbr></td>
         <td><abbr title="k = no. groups, n = Group sample size">$k(n-1)$</abbr></td>
-        <td>$\Sigma(X_{ij}-\overline{X}_j)^2$</td>
+        <td>$\Sigma(X_{ij}-\bar{X}_j)^2$</td>
         <td>$\frac{SS_{error}}{df_{error}}$</td>
         <td></td>
         <td></td>
@@ -1680,13 +1823,13 @@ A one-way ANOVA was conducted to examine whether there was a significant differe
     </tr>
 </table>
 
-## Week 9: Post-hoc Tests {.well}
+## Week 9: Post-hoc Tests {.well .tabset .tabset-fade .tabset-pills}
 
 
 
-## Week 10: Factorial ANOVA {.well}
+## Week 10: Factorial ANOVA {.well .tabset .tabset-fade .tabset-pills}
 
-### Introduction {.well}
+#### Introduction
 
 -   Used to compare means across multiple groups when there is more than one IV (factor) in the analysis:
 
@@ -1749,7 +1892,7 @@ Two-way ANOVA exploring the effect of temperature on cognitive performance (reca
 -   A main effect is the effect of IV2 on the DV (overall effect of gender on cognitive performance), while ignoring the effects of IV1.
 -   Each IV can have a main effect of DV and an individual effect on DV.
 
-### Calculations {.well}
+#### Calculations
 
 <table class="table table-hover">
     <tr scope="row">
@@ -1823,7 +1966,7 @@ Two-way ANOVA exploring the effect of temperature on cognitive performance (reca
         <td>77.67</td>
         <td>69.83</td>
         <td>73.75</td>
-        <td><- $\overline{X}..$</td>
+        <td><- $\bar{X}..$</td>
     </tr>
 </table>
 
@@ -1836,7 +1979,7 @@ Two-way ANOVA exploring the effect of temperature on cognitive performance (reca
 ##### Calculate $SS_{total}$
 
 \begin{align}
-  SS_{total} &= \Sigma(X-\overline{X}..)^2 \\
+  SS_{total} &= \Sigma(X-\bar{X}..)^2 \\
   &= (6 – 7.33)^2 + (7 – 7.33)^2 + (9 –7.33)^2 + (8 – 7.33)^2 + (8 – 7.33)^2 + \\
     &   (7 – 7.33)^2 + (4 – 7.33)^2 + (10 – 7.33)^2 + (5 – 7.33)^2 + (9 – 7.33)^2 + \\
     &   (6 – 7.33)^2 + (9 – 7.33)^2 \\
@@ -1848,7 +1991,7 @@ Two-way ANOVA exploring the effect of temperature on cognitive performance (reca
 ##### Calculate $SS_A$
 
 \begin{align}
-  SS_{A} &= nb\Sigma(\overline{X}_A - \overline{X}..)^2 \\
+  SS_{A} &= nb\Sigma(\bar{X}_A - \bar{X}..)^2 \\
   &= 3 \times 2[(7.5 - 7.33)^2 + (7.16 - 7.33)^2] \\
   &= 6 \times 0.0578 \\
   &= 0.34 \\
@@ -1857,7 +2000,7 @@ Two-way ANOVA exploring the effect of temperature on cognitive performance (reca
 ##### Calculate $SS_B$
 
 \begin{align}
-  SS_{B} &= na\Sigma(\overline{X}_A - \overline{X}..)^2 \\
+  SS_{B} &= na\Sigma(\bar{X}_A - \bar{X}..)^2 \\
   &= 3 \times 2[(6.33 - 7.33)^2 + (8.33 - 7.33)^2] \\
   &= 6 \times 2 \\
   &= 12 \\
@@ -1866,7 +2009,7 @@ Two-way ANOVA exploring the effect of temperature on cognitive performance (reca
 ##### Calculate $SS_{cells}$
 
 \begin{align}
-  SS_{cells} &= n\Sigma(\overline{X}_A - \overline{X}..)^2 \\
+  SS_{cells} &= n\Sigma(\bar{X}_A - \bar{X}..)^2 \\
   &= 3 \times [(7.67 - 7.33)^2 + (7.33 - 7.33)^2 + (5 - 7.33)^2 + (9.33 - 7.33)^2] \\
   &= 3 \times 9.5445 \\
   &= 28.6335
@@ -1888,7 +2031,7 @@ Two-way ANOVA exploring the effect of temperature on cognitive performance (reca
   &= 8
 \end{align}
 
-#### ANOVA Summary Table {.well}
+#### ANOVA Summary Table
 
 <table class="table table-hover">
   <tr scope="row">
@@ -1937,7 +2080,7 @@ Two-way ANOVA exploring the effect of temperature on cognitive performance (reca
   </tr>
 </table>
 
-### Reporting {.well}
+#### Reporting
 
 A two-way ANOVA was conducted to examine the effect of instruction (self-paced or structured) and personality (internal or external) on exam performance. The analysis showed a significant interaction effect, *F*(1, 16) = 5.57, *p* =
 .031, $\eta^2_p$ = .26. Internally driven individuals scored higher on the exam when they were provided with a self-paced
@@ -1946,7 +2089,7 @@ Externally driven individuals scored higher on the exam when they were provided 
 
 A two-way ANOVA was conducted to examine the effect of maths anxiety (low or high) and counselling (yes or no) on exam performance. The analysis showed a significant main effect for maths anxiety, *F*(1, 28) = 5.78, *p* = .023, $\eta^2_p$ = .17. On average, students in the low anxiety group (*M* = 81.00, *SD* = 10.30) performed better on the exam than students in the high anxiety group (*M* = 72.50, *SD* = 10.24).
 
-### Two-way ANOVA Summary Table (Formulae) {.well}
+#### Two-way ANOVA Summary Table (Formulae)
 
 <table class="table table-hover">
   <tr scope="row">
@@ -1960,7 +2103,7 @@ A two-way ANOVA was conducted to examine the effect of maths anxiety (low or hig
   <tr scope="row">
     <td>Factor A</td>
     <td><abbr title="a = # of levels in factor A">$a-1$</abbr></td>
-    <td><abbr title="n = # of participants per cell, b = # of levels in B">$nb\Sigma(\overline{X}_A - \overline{X}..)^2$<abbr></abbr></td>
+    <td><abbr title="n = # of participants per cell, b = # of levels in B">$nb\Sigma(\bar{X}_A - \bar{X}..)^2$<abbr></abbr></td>
     <td>$\frac{SS_A}{df_A}$</td>
     <td>$\frac{MS_A}{MS_{error}}$</td>
     <td>0.05</td>
@@ -1968,7 +2111,7 @@ A two-way ANOVA was conducted to examine the effect of maths anxiety (low or hig
   <tr scope="row">
     <td>Factor B</td>
     <td><abbr title="b = # of levels in factor B">$b-1$</abbr></td>
-    <td><abbr title="n = # of participants per cell, a = # of levels in A">$na\Sigma(\overline{X}_A - \overline{X}..)^2$</abbr></td>
+    <td><abbr title="n = # of participants per cell, a = # of levels in A">$na\Sigma(\bar{X}_A - \bar{X}..)^2$</abbr></td>
     <td>$\frac{SS_B}{df_B}$</td>
     <td>$\frac{MS_B}{MS_{error}}$</td>
     <td>&nbsp;</td>
@@ -1992,13 +2135,13 @@ A two-way ANOVA was conducted to examine the effect of maths anxiety (low or hig
   <tr scope="row">
     <td>Total</td>
     <td><abbr title="N = total # of participants">$N-1$</abbr></td>
-    <td><abbr title="Sum of squares for each value in the study">$\Sigma(X-\overline{X}..)^2$</abbr></td>
+    <td><abbr title="Sum of squares for each value in the study">$\Sigma(X-\bar{X}..)^2$</abbr></td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
   </tr>
   <tr scope="row">
-    <td colspan="5"><abbr title="omitted from summary like any Sum of Squares value">$SS_{cells} = n\Sigma(\overline{X}_A - \overline{X}..)^2$</abbr></td>
+    <td colspan="5"><abbr title="omitted from summary like any Sum of Squares value">$SS_{cells} = n\Sigma(\bar{X}_A - \bar{X}..)^2$</abbr></td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -2007,29 +2150,29 @@ A two-way ANOVA was conducted to examine the effect of maths anxiety (low or hig
 </table>
 
 
-## Formulae {.well}
+## Formulae {.well .tabset .tabset-fade .tabset-pills}
 
-#### <abbr title="Variance tells you the degree of spread in your data set. The more spread the data, the larger the variance is in relation to the mean.">Variance</abbr> {.well}
+#### <abbr title="Variance tells you the degree of spread in your data set. The more spread the data, the larger the variance is in relation to the mean.">Variance</abbr>
 
-$s^2 = \frac{\Sigma(X-\overline{X})^2}{N-1}$
+$s^2 = \frac{\Sigma(X-\bar{X})^2}{N-1}$
 
 `var(mean)`
 
-#### Standard Deviation {.well}
+#### Standard Deviation
 
-$s = \sqrt{\frac{\Sigma(X-\overline{X})^2}{N-1}}$
+$s = \sqrt{\frac{\Sigma(X-\bar{X})^2}{N-1}}$
 
 `sd(X)`
 
 
-#### 95% Confidence limits on z (upper and lower) {.well}
+#### 95% Confidence limits on z-(upper and lower)
 
 $X = \mu \pm 1.96\sigma$
 
 
-#### <abbr title="Gives the Standard Deviation of a set of data as a standardised number">Z Score</abbr> {.well}
+#### <abbr title="Gives the Standard Deviation of a set of data as a standardised number">z-Score</abbr>
 
-  ${z = \frac{X - \overline{X}}{\sigma}}$
+  ${z-= \frac{X - \bar{X}}{\sigma}}$
 
   given an area, find the boundary value that determines this area.
 
@@ -2037,15 +2180,15 @@ $X = \mu \pm 1.96\sigma$
   qnorm(0.5,mean=100,sd=15)
 ```
 
-#### Formulae Summary {.well}
+#### Formulae Summary
 
 | Purpose       | Formula                                    | R Input                  |
 |---------------|:------------------------------------------:|--------------------------|
-| Variance      | $s^2 = \frac{\Sigma(X-\overline{X})}{N-1}$      | `var(X)`                 |
-| Std Deviation | $s = \sqrt{\frac{\Sigma(X-\overline{X})}{N-1}}$ | `sd(x)`                  |
-| z-score       | ${z = \frac{X - \overline{X}}{\sigma}}$         | See R Function Summary |
+| Variance      | $s^2 = \frac{\Sigma(X-\bar{X})}{N-1}$      | `var(X)`                 |
+| Std Deviation | $s = \sqrt{\frac{\Sigma(X-\bar{X})}{N-1}}$ | `sd(x)`                  |
+| z-score       | ${z-= \frac{X - \bar{X}}{\sigma}}$         | See R Function Summary |
 
-#### R function summary {.well}
+#### R function summary
 
 | Purpose               | R Input                                                        |
 |-----------------------|----------------------------------------------------------------|
@@ -2054,11 +2197,11 @@ $X = \mu \pm 1.96\sigma$
 | Quantile Function     | `qnorm(p, mean = 0, sd = 1, lower.tail = TRUE, log.p = FALSE)` |
 | Random Deviates       | `rnorm(n, mean = 0, sd = 1)`                                   |
 
-#### Confidence limits on z {.well}
+#### Confidence limits on z
 
 $X = \mu \pm 1.96\sigma$
 
-#### Chi-Square {.well}
+#### Chi-Square
 
 ##### Goodness of Fit / 1 Way Classification
 
@@ -2076,7 +2219,7 @@ $df = (R-1)(C-1)$
 
 $\Phi = \sqrt{\frac{\chi^2}{N}}$
 
-### Linear Relationships {.well}
+#### Linear Relationships
 
 #### Correlation
 
@@ -2086,7 +2229,7 @@ $df = N-2$
 
 #### Covariance
 
-$\frac{(X-\overline{X})(Y-\overline{Y})}{N-1}$
+$\frac{(X-\bar{X})(Y-\bar{Y})}{N-1}$
 
 #### Significance of r
 
@@ -2098,7 +2241,7 @@ $t = \frac{r\sqrt{N-2}}{\sqrt{(1-r^2)}}$
 |------------------|--------------------------------|
 | General Equation | $\hat{Y} = bX - a$             |
 | Slope            | $r = \frac{cov_{xy}}{s_{x}^2}$ |
-| Intercept        | $a = \overline{Y} - b\overline{X}$       |
+| Intercept        | $a = \bar{Y} - b\bar{X}$       |
 
 <details>
 <summary>**Formulae Chart**</summary>

@@ -42,13 +42,11 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Define and contrast the ideas of ‘continuous development’ and ‘staged development’.
 
 :::{.alert .alert-info}
-
 - **Continuous Development**: A slow and gradual development though the lifespan in learning and developing knowledge and hobbies such as gardening, cycling or renovating.
 - **Staged Development**: Elements of the developmental journey that appear not to change for some time, but then change abruptly such as moving from single to married, spouse to parent, parent to grandparent, etc).
 - Staged development can be broken down further into:
   - **Typical**: To what extent do we experiences change at the same time and in the same order? (i.e. Leaving high school to attend university)
   - **Atypical**: Are these life stages more individualised and unique to each of us? (i.e. Going from mother to student, or lecturer to student)
-
 :::
 
 ### LO3
@@ -102,7 +100,7 @@ knitr::opts_chunk$set(echo = TRUE)
 :::
 
 :::{.alert .alert-info}
-<h5><i class="fas fa-info-circle"></i> Sources of Stability</h5>
+##### <i class="fas fa-info-circle"></i> Sources of Stability
 
 - **Genetics (Nature)**
   - At conception, each individual inherits a unique combination of genes.
@@ -507,33 +505,110 @@ kable(data, format = "html", escape = FALSE) %>%
 
 ## Week 2: Research methods in adult development Pt 2: Thematic analysis {.well .tabset .tabset-fade .tabset-pills}
 
+- Understand the meaning of qualitative research (Lecture)
+  - Identify the methods associated with qualitative research
+  - Explain the paradigms associated with qualitative research and how they differ from the paradigms associated with quantitative research
+- Understand the meaning and purpose of reflexive thematic analysis (Lecture)
+  - Describe the capabilities and limitations of RTA as a method
+  - Explain what it means to be a reflexive researcher and how this is achieved
+- Understand the importance of RTA to developmental psychology (Lecture)
+  - Compare research questions which are answered with RTA to questions answerable using quantitative research approaches
+- Describe the stages of RTA (Lecture)
+- Familiarise yourself with data (Lecture)
+- Conduct coding (pp. 53 - 75) 
+- Create and refine themes (pp. 76 - 111)
+- Write up a RTA (Lecture)
+
 ### LO1
 
-#### Topic 1
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Understand the meaning of qualitative research (Lecture)
+
+- RTA is a form of qualitative research
+  - Qualitative research seeks to collect, analyse and report on word data, through:
+    - Interviews
+    - Open ended survey questions
+    - Online posts
+
+>"&hellip;qualitative research involves an interpretive, naturalistic approach to the world. This means that qualitative researchers study things in their natural settings, attempting to make sense of, or to interpret, phenomena in terms of the meanings people bring to them"
+>
+><footer class="pull-right">Denzin and Lincoln (2005)</footer>
+
+- Qualitative research explores human experiences, meanings, and social phenomena through word-based data.
+- Unlike quantitative research (which focuses on numerical measurement), qualitative research seeks to understand how people make sense of their worlds by prioritising depth, complexity, and context, through:
+  - interviews,
+  - focus groups, and
+  - textual analysis to understand how people make sense of their worlds.
+- Qualitative research refers to more than just the methods we use or the type of data that we collect.
+- It also refers to a philosophical view (often called **paradigms**) that reality (**ontology**) is not objective and that knowledge (**epistemology**) is shaped by context, researcher interpretation and previous experiences.
+- Braun and Clarke (2021) consider qualitative research based in this philosophy as a genuine form of qualitative research and label this approach **'Big Q'**.
+- Approaches which do not follow the 'Big Q' view of qualitative research are called **'Small Q'**.
+- These approaches apply a positivist or post-positivist paradigm and treat reality as objective and not highly influenced by experiences, power dynamics or social context. 
+- Reflexive Thematic Analysis is aligned with a 'Big Q' approach to qualitative research.
+:::
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i>Identify the methods associated with qualitative research
+
+:::
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i>Explain the paradigms associated with qualitative research and how they differ from the paradigms associated with quantitative research
+
+:::
 
 ### LO2
 
-#### Topic 2
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Understand the meaning and purpose of reflexive thematic analysis (Lecture)
+
+:::
+
+#### <i class="fas fa-info-circle"></i> Describe the capabilities and limitations of RTA as a method
+
+#### <i class="fas fa-info-circle"></i> Explain what it means to be a reflexive researcher and how this is achieved
 
 ### LO3
 
-#### Topic 3
+Understand the importance of RTA to developmental psychology (Lecture)
+
+#### Compare research questions which are answered with RTA to questions answerable using quantitative research approaches
 
 ### LO4
 
-#### Topic 4
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Describe the stages of RTA (Lecture)  
+
+1. **Familiarisation with Data** – Immerse yourself in the dataset by reading, re-reading, and making notes on key insights. If working with audio, listen to recordings at least once.  
+2. **Coding** – Systematically identify and label meaningful data segments. Codes capture **explicit** (semantic) or **implicit** (latent) meanings and reflect the researcher’s analytic perspective.  
+3. **Generating Initial Themes** – Cluster related codes to construct broader themes that help answer the research question. Themes are actively developed rather than simply "discovered."  
+4. **Developing & Reviewing Themes** – Assess whether themes accurately reflect the data. This may involve merging, splitting, or discarding themes to ensure coherence and relevance.  
+5. **Refining & Naming Themes** – Fine-tune each theme, ensuring clarity and a strong core concept. Assign clear, concise names and describe how they contribute to the overall analysis.  
+6. **Writing Up** – Integrate themes into a compelling analytic narrative, using vivid data extracts. The final report includes an introduction, method, analysis, and conclusion, with thorough editing.
+:::
 
 ### LO5
+
+Familiarise yourself with data (Lecture)
 
 #### Topic 5
 
 ### LO6
 
-#### Topic 6
+Conduct coding (pp. 53 - 75)
+
+####  Topic 6
 
 ### LO7
 
+Create and refine themes (pp. 76 - 111)
+
 #### Topic 7
+
+### LO8
+
+Write up a RTA (Lecture)
+
+#### Topic 8
 
 ## Week 3: Social roles in adulthood {.well .tabset .tabset-fade .tabset-pills}
 

@@ -8,9 +8,10 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
 ```
 
-## Week 1: Experimental Design  {.well .tabset .tabset-fade .tabset-pills}
+## Week 1: Experimental Design  {.tabset .tabset-fade .tabset-pills}
 
 ### LO1
 
@@ -18,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 :::{.alert .alert-info}
 
-<h5><i class="fas fa-info-circle"></i> Experimental Research</h5>
+##### <i class="fas fa-info-circle"></i> Experimental Research
 
 - **Researcher Control**: The researcher controls all aspects of the study, especially participants' experiences.
 - **Manipulation of Variables**: The researcher deliberately manipulates predictor variables (IVs) while allowing the outcome variable (DV) to vary naturally.
@@ -34,7 +35,7 @@ knitr::opts_chunk$set(echo = TRUE)
 :::
 :::{.alert .alert-info}
 
-<h5><i class="fas fa-info-circle"></i> Quasi-Experimental Research</h5>
+##### <i class="fas fa-info-circle"></i> Quasi-Experimental Research
 
 - **Definition**: Similar to experimental research, but lacks **random assignment** of participants to conditions.
 - **Key Feature**: Researchers manipulate IVs but cannot fully control group allocation, often due to ethical or practical constraints. Some practical examples include gender, class level, between schools.
@@ -44,7 +45,7 @@ knitr::opts_chunk$set(echo = TRUE)
 :::
 :::{.alert .alert-info}
 
-<h5><i class="fas fa-info-circle"></i> Non-Experimental Research</h5>
+##### <i class="fas fa-info-circle"></i> Non-Experimental Research
 
 - **Definition**: Any research where the researcher does not actively manipulate variables.
 - **Key Feature**: Observes relationships and patterns without intervention or control over variables.
@@ -53,7 +54,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 :::
 :::{.alert .alert-info}
-<h5><i class="fas fa-info-circle"></i> Correlational Research</h5>
+##### <i class="fas fa-info-circle"></i> Correlational Research
 
 - **Definition**: A type of non-experimental research that examines the **relationship between two or more variables** without manipulation.
 - **Key Feature**: Measures how strongly variables are associated (positive, negative, or no correlation) but **does not imply causation**.
@@ -95,7 +96,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 :::
 :::{.alert .alert-info}
-<h5><i class="fas fa-info-circle"></i> Descriptive Research</h5>
+##### <i class="fas fa-info-circle"></i> Descriptive Research
 
 - **Definition**: A research approach that aims to **systematically describe** characteristics, behaviours, or phenomena without testing relationships between variables.
 - **Key Feature**: Focuses on **what exists** rather than why it happens. Can use surveys, observations, case studies, etc.
@@ -105,7 +106,7 @@ knitr::opts_chunk$set(echo = TRUE)
 :::
 
 :::{.alert .alert-info}
-<h5><i class="fas fa-info-circle"></i> Selecting between these types of design</h5>
+##### <i class="fas fa-info-circle"></i> Selecting between these types of design
 
 ![](images/HPS301/Week1/qual.des.svg)
 
@@ -117,7 +118,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 :::{.alert .alert-info}
 
-<h5><i class="fas fa-info-circle"></i> Internal validity.</h5>
+##### <i class="fas fa-info-circle"></i> Internal validity.
 
 - **Internal validity** refers to how well a study is conducted and whether it accurately establishes a cause-and-effect relationship between the independent and dependent variables.
 - A study with high internal validity ensures that changes in the dependent variable are due to the independent variable and not due to confounding factors or biases.
@@ -240,7 +241,7 @@ knitr::opts_chunk$set(echo = TRUE)
 :::
 :::{.alert .alert-info}
 
-<h5><i class="fas fa-info-circle"></i> External Validity</h5>
+##### <i class="fas fa-info-circle"></i> External Validity
 
 - **Definition**: External validity refers to how well study findings generalise to real-life settings.  
 - **Key Concern**: If results don’t apply beyond the study’s specific conditions (tasks, environment, participants), the study lacks external validity.  
@@ -458,273 +459,805 @@ Adopting Open Science practices improves research integrity, making findings mor
 
 :::
 
-## Week 2: Correlations {.well .tabset .tabset-fade .tabset-pills}
+## Week 2: Correlations {.tabset .tabset-fade .tabset-pills}
 
 ### LO1
 
-#### Topic 1
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Understand and interpret correlations
+
+- **Pearson’s correlation coefficient** measures the strength and direction of a linear relationship between two variables.  
+- It identifies:  
+  - **Positive correlation** – when one variable increases, the other also increases.  
+  - **Negative correlation** – when one variable increases, the other decreases.  
+- Suitable for **continuous variables** (interval or ratio level).  
+- Can be used when one variable is **dichotomous** (point-biserial correlation).  
+- If a variable is **ordinal** or Pearson’s assumptions are **not met**, use **Spearman’s rank correlation** as a **nonparametric alternative**.
+
+##### Pearson's Correlation
+
+![Fig. 1: Pearson's Correlation and Coefficient of Determination](images/HPS301/Week2/Pearson.png)
+
+</br>
+
+| Correlation Type        | Description | Scatter Plot Representation |
+|-------------------------|------------|------------------------------|
+| **Perfect Positive (r = +1)** | A perfect linear increase in one variable corresponds to an identical increase in the other. | 🔵🔵🔵 (aligned in a perfect upward line) |
+| **Strong Positive (r ≈ +0.6)** | A strong upward trend with some scattered points. | 🔵🔵 🔵 (tight upward pattern) |
+| **Weak Positive (r ≈ +0.3)** | A weak upward trend with more scattered points. | 🔵 🔵 🔵 (loosely upward) |
+| **No Correlation (r ≈ 0)** | No clear pattern or relationship between variables. | 🔵 🔵🔵 (random distribution) |
+| **Weak Negative (r ≈ -0.3)** | A weak downward trend with scattered points. | 🔵 🔵 🔵 (loosely downward) |
+| **Strong Negative (r ≈ -0.6)** | A strong downward trend with some scattered points. | 🔵🔵 🔵 (tight downward pattern) |
+| **Perfect Negative (r = -1)** | A perfect linear decrease in one variable corresponds to an identical decrease in the other. | 🔵🔵🔵 (aligned in a perfect downward line) |
+
+**How it works**:
+
+$$
+r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2} \sqrt{\sum (y_i - \bar{y})^2}}
+$$
+
+- **Explanation:**
+	- $x_i$, $y_i$ are the individual data points for two variables X and Y.
+	- $\bar{x}$ and $\bar{y}$ are the means (averages) of X and Y.
+	- The numerator calculates the covariance between X and Y.
+	- The denominator is the product of the standard deviations of X and Y, ensuring r is always between -1 and 1.
+
+**Pearson's Coefficient of Determination**
+
+$$
+r^2 = (r)^2
+$$
+
+- $r$ tells how strongly two variables are related and the direction (positive or negative).
+- $r^2$ tells how much of the variability in one variable is explained by the other.
+
+</br>
+
+##### Exceptions to the application of Pearson's Coefficient
+
+![Fig. 2: Anscombe's Quartet](images/HPS301/Week2/Anscombe.svg)
+
+</br>
+
+##### Spearman's Rank Correlation
+
+- Spearman’s rank correlation (\(\rho\), pronounced "rho") measures the **strength and direction** of a **monotonic relationship** between two variables.
+- It is a **nonparametric** alternative to Pearson’s correlation and is used when:  
+  - Data is **ordinal** (ranked) rather than continuous.  
+  - The relationship between variables is **non-linear** but still follows a consistent increasing or decreasing trend.  
+  - Pearson’s correlation **assumptions** (such as normality) are not met.  
+
+- **How It Works:**
+  1. **Ranks the data** instead of using actual values.  
+  2. Computes the **difference between ranks** for each pair of values.  
+  3. Uses the formula:  
+    $$
+    \rho = 1 - \frac{6 \sum d^2}{n(n^2 - 1)}
+    $$  
+  - **where:**  
+    - $d$ = difference between the ranks of corresponding values  
+    - $n$ = number of observations  
+
+**Examples of When to Use Spearman’s Correlation:**  
+
+- **Ranking in a competition** (e.g., students' test ranks vs. ranks in a sports event).  
+- **Customer satisfaction** (e.g., survey responses on a 1-5 scale vs. product ratings).  
+- **Non-linear relationships** (e.g., income vs. happiness, where happiness increases with income but levels off at higher amounts).  
+
+##### t-test
+
+**Formula for the t-test for Pearson’s correlation:**
+$$
+t = \frac{r \sqrt{n - 2}}{\sqrt{1 - r^2}}
+$$
+
+- **In the Context of Pearson’s Correlation (r)**:
+  - A t-test for correlation checks whether the observed correlation coefficient is significantly different from zero (i.e., whether there is a real relationship between the two variables).
+- **Where**:
+	- $r$ = Pearson’s correlation coefficient
+	- $n$ = Sample size
+	- The degrees of freedom $(df) = n - 2$
+- **What the t-test tells us**:
+	- If $p < 0.05$ (for a 95% confidence level), we reject the null hypothesis and conclude that there is a significant correlation.
+	- If $p > 0.05$, we fail to reject the null hypothesis, meaning there’s no strong evidence of a real correlation.
+
+:::
 
 ### LO2
 
-#### Topic 2
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Understand and Interpret Bivariate (simple) Regression
+
+- **Bivariate Regression**:
+  - Specifically refers to the case where **there are only two variables** involved — one dependent and one independent.
+  - It’s a type of simple linear regression, where the model describes a straight-line relationship between the **two** variables.
+  - The relationship between the two variables is summarized by a regression line (or line of best fit).
+  - Bivariate (Simple) Linear Regression involves just one independent variable and uses the formula:
+
+$$
+Ŷ = bX + a
+$$
+
+- **where**:
+  - $Ŷ$ is the predicted value of the dependent variable,
+  - $b$ is the slope (gradient), which shows the relationship between the two variables (i.e. if b = 0.50, it means that for every unit increase in the independent variable, the dependent variable increases by 0.50 units.)
+  - $a$ is the Y-intercept of the line, and
+  - $X$ refers to each subject’s values for the X or independent variable.
+
+- A t-test is used to assess whether the slope and Y-intercept are significantly different from zero, ensuring that the relationship is not due to chance.
+- Once the regression line is determined, predicted values for the dependent variable can be calculated for given values of the independent variable.
+- The difference between predicted and actual values is the residual, and its variance (residual variance) and standard deviation (standard error of estimate) show the accuracy of the predictions.
+- The coefficient of determination ($R^2$) shows how much of the variability in the dependent variable is explained by the independent variable.
+  - For example, if $R^2 = 0.25$, it means 25% of the variability in the dependent variable is predicted by the independent variable, and the rest is error.
+- In summary, **bivariate regression allows for prediction**, and its accuracy is assessed using the residuals and $R^2$, with the slope and Y-intercept providing the relationship between the variables.
+
+:::
 
 ### LO3
 
-#### Topic 3
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Examine factors that affect correlations
+
+**Range Restriction of Either Variable X or Y**:
+
+  - Range restriction occurs when the range of values for one or both variables is limited or narrowed in the data being analysed. This can artificially lower the correlation between the two variables.
+	  - **Example**: If you’re studying the relationship between IQ (Variable X) and academic performance (Variable Y), but your sample only includes students who already have a high IQ (restricted range for IQ), the correlation between IQ and academic performance may appear weaker than it actually is because you’re not including the full range of IQ scores.
+	  - **Effect**: When the range of values for one or both variables is restricted, the correlation tends to be underestimated. This is because the variability in the variables, which is crucial for identifying a strong relationship, is limited.
+	  
+</br>
+
+**Use of Heterogeneous Samples**:
+
+  - A heterogeneous sample consists of participants who vary widely on the variables being studied. This means that the participants have diverse characteristics and scores across the range of the variables.
+	  - **Example**: If you’re looking at the relationship between age and income, a heterogeneous sample might include people of all ages, from teenagers to retirees, as well as people with very different income levels. This broadens the range of values for both age and income, making it easier to detect a correlation.
+	  - **Effect**: A heterogeneous sample generally leads to a stronger and more accurate correlation because there is more variation in the data, which increases the likelihood of finding a relationship between the variables. However, if the sample is too homogeneous (lacking diversity), the correlation could appear weaker.
+	  
+</br>
+
+**The Distribution of Scores on a Dichotomous Measure**:
+
+  - A dichotomous measure is a variable with only two categories (e.g., “yes” or “no,” “male” or “female”). The distribution of scores on such measures can impact the correlation, especially if the two categories are not evenly represented.
+	  - **Example**: If you are studying the relationship between gender (dichotomous: male/female) and job satisfaction, and your sample has an uneven number of males and females, the correlation could be skewed by this imbalance.
+	  - **Effect**: When a dichotomous variable has an uneven distribution (e.g., too many participants in one category), it can distort the correlation between the variables. This is because the data might not fully represent the variation in the dichotomous measure, leading to misleading or weak correlations.
+
+</br>
+
+**The Presence of Outliers:**
+
+  - Outliers are data points that are significantly different from the majority of the data. These values can be much higher or lower than the rest of the dataset and can have a disproportionate effect on correlation calculations.
+	  - **Example**: In a study examining the relationship between height and weight, one participant might be an extreme outlier (e.g., an extremely tall or heavy person), which could skew the correlation.
+	  - **Effect**: Outliers can artificially inflate or deflate the correlation. If an outlier is consistent with the general trend, it can strengthen the correlation. However, if the outlier is far from the general trend, it can distort the correlation, making it either much higher or much lower than it should be. Removing outliers or using methods that reduce their impact (like robust correlation measures) can help obtain a more accurate relationship between variables.
+
+:::
+
+:::{.alert .alert-success}
+
+#### <i class="fas fa-info-circle"></i> Summary
+
+- **Range restriction** reduces variability and **weakens correlations**.
+- **Heterogeneous samples** provide a broader range of data, both strengthening and **increasing the accuracy** of correlations.
+- **Uneven distributions in dichotomous variables** can **distort correlations** by limiting variability.
+- **Outliers** can skew correlations, either **inflating or deflating the perceived relationship** between variables.
+
+:::
 
 ### LO4
 
-#### Topic 4
+:::{.alert .alert-warning}
+
+#### <i class="fas fa-info-circle"></i> The General Linear Model (GLM)
+
+- The **General Linear Model (GLM)** is the statistical **foundation** of correlation, regression, and many other forms of multivariate analysis.
+- The model **assumes** that **all variables are normally distributed** and that **each possible pair of variables** intended for analysis **are linearly related** (that is, the relationship can be adequately expressed by a straight line).
+- **Violation of these assumptions weakens the results** of correlations and multivariate analyses.
+- Therefore, it is necessary to **screen the data** during the preliminary stages of analysis **to ensure that the GLM assumptions are met**.
+- Some violations of the GLM are detailed in:
+  - LO4: Understand and assess normality
+  - LO5: Understand and Assess Linearity
+  - LO6: Understand and assess homogeneity of variance in arrays
+
+:::
+
+:::{.alert .alert-info}
+
+####  <i class="fas fa-info-circle"></i> Understand and Assess Normality
+
+- Data for a given variable may deviate from a nice, normal distribution (bell curve shape) as a result of skewness, kurtosis, or both.
+- The most common approaches for screening the data (to ensure that the variables are normally distributed) are:
+  1. Evaluating components of normality (skewness and kurtosis) separately (aided by Z tests),
+  2. A significance test comparing our data's distribution against a normal distribution (Kolmogorov-Smirnov test), and
+  3. Visual inspection of histograms.
+  
+</br>
+  
+![](images/HPS301/Week2/normality.png)
+
+</br>
+
+##### z-score Approach to Skewness and Kurtosis
+
+- **Two statistics** are needed to determine whether skewness (or kurtosis) is sufficiently bad to require action: **skewness** and the **standard error of skewness**.
+- The sign of the skewness value ($+$/$-$) indicates direction (positive or negative).
+- The value does not directly provide a significance test to determine whether we have strayed too far from normality.
+- A Z-test (skew statistic divided by the standard error of skewness) is used to derive a significance test.
+- For all practical purposes, no action need be taken when the Z-score is less than an absolute value of 3.00 for small samples or 4.00 for large samples (say 100 subjects or more).
+- Exactly the same procedure and cut-offs apply for kurtosis: the kurtosis value is divided by the standard error of kurtosis.
+- In both cases, as sample size increases, the acceptable significance value can also increase.
+- The reason for this is that the standard error component of the Z-score is simply based on sample size (and tends to get smaller and smaller as sample size increases).
+- This can lead to a ridiculous situation where the absolute skew (or kurtosis) value is the same for two samples (say, one big and another small), and yet violation of normality is only detected/claimed for one (this will be the bigger sample, owing to the reduced standard error).
+- Should significance of skewness or kurtosis exceed the appropriate cut-off, transformation of variables is considered (and is discussed below).
+
+##### Kolmogorov-Smirnov test
+
+- We could also elect to use a statistical test to check for skew and kurtosis issues (although this test is influenced by sample size so we don't usually recommend it).
+- The Kolmogorov-Smirnov test compares our observed sample distribution to a perfectly normal distribution, and takes into account our sample size.
+- If we obtain a statistically significant result (i.e. p < .05), then we can conclude that our sample distribution is probably significantly different from normal, and we have likely violated our assumption of normality.
+- Unlike the Z score approach, the Kolmogorov-Smirnov test checks both skew and kurtosis together.
+- You can find a module in the jamovi library called 'moretests', which adds the Kolmogorov-Smirnov normality test to a number of the jamovi analyses.
+
+:::
 
 ### LO5
 
-#### Topic 5
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Understand and Assess Linearity
+
+- Correlation and multivariate analyses assume straight-line relationships between variables and do not capture non-linear relationships.
+- Screening for linearity involves examining scatterplots between pairs of variables.
+- Non-linear relationships are evident when the scatter plot departs from an oval distribution of data points.
+- Curvilinear (U-shaped) and part-curvilinear (J-shaped) relationships are examples of non-linear patterns.
+- Check for normality before addressing non-linearity; non-normality in one variable can cause non-linearity in relationships with other variables.
+- If non-linearity persists after normality transformation, consider converting the variable into a dichotomous variable through a median split, as dichotomous variables can only have linear relationships.
+- Non-linear relationships may not always require transformation; instead, use analytic methods that accommodate the relationship’s shape if transformation is not suitable.
+
+</br>
+
+![Curvilinear (U-shaped) and part-curvilinear (J-shaped) relationships](images/HPS301/Week2/linearity.png)
+
+:::
 
 ### LO6
 
-#### Topic 6
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Understand and Assess Homogeneity of Variance in Arrays
+
+- **Homoscedasticity Assumption**: Variance of one variable should remain constant across levels of another variable.  
+- **Assessment**: Typically checked using scatterplots.  
+- **Corrections**: Transformations can be applied if the assumption is violated.  
+- **Regression Predictions**:  
+  - Points on the **line of best fit** indicate perfect predictions.  
+  - Points above/below the line represent **prediction errors** (under-/over-estimates).  
+- **Standard Error of Estimation **($S_2Y.X$):  
+  - Measures average deviation from the line of best fit.  
+  - Similar to standard deviation but applied to regression predictions.  
+  - Should be **consistent** across all levels of the independent variable (IV).  
+- **Example (Recognition & Job Satisfaction)**:  
+  - If **prediction errors are evenly distributed** across recognition levels, the assumption holds.  
+  - If **errors increase at higher levels of recognition**, the assumption is violated.  
+  - Averaging errors in such cases **masks inconsistencies**, leading to misleading conclusions.  
+- **Key Takeaway**: Ensuring homoscedasticity is crucial for reliable regression analysis and accurate predictions.
+
+:::
 
 ### LO7
 
-#### Topic 7
+:::{.alert .alert-info}
 
-## Week 3: Multiple Regression {.well .tabset .tabset-fade .tabset-pills}
+#### <i class="fas fa-info-circle"></i> Describe the Procedures for Correcting Violations
+
+- **Purpose of Data Transformation**:  
+  - Used to correct violations of regression assumptions (e.g., normality of residuals, homogeneity of variance).  
+  - Can complicate interpretation, especially if the original variable had meaningful units (e.g., age).  
+
+- **Process of Transformation**:  
+  - Trial-and-error approach—always check if the transformation had the desired effect.  
+  - The transformation should preserve the relationship between values.  
+  - Helps adjust skewness by pulling extreme values closer to the median.  
+
+- **Common Transformations** (based on severity of skewness):  
+  - **Square root** → Moderate skewness (Z > 3.00 to 4.00).  
+  - **Logarithm** → Substantial skewness (Z = 6.00 to 10.00).  
+  - **Reciprocal (1/score)** → Severe skewness (Z > 10.00).  
+  - Never transform unskewed variables, as it may introduce negative skewness.  
+
+- **Example of Transformation Effects**:  
+  - **Numbers (1, 10, 100, 1000)** transform as follows:  
+    - Square root: **1, 3, 10, 32**  
+    - Logarithm: **0, 1, 2, 3**  
+    - Reciprocal: **0, 0.900, 0.990, 0.999**  
+  - Larger values are reduced more than smaller ones, increasing with transformation severity.  
+
+- **Checking Transformation Success**:  
+  - Ensure skewness is corrected without overcorrection (positive skew turning negative).  
+  - If transformations fail, either:  
+    1. Proceed with analysis but acknowledge potential bias.  
+    2. Use a **non-parametric alternative** that doesn’t require normality.  
+
+- **Handling Negatively Skewed Variables**:  
+  - First, **reflect** the variable (convert negative skew to positive).  
+  - Apply a standard transformation.  
+  - Reflect back to maintain interpretability.
+
+:::
+
+
+### Walkthrough
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Jamovi Demonstration
+
+<video controls width="600">
+  <source src="images/HPS301/Week2/Video/S2_correlation.mp4" type="video/mp4" />
+  <p>Your browser doesn't support HTML video.</p>
+</video>
+
+:::
+
+## Week 3: Multiple Regression {.tabset .tabset-fade .tabset-pills}
 
 ### LO1
 
-#### Topic 1
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
 
 ### LO2
 
-#### Topic 2
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
 
 ### LO3
 
-#### Topic 3
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
 
 ### LO4
 
-#### Topic 4
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
 
 ### LO5
 
-#### Topic 5
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
 
 ### LO6
 
-#### Topic 6
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
 
 ### LO7
 
-#### Topic 7
+:::{.alert .alert-info}
 
-## Week 4: One-Way ANOVA {.well .tabset .tabset-fade .tabset-pills}
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+
+
+## Week 4: One-Way ANOVA {.tabset .tabset-fade .tabset-pills}
 
 ### LO1
 
-#### Topic 1
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
 
 ### LO2
 
-#### Topic 2
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
 
 ### LO3
 
-#### Topic 3
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
 
 ### LO4
 
-#### Topic 4
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
 
 ### LO5
 
-#### Topic 5
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
 
 ### LO6
 
-#### Topic 6
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
 
 ### LO7
 
-#### Topic 7
+:::{.alert .alert-info}
 
-## Week 5: Multiple Comparisons {.well .tabset .tabset-fade .tabset-pills}
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+
+## Week 5: Multiple Comparisons {.tabset .tabset-fade .tabset-pills}
 
 ### LO1
 
-#### Topic 1
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
 
 ### LO2
 
-#### Topic 2
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
 
 ### LO3
 
-#### Topic 3
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
 
 ### LO4
 
-#### Topic 4
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
 
 ### LO5
 
-#### Topic 5
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
 
 ### LO6
 
-#### Topic 6
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
 
 ### LO7
 
-#### Topic 7
+:::{.alert .alert-info}
 
-## Week 6: Factorial ANOVA {.well .tabset .tabset-fade .tabset-pills}
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+
+## Week 6: Factorial ANOVA {.tabset .tabset-fade .tabset-pills}
 
 ### LO1
 
-#### Topic 1
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
 
 ### LO2
 
-#### Topic 2
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
 
 ### LO3
 
-#### Topic 3
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
 
 ### LO4
 
-#### Topic 4
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
 
 ### LO5
 
-#### Topic 5
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
 
 ### LO6
 
-#### Topic 6
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
 
 ### LO7
 
-#### Topic 7
+:::{.alert .alert-info}
 
-## Week 7: Repeated Measure ANOVA {.well .tabset .tabset-fade .tabset-pills}
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+
+## Week 7: Repeated Measure ANOVA {.tabset .tabset-fade .tabset-pills}
 
 ### LO1
 
-#### Topic 1
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
 
 ### LO2
 
-#### Topic 2
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
 
 ### LO3
 
-#### Topic 3
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
 
 ### LO4
 
-#### Topic 4
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
 
 ### LO5
 
-#### Topic 5
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
 
 ### LO6
 
-#### Topic 6
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
 
 ### LO7
 
-#### Topic 7
+:::{.alert .alert-info}
 
-## Week 8: Sampling {.well .tabset .tabset-fade .tabset-pills}
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+
+## Week 8: Sampling {.tabset .tabset-fade .tabset-pills}
 
 ### LO1
 
-#### Topic 1
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
 
 ### LO2
 
-#### Topic 2
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
 
 ### LO3
 
-#### Topic 3
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
 
 ### LO4
 
-#### Topic 4
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
 
 ### LO5
 
-#### Topic 5
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
 
 ### LO6
 
-#### Topic 6
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
 
 ### LO7
 
-#### Topic 7
+:::{.alert .alert-info}
 
-#### Motor Imagery and Motor Skill Interventions
-## Week 9: Scales and Survey Design {.well .tabset .tabset-fade .tabset-pills}
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+
+## Week 9: Scales and Survey Design {.tabset .tabset-fade .tabset-pills}
 
 ### LO1
 
-#### Topic 1
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
 
 ### LO2
 
-#### Topic 2
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
 
 ### LO3
 
-#### Topic 3
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
 
 ### LO4
 
-#### Topic 4
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
 
 ### LO5
 
-#### Topic 5
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
 
 ### LO6
 
-#### Topic 6
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
 
 ### LO7
 
-#### Topic 7
+:::{.alert .alert-info}
 
-## Week 10: Qualitative Research {.well .tabset .tabset-fade .tabset-pills}
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+
+## Week 10: Qualitative Research {.tabset .tabset-fade .tabset-pills}
 
 ### LO1
 
-#### Topic 1
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
 
 ### LO2
 
-#### Topic 2
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
 
 ### LO3
 
-#### Topic 3
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
 
 ### LO4
 
-#### Topic 4
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
 
 ### LO5
 
-#### Topic 5
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
 
 ### LO6
 
-#### Topic 6
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
 
 ### LO7
 
-#### Topic 7
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
