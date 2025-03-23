@@ -1,0 +1,1629 @@
+---
+title: "HPS302: Developmental Psychology (Adult)"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Week 1: Introduction and research methods in adult development Pt 1  {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+#### Contrast ‘individual differences’ to ‘commonalities’.
+
+:::{.alert .alert-info}
+- **Individual Differences** refer to the experiences and events in our lives that are individual to us, such as:
+  - Single parenthood,
+  - Grand parenthood,
+  - Opting not to have children,
+  - Living alone, 
+  - Parents divorce.(e.g. Our family make-up, where we live, our neighbours, divorce, death, etc).
+- **Commonalities** refer to the events and milestones in our lives that occur at roughly the same time, or are aspects of our lives that others can relate to such as:
+  - Moving out of our parents’ homes,
+  - Romantic relationships,
+  - Entered university, and
+  - Either started a family or given some serious thought to parenthood.
+:::
+
+:::{.alert .alert-info}
+- **Stability**: The aspects of ourselves that are similar in the 20, 40 or 60 year old versions of ourselves. (i.e. interest in reading/books, interest in cycling)
+- **Change**: The aspects of ourselves that are completely different to the younger or older versions of ourselves. (i.e. Developing an interest in travel, taking up a new hobby or interest, a new relationship, changing job).
+  - **Outer**: Changes that are apparent to others such as losing/gaining weight, development of greater self-confidence, leaving interests and objects behind as we age.
+  - **Inner**: Development of wisdom, from holding children close to giving them space, developing our own sense of family, etc.
+:::
+
+### LO2
+
+#### Define and contrast the ideas of ‘continuous development’ and ‘staged development’.
+
+:::{.alert .alert-info}
+- **Continuous Development**: A slow and gradual development though the lifespan in learning and developing knowledge and hobbies such as gardening, cycling or renovating.
+- **Staged Development**: Elements of the developmental journey that appear not to change for some time, but then change abruptly such as moving from single to married, spouse to parent, parent to grandparent, etc).
+- Staged development can be broken down further into:
+  - **Typical**: To what extent do we experiences change at the same time and in the same order? (i.e. Leaving high school to attend university)
+  - **Atypical**: Are these life stages more individualised and unique to each of us? (i.e. Going from mother to student, or lecturer to student)
+:::
+
+### LO3
+
+#### Explain each of the various sources of change and stability across adulthood.
+
+:::{.alert .alert-info}
+<h5><i class="fas fa-info-circle"></i> Sources of Change</h5>
+
+- **Normative Age-Graded Influences**: the influences of age that affect most adults as they grow older:
+  - **Biology**: A common part of aging referenced by our **biological clock**, such as greying hair, wrinkly skin, and losing of strength and muscle mass.
+  - **Shared Experiences**: While not nearly as relevant for current generations as it was for previous generations, our **social clock** remains a guide for life events such as starting a family, leaving home, graduating from university, etc.
+    - Our position on this social clock can impact our self-worth if we consider ourselves out of sync with societal expectations of the normative timing of life events.
+    - Many consider these achievements outside the social norm to be considerable achievements.
+    - Instances of **Ageism** are also governed by the social clock affecting both emerging adults and older adults.
+    - Parenting can have a significant impact on a parent's social clock as experiences are governed by the requirements of a child's age and developmental stage, with parents being drawn together based on their shared experiences.
+    - Experiences in this domain are far less likely to be universal than those governed by the biological clock.
+  - **Internal Change Processes**: Parents have been observed to exemplify more traditional masculine and feminine traits as young adults, while older parents seek to balance or extend these traits.
+  
+</br>
+
+- **Normative History-Graded Influences**: Historical events can shape both similarities and dissimilarities between people in similar groups (i.e. single child families in China)
+  - **Culture** can shape the expected age of:
+    - Marriage or childbearing,
+    - The typical number of children (and wives),
+    - The roles of men and women,
+    - Class structures,
+    - Religious practices, and
+    - Laws.
+  - **Cohort**: A group of people within a similar stage of life sharing similar historical experiences (i.e. Cuban Americans in the 60s, children of the Great Depression, children of COVID).
+    - Smaller than a generation (SG, BB, X, Y, Z).
+    - Can refer to the people within a country or region of a country.
+    - The effects of the Great Depression differed between teens (showed greater independence and resilience) and primary school children (extended periods of hardship).
+    - Other examples of the influences on cohorts include:
+      - Economic conditions of the times,
+      - Political and religious climate, 
+      - Educational system, and 
+      - Popular culture.
+      
+</br>      
+      
+- **Non-normative Life Events**
+  - Examples of non-normative life events can include:
+    - The death of a spouse in early adulthood,
+    - Inheriting enough money to retire at age 40,
+    - Taking over parental responsibility for grandchildren, and
+    - Starting your own business at 65.
+  - These events can be non-normative at any age (large inheritance), while others are non-normative due to the timing (death of a spouse).
+  - The events that occur "on-time" can be easier to deal with than those that are "off-time".  
+
+:::
+
+:::{.alert .alert-info}
+##### <i class="fas fa-info-circle"></i> Sources of Stability
+
+- **Genetics (Nature)**
+  - At conception, each individual inherits a unique combination of genes.
+  - While most genes are shared across the human species (shaping common developmental patterns like walking at 12 months or puberty in the early teens), genetic inheritance also contributes to individual differences:  
+    - The field of **behaviour genetics** studies how genes influence various traits, including:  
+    - **Cognitive abilities** (e.g., IQ).  
+    - **Physical traits** (e.g., height, body shape, metabolism).  
+    - **Personality characteristics**.  
+    - **Psychological disorders** (e.g., alcoholism, schizophrenia, depression).  
+  - Research suggests that heredity plays a key role in **stability across development**, as many genetic traits and tendencies persist throughout life.  
+  - Behaviour geneticists use **twin studies** to examine genetic influences on adult behaviour. These studies compare:  
+    - **Monozygotic (identical) twins**, who share **100% of their genes**.  
+    - **Dizygotic (fraternal) twins**, who share **about 50% of their genes**, like any other siblings.  
+  - In a typical study, researchers measure a trait or ability in both twins and compare their similarity.
+  - Research suggests that the higher similarity of identical than fraternal twins is more genetically influenced rather than shaped by environmental factors.  
+  - Twin studies require **large sample sizes**, making recruitment difficult.\
+  - To overcome this, countries with **centralised birth and health records** have taken the lead in this research.  
+  - The **largest twin database** is at the **Karolinska Institute in Sweden**, which maintains records on **over 85,000 twin pairs**.  
+
+</br>
+
+- **Environment (Nurture)**
+  - Both **genetics and environment** contribute to stability in personal development.
+  - While neither determines destiny, both have lasting effects.  
+  - The **Grant Study of Harvard Men**, led by psychiatrist **George Vaillant (2002)**, found that:  
+    - Men from **warm, trusting homes** were more likely to lead **well-adjusted** adult lives.  
+    - They expressed emotions openly, trusted others, and maintained strong friendships.  
+    - Parental warmth fostered **self-worth, coping skills, and meaningful relationships**.  
+  - Vaillant’s research also linked **early childhood environment** to **successful ageing**:  
+    - Those from supportive homes were **healthier and happier** at age 75.  
+    - Those from bleak homes faced **loneliness, mistrust, and illness** later in life.  
+    - These findings contributed to **Vaillant’s theory of personality development**.  
+
+</br>
+
+- **Interactionist View**
+  - There is no clear division between **genes and environment**, as they interact to shape stability throughout adulthood.
+  - The **interactionist perspective** suggests that genetic traits influence how individuals engage with their environment, which in turn reinforces those traits.  
+  - For example:  
+    - A **risk-averse child** may seek low-risk activities, form friendships with similar individuals, and be guided toward a cautious career path.  
+    - Over time, their lifestyle continues to reflect **risk avoidance**, reinforcing their behaviours and experiences.  
+  - The interactionist view sees Nature vs. Nurture as a **chicken-and-egg dilemma**.  
+  - A biological mechanism, **epigenetic inheritance**, explains how **environmental experiences modify gene expression**.
+  - This process, called **DNA methylation**, alters genes by adding a methyl group, reducing gene expression.  
+  - **Example**
+    - **Childhood Abuse and Lifelong Genetic Changes**  
+      - Research on **suicide victims** found that those with a history of childhood abuse had modified **glucocorticoid receptor genes**.
+      - This influences **stress responses** compared to those without a history of childhood abuse.  
+      - This suggests that **early life experiences** can lead to **permanent genetic changes** with lifelong consequences.  
+  - These findings highlight the complex interplay between **genetics and environment**, shaping development in ways far beyond what is inherited at birth.b
+
+:::
+
+### LO4
+
+#### Explain the difference between normative age-graded influences, normative history-graded influences and non normative life events and the potential impact of each on adult development
+
+::: {.alert .alert-warning}
+<h5><i class="fas fa-info-circle"></i> On Ageing</h5>
+
+- **Chronological Age and Development**  
+  - **Chronological age** refers to the number of years since birth, often marked by birthdays.
+  - While it is significant in **childhood** (as children of the same age tend to have similar abilities and interests), it becomes **less relevant in adulthood**, except in specific cases like:  
+    - **Young adulthood** – Legal milestones (e.g., driving, purchasing alcohol, voting).  
+    - **Older adulthood** – Eligibility for benefits (e.g., Social Security, Medicare).  
+  - However, **chronological age does not cause development**—aging is not simply a result of time passing or birthday candles burning. While **age may be related to developmental changes, it is not the direct cause**.  
+
+</br>
+
+- **Biological Age and Physical Condition**  
+  - **Biological age** measures how an individual’s **physical condition** compares to others of different ages. Informal examples include:  
+    - “He has the **memory of a 50-year-old**.”  
+    - “She **runs like a 30-year-old**.”
+  - The meaning of **biological age** depends on **chronological age** (a 30-year-old with the memory of a 50-year-old may raise concerns), whereas a 70-year-old with the same memory would seem youthful.  
+  - **Biological age is often assessed through medical evaluations**, such as **bone density scans**, comparing patients' bones to those of a healthy 20-year-old.
+  - **Lifestyle changes** can influence biological age, potentially slowing or reversing some aspects of aging.  
+  
+</br>
+
+- **Psychological, Social, and Functional Age**  
+  - **Psychological age** refers to an individual’s ability to effectively navigate life compared to others. For example:  
+    - A **30-year-old** who overspends and is often late for work functions more like a **teenager**.  
+- **Social age** is based on the roles a person assumes at different life stages:  
+  - A **40-year-old first-time mother** has a **social age** younger than her chronological age.  
+  - A **23-year-old supporting her family** has a **social age** beyond her years.  
+
+</br>
+
+- **Functional Age and Measuring Development**  
+  - Sometimes, **biological, psychological, and social age** are grouped as **functional age**, reflecting **overall adult functioning**.  
+  - Developmental psychologists recognise that **chronological age alone is not a reliable measure** of adult behaviour. Instead, studies often compare:  
+    - **Different age groups** (e.g., young vs. middle-aged adults).  
+    - **Different roles** (e.g., couples with vs. without children).  
+    - **The same individuals before and after major life transitions** (e.g., parenthood, retirement).  
+  - This highlights that **development and chronological age do not always align**, especially as people grow older.  
+
+:::
+
+### LO5
+
+#### Describe Baltes’ Lifespan Approach (including Table 1.2 on p. 34) and Bronfenbrenner’s Bioecological Model. Describe how each approach would explain an individual’s development, and consider any similarities between these two models.
+
+:::{.alert .alert-info}
+<h5><i class="fas fa-info-circle"></i> Life-Span Developmental Psychology Approach</h5>
+
+- The **life-span developmental psychology approach** views development as **lifelong, multidimensional, plastic, contextual, and influenced by multiple causes**.  
+- Introduced by **Paul Baltes et al. (1980)**, this approach marked a turning point in the field, which had previously focused almost entirely on **child development**.
+- It expanded the study of development to **all life stages**, from childhood to old age.  
+- By recognising development as a **continuous and complex process**, this perspective allows researchers to study not just children but also **adults of all ages**, including **students, parents, professors, and grandparents**.  
+- This framework has become fundamental in modern developmental psychology, shaping how we understand **growth and change across the entire lifespan**. 
+
+</br>
+
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Concept</th>
+<th>Proposition</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Life-span development</td>
+<td>Human development is a lifelong process. No single age is more important than another.</td>
+<td>A 38-year-old single woman makes plans to adopt a child; a 75-year-old Civil War buff begins taking a class in memoir writing.</td>
+</tr>
+<tr>
+<td>Multidirectionality</td>
+<td>We develop in different directions and at different rates. Some abilities increase while others decline.</td>
+<td>Young adults become independent when starting a career but remain dependent when living with parents.</td>
+</tr>
+<tr>
+<td>Development as gain and loss</td>
+<td>Development is a mix of gains and losses at all ages, requiring adaptation.</td>
+<td>Middle-aged adults may lose their parents but gain a new sense of maturity.</td>
+</tr>
+<tr>
+<td>Plasticity</td>
+<td>Many aspects of development can change, but there are limits.</td>
+<td>Young adults with behaviour problems can become responsible; fathers can stay home with kids while mothers work.</td>
+</tr>
+<tr>
+<td>Historical embeddedness</td>
+<td>Development is influenced by historical and cultural conditions.</td>
+<td>People who grew up in the 1970s have more open attitudes toward legalising drugs than earlier or later cohorts.</td>
+</tr>
+<tr>
+<td>Contextualism</td>
+<td>Development is shaped by age-graded, history-graded, and non-normative influences.</td>
+<td>Each of us is unique due to shared generational experiences and personal life events.</td>
+</tr>
+<tr>
+<td>Multidisciplinary</td>
+<td>Human development is studied across multiple disciplines, not just psychology.</td>
+<td>Fields like sociology, economics, public health, and education contribute to understanding development.</td>
+</tr>
+</tbody>
+</table>
+:::
+
+:::{.alert .alert-info}
+<h5><i class="fas fa-info-circle"></i> Bioecological Model of Development</h5>
+
+- The **bioecological model** emphasizes that human development occurs within multiple interacting environments—biological, psychological, and social—which change over time.
+- Introduced by **Urie Bronfenbrenner** in 1979 and later refined, the model consists of five systems:
+  - **Microsystem** (immediate environment like family and friends)  
+  - **Mesosystem** (interactions between elements in the microsystem)  
+  - **Exosystem** (indirect influences, such as parental workplaces)  
+  - **Macrosystem** (cultural and societal influences)  
+  - **Chronosystem** (changes over time, including personal growth and historical events)  
+- The key idea is that **development cannot be studied in isolation**—it must be understood in the context of relationships, communities, and broader cultural influences.
+- Modern research increasingly applies this model to study adults in various roles, including as individuals, partners, parents, workers, and members of cultural groups.
+
+:::
+
+### LO6
+
+#### Explain the major tasks (or goals) of each stage of adulthood
+
+:::{.alert .alert-info}
+<h5><i class="fas fa-info-circle"></i> Major goals of adulthood</h5>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>Life Stage</th>
+      <th>Major Tasks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Emerging Adulthood (18–24 Years)</td>
+      <td>Establish self as an adult by completing education or job training, become independent from parents financially, make own decisions, become an autonomous member of the community.</td>
+    </tr>
+    <tr>
+      <td>Early Adulthood (25–39 Years)</td>
+      <td>Renegotiate relationship with parents; form intimate partnerships; begin family; begin career; create individual identity; strive for success in both personal and professional life.</td>
+    </tr>
+    <tr>
+      <td>Middle Adulthood (40–64 Years)</td>
+      <td>Guide children into adulthood; cope with death of parents; strengthen marriage; redefine life goals; achieve individuality; care for aging family members.</td>
+    </tr>
+    <tr>
+      <td>Older Adulthood (65–74 Years)</td>
+      <td>Find an alternative to a lifelong job; cope with health problems of self and spouse; redefine life goals and sense of self.</td>
+    </tr>
+    <tr>
+      <td>Late Adulthood (75+ Years)</td>
+      <td>Come to terms with one’s own life, possibly through reviewing memories or writing a memoir. Cope with the deaths of loved ones and the eventuality of own death. Value remaining family members, friends, and other joys in life.</td>
+    </tr>
+  </tbody>
+</table>
+
+:::
+
+### LO7
+
+#### Explain the changes in the domains of adult functioning (physical, cognitive, social, work and personality) across each stage of adulthood 
+
+:::{.alert .alert-info}
+
+```{r, echo=FALSE, results='asis'}
+library(knitr)
+library(kableExtra)
+
+data <- data.frame(
+  Category = c(
+    "Physical Change", "Cognitive Change", "Family and Gender Roles",
+    "Relationships", "Work Roles", "Personality and Meaning"
+  ),
+  `Emerging Adulthood (18–24 Years)` = c(
+    "Peak functioning in most body systems and physical abilities; optimal reproductive years; health habits established now will create pattern of later well-being. Bone mass is still increasing.",
+    "Peak period of cognitive skill on most measures, fastest reaction time. Most depend on parents for important decisions. Driving safety is low, and electronics use is high and skilled.",
+    "Family roles are mixture of childhood and adult roles, and young people move in and out of them.",
+    "Family relationships are similar to childhood; peers are important socially. Romantic relationships consist of short-term dating for most.",
+    "Vocational interests present for most. Jobs are part-time or entry-level and not related to vocational interests. Job performance is variable. Little thought of retirement plans. Residential moves are for college or military service.",
+    "Establish identity in areas of occupation, gender role, political, and religious beliefs. Begin to see the self as separate from the group. Accentuate own gender characteristics and repress opposite-gender characteristics."
+  ),
+  `Early Adulthood (25–39 Years)` = c(
+    "Bone mass is still increasing. Obesity is present for some, and many do not follow diet and exercise recommendations.",
+    "Most memory abilities show slight but gradual declines except crystallized abilities, semantic and procedural memory. Decision making increases. Driving safety increases. Electronic use is an integral part of lives.",
+    "Major family roles are acquired (e.g., spouse, parent). Advances in these areas dominate life. Clear separation of gender roles.",
+    "Emphasis on forming new friendships, cohabitation, and marriage. Continued relationship with parents, siblings, and often grandparents.",
+    "Emphasis on choosing career, changing jobs, and establishing oneself in a career.",
+    "Increased individuality (self-confidence, independence, autonomy). Form own ideas and standards. Gender differences remain high."
+  ),
+  `Middle Adulthood (40–64 Years)` = c(
+    "High levels of functioning continue (except for top athletes in most sports). Slight decline in sensory functioning appears. Weight and girth increase. Bone mass begins slight decline.",
+    "Small declines continue for all except crystallized abilities (which peak), semantic and procedural memory. Decision making increases due to experience. Driving safety is good. Electronic use is variable.",
+    "Launch children; postparental phase; for many, added role of caregiver for elderly family members. Grandparent role begins for most.",
+    "Increased marital satisfaction as focus turns from parenting to other relationships. Adult children remain important.",
+    "Peak years of career success and income for most, also work satisfaction. Slight physical and cognitive decline is compensated for by increases in job expertise.",
+    "Establish generativity within family or workplace. Some sign of a softening of the individuality of the earlier period; fewer immature defenses; possibly autonomous level. Increase in spirituality for some, especially women."
+  ),
+  `Older Adulthood (65–74 Years)` = c(
+    "Physical decline more noticeable, but rate of decline is still relatively slow; reaction time slows. Weight decreases for many as bone and muscle mass decrease. More decline in sensory systems.",
+    "More slow decline for memory systems except crystallized abilities and procedural memory. Decision making remains good. Driving begins to decline, but may be helped with training. Electronic use can be valuable to help with day-to-day tasks.",
+    "Grandparent role continues in importance; significantly less dominance of gender roles.",
+    "High marital satisfaction for those who have spouses; friendships and sibling relationships may become more intimate. Relationships with adult children frequent but not central to well-being. Relationship with grandchildren is important.",
+    "Most leave their full-time jobs and take less stressful or part-time jobs, do volunteer work, or retire entirely.",
+    "Task of ego integrity; perhaps more interiority; a few may reach integrated level. Increase in spirituality for most."
+  ),
+  `Late Adulthood (75+ Years)` = c(
+    "Acceleration in decline of physical abilities and sensory functioning.",
+    "All systems have gradual decline, including crystallized abilities, but not procedural memory. Decision making can be affected by cognitive loss and health disorders (and prescription drugs). Driving safety declines sharply. Electronic use continues to be helpful if started at earlier age.",
+    "Participation in family roles declines as activities are restricted. Role of care receiver begins for some.",
+    "Majority are widowed; small network of close friends and siblings remain important.",
+    "Work roles unimportant for most. Some continue to volunteer.",
+    "Continuation of previous pattern. Increase in spirituality for most, even if outward signs decrease."
+  ),
+  check.names = FALSE
+)
+
+kable(data, format = "html", escape = FALSE) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  column_spec(1, bold = TRUE)
+```
+
+:::
+
+### LO8
+
+#### Explain the purpose of thematic analysis
+
+:::{.alert .alert-info}
+
+Thematic analysis is a **qualitative research** method used to identify, analyse, and interpret patterns (themes) within textual data. It helps researchers make sense of large amounts of information by categorizing recurring ideas, meanings, or experiences.
+
+- **Key Steps in Thematic Analysis:**
+  1. **Familiarization** – Reading and re-reading the data to gain an overall understanding.
+  2. **Coding** – Identifying meaningful segments of text and assigning labels (codes) to them.
+  3. **Searching for Themes** – Grouping similar codes into broader themes that represent key patterns in the data.
+  4. **Reviewing Themes** – Refining themes by checking their relevance and coherence with the dataset.
+  5. **Defining and Naming Themes** – Clearly articulating what each theme represents.
+  6. **Writing the Report** – Presenting findings with supporting examples from the data.
+
+</br>
+
+- **Types of Thematic Analysis:**
+  - **Inductive (Bottom-Up):** Themes emerge directly from the data without predefined categories.
+  - **Deductive (Top-Down):** Themes are based on pre-existing theories or frameworks.
+  - **Semantic Analysis:** Focuses on explicit meanings in the data.
+  - **Latent Analysis:** Examines underlying meanings and assumptions behind the words.
+
+:::
+
+### LO9
+
+#### Explain the meaning of reflexivity and what would be required for a researcher to become a 'reflexive researcher'
+
+:::{.alert .alert-info}
+
+- **Meaning of Reflexivity**  
+  - Reflexivity in research refers to the process of critically examining one’s own role, biases, and influence on the research process.
+  - It involves acknowledging how personal beliefs, experiences, and perspectives shape the research design, data collection, analysis, and interpretation.
+  - Reflexivity helps ensure that research findings are not unduly influenced by the researcher’s subjectivity but are instead thoughtfully examined in relation to it.
+
+</br>
+
+- **Becoming a Reflexive Researcher**: To be a reflexive researcher, one must engage in continuous self-awareness and critical reflection throughout the research process. This includes:
+  1. **Acknowledging Personal Biases & Assumptions**  
+    - Recognizing one’s own values, cultural background, and preconceptions that may influence the study.
+    - Reflecting on how these factors shape interactions with participants and the interpretation of data.
+  2. **Engaging in Reflexive Writing**  
+    - Keeping a research journal or memo to document thoughts, feelings, and potential biases.
+    - Writing reflexive statements in research papers to acknowledge the researcher’s positionality.
+  3. **Being Transparent about Researcher-Participant Dynamics**  
+    - Considering how power relationships, identity, and social position affect the research process.
+    - Being aware of how participants’ responses might be influenced by the researcher’s presence.
+  4. **Using Multiple Perspectives & Methods**  
+    - Triangulating data sources to minimize bias.
+    - Seeking feedback from peers or participants to validate findings.
+  5. **Continuously Revisiting Assumptions**  
+    - Regularly questioning one's interpretations and being open to alternative explanations.
+    - Engaging in discussions with colleagues or mentors to challenge personal viewpoints.
+
+</br>
+
+- **Why Reflexivity is Important**  
+  - Enhances the credibility and trustworthiness of qualitative research.  
+  - Helps researchers produce more ethical and authentic findings.  
+  - Allows for deeper, more nuanced interpretations of data.  
+
+:::
+
+### LO10
+
+#### Explain the key differences between a qualitative and quantitative orientation   
+
+:::{.alert .alert-info}
+
+```{r, echo=FALSE, results='asis'}
+library(knitr)
+library(kableExtra)
+
+# Data for qualitative vs quantitative comparison
+data <- data.frame(
+  Aspect = c(
+    "Purpose", "Nature of Data", "Data Collection Methods", "Analysis Approach", 
+    "Sample Size", "Research Design", "Findings", "Researcher’s Role", 
+    "Types of Questions", "Outcome"
+  ),
+  `Qualitative Orientation` = c(
+    "Explores meanings, experiences, and social phenomena in depth.",
+    "Non-numerical (words, images, observations).",
+    "Interviews, focus groups, observations, open-ended surveys, case studies.",
+    "Thematic analysis, discourse analysis, grounded theory, content analysis.",
+    "Small, purposive, or theoretical sampling (not focused on generalizability).",
+    "Flexible, emergent, and exploratory.",
+    "Rich, detailed, and subjective, often presented in narratives.",
+    "Actively engaged in data interpretation; reflexivity is important.",
+    "Open-ended, exploratory (e.g., 'How do people experience stress?').",
+    "Develops deep understanding, theories, and insights."
+  ),
+  `Quantitative Orientation` = c(
+    "Measures variables and analyzes numerical data to identify patterns and relationships.",
+    "Numerical (numbers, statistics, measurements).",
+    "Surveys, experiments, structured observations, existing datasets.",
+    "Statistical analysis (descriptive, inferential, correlations, regressions).",
+    "Large, random, or representative samples for generalizability.",
+    "Structured, standardized, and hypothesis-driven.",
+    "Objective, statistical, and generalizable to larger populations.",
+    "Maintains distance to minimize bias; objectivity is key.",
+    "Closed-ended, measurable (e.g., 'What percentage of people experience stress?').",
+    "Tests hypotheses, predicts trends, and establishes causal relationships."
+  ),
+  check.names = FALSE
+)
+
+# Generate HTML table with Bootstrap 3.3.5 styling
+kable(data, format = "html", escape = FALSE) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  column_spec(1, bold = TRUE)
+```
+
+- **Choosing Between the Two Approaches**
+  - Use Qualitative Research when exploring subjective experiences, meanings, and complex social phenomena.
+  - Use Quantitative Research when measuring variables, testing hypotheses, or seeking statistical generalizations.
+  - Mixed methods combine both approaches to provide a more comprehensive understanding.
+:::
+
+## Week 2: Research methods in adult development Pt 2: Thematic analysis {.tabset .tabset-fade .tabset-pills}
+
+- Understand the meaning of qualitative research (Lecture)
+  - Identify the methods associated with qualitative research
+  - Explain the paradigms associated with qualitative research and how they differ from the paradigms associated with quantitative research
+- Understand the meaning and purpose of reflexive thematic analysis (Lecture)
+  - Describe the capabilities and limitations of RTA as a method
+  - Explain what it means to be a reflexive researcher and how this is achieved
+- Understand the importance of RTA to developmental psychology (Lecture)
+  - Compare research questions which are answered with RTA to questions answerable using quantitative research approaches
+- Describe the stages of RTA (Lecture)
+- Familiarise yourself with data (Lecture)
+- Conduct coding (pp. 53 - 75) 
+- Create and refine themes (pp. 76 - 111)
+- Write up a RTA (Lecture)
+
+### LO1
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Understand the meaning of qualitative research (Lecture)
+
+- RTA is a form of qualitative research
+  - Qualitative research seeks to collect, analyse and report on word data, through:
+    - Interviews
+    - Open ended survey questions
+    - Online posts
+
+>"&hellip;qualitative research involves an interpretive, naturalistic approach to the world. This means that qualitative researchers study things in their natural settings, attempting to make sense of, or to interpret, phenomena in terms of the meanings people bring to them"
+>
+><footer class="pull-right">Denzin and Lincoln (2005)</footer>
+
+- Qualitative research explores human experiences, meanings, and social phenomena through word-based data.
+- Unlike quantitative research (which focuses on numerical measurement), qualitative research seeks to understand how people make sense of their worlds by prioritising depth, complexity, and context, through:
+  - interviews,
+  - focus groups, and
+  - textual analysis to understand how people make sense of their worlds.
+- Qualitative research refers to more than just the methods we use or the type of data that we collect.
+- It also refers to a philosophical view (often called **paradigms**) that reality (**ontology**) is not objective and that knowledge (**epistemology**) is shaped by context, researcher interpretation and previous experiences.
+- Braun and Clarke (2021) consider qualitative research based in this philosophy as a genuine form of qualitative research and label this approach **'Big Q'**.
+- Approaches which do not follow the 'Big Q' view of qualitative research are called **'Small Q'**.
+- These approaches apply a positivist or post-positivist paradigm and treat reality as objective and not highly influenced by experiences, power dynamics or social context. 
+- Reflexive Thematic Analysis is aligned with a 'Big Q' approach to qualitative research.
+:::
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i>Identify the methods associated with qualitative research
+
+:::
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i>Explain the paradigms associated with qualitative research and how they differ from the paradigms associated with quantitative research
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Understand the meaning and purpose of reflexive thematic analysis (Lecture)
+
+:::
+
+#### <i class="fas fa-info-circle"></i> Describe the capabilities and limitations of RTA as a method
+
+#### <i class="fas fa-info-circle"></i> Explain what it means to be a reflexive researcher and how this is achieved
+
+### LO3
+
+Understand the importance of RTA to developmental psychology (Lecture)
+
+#### Compare research questions which are answered with RTA to questions answerable using quantitative research approaches
+
+### LO4
+
+:::{.alert .alert-info}
+#### <i class="fas fa-info-circle"></i> Describe the stages of RTA (Lecture)  
+
+1. **Familiarisation with Data** – Immerse yourself in the dataset by reading, re-reading, and making notes on key insights. If working with audio, listen to recordings at least once.  
+2. **Coding** – Systematically identify and label meaningful data segments. Codes capture **explicit** (semantic) or **implicit** (latent) meanings and reflect the researcher’s analytic perspective.  
+3. **Generating Initial Themes** – Cluster related codes to construct broader themes that help answer the research question. Themes are actively developed rather than simply "discovered."  
+4. **Developing & Reviewing Themes** – Assess whether themes accurately reflect the data. This may involve merging, splitting, or discarding themes to ensure coherence and relevance.  
+5. **Refining & Naming Themes** – Fine-tune each theme, ensuring clarity and a strong core concept. Assign clear, concise names and describe how they contribute to the overall analysis.  
+6. **Writing Up** – Integrate themes into a compelling analytic narrative, using vivid data extracts. The final report includes an introduction, method, analysis, and conclusion, with thorough editing.
+:::
+
+### LO5
+
+Familiarise yourself with data (Lecture)
+
+#### Topic 5
+
+### LO6
+
+Conduct coding (pp. 53 - 75)
+
+####  Topic 6
+
+### LO7
+
+Create and refine themes (pp. 76 - 111)
+
+#### Topic 7
+
+### LO8
+
+Write up a RTA (Lecture)
+
+#### Topic 8
+
+## Week 3: Social roles in adulthood {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Explain what is meant by the terms ‘social roles’ and ‘role transitions’.
+
+- **Social Roles:** Examine the expected behaviours and attitudes associated with one’s position in society, examined through the succession of social roles over time.
+- **Role Transitions:** Focuses on how individuals adjust and how transitions affect other roles.  
+- **Early Social Role Theory:**  
+  - Adulthood was viewed based on the number of roles occupied.  
+  - Early adulthood involved acquiring multiple roles, while later years involved shedding them.  
+  - "Successful aging" was measured by how many roles were relinquished and the willingness to do so.  
+- **Shift to Role Transitions:**  
+  - Roles are not simply gained or lost but evolve with life circumstances.  
+  - Examples of transitions:  
+    - High school student → College student  
+    - Spouse → New parent  
+    - Parent of a teenager → Parent of an independent adult  
+    - Older adults may lose roles but gain richness in remaining ones.  
+- **Social Clock:**  
+  - Social roles change over adulthood, similar to biological changes.  
+  - Age-linked expectations influence role progression.  
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Identify and explain the social roles transitions and changes that are typical in early adulthood (which includes emerging adulthood). You might like to reflect on your own experiences in these roles.
+
+##### Introduction
+
+- **Young Adulthood and Social Role Changes:**  
+  - More role changes occur during young adulthood than in any other life stage.  
+  - Emerging adults explore life paths while their roles remain similar to adolescence.  
+
+- **Common Role Transitions in Young Adulthood:**  
+  - Leaving student life and entering the workforce.  
+  - Becoming independent from parents.  
+  - Entering committed relationships or marriage.  
+  - Becoming a parent.  
+
+- **Varied Paths to Adulthood:**  
+  - Some follow a structured path: high school → college/career training → financial independence → moving out.  
+  - Others take non-linear paths, such as working first, moving back home, or entering cohabiting relationships.  
+
+- **Benefits of Flexible Transitions:**  
+  - Avoids premature career or marriage commitments.  
+  - Can serve as a turning point for individuals with troubled childhood trajectories.  
+  - Military service or marriage can help some young adults turn their lives around.  
+
+- **Emerging Adulthood as a New Life Stage (Arnett, 2000):**  
+  - Occurs roughly between ages 18-25.  
+  - A time of exploration before committing to career and relationships.  
+  - Defined by five key features (Arnett, 2007):  
+    1. **Identity exploration** – figuring out personal and professional identity.  
+    2. **Instability** – frequent changes in jobs, relationships, and residences.  
+    3. **Self-focus** – greater independence and personal development.  
+    4. **Feeling in-between** – not fully adolescent but not fully adult.  
+    5. **Possibilities** – optimism about future opportunities.  
+
+- **Cultural Variations in Emerging Adulthood:**  
+  - Common in developed countries but varies across cultures.  
+  - Found in urban populations in China, Argentina, Japan, Latin America, and parts of Europe.  
+  - Less evident in rural or lower-income populations, where young people take on adult roles earlier, similar to the U.S. before the 1950s.
+  
+##### Leaving (and Returning) Home
+
+- **Variability in Leaving-Home Process:**  
+  - Timing and destination of moving out differ widely among young adults.  
+  - Some leave immediately, while others move in and out multiple times.  
+
+- **Current Statistics on Young Adults Living at Home (U.S. Census Bureau, 2011b):**  
+  - 59% of men and 50% of women (ages 18-24) live with parents.  
+  - 19% of men and 10% of women (ages 25-34) live with parents.  
+
+- **Reasons for Staying in the Parental Home Longer:**  
+  - High youth unemployment and economic instability.  
+  - Increased education requirements and student debt.  
+  - High housing costs and preference for local colleges.  
+  - More affluent parents with larger homes and fewer children.  
+  - Later marriage trends and cultural expectations in immigrant families.  
+
+- **Gender Differences in Leaving Home:**  
+  - Men stay home longer than women due to age gaps in relationships.  
+  - Parents may be more lenient with sons and expect less household responsibility.  
+
+- **Boomerang Kids:**  
+  - About 50% of young adults who move out return at some point.  
+  - More likely to return if they moved out at a younger age.  
+  - Common reasons: job loss, financial struggles, breakups, or family needs.  
+
+- **Changing Social Norms and Cultural Influence:**  
+  - "Normal" moving-out age varies by culture and historical period.  
+  - In Europe, late leavers show higher solidarity with parents.  
+  - Late leavers live closer, stay in frequent contact, and provide/receive more support.  
+
+- **Transition to Adulthood in Different Cultures:**  
+  - Some young adults face cultural shifts (e.g., American Indian students at state universities).  
+  - Rural youth in developing countries may struggle with new urban values and norms.  
+  - Some emerging adults migrate for greater independence and opportunities.
+  
+##### Becoming a Spouse or Partner
+
+- **Marriage Trends in the U.S.:**  
+  - Marriage remains traditional but is declining in prevalence.  
+  - Average age of first marriage: 26 for women, 28 for men.  
+  - Marriage age has increased by ~3 years over the last three decades.  
+
+- **Reasons for Delayed Marriage:**  
+  - Desire for a higher standard of living before marriage.  
+  - Reduced societal pressure to marry for sex or children.  
+  - Increase in cohabitation as an alternative or precursor to marriage.  
+
+- **Rise of Cohabitation:**  
+  - 11% of young, opposite-sex couples currently cohabit.  
+  - Most couples today live together before marriage.  
+  - Cohabitation rates vary globally due to cultural, economic, and legal factors.  
+
+- **Types of Cohabitation:**  
+  1. **Alternative to marriage** – Long-term cohabitation with no plans to marry (common in Sweden, France, Denmark).  
+  2. **Prelude to marriage** – Living together before eventual marriage (common in Switzerland, Finland).  
+  3. **Alternative to being single** – Short-term cohabitation without marriage plans (common in the U.S., New Zealand).  
+
+- **Marriage Stability and Longevity:**  
+  - Despite a high divorce rate, newer marriages last longer than past ones.  
+  - 21% of married individuals are in second or third marriages.  
+  - Over 33% of all married couples celebrate their 25th anniversary.  
+  - 6% of couples reach their 50th anniversary.
+  
+##### Gender Roles in Early Partnerships
+
+- **Impact of Marriage or Cohabitation:** Significant life changes, especially in gender roles, where early marriages/partnerships tend to be more egalitarian.  
+- **Household Chores and Gender Roles:** Tasks are often divided along traditional gender lines, where women do more cooking and cleaning, while men handle yard work and repairs.  
+- **Workload Differences:**  
+  - Single women: 13 hours of housework per week.  
+  - Single men: 9 hours of housework per week.  
+  - Married women: 17 hours per week.  
+  - Married men: 14 hours per week.  
+  - Marriage increases housework for both partners, but women still do more overall.
+
+##### **Marital Status and Health
+
+**Marriage and Health Benefits**  
+- Married individuals tend to have better mental and physical health than unmarried individuals across various racial and ethnic groups.  
+- Studies across cultures confirm these health benefits.  
+- Married people live longer than divorced, widowed, or never-married individuals.  
+- Cohabiting couples (both same-sex and different-sex) show similar health benefits to married couples, though same-sex cohabiting couples report slightly poorer health than different-sex married couples.  
+
+**Explanations for Health Differences**  
+
+1. **Marital Selection Effect**: Healthier individuals are more likely to get married, partially explaining the difference in health between married and unmarried individuals.  
+2. **Marital Resources Effect**: Marriage provides financial security, social support, and promotes healthier lifestyles.  
+3. **Marital Crisis Effect**: The health decline is linked more to the stress of divorce or widowhood than to marriage itself, with those who remain unmarried throughout life report similar health levels to those in stable marriages.  
+
+**Marriage Stability vs. Marriage Happiness**  
+- Simply staying married does not guarantee health benefits.  
+- Unhappily married individuals report more health issues than happily married ones.  
+- A study showed that those who stayed in unhappy marriages had worse physical and mental health than those who divorced and either remarried happily or remained single.  
+- Excessive stress in relationships is linked to heart disease and other health problems.  
+
+**Conflict and Health Risks**  
+- Marital discord, especially with hostility, is linked to increased:  
+  - Heart rate and blood pressure  
+  - Muscular reactivity  
+  - Negative endocrine and immune responses  
+  - A direct risk factor for poor health.  
+
+##### Becoming a Parent
+
+  - About 85% of U.S. adults will eventually become parents, usually in their 20s or 30s, bringing satisfaction, self-worth, and a sense of adulthood but also involves major life changes.  
+
+- **Delayed Parenthood Trends**  
+  - Young adults are delaying parenthood, with teen and emerging adult childbirth rates in decline.  
+  - Declines in teen pregnancy, abortions, and foetal loss are linked to contraception use and pregnancy prevention efforts.  
+
+- **Increasing Births Among Older Women**  
+  - More women over 40 are having children due to delayed childbirth, fertility advancements, and societal acceptance of single motherhood.  
+  - Over 500 births per year are to women over 50.  
+
+- **Rising Average Age of First-Time Mothers**  
+  - The average age for a first birth in the U.S. is now 25.4 years, an increase of almost 4 years over 30 years.  
+  - Most developed countries show similar trends, with an average first birth age of nearly 28 years.  
+  - The U.S. has one of the lowest average first birth ages among developed nations.  
+
+- **Increase in Non-Marital Births**  
+  - 41% of births in the U.S. are to unmarried parents.  
+  - This trend peaked in 2008 but has since declined.  
+  - 58% of non-marital births are to cohabiting couples, challenging the stereotype of single, young unwed mothers.
+
+- **Gender Role Shifts After Having Children**  
+  - Couples tend to shift toward more traditional gender roles after having children.  
+  - Anthropologist David Guttmann calls this the **parental imperative**, suggesting it is biologically wired.  
+  - **Parental investment theory** states that women invest more time and resources in child-rearing, leading to distinct gender roles.  
+  - **Economic exchange theory** suggests that women provide childbearing abilities, while men take on financial responsibility.  
+
+- **Work and Parenting Responsibilities**  
+  - Fathers work more hours after becoming parents, while mothers work fewer.  
+  - Despite this, gender differences in work and childcare are decreasing.  
+  - Mothers with children under 18 typically work full-time and spend **12 hours per week** on child-related activities, while fathers spend **8.4 hours**.  
+  - Mothers spend **24 hours per week** on housework, while fathers report **20 hours**; however, fathers spend more time on home maintenance and repairs.  
+
+- **Lesbian and Adoptive Parents' Division of Labor**  
+  - In lesbian couples, housework is equally shared, but the biological mother takes on more childcare, while the nonbiological mother works more.  
+  - Among adoptive parents (gay, lesbian, and heterosexual), the parent who works more hours outside the home does less childcare.  
+  - The parent contributing the most income does less housework.  
+  - Same-sex couples share household tasks more equally than heterosexual couples.  
+
+- **Changing Gender Roles Over Time**  
+  - The gender gap in household chores has been decreasing over generations.  
+  - Boys raised in families with working mothers are more likely to share household duties in adulthood.  
+  - Girls raised in such households develop egalitarian expectations in relationships.  
+  - Increased female workforce participation has led to more power in relationships and greater cooperation from male partners in childcare and household tasks.
+  
+- **Gender Roles among Couples with Children**
+  - **Traditional Gender Role Shift** – Couples adopt more traditional roles after marriage and especially after having children, influenced by biological and evolutionary factors.  
+  - **Theoretical Explanations** – **Parental Investment Theory** links caregiving to biological differences, while **Economic Exchange Theory** sees men as financial providers and women as caregivers.  
+  - **Work & Household Division** – Fathers work more after having children, while mothers work less and handle more childcare and housework, though the gap is narrowing.  
+  - **Same-Sex & Adoptive Parents** – Housework is shared more equally, but the partner working more outside does less childcare, regardless of gender.  
+  - **Changing Trends** – More working mothers lead to greater gender equality in housework and parenting over time.
+
+- **Parenthood and Marital Happiness**
+  - **Marital Satisfaction & Parenthood** – Unlike marriage, which increases happiness, becoming parents often leads to a decline in marital satisfaction, following a curvilinear pattern—highest before the first child and after children leave home.  
+  - **Predictors of Marital Happiness** – Couples with strong marital friendship, expressed through fondness, admiration, and awareness of each other, maintain or improve their happiness despite the challenges of parenthood.  
+  - **Role of Husbands** – A husband’s positivity and attentiveness toward his wife early on predicts whether her marital happiness will decline after childbirth.  
+  - **Young Adulthood as a Time of Transition** – Parenthood is one of many complex life transitions in young adulthood, but resilience and support can ease the adjustment.
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Identify and explain the social roles transitions and changes that are typical in middle adulthood.
+
+1. **Role Transitions in Middle Adulthood**  
+   - Existing roles (parent, worker, spouse, child) evolve rather than disappear.  
+   - Parenting becomes less demanding, marriage satisfaction often increases, and careers stabilize.  
+
+2. **The Empty Nest and Its Effects**  
+   - Contrary to stereotypes, the empty nest phase is generally positive.  
+   - Many couples experience a "second honeymoon," and women often explore new careers or interests.  
+
+3. **Gender Role Changes in Midlife**  
+   - Traditional gender roles shift, with women becoming more assertive and men developing more communal qualities.  
+   - This change is more of an **expansion** of roles rather than a complete reversal.  
+
+4. **The Role of Grandparenting**  
+   - More people are grandparents than ever before, with an increasing lifespan allowing for longer involvement.  
+   - Grandparents are active in their grandchildren’s lives, providing financial and emotional support.  
+   - Differences exist based on proximity, gender (maternal grandmothers are often more involved), and family dynamics.  
+
+5. **Grandparents Raising Grandchildren**  
+   - Some grandparents take on parental responsibilities due to the parents' inability to do so.  
+   - Financial and legal challenges arise for these "grandfamilies," often with little government assistance.  
+   - Grandfathers in this role often work full-time and experience different stresses compared to grandmothers.  
+
+6. **Ethnic and Racial Differences in Midlife Experiences**  
+   - Racial and ethnic minorities often face greater health challenges but report higher psychological well-being.  
+   - Life expectancy disparities affect the experience of midlife across different racial groups.
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Explain the positive and negative impact of caregiving for a relative during middle adulthood
+
+- **Prevalence of Caregiving** – Many middle-aged adults care for aging parents, especially as fewer parents remain in good health. Adult children take on caregiving when a spouse is unavailable.  
+- **Gender and Caregiving** – Traditionally, daughters and daughters-in-law have provided care, but more men are now involved due to women's increased workforce participation.  
+- **Shared Caregiving Responsibilities** – Caregiving often involves multiple family members, professional caregivers, and community support, rather than a single individual.  
+- **Changing Caregiving Roles** – Baby boomers have more siblings to share caregiving tasks, but parents often prefer care from the child they feel closest to, usually a daughter.  
+- **Parent-Child Relationships & Caregiving** – Middle-aged adults are more likely to care for parents they are emotionally close to, with divorced fathers often receiving less support.  
+- **Impact of Caregiving** – Caregivers, especially those caring for parents with dementia, experience **caregiver burden**, leading to increased stress, depression, lower marital satisfaction, and poorer physical health. However, those with strong social support, a good marriage, and job satisfaction tend to manage caregiving more effectively and experience less stress.
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Identify and explain the social roles transitions and changes that are typical in late adulthood
+
+1. **Role Transitions vs. Role Loss** – Late adulthood was once seen as a time of loss, but research now suggests that role transitions vary widely. While some individuals struggle with these changes, others adapt and find new meaning.  
+
+2. **Living Alone** – Many older adults, especially women, experience living alone due to widowhood or divorce. While some manage with strong family and community support, others face challenges in adjusting to this transition.  
+
+3. **Desire for Independence** – Older adults highly value their independence, preferring to live on their own when possible. Even when they require assistance, they want to maintain control over their daily lives.  
+
+4. **Becoming a Care Receiver** – While many older adults have spent years caring for others, some eventually require care themselves. This shift is often difficult, as it can involve a loss of autonomy and privacy.  
+
+5. **Challenges of Residential Care** – Older adults in care facilities often struggle with loss of privacy, freedom, and personal space. Adjusting successfully requires acceptance and finding ways to maintain independence within structured environments.  
+
+6. **Effects of Caregiving on Older Adults** – While family caregiving has benefits, it can also have unintended negative effects. Overprotective caregiving can lead to a loss of confidence and increased dependence in older adults.  
+
+7. **The Importance of Personalized Care** – Caregiving should be tailored to the recipient’s actual needs. Studies suggest that misjudging the level of care needed—whether overestimating or underestimating pain and abilities—can lead to dissatisfaction and stress for both caregivers and recipients.
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Note the effects of not undertaking typical social roles, or undertaking roles at atypical times.
+
+**Social Roles in Atypical Families**:  
+
+1. **Changing Family Structures** – Traditional family models no longer represent the majority. More people live in single-person households, as single parents, or in nontraditional partnerships.  
+2. **Lifelong Singles** – A significant portion of adults remain single for life. While they may worry about aging without support, research suggests they develop strong networks of friends and extended family.  
+3. **Childlessness** – The rate of childlessness is rising, particularly among highly educated women. Childless adults often have fulfilling careers and strong social networks, challenging the assumption that they lack support in old age.  
+4. **Divorce and Remarriage** – Many marriages end in divorce, leading to role changes, single parenthood, and economic challenges. Remarriage brings new roles, including that of stepparent, which comes with unique emotional and social complexities.  
+5. **Step-parenting Challenges** – Stepmothers, in particular, face difficulties balancing their role within the family. Society’s perception of stepmothers, along with ambiguous expectations, adds to their challenges.  
+6. **Economic Impact of Divorce** – Divorce often leads to financial hardship, which affects both parents and children. Economic strain is a major factor in the negative effects of divorce.  
+
+**Undertaking Roles at Atypical Times**
+
+1. **Social Timing and Role Transitions** – Social timing refers to when and how individuals assume life roles based on cultural expectations. Being "on-time" or "off-time" can influence personal well-being and social development.  
+2. **Social Clock Theory** – The concept that people have an internalised timeline for life events (e.g., marriage, parenthood, career milestones) based on societal norms. Falling out of sync with this timeline can lead to stress or social disapproval.  
+3. **Cultural and Personal Differences in Life Events** – What is considered "on-time" in one culture or era may be "off-time" in another. Norms evolve over time and vary across different societies.  
+4. **Impact of Off-Time Events** – Experiencing life events at unexpected times (e.g., young widowhood, raising grandchildren in old age) can create challenges and affect life satisfaction.  
+5. **Life Course Patterns** – Despite individual variations, most adults follow a broad pattern of role transitions: increasing roles in early adulthood, role renegotiation in middle adulthood, and further transitions in late adulthood.  
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Career Selection, Importance, and Performance
+
+**Explain the five stages of career development according to Donald Super.**
+
+</br>
+
+<table class="table table-striped">
+<thead>
+  <tr>
+    <th>Stage</th>
+    <th>Age</th>
+    <th>Tasks and Issues to be faced</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Growth</td>
+    <td>4 - 14</td>
+    <td>
+      <ul>
+        <li>Identify with significant others and develop self-concepts.</li>
+        <li>Spontaneously learn about the world.</li>
+        <li>Develop work-related attitudes, such as:</li>
+          <ul>
+            <li>Orientation toward the future,</li>
+            <li>Establishing control over life,</li>
+            <li>Developing sense of conviction and purpose,</li>
+            <li>Attaining attitudes and competencies for work.</li>
+          </ul>
+        </li>
+      </ul>  
+    </td>
+  </tr>
+  <tr>
+    <td>Exploration</td>
+    <td>15 - 24</td>
+    <td>
+      <ul>
+        <li>Crystallise career preference.</li>
+        <li>Specify and implement an occupational choice.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Establishment</td>
+    <td>25 - 44</td>
+    <td>
+      <ul>
+        <li>Stabilise, Consolidate, or Advance in a job.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Maintenance</td>
+    <td>45 - 65</td>
+    <td>
+      <ul>
+        <li>Hold achieved job.</li>
+        <li>Update and innovate tasks.</li>
+        <li>Perhaps re-evaluate and renew.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Disengagement</td>
+    <td>65+</td>
+    <td>
+      <ul>
+        <li>Decelerate workloads and productivity.</li>
+        <li>Plan for and implement retirement.</li>
+        <li>Shift energy to other aspects of life.</li>
+      </ul>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+</br>
+
+**Describe Holland’s six types of vocational interests.**
+</br>
+
+![](images/HPS302/Week3/Holland.jpg)
+
+</br>
+
+**Explain Marcia's theory of career selection**
+
+- **Marcia’s Career Identity Theory** – Developmental psychologist James E. Marcia expanded Erikson’s theory of identity development by identifying four stages of career identity formation:
+  - **Diffusion**: No career decision, no exploration.  
+  - **Foreclosure**: Career chosen without exploration, often based on parental expectations.  
+  - **Moratorium**: Active career exploration without commitment.  
+  - **Achievement**: Career commitment after exploration.  
+- **Extended Career Exploration** – The stage of **moratorium** has lengthened in modern society, with full career identity achievement often not occurring until around age 30 (Arnett, 2004).
+- **Career Transitions Beyond Young Adulthood** – Career changes are not limited to emerging adulthood. Many adults switch careers, move between full-time and part-time work, or face job loss and career shifts throughout life.  
+- **Challenges and Mental Health Implications** – Career changes, whether voluntary or involuntary, can be stressful and impact mental health. Vocational and clinical psychologists play a crucial role in helping individuals navigate these transitions (Fouad & Bynner, 2008).  
+
+:::
+
+### LO8
+
+:::{.alert .alert-info}
+
+#####  <i class="fas fa-info-circle"></i> Explain the impact of work on caring for adult family members
+
+- Many working adults balance careers with caregiving for adult family members (elderly parents, ill spouses, or disabled relatives).  
+- **Statistics (National Alliance for Caregiving & AARP, 2009)**:  
+  - 29% of U.S. adults provide care for at least one adult family member.  
+  - 20% of caregivers provide over 40 hours of care per week.  
+  - 60% of caregivers also work full-time.  
+  - 40% of caregivers are men, though women provide more hours and hands-on care.  
+- **Economic Impact on Caregivers**:  
+  - 43% experienced reduced work hours or salaries.  
+  - 16% lost jobs or were laid off.  
+  - 33% took second jobs to cover caregiving costs.  
+  - Many reduced retirement savings (60%), used savings (43%), or increased debt (43%).  
+- **Emotional & Psychological Impact**:  
+  - “Extreme caregivers” (dual-earner couples caring for children and adults) make up 10% of the population, a growing number.  
+  - Surprisingly, those with heavier caregiving loads had lower depression and higher life satisfaction.  
+  - Caregiving can strengthen family bonds and improve coping skills.  
+- **Workplace Support Needed**:  
+  - Employers should implement family-friendly policies: flex-time, remote work, job sharing, counselling, and dependent-care accounts.
+
+:::
+
+### LO9
+
+:::{.alert .alert-info}
+####  <i class="fas fa-info-circle"></i> Outline different reasons people might retire, and the various effects that retirement might have on a person.
+
+##### Reasons For Retirement
+
+- **Involuntary vs. Voluntary Retirement**  
+  - Some workers retire due to layoffs, mergers, or difficulty finding new employment.  
+  - Others choose retirement based on personal and financial factors.  
+- **Financial Factors**  
+  - The decision to retire depends on comparing work-related benefits (salary, pension growth, Social Security increases, health insurance) vs. retirement-related value (savings, investments, home equity, pensions, Social Security).  
+  - Economic downturns (e.g., 2008 financial crisis) led some to delay retirement.  
+  - Medicare availability at 65 affects healthcare cost considerations.  
+- **Health Considerations**  
+  - Poor health can push workers into early retirement, especially in physically demanding jobs.  
+  - Conversely, high medical costs may encourage staying employed for insurance benefits.  
+  - Caregiving responsibilities for a spouse or family member can lead to retirement (3% retire early due to caregiving).  
+- **Family Responsibilities**  
+  - Late parenthood or supporting children’s education can delay retirement.  
+  - Grandparents raising grandchildren may postpone retirement for financial stability.  
+  - Many women retire early due to their husbands’ retirement, though some feel pressured into it.  
+- **Career Commitment**  
+  - Workers highly committed to their careers (especially the self-employed) tend to retire later.  
+  - Those with job dissatisfaction or low attachment to their company retire earlier.  
+- **Leisure & Personal Interests**  
+  - People with strong hobbies, travel interests, and social activities often retire earlier.
+  
+##### Effects of Retirement
+
+- **Minimal Lifestyle Impact**  
+  - Retirement does not drastically change health, activity levels, or attitudes for most retirees.  
+- **Changes in Income**  
+  - Social Security is the primary income source for retirees (37% of average income).  
+  - Other sources include earnings, pensions, and asset income (stocks, savings, rental properties).  
+  - Income typically drops after retirement, but reduced expenses (e.g., mortgage-free homes, Medicare eligibility) help maintain financial stability.  
+  - Some retirees actually see an income increase due to Social Security benefits.  
+- **Poverty and Gender Disparities**  
+  - Poverty among retirees has declined (from 28.5% in 1966 to 9% in 2010), but many are still “near poor.”  
+  - Women, particularly widows and minorities, are more likely to experience financial hardship due to lower lifetime earnings and reduced pensions.  
+  - The “feminization of poverty” is driven by factors such as widowhood, career interruptions, and lower wages.  
+- **Changes in Residence**  
+  - 20% of people over 55 moved between 1995 and 2000, mostly within the same county.  
+  - Only about 4% moved out of state, with Florida, Arizona, and Nevada being top destinations.  
+  - Three main types of retirement moves:  
+    - **Amenity Moves** – Relocating to warmer climates for a better lifestyle.  
+    - **Kinship Moves** – Moving closer to family for support.  
+    - **Institutional Moves** – Transitioning to assisted living or nursing homes.  
+  - Seasonal migration (“snowbirds”) is common among retirees, but most return home permanently as they age.
+
+:::
+:::{.alert .alert-info}
+#####  <i class="fas fa-info-circle"></i> Explain the potential impact of retirement on women.
+
+- **Higher Risk of Poverty**  
+  - Women are twice as likely as men to experience poverty in retirement.  
+  - The "feminization of poverty" means older women, especially widows and minorities, are disproportionately affected.  
+  - Black and Hispanic elderly women, particularly those living alone, face the highest poverty rates (43% below the poverty line, 54% near-poor).  
+- **Reduced Lifetime Earnings and Pensions**  
+  - Many women earned lower wages throughout their careers, limiting their retirement savings.  
+  - Career interruptions for child-rearing and caregiving reduce eligibility for pensions and Social Security benefits.  
+ - On average, women receive only 40% of the pension benefits that men receive.  
+- **Financial Impact of Widowhood**  
+ - Upon a husband’s death, women receive either their own Social Security benefits or 100% of their husband's—but not both.  
+ - This leads to a significant drop in household income (typically between 50–67%), while many fixed expenses (housing, taxes) remain unchanged.  
+ - Nearly two-thirds of the elderly poor are women due to this income reduction.  
+- **Lack of Private Pensions and Savings**  
+ - Many women of older generations did not have access to employer-sponsored pension plans.  
+ - Those who did work often had part-time or lower-paying jobs without retirement benefits.  
+- **Dependency on Spousal Income**  
+ - Many married women rely on their husband's income during retirement.  
+ - However, almost half of women retire as widowed, divorced, or never married, meaning they cannot depend on shared resources.  
+- **Future Generations and Potential Improvements**  
+ - Younger women are more likely to have worked consistently and contributed to retirement savings.  
+ - However, without systemic changes like improved family leave policies or caregiving support, gender-based retirement inequalities may persist.  
+
+:::
+:::{.alert .alert-info}
+#####  <i class="fas fa-info-circle"></i> Describe the alternatives to retirement.
+
+- **Shunning Retirement**  
+  - Some individuals enjoy their work and plan to continue beyond traditional retirement age, even if financially secure.  
+  - This is common among highly educated professionals (e.g., academics, researchers) whose careers are deeply integrated with their personal lives.  
+  - Conversely, lower-income workers may continue working due to financial necessity, lacking sufficient pensions or savings.  
+- **Returning to the Workforce**  
+  - Around 25% of retirees reenter the labor market, sometimes in different roles or with new employers.  
+  - Reasons for returning include financial need, loneliness, restlessness, or a desire for purpose.  
+  - Some retirees attempt retirement multiple times before settling into it.  
+- **Gradual Retirement & Bridge Jobs**  
+  - Many retirees transition to part-time or less stressful jobs after leaving their primary careers.  
+  - Bridge jobs are common in professions with early retirement options (e.g., police officers becoming security guards, military veterans moving into administrative roles).  
+  - Self-employment is also a popular option, allowing retirees to turn hobbies into income sources.  
+  - While bridge jobs provide flexibility and engagement, they often come with lower pay and fewer benefits.  
+- **Volunteer Work**  
+  - Over a quarter of adults aged 55+ engage in volunteer activities.  
+  - Programs like the Foster Grandparents Program and Senior Companion Program provide meaningful roles for retirees.  
+  - Studies show that volunteering enhances happiness, life satisfaction, self-esteem, and physical health, making it a beneficial alternative to full retirement.  
+- **Phased Retirement**  
+  - Some employers offer phased retirement, allowing older workers to gradually reduce their workload instead of stopping abruptly.  
+  - This approach is more common in Japan and Europe but is slowly gaining traction in the U.S.  
+  - Benefits include maintaining an income, staying socially connected, and mentoring younger employees.  
+
+:::
+## Week 4: Social relationships in adulthood {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 5: Personality continuity and change over adulthood {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 6: Physical changes across adulthood {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 7: Cognitive changes across adulthood Pt 1 {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 8: Cognitive changes across adulthood Pt 2: Neurocognitive disorders {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+
+## Week 9: Long-term care and ageing in place {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 10: Stress and resilience {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 11: Preparing for the end of life {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::

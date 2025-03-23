@@ -1,0 +1,639 @@
+---
+title: "XXX000: Unit Template"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Week 1: Subject {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 2: subject {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 3: subject {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 4: subject {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 5: subject {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 6: subject {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 7: subject {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 8: subject {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 9: subject {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 10: subject {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 11: subject {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::

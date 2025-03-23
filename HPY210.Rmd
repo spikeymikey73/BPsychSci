@@ -13,7 +13,7 @@ library(kableExtra)  # For additional styling (optional)
 library(ggplot2)
 ```
 
-## Week 1: Introduction and Research Methods in Adult Development Pt 1  {.well .tabset .tabset-fade .tabset-pills}
+## Week 1: Introduction and Research Methods in Adult Development Pt 1  {.tabset .tabset-fade .tabset-pills}
 
 ### Lecture 1: Introduction to Counselling
 
@@ -451,23 +451,464 @@ Maintaining change is difficult, and clients often feel insecure about their abi
 
 :::
 
-## Week 2: Introduction and Research Methods in Adult Development Pt 2  {.well .tabset .tabset-fade .tabset-pills}
+## Week 2: Introduction and Research Methods in Adult Development Pt 2  {.tabset .tabset-fade .tabset-pills}
 
 
 
-## Week 3: Ethics and Reflective Practice  {.well .tabset .tabset-fade .tabset-pills}
+## Week 3: Ethics and Reflective Practice  {.tabset .tabset-fade .tabset-pills}
 
-## Week 4: Ethical Decision Making Frameworks and Risk Assessment  {.well .tabset .tabset-fade .tabset-pills}
 
-## Week 5: Theories and Frameworks: Introduction, Assessments, and Terminations  {.well .tabset .tabset-fade .tabset-pills}
+### LO1
 
-## Week 6: Theories and Frameworks: Person-Centred Approaches  {.well .tabset .tabset-fade .tabset-pills}
+:::{.alert .alert-info}
 
-## Week 7: Theories and Frameworks: Motivational Interviewing  {.well .tabset .tabset-fade .tabset-pills}
+#### <i class="fas fa-info-circle"></i> Topic 1
 
-## Week 8: Theories and Frameworks - Solution Focused Approaches  {.well .tabset .tabset-fade .tabset-pills}
+:::
 
-## Week 9: Theories and Frameworks - Cognitive Behavioural Approaches  {.well .tabset .tabset-fade .tabset-pills}
+### LO2
 
-## Week 10: Theories and Frameworks - Mindfulness Based Approaches  {.well .tabset .tabset-fade .tabset-pills}
+:::{.alert .alert-info}
 
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 4: Ethical Decision Making Frameworks and Risk Assessment  {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 5: Theories and Frameworks: Introduction, Assessments, and Terminations  {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 6: Theories and Frameworks: Person-Centred Approaches  {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 7: Theories and Frameworks: Motivational Interviewing  {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 8: Theories and Frameworks - Solution Focused Approaches  {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 9: Theories and Frameworks - Cognitive Behavioural Approaches  {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::
+## Week 10: Theories and Frameworks - Mindfulness Based Approaches  {.tabset .tabset-fade .tabset-pills}
+
+### LO1
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 1
+
+:::
+
+### LO2
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 2
+
+:::
+
+### LO3
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 3
+
+:::
+
+### LO4
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 4
+
+:::
+
+### LO5
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 5
+
+:::
+
+### LO6
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 6
+
+:::
+
+### LO7
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Topic 7
+
+:::

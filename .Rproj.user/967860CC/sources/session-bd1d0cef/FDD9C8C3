@@ -1,0 +1,27 @@
+{
+    "id": "FDD9C8C3",
+    "path": "~/Documents/BPsychSci/HPS302.Rmd",
+    "project_path": "HPS302.Rmd",
+    "type": "r_markdown",
+    "hash": "440216748",
+    "contents": "",
+    "dirty": false,
+    "created": 1741059731688.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "1077,35",
+        "scrollLine": "0"
+    },
+    "folds": "12|108|504|0|\n505|109|611|0|\n1172|81|1228|3|\n1229|96|1285|3|\n1286|81|1342|3|\n1343|87|1399|3|\n1400|113|1457|0|\n1458|82|1514|3|\n1515|70|1571|3|\n1572|78|1628|3|\n",
+    "lastKnownWriteTime": 1742707222,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1742727163566,
+    "read_only": false,
+    "read_only_alternatives": []
+}

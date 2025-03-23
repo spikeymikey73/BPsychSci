@@ -506,11 +506,11 @@ $$
 **Pearson's Coefficient of Determination**
 
 $$
-r^2 = (r)^2
+$R^2$ = (r)^2
 $$
 
 - $r$ tells how strongly two variables are related and the direction (positive or negative).
-- $r^2$ tells how much of the variability in one variable is explained by the other.
+- $$R^2$$ tells how much of the variability in one variable is explained by the other.
 
 </br>
 
@@ -549,7 +549,7 @@ $$
 
 **Formula for the t-test for Pearson’s correlation:**
 $$
-t = \frac{r \sqrt{n - 2}}{\sqrt{1 - r^2}}
+t = \frac{r \sqrt{n - 2}}{\sqrt{1 - $R^2$}}
 $$
 
 - **In the Context of Pearson’s Correlation (r)**:
@@ -588,9 +588,9 @@ $$
 - A t-test is used to assess whether the slope and Y-intercept are significantly different from zero, ensuring that the relationship is not due to chance.
 - Once the regression line is determined, predicted values for the dependent variable can be calculated for given values of the independent variable.
 - The difference between predicted and actual values is the residual, and its variance (residual variance) and standard deviation (standard error of estimate) show the accuracy of the predictions.
-- The coefficient of determination ($R^2$) shows how much of the variability in the dependent variable is explained by the independent variable.
-  - For example, if $R^2 = 0.25$, it means 25% of the variability in the dependent variable is predicted by the independent variable, and the rest is error.
-- In summary, **bivariate regression allows for prediction**, and its accuracy is assessed using the residuals and $R^2$, with the slope and Y-intercept providing the relationship between the variables.
+- The coefficient of determination ($$R^2$$) shows how much of the variability in the dependent variable is explained by the independent variable.
+  - For example, if $$R^2$ = 0.25$, it means 25% of the variability in the dependent variable is predicted by the independent variable, and the rest is error.
+- In summary, **bivariate regression allows for prediction**, and its accuracy is assessed using the residuals and $$R^2$$, with the slope and Y-intercept providing the relationship between the variables.
 
 :::
 
@@ -803,7 +803,9 @@ $$
 
 :::{.alert .alert-info}
 
-#### <i class="fas fa-info-circle"></i> Topic 1
+#### <i class="fas fa-info-circle"></i> Describe the general multiple regression equation
+
+
 
 :::
 
@@ -811,7 +813,9 @@ $$
 
 :::{.alert .alert-info}
 
-#### <i class="fas fa-info-circle"></i> Topic 2
+#### <i class="fas fa-info-circle"></i> Understand and interpret $R^2$
+
+
 
 :::
 
@@ -819,7 +823,7 @@ $$
 
 :::{.alert .alert-info}
 
-#### <i class="fas fa-info-circle"></i> Topic 3
+#### <i class="fas fa-info-circle"></i> Describe how $R^2$ is adjusted in multiple regression, and the reasons for the adjustment
 
 :::
 
@@ -827,7 +831,7 @@ $$
 
 :::{.alert .alert-info}
 
-#### <i class="fas fa-info-circle"></i> Topic 4
+#### <i class="fas fa-info-circle"></i> Understand the research uses of multiple regression analysis
 
 :::
 
@@ -835,7 +839,7 @@ $$
 
 :::{.alert .alert-info}
 
-#### <i class="fas fa-info-circle"></i> Topic 5
+#### <i class="fas fa-info-circle"></i> Identify theoretical and practical considerations relevant to multiple regression analysis
 
 :::
 
@@ -843,7 +847,7 @@ $$
 
 :::{.alert .alert-info}
 
-#### <i class="fas fa-info-circle"></i> Topic 6
+#### <i class="fas fa-info-circle"></i> Contrast standard multiple regression with sequential multiple regression
 
 :::
 
@@ -851,9 +855,31 @@ $$
 
 :::{.alert .alert-info}
 
-#### <i class="fas fa-info-circle"></i> Topic 7
+#### <i class="fas fa-info-circle"></i> Understand how to evaluate predictive importance of the independent variables
 
 :::
+
+### LO8
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Describe the significance tests for $R^2$ and for unique predictiveness of the variables, both for standard multiple and sequential multiple regression
+
+:::
+
+### Walkthrough
+
+:::{.alert .alert-info}
+
+#### <i class="fas fa-info-circle"></i> Jamovi Demonstration
+
+<video controls width="600">
+  <source src="images/HPS301/Week3/Video/Multi_Reg.mp4" type="video/mp4" />
+  <p>Your browser doesn't support HTML video.</p>
+</video>
+
+:::
+
 
 
 ## Week 4: One-Way ANOVA {.tabset .tabset-fade .tabset-pills}

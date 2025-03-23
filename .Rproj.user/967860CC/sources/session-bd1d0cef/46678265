@@ -1,0 +1,27 @@
+{
+    "id": "46678265",
+    "path": "~/Documents/BPsychSci/HPS301.Rmd",
+    "project_path": "HPS301.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1740891170987.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "861,7",
+        "scrollLine": "849"
+    },
+    "folds": "13|68|460|0|\n884|61|941|0|\n942|68|999|0|\n1000|63|1057|0|\n1058|70|1115|0|\n1116|56|1173|0|\n1174|72|1231|0|\n1232|69|1289|0|\n",
+    "lastKnownWriteTime": 1742725718,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1742725806888,
+    "read_only": false,
+    "read_only_alternatives": []
+}
